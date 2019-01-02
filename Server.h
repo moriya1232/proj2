@@ -5,13 +5,26 @@
 #ifndef UNTITLED6_SERVER_H
 #define UNTITLED6_SERVER_H
 
+
+#include "ClientHandler.h"
+/**
+ * the missiom of the server is to care of getting values from the client
+ */
 class Server{
-int port;
+    ClientHandler* clientHandler;
+    int port;
+    bool stillOpen;
+    char* input;
 public:
     Server(int p);
-int open(int port);
-bool isOpen();
-int stop();
+    bool getStillOpen();
+    int open(int);
+    bool isOpen();
+    int stop();
+    void setInput(char*);
+    ClientHandler* getClientHandler();
+    void setClientHandler(ClientHandler*);
+
 
 
 
