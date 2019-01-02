@@ -4,7 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/moriya/CLionProjects/untitled6/CacheManager.cpp" "/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/untitled6.dir/CacheManager.cpp.o"
+  "/home/moriya/CLionProjects/untitled6/ClientHandler.cpp" "/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/untitled6.dir/ClientHandler.cpp.o"
+  "/home/moriya/CLionProjects/untitled6/MySerialServer.cpp" "/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/untitled6.dir/MySerialServer.cpp.o"
+  "/home/moriya/CLionProjects/untitled6/MyTestClientServer.cpp" "/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/untitled6.dir/MyTestClientServer.cpp.o"
+  "/home/moriya/CLionProjects/untitled6/Problem.cpp" "/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/untitled6.dir/Problem.cpp.o"
   "/home/moriya/CLionProjects/untitled6/Server.cpp" "/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/untitled6.dir/Server.cpp.o"
+  "/home/moriya/CLionProjects/untitled6/Solution.cpp" "/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/untitled6.dir/Solution.cpp.o"
+  "/home/moriya/CLionProjects/untitled6/Solver.cpp" "/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/untitled6.dir/Solver.cpp.o"
   "/home/moriya/CLionProjects/untitled6/main.cpp" "/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/untitled6.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

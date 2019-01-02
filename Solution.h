@@ -4,5 +4,13 @@
 
 #ifndef UNTITLED6_SOLUTION_H
 #define UNTITLED6_SOLUTION_H
+class Solution {
 
+
+
+
+
+
+
+};
 #endif //UNTITLED6_SOLUTION_H

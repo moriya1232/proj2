@@ -123,6 +123,141 @@ untitled6/fast:
 	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/build
 .PHONY : untitled6/fast
 
+CacheManager.o: CacheManager.cpp.o
+
+.PHONY : CacheManager.o
+
+# target to build an object file
+CacheManager.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/CacheManager.cpp.o
+.PHONY : CacheManager.cpp.o
+
+CacheManager.i: CacheManager.cpp.i
+
+.PHONY : CacheManager.i
+
+# target to preprocess a source file
+CacheManager.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/CacheManager.cpp.i
+.PHONY : CacheManager.cpp.i
+
+CacheManager.s: CacheManager.cpp.s
+
+.PHONY : CacheManager.s
+
+# target to generate assembly for a file
+CacheManager.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/CacheManager.cpp.s
+.PHONY : CacheManager.cpp.s
+
+ClientHandler.o: ClientHandler.cpp.o
+
+.PHONY : ClientHandler.o
+
+# target to build an object file
+ClientHandler.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/ClientHandler.cpp.o
+.PHONY : ClientHandler.cpp.o
+
+ClientHandler.i: ClientHandler.cpp.i
+
+.PHONY : ClientHandler.i
+
+# target to preprocess a source file
+ClientHandler.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/ClientHandler.cpp.i
+.PHONY : ClientHandler.cpp.i
+
+ClientHandler.s: ClientHandler.cpp.s
+
+.PHONY : ClientHandler.s
+
+# target to generate assembly for a file
+ClientHandler.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/ClientHandler.cpp.s
+.PHONY : ClientHandler.cpp.s
+
+MySerialServer.o: MySerialServer.cpp.o
+
+.PHONY : MySerialServer.o
+
+# target to build an object file
+MySerialServer.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/MySerialServer.cpp.o
+.PHONY : MySerialServer.cpp.o
+
+MySerialServer.i: MySerialServer.cpp.i
+
+.PHONY : MySerialServer.i
+
+# target to preprocess a source file
+MySerialServer.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/MySerialServer.cpp.i
+.PHONY : MySerialServer.cpp.i
+
+MySerialServer.s: MySerialServer.cpp.s
+
+.PHONY : MySerialServer.s
+
+# target to generate assembly for a file
+MySerialServer.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/MySerialServer.cpp.s
+.PHONY : MySerialServer.cpp.s
+
+MyTestClientServer.o: MyTestClientServer.cpp.o
+
+.PHONY : MyTestClientServer.o
+
+# target to build an object file
+MyTestClientServer.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/MyTestClientServer.cpp.o
+.PHONY : MyTestClientServer.cpp.o
+
+MyTestClientServer.i: MyTestClientServer.cpp.i
+
+.PHONY : MyTestClientServer.i
+
+# target to preprocess a source file
+MyTestClientServer.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/MyTestClientServer.cpp.i
+.PHONY : MyTestClientServer.cpp.i
+
+MyTestClientServer.s: MyTestClientServer.cpp.s
+
+.PHONY : MyTestClientServer.s
+
+# target to generate assembly for a file
+MyTestClientServer.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/MyTestClientServer.cpp.s
+.PHONY : MyTestClientServer.cpp.s
+
+Problem.o: Problem.cpp.o
+
+.PHONY : Problem.o
+
+# target to build an object file
+Problem.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Problem.cpp.o
+.PHONY : Problem.cpp.o
+
+Problem.i: Problem.cpp.i
+
+.PHONY : Problem.i
+
+# target to preprocess a source file
+Problem.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Problem.cpp.i
+.PHONY : Problem.cpp.i
+
+Problem.s: Problem.cpp.s
+
+.PHONY : Problem.s
+
+# target to generate assembly for a file
+Problem.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Problem.cpp.s
+.PHONY : Problem.cpp.s
+
 Server.o: Server.cpp.o
 
 .PHONY : Server.o
@@ -149,6 +284,60 @@ Server.s: Server.cpp.s
 Server.cpp.s:
 	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Server.cpp.s
 .PHONY : Server.cpp.s
+
+Solution.o: Solution.cpp.o
+
+.PHONY : Solution.o
+
+# target to build an object file
+Solution.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Solution.cpp.o
+.PHONY : Solution.cpp.o
+
+Solution.i: Solution.cpp.i
+
+.PHONY : Solution.i
+
+# target to preprocess a source file
+Solution.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Solution.cpp.i
+.PHONY : Solution.cpp.i
+
+Solution.s: Solution.cpp.s
+
+.PHONY : Solution.s
+
+# target to generate assembly for a file
+Solution.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Solution.cpp.s
+.PHONY : Solution.cpp.s
+
+Solver.o: Solver.cpp.o
+
+.PHONY : Solver.o
+
+# target to build an object file
+Solver.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Solver.cpp.o
+.PHONY : Solver.cpp.o
+
+Solver.i: Solver.cpp.i
+
+.PHONY : Solver.i
+
+# target to preprocess a source file
+Solver.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Solver.cpp.i
+.PHONY : Solver.cpp.i
+
+Solver.s: Solver.cpp.s
+
+.PHONY : Solver.s
+
+# target to generate assembly for a file
+Solver.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Solver.cpp.s
+.PHONY : Solver.cpp.s
 
 main.o: main.cpp.o
 
@@ -186,9 +375,30 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... untitled6"
 	@echo "... edit_cache"
+	@echo "... CacheManager.o"
+	@echo "... CacheManager.i"
+	@echo "... CacheManager.s"
+	@echo "... ClientHandler.o"
+	@echo "... ClientHandler.i"
+	@echo "... ClientHandler.s"
+	@echo "... MySerialServer.o"
+	@echo "... MySerialServer.i"
+	@echo "... MySerialServer.s"
+	@echo "... MyTestClientServer.o"
+	@echo "... MyTestClientServer.i"
+	@echo "... MyTestClientServer.s"
+	@echo "... Problem.o"
+	@echo "... Problem.i"
+	@echo "... Problem.s"
 	@echo "... Server.o"
 	@echo "... Server.i"
 	@echo "... Server.s"
+	@echo "... Solution.o"
+	@echo "... Solution.i"
+	@echo "... Solution.s"
+	@echo "... Solver.o"
+	@echo "... Solver.i"
+	@echo "... Solver.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

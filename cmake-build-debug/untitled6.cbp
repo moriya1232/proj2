@@ -88,10 +88,52 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/moriya/CLionProjects/untitled6/CacheManager.cpp">
+			<Option target="untitled6"/>
+		</Unit>
+		<Unit filename="/home/moriya/CLionProjects/untitled6/CacheManager.h">
+			<Option target="untitled6"/>
+		</Unit>
+		<Unit filename="/home/moriya/CLionProjects/untitled6/ClientHandler.cpp">
+			<Option target="untitled6"/>
+		</Unit>
+		<Unit filename="/home/moriya/CLionProjects/untitled6/ClientHandler.h">
+			<Option target="untitled6"/>
+		</Unit>
+		<Unit filename="/home/moriya/CLionProjects/untitled6/MySerialServer.cpp">
+			<Option target="untitled6"/>
+		</Unit>
+		<Unit filename="/home/moriya/CLionProjects/untitled6/MySerialServer.h">
+			<Option target="untitled6"/>
+		</Unit>
+		<Unit filename="/home/moriya/CLionProjects/untitled6/MyTestClientServer.cpp">
+			<Option target="untitled6"/>
+		</Unit>
+		<Unit filename="/home/moriya/CLionProjects/untitled6/MyTestClientServer.h">
+			<Option target="untitled6"/>
+		</Unit>
+		<Unit filename="/home/moriya/CLionProjects/untitled6/Problem.cpp">
+			<Option target="untitled6"/>
+		</Unit>
+		<Unit filename="/home/moriya/CLionProjects/untitled6/Problem.h">
+			<Option target="untitled6"/>
+		</Unit>
 		<Unit filename="/home/moriya/CLionProjects/untitled6/Server.cpp">
 			<Option target="untitled6"/>
 		</Unit>
 		<Unit filename="/home/moriya/CLionProjects/untitled6/Server.h">
+			<Option target="untitled6"/>
+		</Unit>
+		<Unit filename="/home/moriya/CLionProjects/untitled6/Solution.cpp">
+			<Option target="untitled6"/>
+		</Unit>
+		<Unit filename="/home/moriya/CLionProjects/untitled6/Solution.h">
+			<Option target="untitled6"/>
+		</Unit>
+		<Unit filename="/home/moriya/CLionProjects/untitled6/Solver.cpp">
+			<Option target="untitled6"/>
+		</Unit>
+		<Unit filename="/home/moriya/CLionProjects/untitled6/Solver.h">
 			<Option target="untitled6"/>
 		</Unit>
 		<Unit filename="/home/moriya/CLionProjects/untitled6/main.cpp">

@@ -5,4 +5,12 @@
 #ifndef UNTITLED6_PROBLEM_H
 #define UNTITLED6_PROBLEM_H
 
+
+class Problem {
+
+
+
+
+
+};
 #endif //UNTITLED6_PROBLEM_H
