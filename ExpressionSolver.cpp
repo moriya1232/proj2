@@ -12,7 +12,7 @@ ExpressionSolver::ExpressionSolver() {
 Solution* ExpressionSolver::solve(Problem* p) {
     string s = p->getProblem();
     Expression* e = makeExpression(s);
-    Solution* sol = new (nothrow) Solution(e->calculate());
+    Solution* sol = new (nothrow) Solution(to_string(e->calculate()));
     return sol;
 }
 

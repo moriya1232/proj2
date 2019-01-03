@@ -5,12 +5,16 @@
 #ifndef UNTITLED6_PROBLEM_H
 #define UNTITLED6_PROBLEM_H
 
+
+#include <string>
+
 using namespace std;
 
 class Problem {
 string problem;
 public:
     string getProblem();
+    string setProblem(string);
 
 
 
