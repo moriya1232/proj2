@@ -5,20 +5,9 @@
 #ifndef UNTITLED6_EXPRESSIONSOLVER_H
 #define UNTITLED6_EXPRESSIONSOLVER_H
 
-#include "Solver.h"
-#include "Problem.h"
 #include <list>
-#include <queue>
-#include <stack>
+#include "Solver.h"
 #include "Expression.h"
-#include <string>
-#include "ExpressionSolution.h"
-#include "Minus.h"
-#include "Plus.h"
-#include "Multiplication.h"
-#include "Divide.h"
-#include "Var.h"
-#include "Number.h"
 using  namespace std;
 
 class ExpressionSolver : public Solver {

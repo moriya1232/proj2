@@ -3,6 +3,7 @@
 //
 
 #include "ExpressionSolver.h"
+#include "UsefulFunctions.h"
 
 ExpressionSolver::ExpressionSolver() {
     list<string> lis;
@@ -21,8 +22,6 @@ Expression* ExpressionSolver::makeExpression(string line) {
     if (checkIfOperator(line[0])) {
         line = "0" + line;
     }
-    string forVar = "";
-    forVar = extractVar(line);
     queue<string> numbers;
     stack<string> operators;
     queue<string> tempQueue;
@@ -31,7 +30,6 @@ Expression* ExpressionSolver::makeExpression(string line) {
     int temp = 0;
     char c;
     string s = "";
-    bool indicator = true;
     bool forMinusAndPlus = false;
     bool changeToMinus = false;
     while (indx < length) {
@@ -95,20 +93,8 @@ Expression* ExpressionSolver::makeExpression(string line) {
                 }
             }
             operators.push(s);
-        } else if (checkIfLetter(c)) {
-            forMinusAndPlus = false;
-            string takeVar = line.substr(indx - 1, line.length());
-            takeVar = extractVar(takeVar);
-            if (changeToMinus) {
-                takeVar = "-" + takeVar;
-            }
-            //var1 =  new (nothrow) Var(forVar,DataManager->getSymbolTable()->at(takeVar));
-            numbers.push(takeVar);
-            indx += takeVar.length() - 1;
-            changeToMinus = false;
         }
         s = "";
-        indicator = true;
     }
     while (!operators.empty()) {
         string tempString = operators.top();
@@ -151,9 +137,6 @@ Expression* ExpressionSolver::getExpression(list<string> exp) {
         if (existNum(temp) && !checkIfLetter(temp[0])) {
             Number *num = new(nothrow) Number(temp);
             return num;
-        } else {
-            //Var *var = new (nothrow) Var(temp, dataManager->getSymbolTable()->at(temp));
-            //return var;
         }
     }
     exp.pop_front();

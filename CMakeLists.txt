@@ -20,7 +20,6 @@ add_executable(untitled6 main.cpp
         Minus.h Minus.cpp
         Divide.h Divide.cpp
         Multiplication.h Multiplication.cpp
-        Var.h Var.cpp
         Number.h Number.cpp
         UnaryExpression.h UnaryExpression.cpp
         UsefulFunctions.h)
