@@ -11,4 +11,16 @@ add_executable(untitled6 main.cpp
             Solver.cpp Solver.h
         Problem.cpp Problem.h
         Solution.cpp Solution.h
-        CacheManager.cpp CacheManager.h)
+        CacheManager.cpp CacheManager.h
+        ExpressionSolver.h ExpressionSolver.cpp
+        Expression.h Expression.cpp
+        ExpressionSolution.h ExpressionSolution.cpp
+        BinaryExpression.h BinaryExpression.cpp
+        Plus.h Plus.cpp
+        Minus.h Minus.cpp
+        Divide.h Divide.cpp
+        Multiplication.h Multiplication.cpp
+        Var.h Var.cpp
+        Number.h Number.cpp
+        UnaryExpression.h UnaryExpression.cpp
+        UsefulFunctions.h)

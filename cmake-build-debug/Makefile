@@ -48,10 +48,10 @@ RM = /snap/clion/57/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/moriya/CLionProjects/untitled6
+CMAKE_SOURCE_DIR = /home/omer/CLionProjects/proj2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/moriya/CLionProjects/untitled6/cmake-build-debug
+CMAKE_BINARY_DIR = /home/omer/CLionProjects/proj2/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles /home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles /home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,6 +122,33 @@ untitled6: cmake_check_build_system
 untitled6/fast:
 	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/build
 .PHONY : untitled6/fast
+
+BinaryExpression.o: BinaryExpression.cpp.o
+
+.PHONY : BinaryExpression.o
+
+# target to build an object file
+BinaryExpression.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/BinaryExpression.cpp.o
+.PHONY : BinaryExpression.cpp.o
+
+BinaryExpression.i: BinaryExpression.cpp.i
+
+.PHONY : BinaryExpression.i
+
+# target to preprocess a source file
+BinaryExpression.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/BinaryExpression.cpp.i
+.PHONY : BinaryExpression.cpp.i
+
+BinaryExpression.s: BinaryExpression.cpp.s
+
+.PHONY : BinaryExpression.s
+
+# target to generate assembly for a file
+BinaryExpression.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/BinaryExpression.cpp.s
+.PHONY : BinaryExpression.cpp.s
 
 CacheManager.o: CacheManager.cpp.o
 
@@ -177,6 +204,168 @@ ClientHandler.cpp.s:
 	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/ClientHandler.cpp.s
 .PHONY : ClientHandler.cpp.s
 
+Divide.o: Divide.cpp.o
+
+.PHONY : Divide.o
+
+# target to build an object file
+Divide.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Divide.cpp.o
+.PHONY : Divide.cpp.o
+
+Divide.i: Divide.cpp.i
+
+.PHONY : Divide.i
+
+# target to preprocess a source file
+Divide.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Divide.cpp.i
+.PHONY : Divide.cpp.i
+
+Divide.s: Divide.cpp.s
+
+.PHONY : Divide.s
+
+# target to generate assembly for a file
+Divide.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Divide.cpp.s
+.PHONY : Divide.cpp.s
+
+Expression.o: Expression.cpp.o
+
+.PHONY : Expression.o
+
+# target to build an object file
+Expression.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Expression.cpp.o
+.PHONY : Expression.cpp.o
+
+Expression.i: Expression.cpp.i
+
+.PHONY : Expression.i
+
+# target to preprocess a source file
+Expression.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Expression.cpp.i
+.PHONY : Expression.cpp.i
+
+Expression.s: Expression.cpp.s
+
+.PHONY : Expression.s
+
+# target to generate assembly for a file
+Expression.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Expression.cpp.s
+.PHONY : Expression.cpp.s
+
+ExpressionSolution.o: ExpressionSolution.cpp.o
+
+.PHONY : ExpressionSolution.o
+
+# target to build an object file
+ExpressionSolution.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/ExpressionSolution.cpp.o
+.PHONY : ExpressionSolution.cpp.o
+
+ExpressionSolution.i: ExpressionSolution.cpp.i
+
+.PHONY : ExpressionSolution.i
+
+# target to preprocess a source file
+ExpressionSolution.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/ExpressionSolution.cpp.i
+.PHONY : ExpressionSolution.cpp.i
+
+ExpressionSolution.s: ExpressionSolution.cpp.s
+
+.PHONY : ExpressionSolution.s
+
+# target to generate assembly for a file
+ExpressionSolution.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/ExpressionSolution.cpp.s
+.PHONY : ExpressionSolution.cpp.s
+
+ExpressionSolver.o: ExpressionSolver.cpp.o
+
+.PHONY : ExpressionSolver.o
+
+# target to build an object file
+ExpressionSolver.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/ExpressionSolver.cpp.o
+.PHONY : ExpressionSolver.cpp.o
+
+ExpressionSolver.i: ExpressionSolver.cpp.i
+
+.PHONY : ExpressionSolver.i
+
+# target to preprocess a source file
+ExpressionSolver.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/ExpressionSolver.cpp.i
+.PHONY : ExpressionSolver.cpp.i
+
+ExpressionSolver.s: ExpressionSolver.cpp.s
+
+.PHONY : ExpressionSolver.s
+
+# target to generate assembly for a file
+ExpressionSolver.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/ExpressionSolver.cpp.s
+.PHONY : ExpressionSolver.cpp.s
+
+Minus.o: Minus.cpp.o
+
+.PHONY : Minus.o
+
+# target to build an object file
+Minus.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Minus.cpp.o
+.PHONY : Minus.cpp.o
+
+Minus.i: Minus.cpp.i
+
+.PHONY : Minus.i
+
+# target to preprocess a source file
+Minus.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Minus.cpp.i
+.PHONY : Minus.cpp.i
+
+Minus.s: Minus.cpp.s
+
+.PHONY : Minus.s
+
+# target to generate assembly for a file
+Minus.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Minus.cpp.s
+.PHONY : Minus.cpp.s
+
+Multiplication.o: Multiplication.cpp.o
+
+.PHONY : Multiplication.o
+
+# target to build an object file
+Multiplication.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Multiplication.cpp.o
+.PHONY : Multiplication.cpp.o
+
+Multiplication.i: Multiplication.cpp.i
+
+.PHONY : Multiplication.i
+
+# target to preprocess a source file
+Multiplication.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Multiplication.cpp.i
+.PHONY : Multiplication.cpp.i
+
+Multiplication.s: Multiplication.cpp.s
+
+.PHONY : Multiplication.s
+
+# target to generate assembly for a file
+Multiplication.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Multiplication.cpp.s
+.PHONY : Multiplication.cpp.s
+
 MySerialServer.o: MySerialServer.cpp.o
 
 .PHONY : MySerialServer.o
@@ -230,6 +419,60 @@ MyTestClientServer.s: MyTestClientServer.cpp.s
 MyTestClientServer.cpp.s:
 	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/MyTestClientServer.cpp.s
 .PHONY : MyTestClientServer.cpp.s
+
+Number.o: Number.cpp.o
+
+.PHONY : Number.o
+
+# target to build an object file
+Number.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Number.cpp.o
+.PHONY : Number.cpp.o
+
+Number.i: Number.cpp.i
+
+.PHONY : Number.i
+
+# target to preprocess a source file
+Number.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Number.cpp.i
+.PHONY : Number.cpp.i
+
+Number.s: Number.cpp.s
+
+.PHONY : Number.s
+
+# target to generate assembly for a file
+Number.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Number.cpp.s
+.PHONY : Number.cpp.s
+
+Plus.o: Plus.cpp.o
+
+.PHONY : Plus.o
+
+# target to build an object file
+Plus.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Plus.cpp.o
+.PHONY : Plus.cpp.o
+
+Plus.i: Plus.cpp.i
+
+.PHONY : Plus.i
+
+# target to preprocess a source file
+Plus.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Plus.cpp.i
+.PHONY : Plus.cpp.i
+
+Plus.s: Plus.cpp.s
+
+.PHONY : Plus.s
+
+# target to generate assembly for a file
+Plus.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Plus.cpp.s
+.PHONY : Plus.cpp.s
 
 Problem.o: Problem.cpp.o
 
@@ -339,6 +582,60 @@ Solver.cpp.s:
 	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Solver.cpp.s
 .PHONY : Solver.cpp.s
 
+UnaryExpression.o: UnaryExpression.cpp.o
+
+.PHONY : UnaryExpression.o
+
+# target to build an object file
+UnaryExpression.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/UnaryExpression.cpp.o
+.PHONY : UnaryExpression.cpp.o
+
+UnaryExpression.i: UnaryExpression.cpp.i
+
+.PHONY : UnaryExpression.i
+
+# target to preprocess a source file
+UnaryExpression.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/UnaryExpression.cpp.i
+.PHONY : UnaryExpression.cpp.i
+
+UnaryExpression.s: UnaryExpression.cpp.s
+
+.PHONY : UnaryExpression.s
+
+# target to generate assembly for a file
+UnaryExpression.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/UnaryExpression.cpp.s
+.PHONY : UnaryExpression.cpp.s
+
+Var.o: Var.cpp.o
+
+.PHONY : Var.o
+
+# target to build an object file
+Var.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Var.cpp.o
+.PHONY : Var.cpp.o
+
+Var.i: Var.cpp.i
+
+.PHONY : Var.i
+
+# target to preprocess a source file
+Var.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Var.cpp.i
+.PHONY : Var.cpp.i
+
+Var.s: Var.cpp.s
+
+.PHONY : Var.s
+
+# target to generate assembly for a file
+Var.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Var.cpp.s
+.PHONY : Var.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -375,18 +672,45 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... untitled6"
 	@echo "... edit_cache"
+	@echo "... BinaryExpression.o"
+	@echo "... BinaryExpression.i"
+	@echo "... BinaryExpression.s"
 	@echo "... CacheManager.o"
 	@echo "... CacheManager.i"
 	@echo "... CacheManager.s"
 	@echo "... ClientHandler.o"
 	@echo "... ClientHandler.i"
 	@echo "... ClientHandler.s"
+	@echo "... Divide.o"
+	@echo "... Divide.i"
+	@echo "... Divide.s"
+	@echo "... Expression.o"
+	@echo "... Expression.i"
+	@echo "... Expression.s"
+	@echo "... ExpressionSolution.o"
+	@echo "... ExpressionSolution.i"
+	@echo "... ExpressionSolution.s"
+	@echo "... ExpressionSolver.o"
+	@echo "... ExpressionSolver.i"
+	@echo "... ExpressionSolver.s"
+	@echo "... Minus.o"
+	@echo "... Minus.i"
+	@echo "... Minus.s"
+	@echo "... Multiplication.o"
+	@echo "... Multiplication.i"
+	@echo "... Multiplication.s"
 	@echo "... MySerialServer.o"
 	@echo "... MySerialServer.i"
 	@echo "... MySerialServer.s"
 	@echo "... MyTestClientServer.o"
 	@echo "... MyTestClientServer.i"
 	@echo "... MyTestClientServer.s"
+	@echo "... Number.o"
+	@echo "... Number.i"
+	@echo "... Number.s"
+	@echo "... Plus.o"
+	@echo "... Plus.i"
+	@echo "... Plus.s"
 	@echo "... Problem.o"
 	@echo "... Problem.i"
 	@echo "... Problem.s"
@@ -399,6 +723,12 @@ help:
 	@echo "... Solver.o"
 	@echo "... Solver.i"
 	@echo "... Solver.s"
+	@echo "... UnaryExpression.o"
+	@echo "... UnaryExpression.i"
+	@echo "... UnaryExpression.s"
+	@echo "... Var.o"
+	@echo "... Var.i"
+	@echo "... Var.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
