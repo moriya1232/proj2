@@ -8,8 +8,13 @@
 #include "ClientHandler.h"
 
 class MyTestClientServer : public ClientHandler {
-
-
+    Solver* solver;
+    CacheManager* cm;
+public:
+    Solver* getSolver();
+    void setSolver(Solver*);
+    CacheManager* getCacheManager();
+    void setCacheManager(CacheManager*);
 
 
 

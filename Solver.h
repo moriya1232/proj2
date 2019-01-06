@@ -4,15 +4,11 @@
 
 #ifndef UNTITLED6_SOLVER_H
 #define UNTITLED6_SOLVER_H
-
-#include "Problem.h"
-#include "Solution.h"
-
+template <class problem, class solution>
 class Solver {
 
 public:
-
-    virtual Solution* solve(Problem* problem)=0;
+    virtual solution solve(problem)=0;
 
 };
 #endif //UNTITLED6_SOLVER_H

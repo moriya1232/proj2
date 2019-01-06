@@ -8,12 +8,17 @@
 using namespace std;
 #include <iostream>
 #include <fstream>
+#include "Solver.h"
+#include "CacheManager.h"
 
 class ClientHandler {
-ifstream in;
-ofstream out;
-
+//ifstream in;
+//ofstream out;
 public:
+virtual Solver* getSolver() = 0;
+virtual void setSolver(Solver*) = 0;
+virtual CacheManager* getCacheManager()=0;
+virtual void setCacheManager(CacheManager)=0;
 
 
 

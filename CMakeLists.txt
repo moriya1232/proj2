@@ -7,12 +7,11 @@ add_executable(untitled6 main.cpp
             Server.cpp Server.h
             ClientHandler.cpp ClientHandler.h
             MySerialServer.h MySerialServer.cpp
-            MyTestClientServer.cpp MyTestClientServer.h
+        MyTestClientHandler.cpp MyTestClientHandler.h
             Solver.cpp Solver.h
         CacheManager.cpp CacheManager.h
         ExpressionSolver.h ExpressionSolver.cpp
         Expression.h Expression.cpp
-        ExpressionSolution.h ExpressionSolution.cpp
         BinaryExpression.h BinaryExpression.cpp
         Plus.h Plus.cpp
         Minus.h Minus.cpp

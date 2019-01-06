@@ -16,8 +16,10 @@ using namespace std;
 
 
 class Expression {
+    list<string> exp;
 public:
     virtual double calculate()=0;
+    static Expression* makeExpression(string);
 
 
 };

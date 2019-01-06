@@ -10,13 +10,11 @@
 #include "Expression.h"
 using  namespace std;
 
-class ExpressionSolver : public Solver {
-    list<string> exp;
-    Solution* solve(Problem*);
-    Expression* makeExpression(string);
-    Expression* getExpression(list<string>);
+class ExpressionSolver : public Solver<string,Expression*> {
+    string problem;
 public:
-    ExpressionSolver();
+    Expression* solve();
+    ExpressionSolver(string);
 };
 
 #endif //UNTITLED6_EXPRESSIONSOLVER_H
