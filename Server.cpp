@@ -2,88 +2,75 @@
 // Created by moriya on 01/01/19.
 //
 
-#include "Server.h"
 #include <unistd.h>
 #include <stdio.h>
 #include <thread>
 #include <netinet/in.h>
 #include <string.h>
 #include <errno.h>
+#include "ClientHandler.h"
 
 using namespace std;
+namespace Server_side {
+    int open(int port, ClientHandler* ch) {
+        int sockfd, newsockfd, portno, clilen;
+        char buffer[100];
+        struct sockaddr_in serv_addr, cli_addr;
+        int n;
 
-Server:: Server(int p) {
- this->port = p;
- this->run = true;
-}
+        /* First call to socket() function */
+        sockfd = socket(AF_INET, SOCK_STREAM, 0);
 
-/*void Server:: setInput(char* toInput) {
- this->input = toInput;
-}*/
+        if (sockfd < 0) {
+            perror("ERROR opening socket");
+            exit(1);
+        }
 
-bool Server:: getRun() {
- return this->run;
-}
+        /* Initialize socket structure */
+        bzero((char *) &serv_addr, sizeof(serv_addr));
+        portno = stod(to_string(port).c_str());
 
-ClientHandler* Server:: getClientHandler() {return this->clientHandler;}
+        serv_addr.sin_family = AF_INET;
+        serv_addr.sin_addr.s_addr = INADDR_ANY;
+        serv_addr.sin_port = htons(portno);
 
-void Server:: setClientHandler(ClientHandler* ch){
-    this->clientHandler = ch;
-}
+        /* Now bind the host address using bind() call.*/
+        if (bind(sockfd, (struct sockaddr *) &serv_addr, sizeof(serv_addr)) < 0) {
+            perror("ERROR on binding");
+            exit(1);
+        }
+        /* Now start listening for the clients, here process will
+           * go in sleep mode and will wait for the incoming connection
+        */
 
-void Server::openServer(int port, ClientHandler cl) {
-    int sockfd, newsockfd, portno, clilen;
-    char buffer[100];
-    struct sockaddr_in serv_addr, cli_addr;
-    int  n;
+        listen(sockfd, 5);
+        clilen = sizeof(cli_addr);
+        /* Accept actual connection from the client */
+        newsockfd = accept(sockfd, (struct sockaddr *) &cli_addr, (socklen_t *) &clilen);
 
-    /* First call to socket() function */
-    sockfd = socket(AF_INET, SOCK_STREAM, 0);
-
-    if (sockfd < 0) {
-        perror("ERROR opening socket");
-        exit(1);
+        if (newsockfd < 0) {
+            perror("ERROR on accept");
+            exit(1);
+        }
+        this->sockfd = sockfd;
+        this->newsockfd = newsockfd;
+        //start(sockfd, newsockfd);}
     }
 
-    /* Initialize socket structure */
-    bzero((char *) &serv_addr, sizeof(serv_addr));
-    portno = stod(to_string(port).c_str());
+    void Server::openServer(int port, ClientHandler cl) {
 
-    serv_addr.sin_family = AF_INET;
-    serv_addr.sin_addr.s_addr = INADDR_ANY;
-    serv_addr.sin_port = htons(portno);
-
-    /* Now bind the host address using bind() call.*/
-    if (bind(sockfd, (struct sockaddr *) &serv_addr, sizeof(serv_addr)) < 0) {
-        perror("ERROR on binding");
-        exit(1);
     }
-    /* Now start listening for the clients, here process will
-       * go in sleep mode and will wait for the incoming connection
-    */
 
-    listen(sockfd,5);
-    clilen = sizeof(cli_addr);
-    /* Accept actual connection from the client */
-    newsockfd = accept(sockfd, (struct sockaddr *) &cli_addr, (socklen_t *) &clilen);
-
-    if (newsockfd < 0) {
-        perror("ERROR on accept");
-        exit(1);
-    }
-    start(sockfd, newsockfd);
-}
-
-void Server::start(int sockfd, int newsockfd) {
-    char buffer[100] = { '\0' };
-    /* Accept actual connection from the client */
-    /*int newsockfd = accept(sockfd, (struct sockaddr *) &cli_addr, (socklen_t *) &clilen);
-    if (newsockfd < 0) {
-        perror("ERROR on accept");
-        exit(1);
-    }
-    while (true) {
-        /* If connection is established then start communicating */
+    void Server::start(int sockfd, int newsockfd) {
+        char buffer[100] = {'\0'};
+        /* Accept actual connection from the client */
+        /*int newsockfd = accept(sockfd, (struct sockaddr *) &cli_addr, (socklen_t *) &clilen);
+        if (newsockfd < 0) {
+            perror("ERROR on accept");
+            exit(1);
+        }
+        while (true) {
+            /* If connection is established then start communicating */
         /*bzero(buffer, 100);
         int n = read(newsockfd, buffer, 99);
         if (endReceived(buffer, n)) {
@@ -95,28 +82,30 @@ void Server::start(int sockfd, int newsockfd) {
         }
         // here we supposed to create a ClientHandler and execute it
     }*/
-    while (true) {
-        /* If connection is established then start communicating */
-        bzero(buffer, 100);
-        int n = read(newsockfd, buffer, 99);
+        while (true) {
+            /* If connection is established then start communicating */
+            bzero(buffer, 100);
+            int n = read(newsockfd, buffer, 99);
 
-        if (n < 0) {
-            perror("ERROR reading from socket");
-            exit(1);
+            if (n < 0) {
+                perror("ERROR reading from socket");
+                exit(1);
+            }
+
+        }
+        bool Server::endReceived(char *buffer, int n) {
+            // if buffer has the word 'end' and a \0 return true
+            if (buffer[0] == 'e' && buffer[1] == 'n' && buffer[2] == 'd' && n == 4) {
+                return true;
+            }
         }
 
-}
-bool Server::endReceived(char* buffer, int n) {
-    // if buffer has the word 'end' and a \0 return true
-    if (buffer[0] == 'e' && buffer[1] == 'n' && buffer[2] == 'd' && n == 4) {
-        return true;
+        int Server::stop() {
+            this->run = false;
+        }
+
+        bool Server::isOpen() {
+            return this->run;
+        }
     }
-}
-
-int Server:: stop() {
-    this->run = false;
-}
-
-bool Server:: isOpen() {
-     return this->run;
 }

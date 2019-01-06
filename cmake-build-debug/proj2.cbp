@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="proj2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/omer/CLionProjects/proj2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/omer/CLionProjects/proj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/omer/CLionProjects/proj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/omer/CLionProjects/proj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/omer/CLionProjects/proj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/omer/CLionProjects/proj2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/omer/CLionProjects/proj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/omer/CLionProjects/proj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/omer/CLionProjects/proj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/omer/CLionProjects/proj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="proj2">
+				<Option output="/home/omer/CLionProjects/proj2/cmake-build-debug/proj2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/omer/CLionProjects/proj2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/omer/CLionProjects/proj2/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/omer/CLionProjects/proj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 proj2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/omer/CLionProjects/proj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/omer/CLionProjects/proj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/omer/CLionProjects/proj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="proj2/fast">
+				<Option output="/home/omer/CLionProjects/proj2/cmake-build-debug/proj2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/omer/CLionProjects/proj2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/omer/CLionProjects/proj2/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/omer/CLionProjects/proj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 proj2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/omer/CLionProjects/proj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/omer/CLionProjects/proj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/omer/CLionProjects/proj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/omer/CLionProjects/proj2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/omer/CLionProjects/proj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/omer/CLionProjects/proj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/omer/CLionProjects/proj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/omer/CLionProjects/proj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/omer/CLionProjects/proj2/BFS.h">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/proj2/BinaryExpression.cpp">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/proj2/BinaryExpression.h">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/proj2/CacheManager.cpp">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/proj2/CacheManager.h">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/proj2/ClientHandler.cpp">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/proj2/ClientHandler.h">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/proj2/Divide.cpp">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/proj2/Divide.h">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/proj2/Expression.cpp">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/proj2/Expression.h">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/proj2/ExpressionSolver.cpp">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/proj2/ExpressionSolver.h">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/proj2/FileCacheManager.h">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/proj2/FileCatchManager.cpp">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/proj2/Minus.cpp">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/proj2/Minus.h">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/proj2/Multiplication.cpp">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/proj2/Multiplication.h">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/proj2/MySerialServer.cpp">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/proj2/MySerialServer.h">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/proj2/MyTestClientHandler.cpp">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/proj2/MyTestClientHandler.h">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/proj2/Number.cpp">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/proj2/Number.h">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/proj2/ParallelServer.cpp">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/proj2/ParallelServer.h">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/proj2/Plus.cpp">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/proj2/Plus.h">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/proj2/Searchable.cpp">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/proj2/Searchable.h">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/proj2/Server.cpp">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/proj2/Server.h">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/proj2/Solver.cpp">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/proj2/Solver.h">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/proj2/StringReverser.cpp">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/proj2/StringReverser.h">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/proj2/UnaryExpression.cpp">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/proj2/UnaryExpression.h">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/proj2/UsefulFunctions.h">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/proj2/main.cpp">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/proj2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
