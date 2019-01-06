@@ -118,12 +118,6 @@
 		<Unit filename="/home/moriya/CLionProjects/untitled6/Expression.h">
 			<Option target="untitled6"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/ExpressionSolution.cpp">
-			<Option target="untitled6"/>
-		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/ExpressionSolution.h">
-			<Option target="untitled6"/>
-		</Unit>
 		<Unit filename="/home/moriya/CLionProjects/untitled6/ExpressionSolver.cpp">
 			<Option target="untitled6"/>
 		</Unit>
@@ -148,10 +142,10 @@
 		<Unit filename="/home/moriya/CLionProjects/untitled6/MySerialServer.h">
 			<Option target="untitled6"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/MyTestClientServer.cpp">
+		<Unit filename="/home/moriya/CLionProjects/untitled6/MyTestClientHandler.cpp">
 			<Option target="untitled6"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/MyTestClientServer.h">
+		<Unit filename="/home/moriya/CLionProjects/untitled6/MyTestClientHandler.h">
 			<Option target="untitled6"/>
 		</Unit>
 		<Unit filename="/home/moriya/CLionProjects/untitled6/Number.cpp">
@@ -176,6 +170,12 @@
 			<Option target="untitled6"/>
 		</Unit>
 		<Unit filename="/home/moriya/CLionProjects/untitled6/Solver.h">
+			<Option target="untitled6"/>
+		</Unit>
+		<Unit filename="/home/moriya/CLionProjects/untitled6/StringReverser.cpp">
+			<Option target="untitled6"/>
+		</Unit>
+		<Unit filename="/home/moriya/CLionProjects/untitled6/StringReverser.h">
 			<Option target="untitled6"/>
 		</Unit>
 		<Unit filename="/home/moriya/CLionProjects/untitled6/UnaryExpression.cpp">

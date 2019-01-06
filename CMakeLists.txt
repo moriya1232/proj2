@@ -19,4 +19,5 @@ add_executable(untitled6 main.cpp
         Multiplication.h Multiplication.cpp
         Number.h Number.cpp
         UnaryExpression.h UnaryExpression.cpp
-        UsefulFunctions.h)
+        UsefulFunctions.h
+        StringReverser.cpp StringReverser.h)

@@ -258,33 +258,6 @@ Expression.cpp.s:
 	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Expression.cpp.s
 .PHONY : Expression.cpp.s
 
-ExpressionSolution.o: ExpressionSolution.cpp.o
-
-.PHONY : ExpressionSolution.o
-
-# target to build an object file
-ExpressionSolution.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/ExpressionSolution.cpp.o
-.PHONY : ExpressionSolution.cpp.o
-
-ExpressionSolution.i: ExpressionSolution.cpp.i
-
-.PHONY : ExpressionSolution.i
-
-# target to preprocess a source file
-ExpressionSolution.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/ExpressionSolution.cpp.i
-.PHONY : ExpressionSolution.cpp.i
-
-ExpressionSolution.s: ExpressionSolution.cpp.s
-
-.PHONY : ExpressionSolution.s
-
-# target to generate assembly for a file
-ExpressionSolution.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/ExpressionSolution.cpp.s
-.PHONY : ExpressionSolution.cpp.s
-
 ExpressionSolver.o: ExpressionSolver.cpp.o
 
 .PHONY : ExpressionSolver.o
@@ -393,32 +366,32 @@ MySerialServer.cpp.s:
 	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/MySerialServer.cpp.s
 .PHONY : MySerialServer.cpp.s
 
-MyTestClientServer.o: MyTestClientServer.cpp.o
+MyTestClientHandler.o: MyTestClientHandler.cpp.o
 
-.PHONY : MyTestClientServer.o
+.PHONY : MyTestClientHandler.o
 
 # target to build an object file
-MyTestClientServer.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/MyTestClientServer.cpp.o
-.PHONY : MyTestClientServer.cpp.o
+MyTestClientHandler.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/MyTestClientHandler.cpp.o
+.PHONY : MyTestClientHandler.cpp.o
 
-MyTestClientServer.i: MyTestClientServer.cpp.i
+MyTestClientHandler.i: MyTestClientHandler.cpp.i
 
-.PHONY : MyTestClientServer.i
+.PHONY : MyTestClientHandler.i
 
 # target to preprocess a source file
-MyTestClientServer.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/MyTestClientServer.cpp.i
-.PHONY : MyTestClientServer.cpp.i
+MyTestClientHandler.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/MyTestClientHandler.cpp.i
+.PHONY : MyTestClientHandler.cpp.i
 
-MyTestClientServer.s: MyTestClientServer.cpp.s
+MyTestClientHandler.s: MyTestClientHandler.cpp.s
 
-.PHONY : MyTestClientServer.s
+.PHONY : MyTestClientHandler.s
 
 # target to generate assembly for a file
-MyTestClientServer.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/MyTestClientServer.cpp.s
-.PHONY : MyTestClientServer.cpp.s
+MyTestClientHandler.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/MyTestClientHandler.cpp.s
+.PHONY : MyTestClientHandler.cpp.s
 
 Number.o: Number.cpp.o
 
@@ -528,6 +501,33 @@ Solver.cpp.s:
 	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Solver.cpp.s
 .PHONY : Solver.cpp.s
 
+StringReverser.o: StringReverser.cpp.o
+
+.PHONY : StringReverser.o
+
+# target to build an object file
+StringReverser.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/StringReverser.cpp.o
+.PHONY : StringReverser.cpp.o
+
+StringReverser.i: StringReverser.cpp.i
+
+.PHONY : StringReverser.i
+
+# target to preprocess a source file
+StringReverser.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/StringReverser.cpp.i
+.PHONY : StringReverser.cpp.i
+
+StringReverser.s: StringReverser.cpp.s
+
+.PHONY : StringReverser.s
+
+# target to generate assembly for a file
+StringReverser.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/StringReverser.cpp.s
+.PHONY : StringReverser.cpp.s
+
 UnaryExpression.o: UnaryExpression.cpp.o
 
 .PHONY : UnaryExpression.o
@@ -606,9 +606,6 @@ help:
 	@echo "... Expression.o"
 	@echo "... Expression.i"
 	@echo "... Expression.s"
-	@echo "... ExpressionSolution.o"
-	@echo "... ExpressionSolution.i"
-	@echo "... ExpressionSolution.s"
 	@echo "... ExpressionSolver.o"
 	@echo "... ExpressionSolver.i"
 	@echo "... ExpressionSolver.s"
@@ -621,9 +618,9 @@ help:
 	@echo "... MySerialServer.o"
 	@echo "... MySerialServer.i"
 	@echo "... MySerialServer.s"
-	@echo "... MyTestClientServer.o"
-	@echo "... MyTestClientServer.i"
-	@echo "... MyTestClientServer.s"
+	@echo "... MyTestClientHandler.o"
+	@echo "... MyTestClientHandler.i"
+	@echo "... MyTestClientHandler.s"
 	@echo "... Number.o"
 	@echo "... Number.i"
 	@echo "... Number.s"
@@ -636,6 +633,9 @@ help:
 	@echo "... Solver.o"
 	@echo "... Solver.i"
 	@echo "... Solver.s"
+	@echo "... StringReverser.o"
+	@echo "... StringReverser.i"
+	@echo "... StringReverser.s"
 	@echo "... UnaryExpression.o"
 	@echo "... UnaryExpression.i"
 	@echo "... UnaryExpression.s"

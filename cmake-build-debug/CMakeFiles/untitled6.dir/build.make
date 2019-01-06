@@ -109,18 +109,18 @@ CMakeFiles/untitled6.dir/MySerialServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled6.dir/MySerialServer.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moriya/CLionProjects/untitled6/MySerialServer.cpp -o CMakeFiles/untitled6.dir/MySerialServer.cpp.s
 
-CMakeFiles/untitled6.dir/MyTestClientServer.cpp.o: CMakeFiles/untitled6.dir/flags.make
-CMakeFiles/untitled6.dir/MyTestClientServer.cpp.o: ../MyTestClientServer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/untitled6.dir/MyTestClientServer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled6.dir/MyTestClientServer.cpp.o -c /home/moriya/CLionProjects/untitled6/MyTestClientServer.cpp
+CMakeFiles/untitled6.dir/MyTestClientHandler.cpp.o: CMakeFiles/untitled6.dir/flags.make
+CMakeFiles/untitled6.dir/MyTestClientHandler.cpp.o: ../MyTestClientHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/untitled6.dir/MyTestClientHandler.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled6.dir/MyTestClientHandler.cpp.o -c /home/moriya/CLionProjects/untitled6/MyTestClientHandler.cpp
 
-CMakeFiles/untitled6.dir/MyTestClientServer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled6.dir/MyTestClientServer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moriya/CLionProjects/untitled6/MyTestClientServer.cpp > CMakeFiles/untitled6.dir/MyTestClientServer.cpp.i
+CMakeFiles/untitled6.dir/MyTestClientHandler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled6.dir/MyTestClientHandler.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moriya/CLionProjects/untitled6/MyTestClientHandler.cpp > CMakeFiles/untitled6.dir/MyTestClientHandler.cpp.i
 
-CMakeFiles/untitled6.dir/MyTestClientServer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled6.dir/MyTestClientServer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moriya/CLionProjects/untitled6/MyTestClientServer.cpp -o CMakeFiles/untitled6.dir/MyTestClientServer.cpp.s
+CMakeFiles/untitled6.dir/MyTestClientHandler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled6.dir/MyTestClientHandler.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moriya/CLionProjects/untitled6/MyTestClientHandler.cpp -o CMakeFiles/untitled6.dir/MyTestClientHandler.cpp.s
 
 CMakeFiles/untitled6.dir/Solver.cpp.o: CMakeFiles/untitled6.dir/flags.make
 CMakeFiles/untitled6.dir/Solver.cpp.o: ../Solver.cpp
@@ -174,22 +174,9 @@ CMakeFiles/untitled6.dir/Expression.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled6.dir/Expression.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moriya/CLionProjects/untitled6/Expression.cpp -o CMakeFiles/untitled6.dir/Expression.cpp.s
 
-CMakeFiles/untitled6.dir/ExpressionSolution.cpp.o: CMakeFiles/untitled6.dir/flags.make
-CMakeFiles/untitled6.dir/ExpressionSolution.cpp.o: ../ExpressionSolution.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/untitled6.dir/ExpressionSolution.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled6.dir/ExpressionSolution.cpp.o -c /home/moriya/CLionProjects/untitled6/ExpressionSolution.cpp
-
-CMakeFiles/untitled6.dir/ExpressionSolution.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled6.dir/ExpressionSolution.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moriya/CLionProjects/untitled6/ExpressionSolution.cpp > CMakeFiles/untitled6.dir/ExpressionSolution.cpp.i
-
-CMakeFiles/untitled6.dir/ExpressionSolution.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled6.dir/ExpressionSolution.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moriya/CLionProjects/untitled6/ExpressionSolution.cpp -o CMakeFiles/untitled6.dir/ExpressionSolution.cpp.s
-
 CMakeFiles/untitled6.dir/BinaryExpression.cpp.o: CMakeFiles/untitled6.dir/flags.make
 CMakeFiles/untitled6.dir/BinaryExpression.cpp.o: ../BinaryExpression.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/untitled6.dir/BinaryExpression.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/untitled6.dir/BinaryExpression.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled6.dir/BinaryExpression.cpp.o -c /home/moriya/CLionProjects/untitled6/BinaryExpression.cpp
 
 CMakeFiles/untitled6.dir/BinaryExpression.cpp.i: cmake_force
@@ -202,7 +189,7 @@ CMakeFiles/untitled6.dir/BinaryExpression.cpp.s: cmake_force
 
 CMakeFiles/untitled6.dir/Plus.cpp.o: CMakeFiles/untitled6.dir/flags.make
 CMakeFiles/untitled6.dir/Plus.cpp.o: ../Plus.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/untitled6.dir/Plus.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/untitled6.dir/Plus.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled6.dir/Plus.cpp.o -c /home/moriya/CLionProjects/untitled6/Plus.cpp
 
 CMakeFiles/untitled6.dir/Plus.cpp.i: cmake_force
@@ -215,7 +202,7 @@ CMakeFiles/untitled6.dir/Plus.cpp.s: cmake_force
 
 CMakeFiles/untitled6.dir/Minus.cpp.o: CMakeFiles/untitled6.dir/flags.make
 CMakeFiles/untitled6.dir/Minus.cpp.o: ../Minus.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/untitled6.dir/Minus.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/untitled6.dir/Minus.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled6.dir/Minus.cpp.o -c /home/moriya/CLionProjects/untitled6/Minus.cpp
 
 CMakeFiles/untitled6.dir/Minus.cpp.i: cmake_force
@@ -228,7 +215,7 @@ CMakeFiles/untitled6.dir/Minus.cpp.s: cmake_force
 
 CMakeFiles/untitled6.dir/Divide.cpp.o: CMakeFiles/untitled6.dir/flags.make
 CMakeFiles/untitled6.dir/Divide.cpp.o: ../Divide.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/untitled6.dir/Divide.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/untitled6.dir/Divide.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled6.dir/Divide.cpp.o -c /home/moriya/CLionProjects/untitled6/Divide.cpp
 
 CMakeFiles/untitled6.dir/Divide.cpp.i: cmake_force
@@ -241,7 +228,7 @@ CMakeFiles/untitled6.dir/Divide.cpp.s: cmake_force
 
 CMakeFiles/untitled6.dir/Multiplication.cpp.o: CMakeFiles/untitled6.dir/flags.make
 CMakeFiles/untitled6.dir/Multiplication.cpp.o: ../Multiplication.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/untitled6.dir/Multiplication.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/untitled6.dir/Multiplication.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled6.dir/Multiplication.cpp.o -c /home/moriya/CLionProjects/untitled6/Multiplication.cpp
 
 CMakeFiles/untitled6.dir/Multiplication.cpp.i: cmake_force
@@ -254,7 +241,7 @@ CMakeFiles/untitled6.dir/Multiplication.cpp.s: cmake_force
 
 CMakeFiles/untitled6.dir/Number.cpp.o: CMakeFiles/untitled6.dir/flags.make
 CMakeFiles/untitled6.dir/Number.cpp.o: ../Number.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/untitled6.dir/Number.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/untitled6.dir/Number.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled6.dir/Number.cpp.o -c /home/moriya/CLionProjects/untitled6/Number.cpp
 
 CMakeFiles/untitled6.dir/Number.cpp.i: cmake_force
@@ -267,7 +254,7 @@ CMakeFiles/untitled6.dir/Number.cpp.s: cmake_force
 
 CMakeFiles/untitled6.dir/UnaryExpression.cpp.o: CMakeFiles/untitled6.dir/flags.make
 CMakeFiles/untitled6.dir/UnaryExpression.cpp.o: ../UnaryExpression.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/untitled6.dir/UnaryExpression.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/untitled6.dir/UnaryExpression.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled6.dir/UnaryExpression.cpp.o -c /home/moriya/CLionProjects/untitled6/UnaryExpression.cpp
 
 CMakeFiles/untitled6.dir/UnaryExpression.cpp.i: cmake_force
@@ -278,25 +265,38 @@ CMakeFiles/untitled6.dir/UnaryExpression.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled6.dir/UnaryExpression.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moriya/CLionProjects/untitled6/UnaryExpression.cpp -o CMakeFiles/untitled6.dir/UnaryExpression.cpp.s
 
+CMakeFiles/untitled6.dir/StringReverser.cpp.o: CMakeFiles/untitled6.dir/flags.make
+CMakeFiles/untitled6.dir/StringReverser.cpp.o: ../StringReverser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/untitled6.dir/StringReverser.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled6.dir/StringReverser.cpp.o -c /home/moriya/CLionProjects/untitled6/StringReverser.cpp
+
+CMakeFiles/untitled6.dir/StringReverser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled6.dir/StringReverser.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moriya/CLionProjects/untitled6/StringReverser.cpp > CMakeFiles/untitled6.dir/StringReverser.cpp.i
+
+CMakeFiles/untitled6.dir/StringReverser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled6.dir/StringReverser.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moriya/CLionProjects/untitled6/StringReverser.cpp -o CMakeFiles/untitled6.dir/StringReverser.cpp.s
+
 # Object files for target untitled6
 untitled6_OBJECTS = \
 "CMakeFiles/untitled6.dir/main.cpp.o" \
 "CMakeFiles/untitled6.dir/Server.cpp.o" \
 "CMakeFiles/untitled6.dir/ClientHandler.cpp.o" \
 "CMakeFiles/untitled6.dir/MySerialServer.cpp.o" \
-"CMakeFiles/untitled6.dir/MyTestClientServer.cpp.o" \
+"CMakeFiles/untitled6.dir/MyTestClientHandler.cpp.o" \
 "CMakeFiles/untitled6.dir/Solver.cpp.o" \
 "CMakeFiles/untitled6.dir/CacheManager.cpp.o" \
 "CMakeFiles/untitled6.dir/ExpressionSolver.cpp.o" \
 "CMakeFiles/untitled6.dir/Expression.cpp.o" \
-"CMakeFiles/untitled6.dir/ExpressionSolution.cpp.o" \
 "CMakeFiles/untitled6.dir/BinaryExpression.cpp.o" \
 "CMakeFiles/untitled6.dir/Plus.cpp.o" \
 "CMakeFiles/untitled6.dir/Minus.cpp.o" \
 "CMakeFiles/untitled6.dir/Divide.cpp.o" \
 "CMakeFiles/untitled6.dir/Multiplication.cpp.o" \
 "CMakeFiles/untitled6.dir/Number.cpp.o" \
-"CMakeFiles/untitled6.dir/UnaryExpression.cpp.o"
+"CMakeFiles/untitled6.dir/UnaryExpression.cpp.o" \
+"CMakeFiles/untitled6.dir/StringReverser.cpp.o"
 
 # External object files for target untitled6
 untitled6_EXTERNAL_OBJECTS =
@@ -305,12 +305,11 @@ untitled6: CMakeFiles/untitled6.dir/main.cpp.o
 untitled6: CMakeFiles/untitled6.dir/Server.cpp.o
 untitled6: CMakeFiles/untitled6.dir/ClientHandler.cpp.o
 untitled6: CMakeFiles/untitled6.dir/MySerialServer.cpp.o
-untitled6: CMakeFiles/untitled6.dir/MyTestClientServer.cpp.o
+untitled6: CMakeFiles/untitled6.dir/MyTestClientHandler.cpp.o
 untitled6: CMakeFiles/untitled6.dir/Solver.cpp.o
 untitled6: CMakeFiles/untitled6.dir/CacheManager.cpp.o
 untitled6: CMakeFiles/untitled6.dir/ExpressionSolver.cpp.o
 untitled6: CMakeFiles/untitled6.dir/Expression.cpp.o
-untitled6: CMakeFiles/untitled6.dir/ExpressionSolution.cpp.o
 untitled6: CMakeFiles/untitled6.dir/BinaryExpression.cpp.o
 untitled6: CMakeFiles/untitled6.dir/Plus.cpp.o
 untitled6: CMakeFiles/untitled6.dir/Minus.cpp.o
@@ -318,6 +317,7 @@ untitled6: CMakeFiles/untitled6.dir/Divide.cpp.o
 untitled6: CMakeFiles/untitled6.dir/Multiplication.cpp.o
 untitled6: CMakeFiles/untitled6.dir/Number.cpp.o
 untitled6: CMakeFiles/untitled6.dir/UnaryExpression.cpp.o
+untitled6: CMakeFiles/untitled6.dir/StringReverser.cpp.o
 untitled6: CMakeFiles/untitled6.dir/build.make
 untitled6: CMakeFiles/untitled6.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable untitled6"
