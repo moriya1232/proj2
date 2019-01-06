@@ -118,22 +118,10 @@
 		<Unit filename="/home/omer/CLionProjects/proj2/Expression.h">
 			<Option target="untitled6"/>
 		</Unit>
-		<Unit filename="/home/omer/CLionProjects/proj2/ExpressionSolution.cpp">
-			<Option target="untitled6"/>
-		</Unit>
-		<Unit filename="/home/omer/CLionProjects/proj2/ExpressionSolution.h">
-			<Option target="untitled6"/>
-		</Unit>
 		<Unit filename="/home/omer/CLionProjects/proj2/ExpressionSolver.cpp">
 			<Option target="untitled6"/>
 		</Unit>
 		<Unit filename="/home/omer/CLionProjects/proj2/ExpressionSolver.h">
-			<Option target="untitled6"/>
-		</Unit>
-		<Unit filename="/home/omer/CLionProjects/proj2/FileCacheManager.h">
-			<Option target="untitled6"/>
-		</Unit>
-		<Unit filename="/home/omer/CLionProjects/proj2/FileCatchManager.cpp">
 			<Option target="untitled6"/>
 		</Unit>
 		<Unit filename="/home/omer/CLionProjects/proj2/Minus.cpp">
@@ -154,10 +142,10 @@
 		<Unit filename="/home/omer/CLionProjects/proj2/MySerialServer.h">
 			<Option target="untitled6"/>
 		</Unit>
-		<Unit filename="/home/omer/CLionProjects/proj2/MyTestClientServer.cpp">
+		<Unit filename="/home/omer/CLionProjects/proj2/MyTestClientHandler.cpp">
 			<Option target="untitled6"/>
 		</Unit>
-		<Unit filename="/home/omer/CLionProjects/proj2/MyTestClientServer.h">
+		<Unit filename="/home/omer/CLionProjects/proj2/MyTestClientHandler.h">
 			<Option target="untitled6"/>
 		</Unit>
 		<Unit filename="/home/omer/CLionProjects/proj2/Number.cpp">
@@ -170,12 +158,6 @@
 			<Option target="untitled6"/>
 		</Unit>
 		<Unit filename="/home/omer/CLionProjects/proj2/Plus.h">
-			<Option target="untitled6"/>
-		</Unit>
-		<Unit filename="/home/omer/CLionProjects/proj2/Searchable.cpp">
-			<Option target="untitled6"/>
-		</Unit>
-		<Unit filename="/home/omer/CLionProjects/proj2/Searchable.h">
 			<Option target="untitled6"/>
 		</Unit>
 		<Unit filename="/home/omer/CLionProjects/proj2/Server.cpp">

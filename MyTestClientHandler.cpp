@@ -3,12 +3,13 @@
 //
 #include "MyTestClientHandler.h"
 
+using namespace std;
 
 /**
  * this function returns the solver of this client server
  * @return the solver
  */
-Solver* MyTestClientServer:: getSolver(){
+Solver<class problem,class solution>* MyTestClientHandler:: getSolver(){
 return this->solver;
 }
 
@@ -16,7 +17,7 @@ return this->solver;
  * this function set the solver of this client server.
  * @param solver1 - new Solver;
  */
-void MyTestClientServer:: setSolver(Solver* solver1){
+void MyTestClientHandler:: setSolver(Solver<class problem,class solution>* solver1){
 this->solver=solver1;
 }
 
@@ -24,7 +25,7 @@ this->solver=solver1;
  * this fucntion get the cache manager.
  * @return cach manager
  */
-CacheManager* MyTestClientServer:: getCacheManager(){
+CacheManager* MyTestClientHandler:: getCacheManager(){
 return this->cm;
 }
 
@@ -32,6 +33,6 @@ return this->cm;
  * this function set the cache manager.
  * @param cacheManager
  */
-void MyTestClientServer:: setCacheManager(CacheManager* cacheManager){
+void MyTestClientHandler:: setCacheManager(CacheManager* cacheManager){
 this->cm = cacheManager;
 }

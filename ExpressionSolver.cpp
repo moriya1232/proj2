@@ -8,13 +8,8 @@
 
 using namespace std;
 
-ExpressionSolver::ExpressionSolver(string s) {
-    this->problem = s;
-
-}
-
-Expression* ExpressionSolver::solve() {
-    Expression* e = Expression::makeExpression(this->problem);
+Expression* ExpressionSolver::solve(string problem) {
+    Expression* e = Expression::makeExpression(problem);
     return e;
 }
 

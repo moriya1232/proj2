@@ -11,10 +11,8 @@
 using  namespace std;
 
 class ExpressionSolver : public Solver<string,Expression*> {
-    string problem;
 public:
-    Expression* solve();
-    ExpressionSolver(string);
+    Expression* solve(string);
 };
 
 #endif //UNTITLED6_EXPRESSIONSOLVER_H

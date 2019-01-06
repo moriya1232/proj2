@@ -7,12 +7,12 @@
 
 #include "ClientHandler.h"
 
-class MyTestClientServer : public ClientHandler {
-    Solver* solver;
+class MyTestClientHandler: public ClientHandler {
+    Solver<problem,solution>* solver;
     CacheManager* cm;
 public:
-    Solver* getSolver();
-    void setSolver(Solver*);
+    Solver<problem,solution>* getSolver();
+    void setSolver(Solver<problem,solution>*);
     CacheManager* getCacheManager();
     void setCacheManager(CacheManager*);
 
