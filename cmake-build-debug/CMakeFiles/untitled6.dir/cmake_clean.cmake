@@ -16,6 +16,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/untitled6.dir/Multiplication.cpp.o"
   "CMakeFiles/untitled6.dir/Number.cpp.o"
   "CMakeFiles/untitled6.dir/UnaryExpression.cpp.o"
+  "CMakeFiles/untitled6.dir/FileCatchManager.cpp.o"
+  "CMakeFiles/untitled6.dir/Searchable.cpp.o"
   "untitled6.pdb"
   "untitled6"
 )

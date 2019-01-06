@@ -8,10 +8,7 @@
 #include "Server.h"
 
 class MySerialServer :public Server {
-
-
-
-
+int open(int, ClientHandler);
 
 };
 #endif //UNTITLED6_MYSERIALSERVER_H

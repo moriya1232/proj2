@@ -13,14 +13,17 @@
 class Server{
     ClientHandler* clientHandler;
     int port;
-    bool stillOpen;
-    char* input;
+    bool run;
+    //char* input;
 public:
     Server(int p);
-    bool getStillOpen();
-    int open(int);
+    static void openServer(int, ClientHandler);
+    bool getRun();
+    virtual int open(int, ClientHandler) = 0;
+    static void start(int ,int);
     bool isOpen();
     int stop();
+    static bool endReceived(char*, int);
     void setInput(char*);
     ClientHandler* getClientHandler();
     void setClientHandler(ClientHandler*);
