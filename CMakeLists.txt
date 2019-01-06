@@ -21,11 +21,15 @@ add_executable(proj2
         ExpressionSolver.h
         FileCacheManager.h
         FileCatchManager.cpp
+        ISearcher.cpp
+        ISearcher.h
         main.cpp
         Minus.cpp
         Minus.h
         Multiplication.cpp
         Multiplication.h
+        MyPriorityQueue.cpp
+        MyPriorityQueue.h
         MySerialServer.cpp
         MySerialServer.h
         MyTestClientHandler.cpp
@@ -38,10 +42,14 @@ add_executable(proj2
         Plus.h
         Searchable.cpp
         Searchable.h
+        Searcher.cpp
+        Searcher.h
         Server.cpp
         Server.h
         Solver.cpp
         Solver.h
+        State.cpp
+        State.h
         StringReverser.cpp
         StringReverser.h
         UnaryExpression.cpp

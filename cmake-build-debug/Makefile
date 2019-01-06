@@ -48,10 +48,10 @@ RM = /snap/clion/57/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/omer/CLionProjects/proj2
+CMAKE_SOURCE_DIR = /home/moriya/CLionProjects/untitled6
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/omer/CLionProjects/proj2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/moriya/CLionProjects/untitled6/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles /home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles /home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -312,6 +312,33 @@ FileCatchManager.cpp.s:
 	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/FileCatchManager.cpp.s
 .PHONY : FileCatchManager.cpp.s
 
+ISearcher.o: ISearcher.cpp.o
+
+.PHONY : ISearcher.o
+
+# target to build an object file
+ISearcher.cpp.o:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/ISearcher.cpp.o
+.PHONY : ISearcher.cpp.o
+
+ISearcher.i: ISearcher.cpp.i
+
+.PHONY : ISearcher.i
+
+# target to preprocess a source file
+ISearcher.cpp.i:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/ISearcher.cpp.i
+.PHONY : ISearcher.cpp.i
+
+ISearcher.s: ISearcher.cpp.s
+
+.PHONY : ISearcher.s
+
+# target to generate assembly for a file
+ISearcher.cpp.s:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/ISearcher.cpp.s
+.PHONY : ISearcher.cpp.s
+
 Minus.o: Minus.cpp.o
 
 .PHONY : Minus.o
@@ -365,6 +392,33 @@ Multiplication.s: Multiplication.cpp.s
 Multiplication.cpp.s:
 	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Multiplication.cpp.s
 .PHONY : Multiplication.cpp.s
+
+MyPriorityQueue.o: MyPriorityQueue.cpp.o
+
+.PHONY : MyPriorityQueue.o
+
+# target to build an object file
+MyPriorityQueue.cpp.o:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/MyPriorityQueue.cpp.o
+.PHONY : MyPriorityQueue.cpp.o
+
+MyPriorityQueue.i: MyPriorityQueue.cpp.i
+
+.PHONY : MyPriorityQueue.i
+
+# target to preprocess a source file
+MyPriorityQueue.cpp.i:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/MyPriorityQueue.cpp.i
+.PHONY : MyPriorityQueue.cpp.i
+
+MyPriorityQueue.s: MyPriorityQueue.cpp.s
+
+.PHONY : MyPriorityQueue.s
+
+# target to generate assembly for a file
+MyPriorityQueue.cpp.s:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/MyPriorityQueue.cpp.s
+.PHONY : MyPriorityQueue.cpp.s
 
 MySerialServer.o: MySerialServer.cpp.o
 
@@ -528,6 +582,33 @@ Searchable.cpp.s:
 	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Searchable.cpp.s
 .PHONY : Searchable.cpp.s
 
+Searcher.o: Searcher.cpp.o
+
+.PHONY : Searcher.o
+
+# target to build an object file
+Searcher.cpp.o:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Searcher.cpp.o
+.PHONY : Searcher.cpp.o
+
+Searcher.i: Searcher.cpp.i
+
+.PHONY : Searcher.i
+
+# target to preprocess a source file
+Searcher.cpp.i:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Searcher.cpp.i
+.PHONY : Searcher.cpp.i
+
+Searcher.s: Searcher.cpp.s
+
+.PHONY : Searcher.s
+
+# target to generate assembly for a file
+Searcher.cpp.s:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Searcher.cpp.s
+.PHONY : Searcher.cpp.s
+
 Server.o: Server.cpp.o
 
 .PHONY : Server.o
@@ -581,6 +662,33 @@ Solver.s: Solver.cpp.s
 Solver.cpp.s:
 	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Solver.cpp.s
 .PHONY : Solver.cpp.s
+
+State.o: State.cpp.o
+
+.PHONY : State.o
+
+# target to build an object file
+State.cpp.o:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/State.cpp.o
+.PHONY : State.cpp.o
+
+State.i: State.cpp.i
+
+.PHONY : State.i
+
+# target to preprocess a source file
+State.cpp.i:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/State.cpp.i
+.PHONY : State.cpp.i
+
+State.s: State.cpp.s
+
+.PHONY : State.s
+
+# target to generate assembly for a file
+State.cpp.s:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/State.cpp.s
+.PHONY : State.cpp.s
 
 StringReverser.o: StringReverser.cpp.o
 
@@ -693,12 +801,18 @@ help:
 	@echo "... FileCatchManager.o"
 	@echo "... FileCatchManager.i"
 	@echo "... FileCatchManager.s"
+	@echo "... ISearcher.o"
+	@echo "... ISearcher.i"
+	@echo "... ISearcher.s"
 	@echo "... Minus.o"
 	@echo "... Minus.i"
 	@echo "... Minus.s"
 	@echo "... Multiplication.o"
 	@echo "... Multiplication.i"
 	@echo "... Multiplication.s"
+	@echo "... MyPriorityQueue.o"
+	@echo "... MyPriorityQueue.i"
+	@echo "... MyPriorityQueue.s"
 	@echo "... MySerialServer.o"
 	@echo "... MySerialServer.i"
 	@echo "... MySerialServer.s"
@@ -717,12 +831,18 @@ help:
 	@echo "... Searchable.o"
 	@echo "... Searchable.i"
 	@echo "... Searchable.s"
+	@echo "... Searcher.o"
+	@echo "... Searcher.i"
+	@echo "... Searcher.s"
 	@echo "... Server.o"
 	@echo "... Server.i"
 	@echo "... Server.s"
 	@echo "... Solver.o"
 	@echo "... Solver.i"
 	@echo "... Solver.s"
+	@echo "... State.o"
+	@echo "... State.i"
+	@echo "... State.s"
 	@echo "... StringReverser.o"
 	@echo "... StringReverser.i"
 	@echo "... StringReverser.s"
