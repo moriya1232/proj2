@@ -7,10 +7,13 @@
 
 #include "Searchable.h"
 #include "Searcher.h"
+#include "string"
+
+
 class ISearcher {
 
 public:
-    virtual void search(Searchable*)=0;
+    virtual string search(Searchable*)=0;
 };
 
 #endif //PROJ2_ISEARCHER_H

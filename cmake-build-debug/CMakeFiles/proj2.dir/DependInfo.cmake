@@ -4,14 +4,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/moriya/CLionProjects/untitled6/BFS.cpp" "/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/proj2.dir/BFS.cpp.o"
   "/home/moriya/CLionProjects/untitled6/BinaryExpression.cpp" "/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/proj2.dir/BinaryExpression.cpp.o"
   "/home/moriya/CLionProjects/untitled6/CacheManager.cpp" "/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/proj2.dir/CacheManager.cpp.o"
   "/home/moriya/CLionProjects/untitled6/ClientHandler.cpp" "/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/proj2.dir/ClientHandler.cpp.o"
+  "/home/moriya/CLionProjects/untitled6/DFS.cpp" "/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/proj2.dir/DFS.cpp.o"
   "/home/moriya/CLionProjects/untitled6/Divide.cpp" "/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/proj2.dir/Divide.cpp.o"
   "/home/moriya/CLionProjects/untitled6/Expression.cpp" "/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/proj2.dir/Expression.cpp.o"
   "/home/moriya/CLionProjects/untitled6/ExpressionSolver.cpp" "/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/proj2.dir/ExpressionSolver.cpp.o"
   "/home/moriya/CLionProjects/untitled6/FileCatchManager.cpp" "/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/proj2.dir/FileCatchManager.cpp.o"
   "/home/moriya/CLionProjects/untitled6/ISearcher.cpp" "/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/proj2.dir/ISearcher.cpp.o"
+  "/home/moriya/CLionProjects/untitled6/Matrix.cpp" "/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/proj2.dir/Matrix.cpp.o"
   "/home/moriya/CLionProjects/untitled6/Minus.cpp" "/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/proj2.dir/Minus.cpp.o"
   "/home/moriya/CLionProjects/untitled6/Multiplication.cpp" "/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/proj2.dir/Multiplication.cpp.o"
   "/home/moriya/CLionProjects/untitled6/MyPriorityQueue.cpp" "/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/proj2.dir/MyPriorityQueue.cpp.o"

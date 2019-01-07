@@ -9,12 +9,16 @@ using namespace std;
 #include "list"
 #include "State.h"
 
+template <class T>
 class Searchable {
-public:
-    virtual  State<class T> getInitialState()=0;
-    virtual list<State<class T>> getAllPossibleStates()=0;
-    virtual State<class T> getGoalState()=0;
+    unsigned int size;
 
+public:
+    virtual  State<T> getInitialState()=0;
+    virtual list<State<T>> getAllPossibleStates(State<T>)=0;
+    virtual State<T> getGoalState()=0;
+    virtual size_t getSize();
 };
 
 #endif //UNTITLED6_SEARCHABLE_H
+

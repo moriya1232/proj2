@@ -6,6 +6,7 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(.)
 
 add_executable(proj2
+        BFS.cpp
         BFS.h
         BinaryExpression.cpp
         BinaryExpression.h
@@ -13,6 +14,8 @@ add_executable(proj2
         CacheManager.h
         ClientHandler.cpp
         ClientHandler.h
+        DFS.cpp
+        DFS.h
         Divide.cpp
         Divide.h
         Expression.cpp
@@ -24,6 +27,8 @@ add_executable(proj2
         ISearcher.cpp
         ISearcher.h
         main.cpp
+        Matrix.cpp
+        Matrix.h
         Minus.cpp
         Minus.h
         Multiplication.cpp

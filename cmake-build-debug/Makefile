@@ -123,6 +123,33 @@ proj2/fast:
 	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/build
 .PHONY : proj2/fast
 
+BFS.o: BFS.cpp.o
+
+.PHONY : BFS.o
+
+# target to build an object file
+BFS.cpp.o:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/BFS.cpp.o
+.PHONY : BFS.cpp.o
+
+BFS.i: BFS.cpp.i
+
+.PHONY : BFS.i
+
+# target to preprocess a source file
+BFS.cpp.i:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/BFS.cpp.i
+.PHONY : BFS.cpp.i
+
+BFS.s: BFS.cpp.s
+
+.PHONY : BFS.s
+
+# target to generate assembly for a file
+BFS.cpp.s:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/BFS.cpp.s
+.PHONY : BFS.cpp.s
+
 BinaryExpression.o: BinaryExpression.cpp.o
 
 .PHONY : BinaryExpression.o
@@ -203,6 +230,33 @@ ClientHandler.s: ClientHandler.cpp.s
 ClientHandler.cpp.s:
 	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/ClientHandler.cpp.s
 .PHONY : ClientHandler.cpp.s
+
+DFS.o: DFS.cpp.o
+
+.PHONY : DFS.o
+
+# target to build an object file
+DFS.cpp.o:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/DFS.cpp.o
+.PHONY : DFS.cpp.o
+
+DFS.i: DFS.cpp.i
+
+.PHONY : DFS.i
+
+# target to preprocess a source file
+DFS.cpp.i:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/DFS.cpp.i
+.PHONY : DFS.cpp.i
+
+DFS.s: DFS.cpp.s
+
+.PHONY : DFS.s
+
+# target to generate assembly for a file
+DFS.cpp.s:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/DFS.cpp.s
+.PHONY : DFS.cpp.s
 
 Divide.o: Divide.cpp.o
 
@@ -338,6 +392,33 @@ ISearcher.s: ISearcher.cpp.s
 ISearcher.cpp.s:
 	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/ISearcher.cpp.s
 .PHONY : ISearcher.cpp.s
+
+Matrix.o: Matrix.cpp.o
+
+.PHONY : Matrix.o
+
+# target to build an object file
+Matrix.cpp.o:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Matrix.cpp.o
+.PHONY : Matrix.cpp.o
+
+Matrix.i: Matrix.cpp.i
+
+.PHONY : Matrix.i
+
+# target to preprocess a source file
+Matrix.cpp.i:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Matrix.cpp.i
+.PHONY : Matrix.cpp.i
+
+Matrix.s: Matrix.cpp.s
+
+.PHONY : Matrix.s
+
+# target to generate assembly for a file
+Matrix.cpp.s:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Matrix.cpp.s
+.PHONY : Matrix.cpp.s
 
 Minus.o: Minus.cpp.o
 
@@ -780,6 +861,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... proj2"
 	@echo "... edit_cache"
+	@echo "... BFS.o"
+	@echo "... BFS.i"
+	@echo "... BFS.s"
 	@echo "... BinaryExpression.o"
 	@echo "... BinaryExpression.i"
 	@echo "... BinaryExpression.s"
@@ -789,6 +873,9 @@ help:
 	@echo "... ClientHandler.o"
 	@echo "... ClientHandler.i"
 	@echo "... ClientHandler.s"
+	@echo "... DFS.o"
+	@echo "... DFS.i"
+	@echo "... DFS.s"
 	@echo "... Divide.o"
 	@echo "... Divide.i"
 	@echo "... Divide.s"
@@ -804,6 +891,9 @@ help:
 	@echo "... ISearcher.o"
 	@echo "... ISearcher.i"
 	@echo "... ISearcher.s"
+	@echo "... Matrix.o"
+	@echo "... Matrix.i"
+	@echo "... Matrix.s"
 	@echo "... Minus.o"
 	@echo "... Minus.i"
 	@echo "... Minus.s"

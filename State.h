@@ -5,16 +5,20 @@
 #ifndef PROJ2_STATE_H
 #define PROJ2_STATE_H
 
+#include <list>
+
+using namespace std;
 
 template <class T>
-class State {
+class State{
     T state;
-    double cost;
-    State<T> comeFrom;
-
+    //double cost;
+    //State<T> comeFrom;
+    //list<State<T>> adj;
 public:
     State(T);
-    bool Equals(State<T> s);
+    bool Equals(State<T>);
+    //list<State<T>> getAdj();
 };
 
 

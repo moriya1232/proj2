@@ -1,9 +1,9 @@
 //
-// Created by omer on 1/6/19.
+// Created by moriya on 07/01/19.
 //
 
-#ifndef UNTITLED6_BFS_H
-#define UNTITLED6_BFS_H
+#ifndef PROJ2_DFS_H
+#define PROJ2_DFS_H
 
 #include "Searcher.h"
 #include "Searchable.h"
@@ -12,11 +12,11 @@ using namespace std;
 
 
 
-class BFS: public Searcher {
+class DFS: public Searcher {
 
     string search(Searchable<class T>* searchable);
 };
 
 
 
-#endif //UNTITLED6_BFS_H
+#endif //PROJ2_DFS_H

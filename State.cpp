@@ -3,14 +3,19 @@
 //
 #include "State.h"
 
-
-template<class T>
-State:: State(T state) {
-    this->state = state;
-
+State<T>:: State<T>(T t) {
+this->state = t;
 }
 
-template<class T>
-bool State:: Equals(State<T> s) {
-    return this->state.Equals(s.state);
+bool State<class T>:: Equals(State<T> s) {
+    // how to equal???
+
+
+
+    //return this->state.Equals(s.state);
 }
+
+
+/*list<State<T>> State<T>:: getAdj() {
+    return this->adj;
+}*/

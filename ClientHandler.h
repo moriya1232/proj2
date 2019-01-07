@@ -11,13 +11,13 @@ using namespace std;
 #include "Solver.h"
 #include "CacheManager.h"
 
-
+template <class problem, class solution>
 class ClientHandler {
 //ifstream in;
 //ofstream out;
 public:
-virtual Solver<class problem,class solution>* getSolver() = 0;
-virtual void setSolver(Solver<class problem,class solution>*) = 0;
+virtual Solver<problem,solution>* getSolver() = 0;
+virtual void setSolver(Solver<problem,solution>*) = 0;
 virtual CacheManager* getCacheManager()=0;
 virtual void setCacheManager(CacheManager)=0;
 

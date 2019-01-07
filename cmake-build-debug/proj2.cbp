@@ -90,6 +90,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/moriya/CLionProjects/untitled6/BFS.cpp">
+			<Option target="proj2"/>
+		</Unit>
 		<Unit filename="/home/moriya/CLionProjects/untitled6/BFS.h">
 			<Option target="proj2"/>
 		</Unit>
@@ -109,6 +112,12 @@
 			<Option target="proj2"/>
 		</Unit>
 		<Unit filename="/home/moriya/CLionProjects/untitled6/ClientHandler.h">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/moriya/CLionProjects/untitled6/DFS.cpp">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/moriya/CLionProjects/untitled6/DFS.h">
 			<Option target="proj2"/>
 		</Unit>
 		<Unit filename="/home/moriya/CLionProjects/untitled6/Divide.cpp">
@@ -139,6 +148,12 @@
 			<Option target="proj2"/>
 		</Unit>
 		<Unit filename="/home/moriya/CLionProjects/untitled6/ISearcher.h">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/moriya/CLionProjects/untitled6/Matrix.cpp">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/moriya/CLionProjects/untitled6/Matrix.h">
 			<Option target="proj2"/>
 		</Unit>
 		<Unit filename="/home/moriya/CLionProjects/untitled6/Minus.cpp">
