@@ -2,8 +2,9 @@
 // Created by moriya on 07/01/19.
 //
 #include "BFS.h"
+#include <iostream>
 
-
+template<typename T>
 string BFS:: search(Searchable<T>* searchable) {
     int counter = 0;
     bool *visited = new bool[searchable->getSize()];
@@ -20,7 +21,7 @@ string BFS:: search(Searchable<T>* searchable) {
 
     // 'i' will be used to get all adjacent
     // vertices of a vertex
-    list<State<T>>::iterator i;
+    list<State<T>>::iterator it;
     while (!queue.empty()) {
         // Dequeue a vertex from queue and print it
         current = queue.front();
@@ -30,11 +31,12 @@ string BFS:: search(Searchable<T>* searchable) {
         // vertex s. If a adjacent has not been visited,
         // then mark it visited and enqueue it
 
-        for (i = queue.begin(); i != searchable->getAllPossibleStates(*i).end(); ++i) {
+        for (it = queue.begin(); it != searchable->getAllPossibleStates(*it).end(); ++it) {
             if (!visited[counter]) {
                 visited[counter] = true;
-                queue.push_back(*i);
+                queue.push_back(*it);
             }
+            cout << it->getState() << endl;
             ++counter;
         }
     }
