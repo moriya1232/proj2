@@ -4,8 +4,6 @@
 
 #include "Matrix.h"
 
-
-
 /**
  * this is the constractor of matrix
  * @param arr - 2D array.
@@ -22,8 +20,8 @@ Matrix:: Matrix(int** arr, size_t m ,size_t n) {
         }
     }
     this->arr = array2;
-
 }
+
 
 /**
  * this function return the start of the matrix.
@@ -42,9 +40,9 @@ State<int> Matrix:: getInitialState(){
 list<State<int>> Matrix:: getAllPossibleStates(State<int>){
 list<State<int>>;
 
-
-// do it!
+//do it!
 }
+
 
 /**
  * this function return the goal of where we need to go.
@@ -53,6 +51,7 @@ list<State<int>>;
 State<int> Matrix:: getGoalState(){
 return this->arr[m][n];
 }
+
 
 /**
  * this function returns how much nodes we have.
