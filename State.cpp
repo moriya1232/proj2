@@ -3,16 +3,13 @@
 //
 #include "State.h"
 
-State<T>:: State<T>(T t) {
+template<typename T>
+State<T>:: State(T t) {
 this->state = t;
 }
 
 bool State<class T>:: Equals(State<T> s) {
-    // how to equal???
-
-
-
-    //return this->state.Equals(s.state);
+    return (this->state == (s.state));
 }
 
 
