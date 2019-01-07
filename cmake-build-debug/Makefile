@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named untitled6
+# Target rules for targets named proj2
 
 # Build rule for target.
-untitled6: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 untitled6
-.PHONY : untitled6
+proj2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 proj2
+.PHONY : proj2
 
 # fast build rule for target.
-untitled6/fast:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/build
-.PHONY : untitled6/fast
+proj2/fast:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/build
+.PHONY : proj2/fast
 
 BinaryExpression.o: BinaryExpression.cpp.o
 
@@ -129,7 +129,7 @@ BinaryExpression.o: BinaryExpression.cpp.o
 
 # target to build an object file
 BinaryExpression.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/BinaryExpression.cpp.o
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/BinaryExpression.cpp.o
 .PHONY : BinaryExpression.cpp.o
 
 BinaryExpression.i: BinaryExpression.cpp.i
@@ -138,7 +138,7 @@ BinaryExpression.i: BinaryExpression.cpp.i
 
 # target to preprocess a source file
 BinaryExpression.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/BinaryExpression.cpp.i
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/BinaryExpression.cpp.i
 .PHONY : BinaryExpression.cpp.i
 
 BinaryExpression.s: BinaryExpression.cpp.s
@@ -147,7 +147,7 @@ BinaryExpression.s: BinaryExpression.cpp.s
 
 # target to generate assembly for a file
 BinaryExpression.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/BinaryExpression.cpp.s
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/BinaryExpression.cpp.s
 .PHONY : BinaryExpression.cpp.s
 
 CacheManager.o: CacheManager.cpp.o
@@ -156,7 +156,7 @@ CacheManager.o: CacheManager.cpp.o
 
 # target to build an object file
 CacheManager.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/CacheManager.cpp.o
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/CacheManager.cpp.o
 .PHONY : CacheManager.cpp.o
 
 CacheManager.i: CacheManager.cpp.i
@@ -165,7 +165,7 @@ CacheManager.i: CacheManager.cpp.i
 
 # target to preprocess a source file
 CacheManager.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/CacheManager.cpp.i
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/CacheManager.cpp.i
 .PHONY : CacheManager.cpp.i
 
 CacheManager.s: CacheManager.cpp.s
@@ -174,7 +174,7 @@ CacheManager.s: CacheManager.cpp.s
 
 # target to generate assembly for a file
 CacheManager.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/CacheManager.cpp.s
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/CacheManager.cpp.s
 .PHONY : CacheManager.cpp.s
 
 ClientHandler.o: ClientHandler.cpp.o
@@ -183,7 +183,7 @@ ClientHandler.o: ClientHandler.cpp.o
 
 # target to build an object file
 ClientHandler.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/ClientHandler.cpp.o
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/ClientHandler.cpp.o
 .PHONY : ClientHandler.cpp.o
 
 ClientHandler.i: ClientHandler.cpp.i
@@ -192,7 +192,7 @@ ClientHandler.i: ClientHandler.cpp.i
 
 # target to preprocess a source file
 ClientHandler.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/ClientHandler.cpp.i
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/ClientHandler.cpp.i
 .PHONY : ClientHandler.cpp.i
 
 ClientHandler.s: ClientHandler.cpp.s
@@ -201,7 +201,7 @@ ClientHandler.s: ClientHandler.cpp.s
 
 # target to generate assembly for a file
 ClientHandler.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/ClientHandler.cpp.s
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/ClientHandler.cpp.s
 .PHONY : ClientHandler.cpp.s
 
 Divide.o: Divide.cpp.o
@@ -210,7 +210,7 @@ Divide.o: Divide.cpp.o
 
 # target to build an object file
 Divide.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Divide.cpp.o
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Divide.cpp.o
 .PHONY : Divide.cpp.o
 
 Divide.i: Divide.cpp.i
@@ -219,7 +219,7 @@ Divide.i: Divide.cpp.i
 
 # target to preprocess a source file
 Divide.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Divide.cpp.i
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Divide.cpp.i
 .PHONY : Divide.cpp.i
 
 Divide.s: Divide.cpp.s
@@ -228,7 +228,7 @@ Divide.s: Divide.cpp.s
 
 # target to generate assembly for a file
 Divide.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Divide.cpp.s
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Divide.cpp.s
 .PHONY : Divide.cpp.s
 
 Expression.o: Expression.cpp.o
@@ -237,7 +237,7 @@ Expression.o: Expression.cpp.o
 
 # target to build an object file
 Expression.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Expression.cpp.o
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Expression.cpp.o
 .PHONY : Expression.cpp.o
 
 Expression.i: Expression.cpp.i
@@ -246,7 +246,7 @@ Expression.i: Expression.cpp.i
 
 # target to preprocess a source file
 Expression.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Expression.cpp.i
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Expression.cpp.i
 .PHONY : Expression.cpp.i
 
 Expression.s: Expression.cpp.s
@@ -255,7 +255,7 @@ Expression.s: Expression.cpp.s
 
 # target to generate assembly for a file
 Expression.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Expression.cpp.s
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Expression.cpp.s
 .PHONY : Expression.cpp.s
 
 ExpressionSolver.o: ExpressionSolver.cpp.o
@@ -264,7 +264,7 @@ ExpressionSolver.o: ExpressionSolver.cpp.o
 
 # target to build an object file
 ExpressionSolver.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/ExpressionSolver.cpp.o
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/ExpressionSolver.cpp.o
 .PHONY : ExpressionSolver.cpp.o
 
 ExpressionSolver.i: ExpressionSolver.cpp.i
@@ -273,7 +273,7 @@ ExpressionSolver.i: ExpressionSolver.cpp.i
 
 # target to preprocess a source file
 ExpressionSolver.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/ExpressionSolver.cpp.i
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/ExpressionSolver.cpp.i
 .PHONY : ExpressionSolver.cpp.i
 
 ExpressionSolver.s: ExpressionSolver.cpp.s
@@ -282,8 +282,62 @@ ExpressionSolver.s: ExpressionSolver.cpp.s
 
 # target to generate assembly for a file
 ExpressionSolver.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/ExpressionSolver.cpp.s
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/ExpressionSolver.cpp.s
 .PHONY : ExpressionSolver.cpp.s
+
+FileCatchManager.o: FileCatchManager.cpp.o
+
+.PHONY : FileCatchManager.o
+
+# target to build an object file
+FileCatchManager.cpp.o:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/FileCatchManager.cpp.o
+.PHONY : FileCatchManager.cpp.o
+
+FileCatchManager.i: FileCatchManager.cpp.i
+
+.PHONY : FileCatchManager.i
+
+# target to preprocess a source file
+FileCatchManager.cpp.i:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/FileCatchManager.cpp.i
+.PHONY : FileCatchManager.cpp.i
+
+FileCatchManager.s: FileCatchManager.cpp.s
+
+.PHONY : FileCatchManager.s
+
+# target to generate assembly for a file
+FileCatchManager.cpp.s:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/FileCatchManager.cpp.s
+.PHONY : FileCatchManager.cpp.s
+
+ISearcher.o: ISearcher.cpp.o
+
+.PHONY : ISearcher.o
+
+# target to build an object file
+ISearcher.cpp.o:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/ISearcher.cpp.o
+.PHONY : ISearcher.cpp.o
+
+ISearcher.i: ISearcher.cpp.i
+
+.PHONY : ISearcher.i
+
+# target to preprocess a source file
+ISearcher.cpp.i:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/ISearcher.cpp.i
+.PHONY : ISearcher.cpp.i
+
+ISearcher.s: ISearcher.cpp.s
+
+.PHONY : ISearcher.s
+
+# target to generate assembly for a file
+ISearcher.cpp.s:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/ISearcher.cpp.s
+.PHONY : ISearcher.cpp.s
 
 Minus.o: Minus.cpp.o
 
@@ -291,7 +345,7 @@ Minus.o: Minus.cpp.o
 
 # target to build an object file
 Minus.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Minus.cpp.o
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Minus.cpp.o
 .PHONY : Minus.cpp.o
 
 Minus.i: Minus.cpp.i
@@ -300,7 +354,7 @@ Minus.i: Minus.cpp.i
 
 # target to preprocess a source file
 Minus.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Minus.cpp.i
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Minus.cpp.i
 .PHONY : Minus.cpp.i
 
 Minus.s: Minus.cpp.s
@@ -309,7 +363,7 @@ Minus.s: Minus.cpp.s
 
 # target to generate assembly for a file
 Minus.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Minus.cpp.s
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Minus.cpp.s
 .PHONY : Minus.cpp.s
 
 Multiplication.o: Multiplication.cpp.o
@@ -318,7 +372,7 @@ Multiplication.o: Multiplication.cpp.o
 
 # target to build an object file
 Multiplication.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Multiplication.cpp.o
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Multiplication.cpp.o
 .PHONY : Multiplication.cpp.o
 
 Multiplication.i: Multiplication.cpp.i
@@ -327,7 +381,7 @@ Multiplication.i: Multiplication.cpp.i
 
 # target to preprocess a source file
 Multiplication.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Multiplication.cpp.i
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Multiplication.cpp.i
 .PHONY : Multiplication.cpp.i
 
 Multiplication.s: Multiplication.cpp.s
@@ -336,8 +390,35 @@ Multiplication.s: Multiplication.cpp.s
 
 # target to generate assembly for a file
 Multiplication.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Multiplication.cpp.s
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Multiplication.cpp.s
 .PHONY : Multiplication.cpp.s
+
+MyPriorityQueue.o: MyPriorityQueue.cpp.o
+
+.PHONY : MyPriorityQueue.o
+
+# target to build an object file
+MyPriorityQueue.cpp.o:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/MyPriorityQueue.cpp.o
+.PHONY : MyPriorityQueue.cpp.o
+
+MyPriorityQueue.i: MyPriorityQueue.cpp.i
+
+.PHONY : MyPriorityQueue.i
+
+# target to preprocess a source file
+MyPriorityQueue.cpp.i:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/MyPriorityQueue.cpp.i
+.PHONY : MyPriorityQueue.cpp.i
+
+MyPriorityQueue.s: MyPriorityQueue.cpp.s
+
+.PHONY : MyPriorityQueue.s
+
+# target to generate assembly for a file
+MyPriorityQueue.cpp.s:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/MyPriorityQueue.cpp.s
+.PHONY : MyPriorityQueue.cpp.s
 
 MySerialServer.o: MySerialServer.cpp.o
 
@@ -345,7 +426,7 @@ MySerialServer.o: MySerialServer.cpp.o
 
 # target to build an object file
 MySerialServer.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/MySerialServer.cpp.o
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/MySerialServer.cpp.o
 .PHONY : MySerialServer.cpp.o
 
 MySerialServer.i: MySerialServer.cpp.i
@@ -354,7 +435,7 @@ MySerialServer.i: MySerialServer.cpp.i
 
 # target to preprocess a source file
 MySerialServer.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/MySerialServer.cpp.i
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/MySerialServer.cpp.i
 .PHONY : MySerialServer.cpp.i
 
 MySerialServer.s: MySerialServer.cpp.s
@@ -363,7 +444,7 @@ MySerialServer.s: MySerialServer.cpp.s
 
 # target to generate assembly for a file
 MySerialServer.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/MySerialServer.cpp.s
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/MySerialServer.cpp.s
 .PHONY : MySerialServer.cpp.s
 
 MyTestClientHandler.o: MyTestClientHandler.cpp.o
@@ -372,7 +453,7 @@ MyTestClientHandler.o: MyTestClientHandler.cpp.o
 
 # target to build an object file
 MyTestClientHandler.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/MyTestClientHandler.cpp.o
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/MyTestClientHandler.cpp.o
 .PHONY : MyTestClientHandler.cpp.o
 
 MyTestClientHandler.i: MyTestClientHandler.cpp.i
@@ -381,7 +462,7 @@ MyTestClientHandler.i: MyTestClientHandler.cpp.i
 
 # target to preprocess a source file
 MyTestClientHandler.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/MyTestClientHandler.cpp.i
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/MyTestClientHandler.cpp.i
 .PHONY : MyTestClientHandler.cpp.i
 
 MyTestClientHandler.s: MyTestClientHandler.cpp.s
@@ -390,7 +471,7 @@ MyTestClientHandler.s: MyTestClientHandler.cpp.s
 
 # target to generate assembly for a file
 MyTestClientHandler.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/MyTestClientHandler.cpp.s
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/MyTestClientHandler.cpp.s
 .PHONY : MyTestClientHandler.cpp.s
 
 Number.o: Number.cpp.o
@@ -399,7 +480,7 @@ Number.o: Number.cpp.o
 
 # target to build an object file
 Number.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Number.cpp.o
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Number.cpp.o
 .PHONY : Number.cpp.o
 
 Number.i: Number.cpp.i
@@ -408,7 +489,7 @@ Number.i: Number.cpp.i
 
 # target to preprocess a source file
 Number.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Number.cpp.i
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Number.cpp.i
 .PHONY : Number.cpp.i
 
 Number.s: Number.cpp.s
@@ -417,8 +498,35 @@ Number.s: Number.cpp.s
 
 # target to generate assembly for a file
 Number.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Number.cpp.s
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Number.cpp.s
 .PHONY : Number.cpp.s
+
+ParallelServer.o: ParallelServer.cpp.o
+
+.PHONY : ParallelServer.o
+
+# target to build an object file
+ParallelServer.cpp.o:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/ParallelServer.cpp.o
+.PHONY : ParallelServer.cpp.o
+
+ParallelServer.i: ParallelServer.cpp.i
+
+.PHONY : ParallelServer.i
+
+# target to preprocess a source file
+ParallelServer.cpp.i:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/ParallelServer.cpp.i
+.PHONY : ParallelServer.cpp.i
+
+ParallelServer.s: ParallelServer.cpp.s
+
+.PHONY : ParallelServer.s
+
+# target to generate assembly for a file
+ParallelServer.cpp.s:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/ParallelServer.cpp.s
+.PHONY : ParallelServer.cpp.s
 
 Plus.o: Plus.cpp.o
 
@@ -426,7 +534,7 @@ Plus.o: Plus.cpp.o
 
 # target to build an object file
 Plus.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Plus.cpp.o
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Plus.cpp.o
 .PHONY : Plus.cpp.o
 
 Plus.i: Plus.cpp.i
@@ -435,7 +543,7 @@ Plus.i: Plus.cpp.i
 
 # target to preprocess a source file
 Plus.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Plus.cpp.i
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Plus.cpp.i
 .PHONY : Plus.cpp.i
 
 Plus.s: Plus.cpp.s
@@ -444,8 +552,62 @@ Plus.s: Plus.cpp.s
 
 # target to generate assembly for a file
 Plus.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Plus.cpp.s
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Plus.cpp.s
 .PHONY : Plus.cpp.s
+
+Searchable.o: Searchable.cpp.o
+
+.PHONY : Searchable.o
+
+# target to build an object file
+Searchable.cpp.o:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Searchable.cpp.o
+.PHONY : Searchable.cpp.o
+
+Searchable.i: Searchable.cpp.i
+
+.PHONY : Searchable.i
+
+# target to preprocess a source file
+Searchable.cpp.i:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Searchable.cpp.i
+.PHONY : Searchable.cpp.i
+
+Searchable.s: Searchable.cpp.s
+
+.PHONY : Searchable.s
+
+# target to generate assembly for a file
+Searchable.cpp.s:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Searchable.cpp.s
+.PHONY : Searchable.cpp.s
+
+Searcher.o: Searcher.cpp.o
+
+.PHONY : Searcher.o
+
+# target to build an object file
+Searcher.cpp.o:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Searcher.cpp.o
+.PHONY : Searcher.cpp.o
+
+Searcher.i: Searcher.cpp.i
+
+.PHONY : Searcher.i
+
+# target to preprocess a source file
+Searcher.cpp.i:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Searcher.cpp.i
+.PHONY : Searcher.cpp.i
+
+Searcher.s: Searcher.cpp.s
+
+.PHONY : Searcher.s
+
+# target to generate assembly for a file
+Searcher.cpp.s:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Searcher.cpp.s
+.PHONY : Searcher.cpp.s
 
 Server.o: Server.cpp.o
 
@@ -453,7 +615,7 @@ Server.o: Server.cpp.o
 
 # target to build an object file
 Server.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Server.cpp.o
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Server.cpp.o
 .PHONY : Server.cpp.o
 
 Server.i: Server.cpp.i
@@ -462,7 +624,7 @@ Server.i: Server.cpp.i
 
 # target to preprocess a source file
 Server.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Server.cpp.i
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Server.cpp.i
 .PHONY : Server.cpp.i
 
 Server.s: Server.cpp.s
@@ -471,7 +633,7 @@ Server.s: Server.cpp.s
 
 # target to generate assembly for a file
 Server.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Server.cpp.s
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Server.cpp.s
 .PHONY : Server.cpp.s
 
 Solver.o: Solver.cpp.o
@@ -480,7 +642,7 @@ Solver.o: Solver.cpp.o
 
 # target to build an object file
 Solver.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Solver.cpp.o
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Solver.cpp.o
 .PHONY : Solver.cpp.o
 
 Solver.i: Solver.cpp.i
@@ -489,7 +651,7 @@ Solver.i: Solver.cpp.i
 
 # target to preprocess a source file
 Solver.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Solver.cpp.i
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Solver.cpp.i
 .PHONY : Solver.cpp.i
 
 Solver.s: Solver.cpp.s
@@ -498,8 +660,35 @@ Solver.s: Solver.cpp.s
 
 # target to generate assembly for a file
 Solver.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/Solver.cpp.s
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Solver.cpp.s
 .PHONY : Solver.cpp.s
+
+State.o: State.cpp.o
+
+.PHONY : State.o
+
+# target to build an object file
+State.cpp.o:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/State.cpp.o
+.PHONY : State.cpp.o
+
+State.i: State.cpp.i
+
+.PHONY : State.i
+
+# target to preprocess a source file
+State.cpp.i:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/State.cpp.i
+.PHONY : State.cpp.i
+
+State.s: State.cpp.s
+
+.PHONY : State.s
+
+# target to generate assembly for a file
+State.cpp.s:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/State.cpp.s
+.PHONY : State.cpp.s
 
 StringReverser.o: StringReverser.cpp.o
 
@@ -507,7 +696,7 @@ StringReverser.o: StringReverser.cpp.o
 
 # target to build an object file
 StringReverser.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/StringReverser.cpp.o
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/StringReverser.cpp.o
 .PHONY : StringReverser.cpp.o
 
 StringReverser.i: StringReverser.cpp.i
@@ -516,7 +705,7 @@ StringReverser.i: StringReverser.cpp.i
 
 # target to preprocess a source file
 StringReverser.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/StringReverser.cpp.i
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/StringReverser.cpp.i
 .PHONY : StringReverser.cpp.i
 
 StringReverser.s: StringReverser.cpp.s
@@ -525,7 +714,7 @@ StringReverser.s: StringReverser.cpp.s
 
 # target to generate assembly for a file
 StringReverser.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/StringReverser.cpp.s
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/StringReverser.cpp.s
 .PHONY : StringReverser.cpp.s
 
 UnaryExpression.o: UnaryExpression.cpp.o
@@ -534,7 +723,7 @@ UnaryExpression.o: UnaryExpression.cpp.o
 
 # target to build an object file
 UnaryExpression.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/UnaryExpression.cpp.o
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/UnaryExpression.cpp.o
 .PHONY : UnaryExpression.cpp.o
 
 UnaryExpression.i: UnaryExpression.cpp.i
@@ -543,7 +732,7 @@ UnaryExpression.i: UnaryExpression.cpp.i
 
 # target to preprocess a source file
 UnaryExpression.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/UnaryExpression.cpp.i
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/UnaryExpression.cpp.i
 .PHONY : UnaryExpression.cpp.i
 
 UnaryExpression.s: UnaryExpression.cpp.s
@@ -552,7 +741,7 @@ UnaryExpression.s: UnaryExpression.cpp.s
 
 # target to generate assembly for a file
 UnaryExpression.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/UnaryExpression.cpp.s
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/UnaryExpression.cpp.s
 .PHONY : UnaryExpression.cpp.s
 
 main.o: main.cpp.o
@@ -561,7 +750,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -570,7 +759,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -579,7 +768,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled6.dir/build.make CMakeFiles/untitled6.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -589,7 +778,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... untitled6"
+	@echo "... proj2"
 	@echo "... edit_cache"
 	@echo "... BinaryExpression.o"
 	@echo "... BinaryExpression.i"
@@ -609,12 +798,21 @@ help:
 	@echo "... ExpressionSolver.o"
 	@echo "... ExpressionSolver.i"
 	@echo "... ExpressionSolver.s"
+	@echo "... FileCatchManager.o"
+	@echo "... FileCatchManager.i"
+	@echo "... FileCatchManager.s"
+	@echo "... ISearcher.o"
+	@echo "... ISearcher.i"
+	@echo "... ISearcher.s"
 	@echo "... Minus.o"
 	@echo "... Minus.i"
 	@echo "... Minus.s"
 	@echo "... Multiplication.o"
 	@echo "... Multiplication.i"
 	@echo "... Multiplication.s"
+	@echo "... MyPriorityQueue.o"
+	@echo "... MyPriorityQueue.i"
+	@echo "... MyPriorityQueue.s"
 	@echo "... MySerialServer.o"
 	@echo "... MySerialServer.i"
 	@echo "... MySerialServer.s"
@@ -624,15 +822,27 @@ help:
 	@echo "... Number.o"
 	@echo "... Number.i"
 	@echo "... Number.s"
+	@echo "... ParallelServer.o"
+	@echo "... ParallelServer.i"
+	@echo "... ParallelServer.s"
 	@echo "... Plus.o"
 	@echo "... Plus.i"
 	@echo "... Plus.s"
+	@echo "... Searchable.o"
+	@echo "... Searchable.i"
+	@echo "... Searchable.s"
+	@echo "... Searcher.o"
+	@echo "... Searcher.i"
+	@echo "... Searcher.s"
 	@echo "... Server.o"
 	@echo "... Server.i"
 	@echo "... Server.s"
 	@echo "... Solver.o"
 	@echo "... Solver.i"
 	@echo "... Solver.s"
+	@echo "... State.o"
+	@echo "... State.i"
+	@echo "... State.s"
 	@echo "... StringReverser.o"
 	@echo "... StringReverser.i"
 	@echo "... StringReverser.s"

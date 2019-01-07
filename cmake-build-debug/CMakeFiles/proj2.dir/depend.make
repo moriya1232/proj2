@@ -1,2 +1,2 @@
-# Empty dependencies file for untitled6.
+# Empty dependencies file for proj2.
 # This may be replaced when dependencies are built.
