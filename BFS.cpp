@@ -4,7 +4,6 @@
 #include "BFS.h"
 #include <iostream>
 
-template<typename T>
 string BFS:: search(Searchable<T>* searchable) {
     int counter = 0;
     bool *visited = new bool[searchable->getSize()];
@@ -30,12 +29,12 @@ string BFS:: search(Searchable<T>* searchable) {
         // vertex s. If a adjacent has not been visited,
         // then mark it visited and enqueue it
 
-        for (T t : current) {
+        for (State<T> t : queue) {
             if (!visited[counter]) {
                 visited[counter] = true;
                 queue.push_back(t);
             }
-            cout << t->getState() << endl;
+            cout << t << endl;
             ++counter;
         }
     }

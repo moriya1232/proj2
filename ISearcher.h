@@ -13,7 +13,7 @@
 class ISearcher {
 
 public:
-    virtual string search(Searchable*)=0;
+    virtual string search(Searchable<T>*)=0;
 };
 
 #endif //PROJ2_ISEARCHER_H

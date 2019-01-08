@@ -45,6 +45,8 @@ add_executable(proj2
         ParallelServer.h
         Plus.cpp
         Plus.h
+        Point.cpp
+        Point.h
         Searchable.cpp
         Searchable.h
         Searcher.cpp

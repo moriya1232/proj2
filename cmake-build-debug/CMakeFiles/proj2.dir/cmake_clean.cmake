@@ -19,6 +19,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/proj2.dir/Number.cpp.o"
   "CMakeFiles/proj2.dir/ParallelServer.cpp.o"
   "CMakeFiles/proj2.dir/Plus.cpp.o"
+  "CMakeFiles/proj2.dir/Point.cpp.o"
   "CMakeFiles/proj2.dir/Searchable.cpp.o"
   "CMakeFiles/proj2.dir/Searcher.cpp.o"
   "CMakeFiles/proj2.dir/Server.cpp.o"

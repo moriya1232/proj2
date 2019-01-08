@@ -21,3 +21,8 @@ T State<T>::getState() {
 /*list<State<T>> State<T>:: getAdj() {
     return this->adj;
 }*/
+
+template<typename  T>
+double State<T>:: getCost() {
+    return this->cost;
+}

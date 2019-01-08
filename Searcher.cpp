@@ -8,7 +8,7 @@
  * this function is a constractor of searcher.
  */
 Searcher:: Searcher(){
-    this->myPriorityQueue = new MyPriorityQueue();
+    //this->myPriorityQueue = new MyPriorityQueue();
     this->evaluatedNodes = 0;
 
 }

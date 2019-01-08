@@ -13,13 +13,14 @@ template <class T>
 class State{
     T state;
     double cost;
-    State<T> comeFrom;
+    //State<T> comeFrom;
     list<State<T>> adj;
 public:
     State(T);
     T getState();
     bool Equals(State<T>);
     //list<State<T>> getAdj();
+    double getCost();
 };
 
 
