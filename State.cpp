@@ -8,10 +8,15 @@ State<T>:: State(T t) {
 this->state = t;
 }
 
-bool State<class T>:: Equals(State<T> s) {
+template<typename T>
+bool State<T>:: Equals(State<T> s) {
     return (this->state == (s.state));
 }
 
+template<typename  T>
+T State<T>::getState() {
+    return this->state;
+}
 
 /*list<State<T>> State<T>:: getAdj() {
     return this->adj;

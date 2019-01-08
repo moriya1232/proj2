@@ -17,6 +17,7 @@ class State{
     list<State<T>> adj;
 public:
     State(T);
+    T getState();
     bool Equals(State<T>);
     //list<State<T>> getAdj();
 };

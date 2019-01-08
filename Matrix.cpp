@@ -7,18 +7,6 @@
 #include <stdlib.h>
 #include <time.h>
 
-namespace Just_For_Now {
-    int** createMatrix() {
-        int** result = { 0 };
-        for (int i = 0; i < 10; i++) {
-            for (int j = 0; j < 10; j++) {
-                result[i][j] = rand() % 100;
-            }
-        }
-        return result;
-    }
-}
-
 /**
  * this is the constractor of matrix
  * @param arr - 2D array.
@@ -29,13 +17,7 @@ template <class T>
 Matrix<T>:: Matrix(T** arr, size_t m ,size_t n) {
     this->m = m;
     this->n = n;
-    State<T>** array2;
-    for (int i=0; i < m; ++i){
-        for (int j=0; j<n; ++j) {
-            array2[i][j] = State<int>(**arr);
-        }
-    }
-    this->arr = array2;
+    this->arr = arr;
 
 }
 
@@ -64,8 +46,9 @@ list<State<T>> Matrix<T>:: getAllPossibleStates(State<T>){
         int column_limit = m;
         for(int x = max(0, i-1); x <= min(i+1, row_limit); x++){
             for(y = max(0, j-1); y <= min(j+1, column_limit); y++){
-                if(x != i || y != j){
-                    result.push_back(this->arr[x][y]);
+                if(x != i || y != j && abs(x-i) == 0 && abs(y-1) == 0){
+                    State<T> tempState(this->arr[x][y]);
+                    result.push_back(tempState);
                 }
             }
         }
