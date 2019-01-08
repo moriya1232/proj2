@@ -10,16 +10,15 @@ using namespace std;
 #include <list>
 #include "Searchable.h"
 
-template <class T>
-class Matrix : public Searchable<T> {
-State<T>** arr;
+class Matrix : public Searchable<Point> {
+    State<Point>** arr;
 public:
     size_t n;
     size_t m;
-    Matrix(T** arr, size_t m, size_t n);
-    State<T> getInitialState();
-    list<State<T>> getAllPossibleStates(State<T>);
-    State<T> getGoalState();
+    Matrix(int** arr, size_t m, size_t n);
+    State<Point> getInitialState();
+    list<State<Point>> getAllPossibleStates(State<Point>);
+    State<Point> getGoalState();
     size_t getSize();
 };
 #endif //PROJ2_MATRIX_H

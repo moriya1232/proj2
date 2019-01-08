@@ -7,6 +7,7 @@
 
 
 #include "Server.h"
+#include <time.h>
 /**
  * the missiom of the server is to care of getting values from the client
  */
@@ -14,7 +15,6 @@ class MyServer : public server_side::Server {
     ClientHandler clientHandler;
     int sockfd;
     bool run;
-    //char* input;
 public:
     MyServer();
     void stop() override;

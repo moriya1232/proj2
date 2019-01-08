@@ -55,6 +55,24 @@ using namespace std;
         start(ch);
     }
 }
+    // basically runs for 10 seconds and somehow should stop the operation after 10 sec
+    static void isTimeOut() {
+        time_t start, end;
+        double elapsed;
+
+        time(&start);  /* start the timer */
+
+        do {
+            time(&end);
+
+            elapsed = difftime(end, start);
+            /* For most data types one could simply use
+                elapsed = end - start;
+                but for time_t one needs to use difftime(). */
+
+           // printf("Time elapsed: &#37;f\n", elapsed);
+        } while(elapsed < 10);  /* run for ten seconds */
+    }
 
     void MyServer::start(ClientHandler ch) {
         struct sockaddr_in cli_addr;

@@ -6,6 +6,7 @@
 #define PROJ2_STATE_H
 
 #include <list>
+#include "Point.h"
 
 using namespace std;
 
@@ -13,13 +14,24 @@ template <class T>
 class State{
     T state;
     double cost;
-    //State<T> comeFrom;
-    list<State<T>> adj;
+    //State<T> cameFrom;
+    /*double value;
+    Point* point;
+    //list<State> adj;*/
 public:
-    State(T);
+    State(T, int);
     T getState();
-    bool Equals(State<T>);
+    bool equal(State<T>);
+    //void setCameFrom(State<T>*);
+    //State<T> getCameFrom();
+    double getCost();
+    void setCost(double);
+    /*State(int, Point*);
+    Point* getPoint();
+    int getValue();
+    bool Equals(Point*);*/
     //list<State<T>> getAdj();
+   // double getCost();
 };
 
 

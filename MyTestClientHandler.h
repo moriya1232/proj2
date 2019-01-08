@@ -6,8 +6,8 @@
 #define UNTITLED6_MYTESTCLIENTSERVER_H
 
 #include "ClientHandler.h"
-
-class MyTestClientHandler: public ClientHandler {
+template <class problem,class solution>
+class MyTestClientHandler: public ClientHandler<problem,solution> {
     Solver<problem,solution>* solver;
     CacheManager* cm;
 public:

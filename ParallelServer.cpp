@@ -1,9 +1,8 @@
 //
 // Created by omer on 1/6/19.
 //
-#include "MyServer.cpp"
-using namespace Server_side;
+#include "ParallelServer.h"
 
-int bla () {
-    Server_side::open(4,NULL);
+void ParallelServer::solveClientsProblem(int newsockfd, ClientHandler ch) {
+    // execute the ClientHandler action somehow
 }

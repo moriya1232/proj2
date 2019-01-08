@@ -663,6 +663,33 @@ Plus.cpp.s:
 	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Plus.cpp.s
 .PHONY : Plus.cpp.s
 
+Point.o: Point.cpp.o
+
+.PHONY : Point.o
+
+# target to build an object file
+Point.cpp.o:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Point.cpp.o
+.PHONY : Point.cpp.o
+
+Point.i: Point.cpp.i
+
+.PHONY : Point.i
+
+# target to preprocess a source file
+Point.cpp.i:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Point.cpp.i
+.PHONY : Point.cpp.i
+
+Point.s: Point.cpp.s
+
+.PHONY : Point.s
+
+# target to generate assembly for a file
+Point.cpp.s:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Point.cpp.s
+.PHONY : Point.cpp.s
+
 Searchable.o: Searchable.cpp.o
 
 .PHONY : Searchable.o
@@ -921,6 +948,9 @@ help:
 	@echo "... Plus.o"
 	@echo "... Plus.i"
 	@echo "... Plus.s"
+	@echo "... Point.o"
+	@echo "... Point.i"
+	@echo "... Point.s"
 	@echo "... Searchable.o"
 	@echo "... Searchable.i"
 	@echo "... Searchable.s"

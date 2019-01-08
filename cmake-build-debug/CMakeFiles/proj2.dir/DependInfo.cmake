@@ -24,6 +24,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/omer/CLionProjects/proj2/Number.cpp" "/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles/proj2.dir/Number.cpp.o"
   "/home/omer/CLionProjects/proj2/ParallelServer.cpp" "/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles/proj2.dir/ParallelServer.cpp.o"
   "/home/omer/CLionProjects/proj2/Plus.cpp" "/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles/proj2.dir/Plus.cpp.o"
+  "/home/omer/CLionProjects/proj2/Point.cpp" "/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles/proj2.dir/Point.cpp.o"
   "/home/omer/CLionProjects/proj2/Searchable.cpp" "/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles/proj2.dir/Searchable.cpp.o"
   "/home/omer/CLionProjects/proj2/Searcher.cpp" "/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles/proj2.dir/Searcher.cpp.o"
   "/home/omer/CLionProjects/proj2/Solver.cpp" "/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles/proj2.dir/Solver.cpp.o"
