@@ -11,9 +11,9 @@
 using namespace std;
 
 
-
+template <class T>
 class MyPriorityQueue {
-    queue<State<class T>> queue;
+    queue<State<T>> queue;
     int nodes;
 public:
     MyPriorityQueue();

@@ -3,7 +3,7 @@
 //
 
 
-#include "DFS.h"
+/*#include "DFS.h"
 
 
 void DFSUtil(State<T> state, bool visited[], Searchable<T>* searchable, int counter) {
@@ -29,4 +29,4 @@ string DFS:: search(Searchable<T>* searchable) {
     // Call the recursive helper function
     // to print DFS traversal
     DFSUtil(searchable->getInitialState(), visited, counter);
-}
+}*/

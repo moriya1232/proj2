@@ -6,12 +6,12 @@
 #define PROJ2_SEARCHER_H
 
 #include "Searchable.h"
-#include "MyPriorityQueue.h"
+//#include "MyPriorityQueue.h"
 #include "ISearcher.h"
 
 
 class Searcher: public ISearcher {
-    MyPriorityQueue* myPriorityQueue;
+    //MyPriorityQueue* myPriorityQueue;
     int evaluatedNodes;
 public:
     Searcher();

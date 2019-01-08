@@ -11,10 +11,9 @@
 using namespace std;
 
 
-
 class BFS: public Searcher {
 
-public:  string search(Searchable<T>* searchable);
+public:  string search(Searchable<class T>* searchable);
 };
 
 
