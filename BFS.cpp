@@ -21,7 +21,6 @@ string BFS:: search(Searchable<T>* searchable) {
 
     // 'i' will be used to get all adjacent
     // vertices of a vertex
-    list<State<T>>::iterator it;
     while (!queue.empty()) {
         // Dequeue a vertex from queue and print it
         current = queue.front();
@@ -31,12 +30,12 @@ string BFS:: search(Searchable<T>* searchable) {
         // vertex s. If a adjacent has not been visited,
         // then mark it visited and enqueue it
 
-        for (it = queue.begin(); it != searchable->getAllPossibleStates(*it).end(); ++it) {
+        for (T t : current) {
             if (!visited[counter]) {
                 visited[counter] = true;
-                queue.push_back(*it);
+                queue.push_back(t);
             }
-            cout << it->getState() << endl;
+            cout << t->getState() << endl;
             ++counter;
         }
     }
