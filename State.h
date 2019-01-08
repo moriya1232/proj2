@@ -12,9 +12,9 @@ using namespace std;
 template <class T>
 class State{
     T state;
-    //double cost;
-    //State<T> comeFrom;
-    //list<State<T>> adj;
+    double cost;
+    State<T> comeFrom;
+    list<State<T>> adj;
 public:
     State(T);
     bool Equals(State<T>);
