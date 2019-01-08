@@ -528,6 +528,33 @@ MySerialServer.cpp.s:
 	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/MySerialServer.cpp.s
 .PHONY : MySerialServer.cpp.s
 
+MyServer.o: MyServer.cpp.o
+
+.PHONY : MyServer.o
+
+# target to build an object file
+MyServer.cpp.o:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/MyServer.cpp.o
+.PHONY : MyServer.cpp.o
+
+MyServer.i: MyServer.cpp.i
+
+.PHONY : MyServer.i
+
+# target to preprocess a source file
+MyServer.cpp.i:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/MyServer.cpp.i
+.PHONY : MyServer.cpp.i
+
+MyServer.s: MyServer.cpp.s
+
+.PHONY : MyServer.s
+
+# target to generate assembly for a file
+MyServer.cpp.s:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/MyServer.cpp.s
+.PHONY : MyServer.cpp.s
+
 MyTestClientHandler.o: MyTestClientHandler.cpp.o
 
 .PHONY : MyTestClientHandler.o
@@ -689,33 +716,6 @@ Searcher.s: Searcher.cpp.s
 Searcher.cpp.s:
 	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Searcher.cpp.s
 .PHONY : Searcher.cpp.s
-
-Server.o: Server.cpp.o
-
-.PHONY : Server.o
-
-# target to build an object file
-Server.cpp.o:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Server.cpp.o
-.PHONY : Server.cpp.o
-
-Server.i: Server.cpp.i
-
-.PHONY : Server.i
-
-# target to preprocess a source file
-Server.cpp.i:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Server.cpp.i
-.PHONY : Server.cpp.i
-
-Server.s: Server.cpp.s
-
-.PHONY : Server.s
-
-# target to generate assembly for a file
-Server.cpp.s:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Server.cpp.s
-.PHONY : Server.cpp.s
 
 Solver.o: Solver.cpp.o
 
@@ -906,6 +906,9 @@ help:
 	@echo "... MySerialServer.o"
 	@echo "... MySerialServer.i"
 	@echo "... MySerialServer.s"
+	@echo "... MyServer.o"
+	@echo "... MyServer.i"
+	@echo "... MyServer.s"
 	@echo "... MyTestClientHandler.o"
 	@echo "... MyTestClientHandler.i"
 	@echo "... MyTestClientHandler.s"
@@ -924,9 +927,6 @@ help:
 	@echo "... Searcher.o"
 	@echo "... Searcher.i"
 	@echo "... Searcher.s"
-	@echo "... Server.o"
-	@echo "... Server.i"
-	@echo "... Server.s"
 	@echo "... Solver.o"
 	@echo "... Solver.i"
 	@echo "... Solver.s"

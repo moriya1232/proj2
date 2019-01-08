@@ -1,7 +1,7 @@
 //
 // Created by omer on 1/6/19.
 //
-#include "Server.cpp"
+#include "MyServer.cpp"
 using namespace Server_side;
 
 int bla () {

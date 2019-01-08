@@ -180,6 +180,12 @@
 		<Unit filename="/home/omer/CLionProjects/proj2/MySerialServer.h">
 			<Option target="proj2"/>
 		</Unit>
+		<Unit filename="/home/omer/CLionProjects/proj2/MyServer.cpp">
+			<Option target="proj2"/>
+		</Unit>
+		<Unit filename="/home/omer/CLionProjects/proj2/MyServer.h">
+			<Option target="proj2"/>
+		</Unit>
 		<Unit filename="/home/omer/CLionProjects/proj2/MyTestClientHandler.cpp">
 			<Option target="proj2"/>
 		</Unit>
@@ -214,9 +220,6 @@
 			<Option target="proj2"/>
 		</Unit>
 		<Unit filename="/home/omer/CLionProjects/proj2/Searcher.h">
-			<Option target="proj2"/>
-		</Unit>
-		<Unit filename="/home/omer/CLionProjects/proj2/Server.cpp">
 			<Option target="proj2"/>
 		</Unit>
 		<Unit filename="/home/omer/CLionProjects/proj2/Server.h">

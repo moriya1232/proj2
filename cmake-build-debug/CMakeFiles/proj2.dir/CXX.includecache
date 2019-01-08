@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/omer/CLionProjects/proj2/BFS.cpp
-BFS.h
-/home/omer/CLionProjects/proj2/BFS.h
-iostream
--
-
 /home/omer/CLionProjects/proj2/BFS.h
 Searcher.h
 /home/omer/CLionProjects/proj2/Searcher.h
@@ -26,16 +20,6 @@ Searcher.h
 string
 /home/omer/CLionProjects/proj2/string
 
-/home/omer/CLionProjects/proj2/Matrix.cpp
-Matrix.h
-/home/omer/CLionProjects/proj2/Matrix.h
-stdio.h
--
-stdlib.h
--
-time.h
--
-
 /home/omer/CLionProjects/proj2/Matrix.h
 State.h
 /home/omer/CLionProjects/proj2/State.h
@@ -44,39 +28,17 @@ list
 Searchable.h
 /home/omer/CLionProjects/proj2/Searchable.h
 
-/home/omer/CLionProjects/proj2/MyPriorityQueue.cpp
-MyPriorityQueue.h
-/home/omer/CLionProjects/proj2/MyPriorityQueue.h
-State.h
-/home/omer/CLionProjects/proj2/State.h
-
-/home/omer/CLionProjects/proj2/MyPriorityQueue.h
-queue
-/home/omer/CLionProjects/proj2/queue
-list
-/home/omer/CLionProjects/proj2/list
-State.h
-/home/omer/CLionProjects/proj2/State.h
-
 /home/omer/CLionProjects/proj2/Searchable.h
 list
 /home/omer/CLionProjects/proj2/list
 State.h
 /home/omer/CLionProjects/proj2/State.h
-
-/home/omer/CLionProjects/proj2/Searcher.cpp
-Searcher.h
-/home/omer/CLionProjects/proj2/Searcher.h
 
 /home/omer/CLionProjects/proj2/Searcher.h
 Searchable.h
 /home/omer/CLionProjects/proj2/Searchable.h
 ISearcher.h
 /home/omer/CLionProjects/proj2/ISearcher.h
-
-/home/omer/CLionProjects/proj2/State.cpp
-State.h
-/home/omer/CLionProjects/proj2/State.h
 
 /home/omer/CLionProjects/proj2/State.h
 list

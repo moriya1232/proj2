@@ -5,9 +5,9 @@
 #ifndef UNTITLED6_MYSERIALSERVER_H
 #define UNTITLED6_MYSERIALSERVER_H
 
-#include "Server.h"
+#include "MyServer.h"
 
-class MySerialServer :public Server {
+class MySerialServer :public MyServer {
 int open(int, ClientHandler);
 
 };

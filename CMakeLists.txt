@@ -49,8 +49,8 @@ add_executable(proj2
         Searchable.h
         Searcher.cpp
         Searcher.h
-        Server.cpp
-        Server.h
+        MyServer.cpp
+        MyServer.h
         Solver.cpp
         Solver.h
         State.cpp
@@ -59,4 +59,5 @@ add_executable(proj2
         StringReverser.h
         UnaryExpression.cpp
         UnaryExpression.h
-        UsefulFunctions.h)
+        UsefulFunctions.h
+        Server.h)

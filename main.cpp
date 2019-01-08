@@ -1,5 +1,6 @@
 #include <iostream>
 #include "BFS.h"
+#include "ClientHandler.h"
 #include "Matrix.h"
 
 
@@ -16,10 +17,6 @@ namespace Just_For_Now {
 }
 
 int main() {
-    BFS bfs();
-    size_t n = 10, m = 10;
-    Matrix<int>* matrix = new (nothrow) Matrix<int>(Just_For_Now::createMatrix(), n, m);
-    bfs().search(matrix);
     std::cout << "Hello, World!" << std::endl;
     return 0;
 }

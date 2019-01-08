@@ -21,7 +21,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/proj2.dir/Plus.cpp.o"
   "CMakeFiles/proj2.dir/Searchable.cpp.o"
   "CMakeFiles/proj2.dir/Searcher.cpp.o"
-  "CMakeFiles/proj2.dir/Server.cpp.o"
+  "CMakeFiles/proj2.dir/MyServer.cpp.o"
   "CMakeFiles/proj2.dir/Solver.cpp.o"
   "CMakeFiles/proj2.dir/State.cpp.o"
   "CMakeFiles/proj2.dir/StringReverser.cpp.o"
