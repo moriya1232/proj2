@@ -7,8 +7,9 @@
 
 #include "Server.h"
 
-class MySerialServer :public Server {
-int open(int, ClientHandler);
+template <class problem, class solution>
+class MySerialServer :public Server<problem,solution> {
+int open(int, ClientHandler<problem,solution>);
 
 };
 #endif //UNTITLED6_MYSERIALSERVER_H

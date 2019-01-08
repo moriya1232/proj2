@@ -4,7 +4,8 @@
 #include <thread>
 #include "MySerialServer.h"
 
-int MySerialServer:: open(int port, ClientHandler ch) {
-    thread listenToServer(openServer, port, ch);
-    listenToServer.detach();
+template<typename problem, typename solution>
+int MySerialServer<problem,solution>:: open(int port, ClientHandler<problem,solution> ch) {
+    //thread listenToServer(openServer, port, ch);
+    //listenToServer.detach();
 }

@@ -10,23 +10,24 @@
 /**
  * the missiom of the server is to care of getting values from the client
  */
+template <class problem, class solution>
 class Server{
-    ClientHandler* clientHandler;
+    ClientHandler<problem,solution>* clientHandler;
     int port;
     bool run;
     //char* input;
 public:
     Server(int p);
-    static void openServer(int, ClientHandler);
+    static void openServer(int, ClientHandler<problem,solution>);
     bool getRun();
-    virtual int open(int, ClientHandler) = 0;
+    virtual int open(int, ClientHandler<problem,solution>) = 0;
     static void start(int ,int);
     bool isOpen();
     int stop();
     static bool endReceived(char*, int);
     void setInput(char*);
-    ClientHandler* getClientHandler();
-    void setClientHandler(ClientHandler*);
+    ClientHandler<problem,solution>* getClientHandler();
+    void setClientHandler(ClientHandler<problem,solution>*);
 
 
 

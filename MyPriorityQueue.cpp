@@ -5,17 +5,17 @@
 #include "MyPriorityQueue.h"
 #include "State.h"
 
-using namespace std;
+//using namespace std;
 
 
 /**
  * this function is a constractor to MyPriorityQueue
  */
-MyPriorityQueue:: MyPriorityQueue() {
+/*MyPriorityQueue:: MyPriorityQueue() {
     ::queue<State<T>> qu;
     this->queue = qu;
     this->nodes = 0;
-}
+}*/
 
 
 /**
@@ -23,7 +23,7 @@ MyPriorityQueue:: MyPriorityQueue() {
  * ***we pop and returns the elemnts! ***
  * @return the element
  */
-State<T> MyPriorityQueue:: getTheNextElement() {
+/*State<T> MyPriorityQueue:: getTheNextElement() {
     //??????
     --this->nodes;
     State<T> temp = this->queue.front();
@@ -36,7 +36,7 @@ State<T> MyPriorityQueue:: getTheNextElement() {
  * this function insernt an elemant to the queue by push it to the queue.
  * @param state - the state to insert
  */
-void MyPriorityQueue:: insertAnElement(State<T> state){
+/*void MyPriorityQueue:: insertAnElement(State<T> state){
     ++this->nodes;
     this->queue.push(state);
 }
@@ -45,6 +45,6 @@ void MyPriorityQueue:: insertAnElement(State<T> state){
  * this function returns how much nodes we has in the best solution.
  * @return number of nodes of the best solution.
  */
-int MyPriorityQueue:: getNumberOfNodes(){
+/*int MyPriorityQueue:: getNumberOfNodes(){
     return this->nodes;
-}
+}*/

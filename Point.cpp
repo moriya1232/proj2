@@ -4,6 +4,10 @@
 #include "Point.h"
 
 
+Point:: Point(int x, int y){
+    this->i =x;
+    this->j =y;
+}
 
 int Point:: getI(){
 return this->i;

@@ -6,6 +6,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include "State.h"
 
 /**
  * this is the constractor of matrix
@@ -13,12 +14,18 @@
  * @param m - rows
  * @param n - columns.
  */
-template <class T>
-Matrix<T>:: Matrix(T** arr, size_t m ,size_t n) {
+
+Matrix:: Matrix(int** arr, size_t m ,size_t n) {
+    //State<Point>** states;
     this->m = m;
     this->n = n;
-    this->arr = arr;
-
+    for (int i=0; i<this->m ;++i) {
+        for (int j=0; j<this->n; ++j) {
+            Point* p = new Point(i,j);
+            State<Point>* s = new State<Point>(*p, arr[m][n]);
+            this->arr[i][j] = *s;
+        }
+    }
 }
 
 /**
@@ -26,8 +33,7 @@ Matrix<T>:: Matrix(T** arr, size_t m ,size_t n) {
  * this is in (0,0)
  * @return
  */
-template <class T>
-State<T> Matrix<T>:: getInitialState(){
+State<Point> Matrix:: getInitialState(){
     return this->arr[0][0];
 }
 
@@ -36,9 +42,8 @@ State<T> Matrix<T>:: getInitialState(){
  * this function return all the adj
  * @return the adj
  */
-template <class T>
-list<State<T>> Matrix<T>:: getAllPossibleStates(State<T>){
-    list<State<T>> result;
+list<State<Point>> Matrix:: getAllPossibleStates(State<Point>){
+    list<State<Point>> result;
     int y, j = 0, i = 0;
     // get the neighbors
     int row_limit = n;
@@ -47,7 +52,7 @@ list<State<T>> Matrix<T>:: getAllPossibleStates(State<T>){
         for(int x = max(0, i-1); x <= min(i+1, row_limit); x++){
             for(y = max(0, j-1); y <= min(j+1, column_limit); y++){
                 if(x != i || y != j && abs(x-i) == 0 && abs(y-1) == 0){
-                    State<T> tempState(this->arr[x][y]);
+                    State<Point> tempState(this->arr[x][y]);
                     result.push_back(tempState);
                 }
             }
@@ -60,8 +65,7 @@ list<State<T>> Matrix<T>:: getAllPossibleStates(State<T>){
  * this function return the goal of where we need to go.
  * @return he goal
  */
-template <class T>
-State<T> Matrix<T>:: getGoalState(){
+State<Point> Matrix:: getGoalState(){
 return this->arr[m][n];
 }
 
@@ -70,8 +74,7 @@ return this->arr[m][n];
  * this function returns how much nodes we have.
  * @return
  */
-template <class T>
-size_t Matrix<T>:: getSize(){
+size_t Matrix:: getSize(){
     return this->m * this->n;
 }
 

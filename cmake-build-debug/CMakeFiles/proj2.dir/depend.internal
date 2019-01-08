@@ -5,6 +5,7 @@ CMakeFiles/proj2.dir/BFS.cpp.o
  /home/moriya/CLionProjects/untitled6/BFS.cpp
  /home/moriya/CLionProjects/untitled6/BFS.h
  /home/moriya/CLionProjects/untitled6/ISearcher.h
+ /home/moriya/CLionProjects/untitled6/Point.h
  /home/moriya/CLionProjects/untitled6/Searchable.h
  /home/moriya/CLionProjects/untitled6/Searcher.h
  /home/moriya/CLionProjects/untitled6/State.h
@@ -54,6 +55,7 @@ CMakeFiles/proj2.dir/ISearcher.cpp.o
 CMakeFiles/proj2.dir/Matrix.cpp.o
  /home/moriya/CLionProjects/untitled6/Matrix.cpp
  /home/moriya/CLionProjects/untitled6/Matrix.h
+ /home/moriya/CLionProjects/untitled6/Point.h
  /home/moriya/CLionProjects/untitled6/Searchable.h
  /home/moriya/CLionProjects/untitled6/State.h
 CMakeFiles/proj2.dir/Minus.cpp.o
@@ -69,6 +71,7 @@ CMakeFiles/proj2.dir/Multiplication.cpp.o
 CMakeFiles/proj2.dir/MyPriorityQueue.cpp.o
  /home/moriya/CLionProjects/untitled6/MyPriorityQueue.cpp
  /home/moriya/CLionProjects/untitled6/MyPriorityQueue.h
+ /home/moriya/CLionProjects/untitled6/Point.h
  /home/moriya/CLionProjects/untitled6/State.h
 CMakeFiles/proj2.dir/MySerialServer.cpp.o
  /home/moriya/CLionProjects/untitled6/CacheManager.h
@@ -99,10 +102,14 @@ CMakeFiles/proj2.dir/Plus.cpp.o
  /home/moriya/CLionProjects/untitled6/Expression.h
  /home/moriya/CLionProjects/untitled6/Plus.cpp
  /home/moriya/CLionProjects/untitled6/Plus.h
+CMakeFiles/proj2.dir/Point.cpp.o
+ /home/moriya/CLionProjects/untitled6/Point.cpp
+ /home/moriya/CLionProjects/untitled6/Point.h
 CMakeFiles/proj2.dir/Searchable.cpp.o
  /home/moriya/CLionProjects/untitled6/Searchable.cpp
 CMakeFiles/proj2.dir/Searcher.cpp.o
  /home/moriya/CLionProjects/untitled6/ISearcher.h
+ /home/moriya/CLionProjects/untitled6/Point.h
  /home/moriya/CLionProjects/untitled6/Searchable.h
  /home/moriya/CLionProjects/untitled6/Searcher.cpp
  /home/moriya/CLionProjects/untitled6/Searcher.h
@@ -115,6 +122,7 @@ CMakeFiles/proj2.dir/Server.cpp.o
 CMakeFiles/proj2.dir/Solver.cpp.o
  /home/moriya/CLionProjects/untitled6/Solver.cpp
 CMakeFiles/proj2.dir/State.cpp.o
+ /home/moriya/CLionProjects/untitled6/Point.h
  /home/moriya/CLionProjects/untitled6/State.cpp
  /home/moriya/CLionProjects/untitled6/State.h
 CMakeFiles/proj2.dir/StringReverser.cpp.o
@@ -131,6 +139,7 @@ CMakeFiles/proj2.dir/main.cpp.o
  /home/moriya/CLionProjects/untitled6/BFS.h
  /home/moriya/CLionProjects/untitled6/ISearcher.h
  /home/moriya/CLionProjects/untitled6/Matrix.h
+ /home/moriya/CLionProjects/untitled6/Point.h
  /home/moriya/CLionProjects/untitled6/Searchable.h
  /home/moriya/CLionProjects/untitled6/Searcher.h
  /home/moriya/CLionProjects/untitled6/State.h

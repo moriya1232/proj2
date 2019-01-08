@@ -9,7 +9,7 @@
 #include "Searcher.h"
 #include "string"
 
-
+template <class T>
 class ISearcher {
 
 public:

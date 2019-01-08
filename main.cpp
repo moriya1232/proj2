@@ -16,9 +16,9 @@ namespace Just_For_Now {
 }
 
 int main() {
-    BFS bfs();
+    BFS<Point*> bfs();
     size_t n = 10, m = 10;
-    Searchable<int>* matrix = new (nothrow) Matrix<int>(Just_For_Now::createMatrix(), n, m);
+    Searchable<Point>* matrix = new (nothrow) Matrix(Just_For_Now::createMatrix(), n, m);
     //bfs().search(matrix);
     std::cout << "Hello, World!" << std::endl;
     return 0;

@@ -4,6 +4,7 @@
 CMakeFiles/proj2.dir/BFS.cpp.o: ../BFS.cpp
 CMakeFiles/proj2.dir/BFS.cpp.o: ../BFS.h
 CMakeFiles/proj2.dir/BFS.cpp.o: ../ISearcher.h
+CMakeFiles/proj2.dir/BFS.cpp.o: ../Point.h
 CMakeFiles/proj2.dir/BFS.cpp.o: ../Searchable.h
 CMakeFiles/proj2.dir/BFS.cpp.o: ../Searcher.h
 CMakeFiles/proj2.dir/BFS.cpp.o: ../State.h
@@ -53,6 +54,7 @@ CMakeFiles/proj2.dir/ISearcher.cpp.o: ../ISearcher.cpp
 
 CMakeFiles/proj2.dir/Matrix.cpp.o: ../Matrix.cpp
 CMakeFiles/proj2.dir/Matrix.cpp.o: ../Matrix.h
+CMakeFiles/proj2.dir/Matrix.cpp.o: ../Point.h
 CMakeFiles/proj2.dir/Matrix.cpp.o: ../Searchable.h
 CMakeFiles/proj2.dir/Matrix.cpp.o: ../State.h
 
@@ -68,6 +70,7 @@ CMakeFiles/proj2.dir/Multiplication.cpp.o: ../Multiplication.h
 
 CMakeFiles/proj2.dir/MyPriorityQueue.cpp.o: ../MyPriorityQueue.cpp
 CMakeFiles/proj2.dir/MyPriorityQueue.cpp.o: ../MyPriorityQueue.h
+CMakeFiles/proj2.dir/MyPriorityQueue.cpp.o: ../Point.h
 CMakeFiles/proj2.dir/MyPriorityQueue.cpp.o: ../State.h
 
 CMakeFiles/proj2.dir/MySerialServer.cpp.o: ../CacheManager.h
@@ -99,9 +102,13 @@ CMakeFiles/proj2.dir/Plus.cpp.o: ../Expression.h
 CMakeFiles/proj2.dir/Plus.cpp.o: ../Plus.cpp
 CMakeFiles/proj2.dir/Plus.cpp.o: ../Plus.h
 
+CMakeFiles/proj2.dir/Point.cpp.o: ../Point.cpp
+CMakeFiles/proj2.dir/Point.cpp.o: ../Point.h
+
 CMakeFiles/proj2.dir/Searchable.cpp.o: ../Searchable.cpp
 
 CMakeFiles/proj2.dir/Searcher.cpp.o: ../ISearcher.h
+CMakeFiles/proj2.dir/Searcher.cpp.o: ../Point.h
 CMakeFiles/proj2.dir/Searcher.cpp.o: ../Searchable.h
 CMakeFiles/proj2.dir/Searcher.cpp.o: ../Searcher.cpp
 CMakeFiles/proj2.dir/Searcher.cpp.o: ../Searcher.h
@@ -114,6 +121,7 @@ CMakeFiles/proj2.dir/Server.cpp.o: ../Solver.h
 
 CMakeFiles/proj2.dir/Solver.cpp.o: ../Solver.cpp
 
+CMakeFiles/proj2.dir/State.cpp.o: ../Point.h
 CMakeFiles/proj2.dir/State.cpp.o: ../State.cpp
 CMakeFiles/proj2.dir/State.cpp.o: ../State.h
 
@@ -130,6 +138,7 @@ CMakeFiles/proj2.dir/UnaryExpression.cpp.o: ../UnaryExpression.h
 CMakeFiles/proj2.dir/main.cpp.o: ../BFS.h
 CMakeFiles/proj2.dir/main.cpp.o: ../ISearcher.h
 CMakeFiles/proj2.dir/main.cpp.o: ../Matrix.h
+CMakeFiles/proj2.dir/main.cpp.o: ../Point.h
 CMakeFiles/proj2.dir/main.cpp.o: ../Searchable.h
 CMakeFiles/proj2.dir/main.cpp.o: ../Searcher.h
 CMakeFiles/proj2.dir/main.cpp.o: ../State.h

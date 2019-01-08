@@ -11,8 +11,8 @@
 using namespace std;
 
 
-template <class T>
-class MyPriorityQueue {
+//template <class T>
+/*class MyPriorityQueue {
     queue<State<T>> queue;
     int nodes;
 public:
@@ -21,5 +21,5 @@ public:
     void insertAnElement(State<T>);
     int getNumberOfNodes();
 
-};
+};*/
 #endif //PROJ2_MYPRIORITYQUEUE_H

@@ -11,15 +11,16 @@
 #include "ClientHandler.h"
 
 using namespace std;
-namespace Server_side {
-    int open(int port, ClientHandler* ch) {
+/*namespace Server_side {
+    template<typename problem, typename solution>
+    int open(int port, ClientHandler<problem,solution>* ch) {
         int sockfd, newsockfd, portno, clilen;
         char buffer[100];
         struct sockaddr_in serv_addr, cli_addr;
         int n;
 
         /* First call to socket() function */
-        sockfd = socket(AF_INET, SOCK_STREAM, 0);
+  /*      sockfd = socket(AF_INET, SOCK_STREAM, 0);
 
         if (sockfd < 0) {
             perror("ERROR opening socket");
@@ -27,7 +28,7 @@ namespace Server_side {
         }
 
         /* Initialize socket structure */
-        bzero((char *) &serv_addr, sizeof(serv_addr));
+    /*    bzero((char *) &serv_addr, sizeof(serv_addr));
         portno = stod(to_string(port).c_str());
 
         serv_addr.sin_family = AF_INET;
@@ -35,7 +36,7 @@ namespace Server_side {
         serv_addr.sin_port = htons(portno);
 
         /* Now bind the host address using bind() call.*/
-        if (bind(sockfd, (struct sockaddr *) &serv_addr, sizeof(serv_addr)) < 0) {
+ /*       if (bind(sockfd, (struct sockaddr *) &serv_addr, sizeof(serv_addr)) < 0) {
             perror("ERROR on binding");
             exit(1);
         }
@@ -43,25 +44,26 @@ namespace Server_side {
            * go in sleep mode and will wait for the incoming connection
         */
 
-        listen(sockfd, 5);
+/*        listen(sockfd, 5);
         clilen = sizeof(cli_addr);
         /* Accept actual connection from the client */
-        newsockfd = accept(sockfd, (struct sockaddr *) &cli_addr, (socklen_t *) &clilen);
+  /*      newsockfd = accept(sockfd, (struct sockaddr *) &cli_addr, (socklen_t *) &clilen);
 
         if (newsockfd < 0) {
             perror("ERROR on accept");
             exit(1);
         }
-        this->sockfd = sockfd;
-        this->newsockfd = newsockfd;
+        //this->sockfd = sockfd;
+        //this->newsockfd = newsockfd;
         //start(sockfd, newsockfd);}
     }
-
-    void Server::openServer(int port, ClientHandler cl) {
+    template<typename problem, typename solution>
+    void Server<problem,solution>::openServer(int port, ClientHandler<problem,solution> cl) {
 
     }
 
-    void Server::start(int sockfd, int newsockfd) {
+    template<typename problem, typename solution>
+    void Server<problem,solution>::start(int sockfd, int newsockfd) {
         char buffer[100] = {'\0'};
         /* Accept actual connection from the client */
         /*int newsockfd = accept(sockfd, (struct sockaddr *) &cli_addr, (socklen_t *) &clilen);
@@ -71,7 +73,7 @@ namespace Server_side {
         }
         while (true) {
             /* If connection is established then start communicating */
-        /*bzero(buffer, 100);
+/*        bzero(buffer, 100);
         int n = read(newsockfd, buffer, 99);
         if (endReceived(buffer, n)) {
             break;
@@ -81,10 +83,10 @@ namespace Server_side {
             exit(1);
         }
         // here we supposed to create a ClientHandler and execute it
-    }*/
+    }
         while (true) {
-            /* If connection is established then start communicating */
-            bzero(buffer, 100);
+            //If connection is established then start communicating */
+ /*           bzero(buffer, 100);
             int n = read(newsockfd, buffer, 99);
 
             if (n < 0) {
@@ -99,13 +101,13 @@ namespace Server_side {
                 return true;
             }
         }
-
-        int Server::stop() {
+    template<typename problem, typename solution>
+        int Server<problem,solution>::stop() {
             this->run = false;
         }
-
-        bool Server::isOpen() {
+    template<typename problem, typename solution>
+        bool Server<problem,solution>::isOpen() {
             return this->run;
         }
     }
-}
+}*/

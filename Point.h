@@ -10,6 +10,7 @@ class Point {
     int i;
     int j;
 public:
+    Point(int, int);
     int getI();
     int getJ();
     void setI(int i);

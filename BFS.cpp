@@ -4,7 +4,8 @@
 #include "BFS.h"
 #include <iostream>
 
-string BFS:: search(Searchable<T>* searchable) {
+template<typename T>
+string BFS<T>:: search(Searchable<T>* searchable) {
     int counter = 0;
     bool *visited = new bool[searchable->getSize()];
     for (int i = 0; i < searchable->getSize(); i++) {
