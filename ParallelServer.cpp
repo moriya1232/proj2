@@ -28,7 +28,7 @@ static vector<string> split(vector<string> v, const std::string& s, char delimit
     return v;
 }
 
-static void openServer(int newsockfd, ClientHandler ch) {
+static void openServer(int newsockfd, ClientHandler* ch) {
     char buffer[100];
     bool end = false;
     vector<string> matrixHolder;
@@ -56,7 +56,7 @@ static void openServer(int newsockfd, ClientHandler ch) {
     }
 }
 
-void ParallelServer::handleClient(int newsockfd, ClientHandler ch) {
+void ParallelServer::handleClient(int newsockfd, ClientHandler* ch) {
     thread t(openServer, newsockfd, ch);
     t.detach();
 }

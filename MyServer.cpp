@@ -20,7 +20,7 @@ using namespace std;
         this->sockfd = 0;
     }
 
-    void MyServer::open(int port, ClientHandler ch) {
+    void MyServer::open(int port, ClientHandler* ch) {
         int sockfd, clilen;
         char buffer[100];
         struct sockaddr_in serv_addr, cli_addr;
@@ -74,7 +74,7 @@ using namespace std;
         } while(elapsed < 10);  /* run for ten seconds */
     }
 
-    void MyServer::start(ClientHandler ch) {
+    void MyServer::start(ClientHandler* ch) {
         struct sockaddr_in cli_addr;
         int newsockfd, clilen = sizeof(cli_addr);
         while (run) {

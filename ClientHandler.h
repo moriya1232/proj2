@@ -15,15 +15,17 @@ template <class problem, class solution>
 class ClientHandler {
     CacheManager* cm;
     Solver<problem,solution>* solver;
+    problem myProblem;
 //ifstream in;
 //ofstream out;
 public:
-virtual Solver<problem,solution>* getSolver() = 0;
-virtual void setSolver(Solver<problem,solution>*) = 0;
-virtual CacheManager* getCacheManager()=0;
-virtual void setCacheManager(CacheManager*)=0;
-
-
-
+    ClientHandler(Solver<problem,solution>*,CacheManager*);
+    virtual Solver<problem,solution>* getSolver() = 0;
+    virtual void setSolver(Solver<problem,solution>*) = 0;
+    virtual CacheManager* getCacheManager()=0;
+    virtual void setCacheManager(CacheManager*)=0;
+    virtual void execute() =0;
+    virtual void setProblem(problem)=0;
+    virtual problem getProblem()=0;
 };
 #endif //UNTITLED6_CLIENDHANDLER_H

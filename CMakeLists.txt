@@ -7,6 +7,10 @@ set(CMAKE_CXX_FLAGS -pthread)
 include_directories(.)
 
 add_executable(proj2
+        Astar.cpp
+        Astar.h
+        BestFirstSearch.cpp
+        BestFirstSearch.h
         BFS.cpp
         BFS.h
         BinaryExpression.cpp
@@ -30,6 +34,8 @@ add_executable(proj2
         main.cpp
         Matrix.cpp
         Matrix.h
+        MatrixHandler.cpp
+        MatrixHandler.h
         Minus.cpp
         Minus.h
         Multiplication.cpp

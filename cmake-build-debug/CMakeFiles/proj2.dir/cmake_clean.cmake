@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/proj2.dir/Astar.cpp.o"
+  "CMakeFiles/proj2.dir/BestFirstSearch.cpp.o"
   "CMakeFiles/proj2.dir/BFS.cpp.o"
   "CMakeFiles/proj2.dir/BinaryExpression.cpp.o"
   "CMakeFiles/proj2.dir/CacheManager.cpp.o"
@@ -11,6 +13,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/proj2.dir/ISearcher.cpp.o"
   "CMakeFiles/proj2.dir/main.cpp.o"
   "CMakeFiles/proj2.dir/Matrix.cpp.o"
+  "CMakeFiles/proj2.dir/MatrixHandler.cpp.o"
   "CMakeFiles/proj2.dir/Minus.cpp.o"
   "CMakeFiles/proj2.dir/Multiplication.cpp.o"
   "CMakeFiles/proj2.dir/MyPriorityQueue.cpp.o"

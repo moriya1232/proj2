@@ -48,10 +48,10 @@ RM = /snap/clion/57/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/omer/CLionProjects/proj2
+CMAKE_SOURCE_DIR = /home/moriya/CLionProjects/untitled6
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/omer/CLionProjects/proj2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/moriya/CLionProjects/untitled6/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles /home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles /home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,33 @@ proj2/fast:
 	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/build
 .PHONY : proj2/fast
 
+Astar.o: Astar.cpp.o
+
+.PHONY : Astar.o
+
+# target to build an object file
+Astar.cpp.o:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Astar.cpp.o
+.PHONY : Astar.cpp.o
+
+Astar.i: Astar.cpp.i
+
+.PHONY : Astar.i
+
+# target to preprocess a source file
+Astar.cpp.i:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Astar.cpp.i
+.PHONY : Astar.cpp.i
+
+Astar.s: Astar.cpp.s
+
+.PHONY : Astar.s
+
+# target to generate assembly for a file
+Astar.cpp.s:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Astar.cpp.s
+.PHONY : Astar.cpp.s
+
 BFS.o: BFS.cpp.o
 
 .PHONY : BFS.o
@@ -149,6 +176,33 @@ BFS.s: BFS.cpp.s
 BFS.cpp.s:
 	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/BFS.cpp.s
 .PHONY : BFS.cpp.s
+
+BestFirstSearch.o: BestFirstSearch.cpp.o
+
+.PHONY : BestFirstSearch.o
+
+# target to build an object file
+BestFirstSearch.cpp.o:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/BestFirstSearch.cpp.o
+.PHONY : BestFirstSearch.cpp.o
+
+BestFirstSearch.i: BestFirstSearch.cpp.i
+
+.PHONY : BestFirstSearch.i
+
+# target to preprocess a source file
+BestFirstSearch.cpp.i:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/BestFirstSearch.cpp.i
+.PHONY : BestFirstSearch.cpp.i
+
+BestFirstSearch.s: BestFirstSearch.cpp.s
+
+.PHONY : BestFirstSearch.s
+
+# target to generate assembly for a file
+BestFirstSearch.cpp.s:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/BestFirstSearch.cpp.s
+.PHONY : BestFirstSearch.cpp.s
 
 BinaryExpression.o: BinaryExpression.cpp.o
 
@@ -419,6 +473,33 @@ Matrix.s: Matrix.cpp.s
 Matrix.cpp.s:
 	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Matrix.cpp.s
 .PHONY : Matrix.cpp.s
+
+MatrixHandler.o: MatrixHandler.cpp.o
+
+.PHONY : MatrixHandler.o
+
+# target to build an object file
+MatrixHandler.cpp.o:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/MatrixHandler.cpp.o
+.PHONY : MatrixHandler.cpp.o
+
+MatrixHandler.i: MatrixHandler.cpp.i
+
+.PHONY : MatrixHandler.i
+
+# target to preprocess a source file
+MatrixHandler.cpp.i:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/MatrixHandler.cpp.i
+.PHONY : MatrixHandler.cpp.i
+
+MatrixHandler.s: MatrixHandler.cpp.s
+
+.PHONY : MatrixHandler.s
+
+# target to generate assembly for a file
+MatrixHandler.cpp.s:
+	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/MatrixHandler.cpp.s
+.PHONY : MatrixHandler.cpp.s
 
 Minus.o: Minus.cpp.o
 
@@ -861,9 +942,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... proj2"
 	@echo "... edit_cache"
+	@echo "... Astar.o"
+	@echo "... Astar.i"
+	@echo "... Astar.s"
 	@echo "... BFS.o"
 	@echo "... BFS.i"
 	@echo "... BFS.s"
+	@echo "... BestFirstSearch.o"
+	@echo "... BestFirstSearch.i"
+	@echo "... BestFirstSearch.s"
 	@echo "... BinaryExpression.o"
 	@echo "... BinaryExpression.i"
 	@echo "... BinaryExpression.s"
@@ -894,6 +981,9 @@ help:
 	@echo "... Matrix.o"
 	@echo "... Matrix.i"
 	@echo "... Matrix.s"
+	@echo "... MatrixHandler.o"
+	@echo "... MatrixHandler.i"
+	@echo "... MatrixHandler.s"
 	@echo "... Minus.o"
 	@echo "... Minus.i"
 	@echo "... Minus.s"

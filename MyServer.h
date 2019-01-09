@@ -12,19 +12,14 @@
  * the missiom of the server is to care of getting values from the client
  */
 class MyServer : public server_side::Server {
-    ClientHandler clientHandler;
+    ClientHandler* clientHandler;
     int sockfd;
     bool run;
 public:
     MyServer();
     void stop() override;
-    void open(int, ClientHandler) override;
-    static bool endReceived(char*, int);
-
-
-
-
-
+    void open(int, ClientHandler*) override;
+    void start(ClientHandler* ch);
 };
 
 #endif //UNTITLED6_SERVER_H
