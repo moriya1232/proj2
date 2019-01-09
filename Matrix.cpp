@@ -19,11 +19,15 @@ Matrix:: Matrix(int** arr, size_t m ,size_t n) {
     //State<Point>** states;
     this->m = m;
     this->n = n;
+    this->states = (State***) malloc (sizeof(State*)*m*n);
     for (int i=0; i<this->m ;++i) {
         for (int j=0; j<this->n; ++j) {
-            Point* p = new Point(i,j);
-            State* s = new State(p, arr[m][n]);
-            this->arr[i][j] = *s;
+            Point p(i,j);
+            Point* pp= &p;
+            int bla = arr[m][n];
+            State s(pp, bla);
+            State* ps = &s;
+            this->states[i][j] = ps;
         }
     }
 }
@@ -33,8 +37,8 @@ Matrix:: Matrix(int** arr, size_t m ,size_t n) {
  * this is in (0,0)
  * @return
  */
-State Matrix:: getInitialState(){
-    return this->arr[0][0];
+State* Matrix:: getInitialState(){
+    return this->states[0][0];
 }
 
 
@@ -42,8 +46,8 @@ State Matrix:: getInitialState(){
  * this function return all the adj
  * @return the adj
  */
-list<State> Matrix:: getAllPossibleStates(State){
-    list<State> result;
+list<State*> Matrix:: getAllPossibleStates(State){
+    list<State*> result;
     int y, j = 0, i = 0;
     // get the neighbors
     int row_limit = n;
@@ -52,7 +56,7 @@ list<State> Matrix:: getAllPossibleStates(State){
         for(int x = max(0, i-1); x <= min(i+1, row_limit); x++){
             for(y = max(0, j-1); y <= min(j+1, column_limit); y++){
                 if(x != i || y != j && abs(x-i) == 0 && abs(y-1) == 0){
-                    State tempState(this->arr[x][y]);
+                    State* tempState(this->states[x][y]);
                     result.push_back(tempState);
                 }
             }
@@ -65,8 +69,8 @@ list<State> Matrix:: getAllPossibleStates(State){
  * this function return the goal of where we need to go.
  * @return he goal
  */
-State Matrix:: getGoalState(){
-return this->arr[m][n];
+State* Matrix:: getGoalState(){
+return this->states[m][n];
 }
 
 

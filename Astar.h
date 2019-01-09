@@ -9,7 +9,7 @@
 
 class Astar: public Searcher {
 
-public:  list<State> search(Searchable* searchable);
+public:  list<State*> search(Searchable* searchable);
 };
 
 

@@ -12,7 +12,7 @@ using namespace std;
 
 class BFS: public Searcher {
 
-public:  list<State> search(Searchable* searchable);
+public:  list<State*> search(Searchable* searchable);
 };
 
 

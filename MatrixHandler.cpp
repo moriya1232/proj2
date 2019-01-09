@@ -7,7 +7,7 @@
 
 using namespace std;
 
-
+/*
 MatrixHandler:: MatrixHandler
 (MatrixSolver* sol, CacheManager* cacheManager1, Matrix* m) : ClientHandler<Matrix*,list<State>>(sol,cacheManager1, m){}
 
@@ -44,7 +44,7 @@ Matrix* MatrixHandler:: getProblem(){
  * @tparam problem
  * @tparam solution
  */
-
+/*
 string MatrixHandler::execute(){
     return convertListStateToString(this->getSolver()->solve(this->getProblem()), this->getProblem());
 }
@@ -76,4 +76,4 @@ string MatrixHandler:: convertListStateToString(list<State> list1 , Searchable* 
     result = result.substr(0,result.length()-2);
     return result;
 
-    }
+    }*/

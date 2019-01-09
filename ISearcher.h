@@ -13,7 +13,7 @@
 class ISearcher{
 
 public:
-    virtual list<State> search(Searchable*)=0;
+    virtual list<State*> search(Searchable*)=0;
 };
 
 #endif //PROJ2_ISEARCHER_H

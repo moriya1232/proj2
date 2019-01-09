@@ -78,12 +78,12 @@
      return current_node
  *
  */
-list<State> Astar:: search(Searchable* searchable) {
+list<State*> Astar:: search(Searchable* searchable) {
     int counter = 0;
     list<State> closeDest;
     list<State> openSet;
     map<State,State> cameFrom;
-    State start = searchable->getInitialState();
+    State* start = searchable->getInitialState();
     long* gScore;
     long* fScore;
     gScore[0]=0;
