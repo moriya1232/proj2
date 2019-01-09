@@ -10,7 +10,7 @@
 namespace  server_side {
     class Server{
     protected:
-        virtual void start(MatrixHandler*) = 0;
+        virtual void start(MatrixHandler*) = 0; 
         virtual void handleClient(int, MatrixHandler*) = 0;
     public:
         virtual void open(int, MatrixHandler*) = 0;
