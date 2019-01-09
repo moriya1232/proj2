@@ -12,14 +12,14 @@
  * the missiom of the server is to care of getting values from the client
  */
 class MyServer : public server_side::Server {
-    MatrixHandler* clientHandler;
+    MatrixHandler<Matrix*, list<State*>>* clientHandler;
     int sockfd;
     bool run;
 public:
     MyServer();
     void stop() override;
-    void open(int, MatrixHandler*) override;
-    void start(MatrixHandler* ch);
+    void open(int, MatrixHandler<Matrix*, list<State*>>*) override;
+    void start(MatrixHandler<Matrix*, list<State*>>* ch);
 };
 
 #endif //UNTITLED6_SERVER_H

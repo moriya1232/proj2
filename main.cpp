@@ -61,27 +61,67 @@ namespace  create_script {
         }
     }
 
-    static int** readMatrixFromScript(string filename) {
+    static vector<vector<int>> readMatrixFromScript(string filename) {
         ifstream inFile(filename);
-        int i = 0;
-        int n = getNumberOfLines(filename);
-        int m = getNumberOfColumns(filename);
-        int** result = (int**) malloc (sizeof(int) * n * m);
+        int i = 0, n = getNumberOfLines(filename);
+        vector<vector<int>> vec;
         string line = "";
-        vector<string> vec;
+        vector<string> v;
+        vector<int> tempVector;
         // open the file
         if (inFile.is_open()) {
             getline(inFile, line);
-            vec = split(vec, line, ' ');
-            vector<string>::iterator it = vec.begin();
-            for (int j = 0; j < vec.size(); j++) {
-                string tempString = *it;
-                int bla = stoi(tempString);
-                result[i][j] = bla;
+            while (i < n) {
+                v = split(v, line, ' ');
+                for (vector<string>::iterator it = v.begin(); it != v.end(); it++) {
+                    string tempString = *it;
+                    int bla = stoi(tempString);
+                    tempVector.push_back(bla);
+                }
+                vec.push_back(tempVector);
+                tempVector.clear();
+                v.clear();
+                getline(inFile, line);
+                i++;
             }
-            i++;
         }
+        return vec;
+    }
+
+    static string convertListStateToString(list<State*> list1 , Searchable* searchable){
+        string result="";
+
+        for (list<State*>:: iterator it = list1.begin(); it!=(list1.end()); ++it){
+            if ( it == list1.end()) {
+                return result;
+            }
+
+            State after = (**(++it));
+            it--;
+            if (after.getState()->getI()> (*it)->getState()->getI()) {
+                result+="down";
+            } else if (after.getState()->getI() < (*it)->getState()->getI()) {
+                result+="up";
+            } else if (after.getState()->getJ()> (*it)->getState()->getJ()) {
+                result+="right";
+            } else if (after.getState()->getJ()< (*it)->getState()->getJ()) {
+                result+="left";
+            }
+            result+=",";
+        }
+        result = result.substr(0,result.length()-2);
         return result;
+    }
+
+    static void printMatrix(vector<vector<int>> arr, string str) {
+        for (int i = 0;i < 3; i++) {
+            for (int j=0; j< 3; j++) {
+                cout << arr[i][j] << " ";
+            }
+            cout << "" << endl;
+        }
+        cout << "" << endl;
+        cout << "And the best path for you is: " << str << endl;
     }
 }
 
@@ -90,10 +130,14 @@ int main() {
     int x = 5;
     create_script::writeScript();
     CacheManager* cm = new(nothrow) CacheManager();
-    int** arr = create_script::readMatrixFromScript("script.txt");
+    vector<vector<int>> arr = create_script::readMatrixFromScript("script.txt");
     Matrix* m = new (nothrow) Matrix(arr, 3, 3);
-    MatrixSolver<Matrix*, list<State*>>* ms = new(nothrow) MatrixSolver<Matrix*, list<State*>>();
-    MatrixHandler<Matrix*, MatrixSolver<Matrix*, list<State*>>*>* ch = new (nothrow) MatrixHandler<Matrix*, MatrixSolver<Matrix*, list<State*>>*>(ms,cm , m);
+    //system("open");
+    MatrixSolver* ms = new(nothrow) MatrixSolver();
+    list<State*> result1 = ms->solve(m);
+    string result2 = create_script::convertListStateToString(result1, m);
+    create_script::printMatrix(arr, result2);
+    //MatrixHandler<Matrix*, MatrixSolver*>* ch = new (nothrow) MatrixHandler<Matrix*, MatrixSolver*>(ms,cm , m);
     //std::cout << "Hello, World!" << std::endl;
     create_script::clearFile("script.txt");
     return 0;

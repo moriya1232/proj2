@@ -20,7 +20,7 @@ using namespace std;
         this->sockfd = 0;
     }
 
-    void MyServer::open(int port, MatrixHandler* ch) {
+    void MyServer::open(int port, MatrixHandler<Matrix*, list<State*>>* ch) {
         int sockfd, clilen;
         char buffer[100];
         struct sockaddr_in serv_addr, cli_addr;
@@ -73,7 +73,7 @@ using namespace std;
         } while(elapsed < 10);  /* run for ten seconds */
     }
 
-    void MyServer::start(MatrixHandler* ch) {
+    void MyServer::start(MatrixHandler<Matrix*, list<State*>>* ch) {
         struct sockaddr_in cli_addr;
         int newsockfd, clilen = sizeof(cli_addr);
         while (run) {

@@ -17,7 +17,7 @@ class Matrix : public Searchable {
 public:
     size_t n;
     size_t m;
-    Matrix(int**, size_t m, size_t n);
+    Matrix(vector<vector<int>>, size_t m, size_t n);
     State* getInitialState();
     list<State*> getAllPossibleStates(State);
     State* getGoalState();

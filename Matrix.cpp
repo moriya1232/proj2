@@ -15,7 +15,7 @@
  * @param n - columns.
  */
 
-Matrix:: Matrix(int** arr, size_t m ,size_t n) {
+Matrix:: Matrix(vector<vector<int>> arr, size_t m ,size_t n) {
     //State<Point>** states;
     this->m = m;
     this->n = n;

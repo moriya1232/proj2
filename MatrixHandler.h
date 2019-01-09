@@ -15,7 +15,7 @@ using namespace std;
 template <class problem, class solution>
 class MatrixHandler {//: public ClientHandler<Matrix*,list<State*>> {
     CacheManager* cm;
-    MatrixSolver<Matrix*, list<State*>>* solver;
+    MatrixSolver* solver;
     Matrix* MyProblem;
 public:
     MatrixHandler(solution , CacheManager*, problem);
