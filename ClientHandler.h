@@ -28,5 +28,6 @@ public:
     virtual string execute() =0;
     virtual void setProblem(problem)=0;
     virtual problem getProblem()=0;
+
 };
 #endif //UNTITLED6_CLIENDHANDLER_H

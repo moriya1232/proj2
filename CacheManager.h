@@ -9,8 +9,15 @@
 using namespace std;
 
 class CacheManager {
-unordered_map< string, string> cm;
-virtual void wirteToFile() = 0;
+protected:
+unordered_map< pair<string,string>, string> cm;
+
+public:
+    CacheManager();
+    CacheManager(unordered_map<pair<string,string>,string>);
+    unordered_map<pair<string,string>,string> getMap();
+    void insertToMap(pair<pair<string,string>,string>);
+    void insertToMap(string , string, string);
 
 };
 

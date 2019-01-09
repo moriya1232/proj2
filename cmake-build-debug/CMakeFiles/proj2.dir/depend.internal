@@ -25,6 +25,7 @@ CMakeFiles/proj2.dir/BinaryExpression.cpp.o
  /home/moriya/CLionProjects/untitled6/Expression.h
 CMakeFiles/proj2.dir/CacheManager.cpp.o
  /home/moriya/CLionProjects/untitled6/CacheManager.cpp
+ /home/moriya/CLionProjects/untitled6/CacheManager.h
 CMakeFiles/proj2.dir/ClientHandler.cpp.o
  /home/moriya/CLionProjects/untitled6/CacheManager.h
  /home/moriya/CLionProjects/untitled6/ClientHandler.cpp
@@ -65,6 +66,8 @@ CMakeFiles/proj2.dir/ExpressionSolver.cpp.o
  /home/moriya/CLionProjects/untitled6/UnaryExpression.h
  /home/moriya/CLionProjects/untitled6/UsefulFunctions.h
 CMakeFiles/proj2.dir/FileCatchManager.cpp.o
+ /home/moriya/CLionProjects/untitled6/CacheManager.h
+ /home/moriya/CLionProjects/untitled6/FileCacheManager.h
  /home/moriya/CLionProjects/untitled6/FileCatchManager.cpp
 CMakeFiles/proj2.dir/ISearcher.cpp.o
  /home/moriya/CLionProjects/untitled6/ISearcher.cpp
