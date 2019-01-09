@@ -77,11 +77,21 @@ using namespace std;
         struct sockaddr_in cli_addr;
         int newsockfd, clilen = sizeof(cli_addr);
         while (run) {
+            timeval timeout;
+            timeout.tv_sec = 10;
+            timeout.tv_usec = 0;
+
+            setsockopt(sockfd, SOL_SOCKET, SO_RCVTIMEO, (char *)&timeout, sizeof(timeout));
             /* Accept actual connection from the client */
             newsockfd = accept(sockfd, (struct sockaddr *) &cli_addr, (socklen_t *) &clilen);
             if (newsockfd < 0) {
-                perror("ERROR");
-                exit(1);
+                if (errno == EWOULDBLOCK) {
+                    cout << "Timeout bro!\n";
+                    exit(2);
+                } else {
+                    perror("ERROR");
+                    exit(1);
+                }
             }
             handleClient(newsockfd, ch);
         }

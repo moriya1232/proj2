@@ -14,12 +14,12 @@ using namespace std;
 
 
 class MatrixHandler : public ClientHandler<Matrix*,list<State>> {
-    //CacheManager* cm;
-    //Solver<Matrix*,string>* solver;
-    //Matrix* myProblem;
+    CacheManager* cm;
+    Solver<Matrix*,string>* solver;
+    Matrix* myProblem;
 public:
     MatrixHandler(MatrixSolver* , CacheManager*, Matrix* m);
-    //MatrixSolver* getSolver();
+    MatrixSolver* getSolver();
     void setSolver(MatrixSolver*);
     CacheManager* getCacheManager();
     void setCacheManager(CacheManager*);

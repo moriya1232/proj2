@@ -13,7 +13,7 @@ using namespace std;
 #include "Searchable.h"
 
 class Matrix : public Searchable {
-    State*** states;
+    vector<vector<State*>> states;
 public:
     size_t n;
     size_t m;

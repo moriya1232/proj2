@@ -9,18 +9,18 @@
 #include "sstream"
 
 using namespace std;
-
-FileCacheManager:: FileCacheManager(unordered_map<pair<string,string>,string> ma) : CacheManager(ma){
-}
+/*
+//FileCacheManager:: FileCacheManager(unordered_map<pair<string,string>,string> ma) : CacheManager(ma){
+//}
 void FileCacheManager:: write(string nameFile){
-    ofstream out (nameFile, ios::trunc);
+    /*ofstream out (nameFile, ios::trunc);
     for(auto it = this->cm.begin();it != this->cm.end(); ++it) {
         string input = (it)->first.first;
         string solver =  (it)->first.second;
         string solu = it->second;
         out << input << "," << solver << "," << solu <<"," <<endl;
-    }
-
+    }*/
+/*
 }
 static vector<string> split(vector<string> v, const std::string& s, char delimiter)
 {
@@ -50,11 +50,11 @@ void FileCacheManager:: load(string nameFile) {
 
     }
 
-}
+}*/
 
-void FileCacheManager:: insertToMap(string s1 , string s2, string s3){
+/*void FileCacheManager:: insertToMap(string s1 , string s2, string s3){
     pair<string,string> pair1 = make_pair(s1,s2);
     pair<pair<string,string>,string> pair2 = make_pair(pair1,s3);
     this->cm.insert(pair2);
 
-}
+}*/

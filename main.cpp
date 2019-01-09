@@ -4,6 +4,7 @@
 #include "Matrix.h"
 #include <vector>
 #include <sstream>
+#include "MatrixHandler.h"
 
 namespace  create_script {
     static void writeScript() {
@@ -85,9 +86,13 @@ namespace  create_script {
 }
 
 int main() {
+    // JUST A REPLACEMENT FOR THE REAL SCRIPT
     create_script::writeScript();
+    CacheManager* cm = new(nothrow) CacheManager();
     int** arr = create_script::readMatrixFromScript("script.txt");
     Matrix* m = new (nothrow) Matrix(arr, 3, 3);
+    BFS* bfs = new(nothrow) BFS();
+    MatrixHandler* ch = new (nothrow) MatrixHandler(bfs,cm , m);
     //std::cout << "Hello, World!" << std::endl;
     create_script::clearFile("script.txt");
     return 0;

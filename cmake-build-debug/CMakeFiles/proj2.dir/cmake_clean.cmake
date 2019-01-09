@@ -30,6 +30,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/proj2.dir/State.cpp.o"
   "CMakeFiles/proj2.dir/StringReverser.cpp.o"
   "CMakeFiles/proj2.dir/UnaryExpression.cpp.o"
+  "CMakeFiles/proj2.dir/MyPair.cpp.o"
   "proj2.pdb"
   "proj2"
 )

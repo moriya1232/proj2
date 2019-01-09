@@ -69,4 +69,5 @@ add_executable(proj2
         StringReverser.h
         UnaryExpression.cpp
         UnaryExpression.h
-        UsefulFunctions.h)
+        UsefulFunctions.h
+        MyPair.h MyPair.cpp)

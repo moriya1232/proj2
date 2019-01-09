@@ -19,19 +19,20 @@ Matrix:: Matrix(int** arr, size_t m ,size_t n) {
     //State<Point>** states;
     this->m = m;
     this->n = n;
-    this->states = (State***) malloc (sizeof(State*)*m*n);
-    if (this->states == NULL) {
-        throw "the malloc is fail";
-    }
+    vector<vector<State*>> vec;
+    vector<State*> v;
     //State** temp = *this->states;
     for (int i=0; i< m ;++i) {
         for (int j=0; j< n; ++j) {
             Point* p = new Point(i,j);
             int bla = arr[i][j];
             State* s = new State(p, bla);
-            this->states[i][j] = s;
+            v.push_back(s);
         }
+        vec.push_back(v);
+        v.clear();
     }
+    this->states = vec;
 }
 
 /**

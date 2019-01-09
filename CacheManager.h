@@ -6,18 +6,19 @@
 #define UNTITLED6_CACHEMANAGER_H
 
 #include <unordered_map>
+#include "MyPair.h"
 using namespace std;
 
 class CacheManager {
 protected:
-unordered_map< pair<string,string>, string> cm;
+//unordered_map< MyPair<string,string>, string> cm;
 
 public:
     CacheManager();
-    CacheManager(unordered_map<pair<string,string>,string>);
-    unordered_map<pair<string,string>,string> getMap();
-    void insertToMap(pair<pair<string,string>,string>);
-    void insertToMap(string , string, string);
+    /*CacheManager(unordered_map<MyPair<string,string>,string>);
+    unordered_map<MyPair<string,string>,string> getMap();
+    void insertToMap(MyPair<MyPair<string,string>,string>);
+    void insertToMap(string , string, string);*/
 
 };
 

@@ -25,10 +25,12 @@ CMakeFiles/proj2.dir/BinaryExpression.cpp.o: ../Expression.h
 
 CMakeFiles/proj2.dir/CacheManager.cpp.o: ../CacheManager.cpp
 CMakeFiles/proj2.dir/CacheManager.cpp.o: ../CacheManager.h
+CMakeFiles/proj2.dir/CacheManager.cpp.o: ../MyPair.h
 
 CMakeFiles/proj2.dir/ClientHandler.cpp.o: ../CacheManager.h
 CMakeFiles/proj2.dir/ClientHandler.cpp.o: ../ClientHandler.cpp
 CMakeFiles/proj2.dir/ClientHandler.cpp.o: ../ClientHandler.h
+CMakeFiles/proj2.dir/ClientHandler.cpp.o: ../MyPair.h
 CMakeFiles/proj2.dir/ClientHandler.cpp.o: ../Point.h
 CMakeFiles/proj2.dir/ClientHandler.cpp.o: ../Searchable.h
 CMakeFiles/proj2.dir/ClientHandler.cpp.o: ../Solver.h
@@ -68,6 +70,7 @@ CMakeFiles/proj2.dir/ExpressionSolver.cpp.o: ../UsefulFunctions.h
 CMakeFiles/proj2.dir/FileCatchManager.cpp.o: ../CacheManager.h
 CMakeFiles/proj2.dir/FileCatchManager.cpp.o: ../FileCacheManager.h
 CMakeFiles/proj2.dir/FileCatchManager.cpp.o: ../FileCatchManager.cpp
+CMakeFiles/proj2.dir/FileCatchManager.cpp.o: ../MyPair.h
 
 CMakeFiles/proj2.dir/ISearcher.cpp.o: ../ISearcher.cpp
 
@@ -83,6 +86,7 @@ CMakeFiles/proj2.dir/MatrixHandler.cpp.o: ../Matrix.h
 CMakeFiles/proj2.dir/MatrixHandler.cpp.o: ../MatrixHandler.cpp
 CMakeFiles/proj2.dir/MatrixHandler.cpp.o: ../MatrixHandler.h
 CMakeFiles/proj2.dir/MatrixHandler.cpp.o: ../MatrixSolver.h
+CMakeFiles/proj2.dir/MatrixHandler.cpp.o: ../MyPair.h
 CMakeFiles/proj2.dir/MatrixHandler.cpp.o: ../Point.h
 CMakeFiles/proj2.dir/MatrixHandler.cpp.o: ../Searchable.h
 CMakeFiles/proj2.dir/MatrixHandler.cpp.o: ../Solver.h
@@ -109,6 +113,9 @@ CMakeFiles/proj2.dir/Multiplication.cpp.o: ../Expression.h
 CMakeFiles/proj2.dir/Multiplication.cpp.o: ../Multiplication.cpp
 CMakeFiles/proj2.dir/Multiplication.cpp.o: ../Multiplication.h
 
+CMakeFiles/proj2.dir/MyPair.cpp.o: ../MyPair.cpp
+CMakeFiles/proj2.dir/MyPair.cpp.o: ../MyPair.h
+
 CMakeFiles/proj2.dir/MyPriorityQueue.cpp.o: ../MyPriorityQueue.cpp
 CMakeFiles/proj2.dir/MyPriorityQueue.cpp.o: ../MyPriorityQueue.h
 CMakeFiles/proj2.dir/MyPriorityQueue.cpp.o: ../Point.h
@@ -119,6 +126,7 @@ CMakeFiles/proj2.dir/MyServer.cpp.o: ../ClientHandler.h
 CMakeFiles/proj2.dir/MyServer.cpp.o: ../Matrix.h
 CMakeFiles/proj2.dir/MyServer.cpp.o: ../MatrixHandler.h
 CMakeFiles/proj2.dir/MyServer.cpp.o: ../MatrixSolver.h
+CMakeFiles/proj2.dir/MyServer.cpp.o: ../MyPair.h
 CMakeFiles/proj2.dir/MyServer.cpp.o: ../MyServer.cpp
 CMakeFiles/proj2.dir/MyServer.cpp.o: ../MyServer.h
 CMakeFiles/proj2.dir/MyServer.cpp.o: ../Point.h
@@ -129,6 +137,7 @@ CMakeFiles/proj2.dir/MyServer.cpp.o: ../State.h
 
 CMakeFiles/proj2.dir/MyTestClientHandler.cpp.o: ../CacheManager.h
 CMakeFiles/proj2.dir/MyTestClientHandler.cpp.o: ../ClientHandler.h
+CMakeFiles/proj2.dir/MyTestClientHandler.cpp.o: ../MyPair.h
 CMakeFiles/proj2.dir/MyTestClientHandler.cpp.o: ../MyTestClientHandler.cpp
 CMakeFiles/proj2.dir/MyTestClientHandler.cpp.o: ../MyTestClientHandler.h
 CMakeFiles/proj2.dir/MyTestClientHandler.cpp.o: ../Solver.h
@@ -143,6 +152,7 @@ CMakeFiles/proj2.dir/ParallelServer.cpp.o: ../ClientHandler.h
 CMakeFiles/proj2.dir/ParallelServer.cpp.o: ../Matrix.h
 CMakeFiles/proj2.dir/ParallelServer.cpp.o: ../MatrixHandler.h
 CMakeFiles/proj2.dir/ParallelServer.cpp.o: ../MatrixSolver.h
+CMakeFiles/proj2.dir/ParallelServer.cpp.o: ../MyPair.h
 CMakeFiles/proj2.dir/ParallelServer.cpp.o: ../MyServer.h
 CMakeFiles/proj2.dir/ParallelServer.cpp.o: ../ParallelServer.cpp
 CMakeFiles/proj2.dir/ParallelServer.cpp.o: ../ParallelServer.h
@@ -177,6 +187,7 @@ CMakeFiles/proj2.dir/State.cpp.o: ../State.h
 
 CMakeFiles/proj2.dir/StringReverser.cpp.o: ../CacheManager.h
 CMakeFiles/proj2.dir/StringReverser.cpp.o: ../ClientHandler.h
+CMakeFiles/proj2.dir/StringReverser.cpp.o: ../MyPair.h
 CMakeFiles/proj2.dir/StringReverser.cpp.o: ../Solver.h
 CMakeFiles/proj2.dir/StringReverser.cpp.o: ../StringReverser.cpp
 CMakeFiles/proj2.dir/StringReverser.cpp.o: ../StringReverser.h
@@ -190,6 +201,7 @@ CMakeFiles/proj2.dir/main.cpp.o: ../CacheManager.h
 CMakeFiles/proj2.dir/main.cpp.o: ../ClientHandler.h
 CMakeFiles/proj2.dir/main.cpp.o: ../ISearcher.h
 CMakeFiles/proj2.dir/main.cpp.o: ../Matrix.h
+CMakeFiles/proj2.dir/main.cpp.o: ../MyPair.h
 CMakeFiles/proj2.dir/main.cpp.o: ../Point.h
 CMakeFiles/proj2.dir/main.cpp.o: ../Searchable.h
 CMakeFiles/proj2.dir/main.cpp.o: ../Searcher.h
