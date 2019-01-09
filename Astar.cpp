@@ -80,7 +80,7 @@
  */
 
 template<typename T>
-string Astar<T>:: search(Searchable<T>* searchable) {
+list<State<T>> Astar<T>:: search(Searchable<T>* searchable) {
     int counter = 0;
     list<State<T>> closeDest;
     list<State<T>> openSet;
@@ -89,7 +89,7 @@ string Astar<T>:: search(Searchable<T>* searchable) {
     long* gScore;
     long* fScore;
     gScore[0]=0;
-    fScore=INTMAX_MAX;
+    //fScore=INTMAX_MAX;
 
     // i got to line 30 (while) and i stoped. need to continue.
 }

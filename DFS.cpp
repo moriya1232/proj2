@@ -3,9 +3,9 @@
 //
 
 
-/*#include "DFS.h"
+#include "DFS.h"
 
-
+template<typename T>
 void DFSUtil(State<T> state, bool visited[], Searchable<T>* searchable, int counter) {
     // Mark the current node as visited and
     // print it
@@ -20,7 +20,8 @@ void DFSUtil(State<T> state, bool visited[], Searchable<T>* searchable, int coun
     }
 }
 
-string DFS:: search(Searchable<T>* searchable) {
+template<typename T>
+list<State<T>> DFS:: search(Searchable<T>* searchable) {
     int counter = 0;
     bool *visited = new bool[searchable->getSize()];
     for (int i = 0; i < searchable->getSize(); i++)
@@ -29,4 +30,4 @@ string DFS:: search(Searchable<T>* searchable) {
     // Call the recursive helper function
     // to print DFS traversal
     DFSUtil(searchable->getInitialState(), visited, counter);
-}*/
+}

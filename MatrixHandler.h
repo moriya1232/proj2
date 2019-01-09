@@ -5,8 +5,13 @@
 #ifndef PROJ2_MATRIXHANDLER_H
 #define PROJ2_MATRIXHANDLER_H
 
+using namespace std;
 
+#include <list>
 #include "ClientHandler.h"
+#include "Point.h"
+#include "State.h"
+#include "Searchable.h"
 
 template <class problem, class solution>
 class MatrixHandler : public ClientHandler<problem,solution> {
@@ -18,7 +23,10 @@ public:
     void setCacheManager(CacheManager*);
     problem getProblem();
     void setProblem(problem);
-    void execute();
+    string execute();
+    string convertListStateToString(list<State<Point>>, Searchable<Point>*);
+
+
 };
 
 

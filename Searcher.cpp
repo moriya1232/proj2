@@ -22,3 +22,7 @@ template<typename T>
 int Searcher<T>:: getNumberOfNodesEvaluated() {
 return this->evaluatedNodes;
 }
+
+
+
+}

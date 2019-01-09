@@ -49,6 +49,35 @@ problem MatrixHandler<problem,solution>:: getProblem(){
  * @tparam solution
  */
 template <typename problem, typename solution>
-void MatrixHandler<problem,solution>::execute(){
-    this->getSolver()->solve(this->getProblem());
+string MatrixHandler<problem,solution>::execute(){
+    return convertListStateToString(this->getSolver()->solve(this->getProblem()));
 }
+
+
+template <typename problem, typename solution>
+string MatrixHandler<problem,solution>:: convertListStateToString(list<State<Point>> list1 , Searchable<Point>* searchable){
+    string result="";
+
+    for (list<State<Point>>:: iterator it = list1.begin(); it!=(list1.end()); ++it){
+        if ( it == list1.end()) {
+            return result;
+        }
+
+        State<Point> after = (*(++it));
+        it--;
+        if (after.getState().getI()> it->getState().getI()) {
+            result+="down";
+        } else if (after.getState().getI() < it->getState().getI()) {
+            result+="up";
+        } else if (after.getState().getJ()> it->getState().getJ()) {
+            result+="right";
+        } else if (after.getState().getJ()< it->getState().getJ()) {
+        result+="left";
+        }
+        result+=",";
+
+    }
+    result = result.substr(0,result.length()-2);
+    return result;
+
+    }

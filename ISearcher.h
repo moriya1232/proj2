@@ -13,7 +13,7 @@ template <class T>
 class ISearcher {
 
 public:
-    virtual string search(Searchable<T>*)=0;
+    virtual list<State<T>> search(Searchable<T>*)=0;
 };
 
 #endif //PROJ2_ISEARCHER_H

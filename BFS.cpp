@@ -5,7 +5,7 @@
 #include <iostream>
 
 template<typename T>
-string BFS<T>:: search(Searchable<T>* searchable) {
+list<State<T>> BFS<T>:: search(Searchable<T>* searchable) {
     int counter = 0;
     bool *visited = new bool[searchable->getSize()];
     for (int i = 0; i < searchable->getSize(); i++) {
@@ -39,4 +39,6 @@ string BFS<T>:: search(Searchable<T>* searchable) {
             ++counter;
         }
     }
+    return queue;
+
 }

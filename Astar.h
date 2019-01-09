@@ -10,7 +10,7 @@
 template <class T>
 class Astar: public Searcher<T> {
 
-public:  string search(Searchable<T>* searchable);
+public:  list<State<T>> search(Searchable<T>* searchable);
 };
 
 
