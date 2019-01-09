@@ -12,17 +12,21 @@ using namespace std;
 #include "Point.h"
 #include "State.h"
 #include "Searchable.h"
+#include "Matrix.h"
 
-template <class problem, class solution>
-class MatrixHandler : public ClientHandler<problem,solution> {
+
+class MatrixHandler : public ClientHandler<Matrix*,string> {
+    //CacheManager* cm;
+    //Solver<Matrix*,string>* solver;
+    //Matrix* myProblem;
 public:
-    MatrixHandler(Solver<problem,solution>* , CacheManager*);
-    Solver<problem,solution>* getSolver();
-    void setSolver(Solver<problem,solution>*);
+    MatrixHandler(Solver<Matrix*,string>* , CacheManager*);
+    Solver<Matrix*,string>* getSolver();
+    void setSolver(Solver<Matrix*,string>*);
     CacheManager* getCacheManager();
     void setCacheManager(CacheManager*);
-    problem getProblem();
-    void setProblem(problem);
+    Matrix* getProblem();
+    void setProblem(Matrix*);
     string execute();
     string convertListStateToString(list<State<Point>>, Searchable<Point>*);
 

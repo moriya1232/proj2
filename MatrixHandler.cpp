@@ -6,41 +6,37 @@
 #include "CacheManager.h"
 #include "Solver.h"
 
-template <typename problem, typename solution>
-MatrixHandler<problem,solution>:: MatrixHandler
-(Solver<problem,solution>* sol, CacheManager* cacheManager1) : ClientHandler<problem,solution>(sol,cacheManager1){}
 
-template <typename problem, typename solution>
-Solver<problem,solution>* MatrixHandler<problem,solution>:: getSolver(){
+MatrixHandler:: MatrixHandler
+(Solver<Matrix*, string>* sol, CacheManager* cacheManager1) : ClientHandler<Matrix*, string>(sol,cacheManager1){}
+
+
+Solver<Matrix*, string>* MatrixHandler:: getSolver(){
     return this->solver;
 }
 
-template <typename problem, typename solution>
-void MatrixHandler<problem,solution>:: setSolver(Solver<problem,solution>* solver1){
+void MatrixHandler:: setSolver(Solver<Matrix*, string>* solver1){
     this->solver= solver1;
 }
 
 
-template <typename problem, typename solution>
-CacheManager* MatrixHandler<problem,solution>::getCacheManager(){
+CacheManager* MatrixHandler::getCacheManager(){
 return this->cm;
 }
 
 
-template <typename problem, typename solution>
-void MatrixHandler<problem,solution>::setCacheManager(CacheManager* cache){
+void MatrixHandler::setCacheManager(CacheManager* cache){
     this->cm = cache;
 }
 
 
-template <typename problem, typename solution>
-void MatrixHandler<problem,solution>:: setProblem(problem problem1){
-this->problem = problem1;
+void MatrixHandler:: setProblem(Matrix* problem1){
+this->myProblem = problem1;
 }
 
-template <typename problem, typename solution>
-problem MatrixHandler<problem,solution>:: getProblem(){
-    return this->problem;
+
+Matrix* MatrixHandler:: getProblem(){
+    return this->myProblem;
 }
 
 /**
@@ -48,14 +44,14 @@ problem MatrixHandler<problem,solution>:: getProblem(){
  * @tparam problem
  * @tparam solution
  */
-template <typename problem, typename solution>
-string MatrixHandler<problem,solution>::execute(){
+
+string MatrixHandler::execute(){
     return convertListStateToString(this->getSolver()->solve(this->getProblem()));
 }
 
 
-template <typename problem, typename solution>
-string MatrixHandler<problem,solution>:: convertListStateToString(list<State<Point>> list1 , Searchable<Point>* searchable){
+
+string MatrixHandler:: convertListStateToString(list<State<Point>> list1 , Searchable<Point>* searchable){
     string result="";
 
     for (list<State<Point>>:: iterator it = list1.begin(); it!=(list1.end()); ++it){

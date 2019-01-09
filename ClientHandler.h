@@ -13,6 +13,7 @@ using namespace std;
 
 template <class problem, class solution>
 class ClientHandler {
+protected:
     CacheManager* cm;
     Solver<problem,solution>* solver;
     problem myProblem;
@@ -24,7 +25,7 @@ public:
     virtual void setSolver(Solver<problem,solution>*) = 0;
     virtual CacheManager* getCacheManager()=0;
     virtual void setCacheManager(CacheManager*)=0;
-    virtual void execute() =0;
+    virtual string execute() =0;
     virtual void setProblem(problem)=0;
     virtual problem getProblem()=0;
 };
