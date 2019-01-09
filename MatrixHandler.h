@@ -13,16 +13,17 @@ using namespace std;
 #include "State.h"
 #include "Searchable.h"
 #include "Matrix.h"
+#include "MatrixSolver.h"
 
 
-class MatrixHandler : public ClientHandler<Matrix*,string> {
+class MatrixHandler : public ClientHandler<Matrix*,list<State<Point>>> {
     //CacheManager* cm;
     //Solver<Matrix*,string>* solver;
     //Matrix* myProblem;
 public:
-    MatrixHandler(Solver<Matrix*,string>* , CacheManager*);
-    Solver<Matrix*,string>* getSolver();
-    void setSolver(Solver<Matrix*,string>*);
+    MatrixHandler(MatrixSolver* , CacheManager*, Matrix* m);
+    MatrixSolver* getSolver();
+    void setSolver(MatrixSolver*);
     CacheManager* getCacheManager();
     void setCacheManager(CacheManager*);
     Matrix* getProblem();

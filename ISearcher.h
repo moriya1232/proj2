@@ -10,7 +10,7 @@
 #include "string"
 
 template <class T>
-class ISearcher {
+class ISearcher{
 
 public:
     virtual list<State<T>> search(Searchable<T>*)=0;

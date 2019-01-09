@@ -9,7 +9,7 @@
 
 class ParallelServer : public MyServer {
 protected:
-    void handleClient(int, ClientHandler*);
+    void handleClient(int, MatrixHandler*);
 };
 
 #endif //UNTITLED6_PARALLELSERVER_H

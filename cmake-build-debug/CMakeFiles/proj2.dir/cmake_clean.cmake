@@ -12,6 +12,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/proj2.dir/FileCatchManager.cpp.o"
   "CMakeFiles/proj2.dir/ISearcher.cpp.o"
   "CMakeFiles/proj2.dir/main.cpp.o"
+  "CMakeFiles/proj2.dir/MatrixSolver.cpp.o"
   "CMakeFiles/proj2.dir/Matrix.cpp.o"
   "CMakeFiles/proj2.dir/MatrixHandler.cpp.o"
   "CMakeFiles/proj2.dir/Minus.cpp.o"

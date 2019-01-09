@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.13)
 project(proj2)
 
 set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_FLAGS -pthread)
 
 include_directories(.)
 
@@ -31,6 +32,8 @@ add_executable(proj2
         ISearcher.cpp
         ISearcher.h
         main.cpp
+        MatrixSolver.cpp
+        MatrixSolver.h
         Matrix.cpp
         Matrix.h
         MatrixHandler.cpp

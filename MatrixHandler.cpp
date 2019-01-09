@@ -5,13 +5,16 @@
 #include "MatrixHandler.h"
 #include "CacheManager.h"
 #include "Solver.h"
+#include "MatrixSolver.h"
+
+using namespace std;
 
 
 MatrixHandler:: MatrixHandler
-(Solver<Matrix*, string>* sol, CacheManager* cacheManager1) : ClientHandler<Matrix*, string>(sol,cacheManager1){}
+(MatrixSolver* sol, CacheManager* cacheManager1, Matrix* m) : ClientHandler<Matrix*, list<State<Point>>>(sol,cacheManager1, m){}
 
 
-Solver<Matrix*, string>* MatrixHandler:: getSolver(){
+/*Solver<Matrix*, list<State<Point>>> MatrixHandler:: getSolver(){
     return this->solver;
 }
 
@@ -38,7 +41,7 @@ this->myProblem = problem1;
 Matrix* MatrixHandler:: getProblem(){
     return this->myProblem;
 }
-
+*/
 /**
  * this is the function that does execute!
  * @tparam problem
@@ -46,7 +49,7 @@ Matrix* MatrixHandler:: getProblem(){
  */
 
 string MatrixHandler::execute(){
-    return convertListStateToString(this->getSolver()->solve(this->getProblem()));
+    return convertListStateToString(this->getSolver()->solve(this->getProblem()), this->getProblem());
 }
 
 

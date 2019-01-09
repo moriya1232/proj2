@@ -11,7 +11,7 @@
 #include <errno.h>
 #include "MyServer.h"
 #include <list>
-#include "ClientHandler.h"
+#include "MatrixHandler.h"
 
 using namespace std;
 
@@ -20,7 +20,7 @@ using namespace std;
         this->sockfd = 0;
     }
 
-    void MyServer::open(int port, ClientHandler* ch) {
+    void MyServer::open(int port, MatrixHandler* ch) {
         int sockfd, clilen;
         char buffer[100];
         struct sockaddr_in serv_addr, cli_addr;
@@ -54,7 +54,6 @@ using namespace std;
         this->sockfd = sockfd;
         start(ch);
     }
-}
     // basically runs for 10 seconds and somehow should stop the operation after 10 sec
     static void isTimeOut() {
         time_t start, end;
@@ -74,7 +73,7 @@ using namespace std;
         } while(elapsed < 10);  /* run for ten seconds */
     }
 
-    void MyServer::start(ClientHandler* ch) {
+    void MyServer::start(MatrixHandler* ch) {
         struct sockaddr_in cli_addr;
         int newsockfd, clilen = sizeof(cli_addr);
         while (run) {
@@ -88,8 +87,6 @@ using namespace std;
         }
     }
 
-        int MyServer::stop() {
+        void MyServer::stop() {
             this->run = false;
         }
-    }
-}

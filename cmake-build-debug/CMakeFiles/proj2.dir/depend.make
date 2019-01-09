@@ -28,7 +28,10 @@ CMakeFiles/proj2.dir/CacheManager.cpp.o: ../CacheManager.cpp
 CMakeFiles/proj2.dir/ClientHandler.cpp.o: ../CacheManager.h
 CMakeFiles/proj2.dir/ClientHandler.cpp.o: ../ClientHandler.cpp
 CMakeFiles/proj2.dir/ClientHandler.cpp.o: ../ClientHandler.h
+CMakeFiles/proj2.dir/ClientHandler.cpp.o: ../Point.h
+CMakeFiles/proj2.dir/ClientHandler.cpp.o: ../Searchable.h
 CMakeFiles/proj2.dir/ClientHandler.cpp.o: ../Solver.h
+CMakeFiles/proj2.dir/ClientHandler.cpp.o: ../State.h
 
 CMakeFiles/proj2.dir/DFS.cpp.o: ../DFS.cpp
 
@@ -76,10 +79,22 @@ CMakeFiles/proj2.dir/MatrixHandler.cpp.o: ../ClientHandler.h
 CMakeFiles/proj2.dir/MatrixHandler.cpp.o: ../Matrix.h
 CMakeFiles/proj2.dir/MatrixHandler.cpp.o: ../MatrixHandler.cpp
 CMakeFiles/proj2.dir/MatrixHandler.cpp.o: ../MatrixHandler.h
+CMakeFiles/proj2.dir/MatrixHandler.cpp.o: ../MatrixSolver.h
 CMakeFiles/proj2.dir/MatrixHandler.cpp.o: ../Point.h
 CMakeFiles/proj2.dir/MatrixHandler.cpp.o: ../Searchable.h
 CMakeFiles/proj2.dir/MatrixHandler.cpp.o: ../Solver.h
 CMakeFiles/proj2.dir/MatrixHandler.cpp.o: ../State.h
+
+CMakeFiles/proj2.dir/MatrixSolver.cpp.o: ../BFS.h
+CMakeFiles/proj2.dir/MatrixSolver.cpp.o: ../ISearcher.h
+CMakeFiles/proj2.dir/MatrixSolver.cpp.o: ../Matrix.h
+CMakeFiles/proj2.dir/MatrixSolver.cpp.o: ../MatrixSolver.cpp
+CMakeFiles/proj2.dir/MatrixSolver.cpp.o: ../MatrixSolver.h
+CMakeFiles/proj2.dir/MatrixSolver.cpp.o: ../Point.h
+CMakeFiles/proj2.dir/MatrixSolver.cpp.o: ../Searchable.h
+CMakeFiles/proj2.dir/MatrixSolver.cpp.o: ../Searcher.h
+CMakeFiles/proj2.dir/MatrixSolver.cpp.o: ../Solver.h
+CMakeFiles/proj2.dir/MatrixSolver.cpp.o: ../State.h
 
 CMakeFiles/proj2.dir/Minus.cpp.o: ../BinaryExpression.h
 CMakeFiles/proj2.dir/Minus.cpp.o: ../Expression.h
@@ -100,6 +115,7 @@ CMakeFiles/proj2.dir/MyServer.cpp.o: ../CacheManager.h
 CMakeFiles/proj2.dir/MyServer.cpp.o: ../ClientHandler.h
 CMakeFiles/proj2.dir/MyServer.cpp.o: ../Matrix.h
 CMakeFiles/proj2.dir/MyServer.cpp.o: ../MatrixHandler.h
+CMakeFiles/proj2.dir/MyServer.cpp.o: ../MatrixSolver.h
 CMakeFiles/proj2.dir/MyServer.cpp.o: ../MyServer.cpp
 CMakeFiles/proj2.dir/MyServer.cpp.o: ../MyServer.h
 CMakeFiles/proj2.dir/MyServer.cpp.o: ../Point.h
@@ -123,6 +139,7 @@ CMakeFiles/proj2.dir/ParallelServer.cpp.o: ../CacheManager.h
 CMakeFiles/proj2.dir/ParallelServer.cpp.o: ../ClientHandler.h
 CMakeFiles/proj2.dir/ParallelServer.cpp.o: ../Matrix.h
 CMakeFiles/proj2.dir/ParallelServer.cpp.o: ../MatrixHandler.h
+CMakeFiles/proj2.dir/ParallelServer.cpp.o: ../MatrixSolver.h
 CMakeFiles/proj2.dir/ParallelServer.cpp.o: ../MyServer.h
 CMakeFiles/proj2.dir/ParallelServer.cpp.o: ../ParallelServer.cpp
 CMakeFiles/proj2.dir/ParallelServer.cpp.o: ../ParallelServer.h
