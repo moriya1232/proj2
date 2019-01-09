@@ -13,8 +13,6 @@ class MatrixSolver : public Solver<Matrix*,list<State*>> {
 public:
      list<State*> solve(Matrix* m );
 
-
-
 };
 
 

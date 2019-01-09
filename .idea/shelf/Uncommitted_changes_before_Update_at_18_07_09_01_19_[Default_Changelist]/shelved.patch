@@ -1,0 +1,18 @@
+Index: MatrixSolver.h
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>//\n// Created by moriya on 09/01/19.\n//\n\n#ifndef PROJ2_MATRIXSOLVER_H\n#define PROJ2_MATRIXSOLVER_H\n\n#include \"Matrix.h\"\n#include \"Solver.h\"\n\nclass MatrixSolver : public Solver<Matrix*,list<State>> {\n\npublic:\n     list<State> solve(Matrix* m );\n\n\n\n};\n\n\n#endif //PROJ2_MATRIXSOLVER_H\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- MatrixSolver.h	(revision a1db21944f14c9d7f84ce6bc25b1921a7cb9c4a3)
++++ MatrixSolver.h	(date 1547049956000)
+@@ -13,8 +13,6 @@
+ public:
+      list<State> solve(Matrix* m );
+ 
+-
+-
+ };
+ 
+ 

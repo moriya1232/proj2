@@ -20,14 +20,16 @@ Matrix:: Matrix(int** arr, size_t m ,size_t n) {
     this->m = m;
     this->n = n;
     this->states = (State***) malloc (sizeof(State*)*m*n);
-    for (int i=0; i<this->m ;++i) {
-        for (int j=0; j<this->n; ++j) {
-            Point p(i,j);
-            Point* pp= &p;
-            int bla = arr[m][n];
-            State s(pp, bla);
-            State* ps = &s;
-            this->states[i][j] = ps;
+    if (this->states == NULL) {
+        throw "the malloc is fail";
+    }
+    //State** temp = *this->states;
+    for (int i=0; i< m ;++i) {
+        for (int j=0; j< n; ++j) {
+            Point* p = new Point(i,j);
+            int bla = arr[i][j];
+            State* s = new State(p, bla);
+            this->states[i][j] = s;
         }
     }
 }
