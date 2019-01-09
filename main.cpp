@@ -127,7 +127,6 @@ namespace  create_script {
 
 int main() {
     // JUST A REPLACEMENT FOR THE REAL SCRIPT
-    int x = 5;
     create_script::writeScript();
     CacheManager* cm = new(nothrow) CacheManager();
     vector<vector<int>> arr = create_script::readMatrixFromScript("script.txt");
