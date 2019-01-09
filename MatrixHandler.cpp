@@ -7,38 +7,40 @@
 
 using namespace std;
 
-
-MatrixHandler:: MatrixHandler
-(MatrixSolver* sol, CacheManager* cacheManager1, Matrix* m) {//: ClientHandler<Matrix*,vector<State*>>(sol,cacheManager1, m){}
+template  <class problem, class solution>
+MatrixHandler<problem, solution>:: MatrixHandler
+(solution sol, CacheManager* cacheManager1, problem m) {//: ClientHandler<Matrix*,vector<State*>>(sol,cacheManager1, m){}
     this->solver= sol;
     this->cm = cacheManager1;
     this->problem = m;
 }
-Solver<class T1,class T2>* MatrixHandler:: getSolver(){
+
+template< typename
+MatrixSolver<Matrix*, list<State*>>* MatrixHandler<Matrix*, MatrixSolver<Matrix*, list<State*>>>:: getSolver(){
     return this->solver;
 }
-
-void MatrixHandler:: setSolver(MatrixSolver* solver1){
+template  <class problem, class solution>
+void MatrixHandler<problem, solution>:: setSolver(Solver<problem, solution>* solver1){
     this->solver= solver1;
 }
 
-
-CacheManager* MatrixHandler::getCacheManager(){
+template  <class problem, class solution>
+CacheManager* MatrixHandler<problem, solution>::getCacheManager(){
 return this->cm;
 }
 
-
-void MatrixHandler::setCacheManager(CacheManager* cache){
+template  <class problem, class solution>
+void MatrixHandler<problem, solution>::setCacheManager(CacheManager* cache){
     this->cm = cache;
 }
 
-
-void MatrixHandler:: setProblem(Matrix* problem1){
+template  <class problem, class solution>
+void MatrixHandler<problem, solution>:: setProblem(Matrix* problem1){
 this->myProblem = problem1;
 }
 
-
-Matrix* MatrixHandler:: getProblem(){
+template  <class problem, class solution>
+Matrix* MatrixHandler<problem, solution>:: getProblem(){
     return this->myProblem;
 }
 
@@ -47,14 +49,14 @@ Matrix* MatrixHandler:: getProblem(){
  * @tparam problem
  * @tparam solution
  */
-
-string MatrixHandler::execute(){
+template  <class problem, class solution>
+string MatrixHandler<problem, solution>::execute(){
     return convertListStateToString(this->getSolver()->solve(this->getProblem()), this->getProblem());
 }
 
 
-
-string MatrixHandler:: convertListStateToString(list<State*> list1 , Searchable* searchable){
+template  <class problem, class solution>
+string MatrixHandler<problem, solution>:: convertListStateToString(list<State*> list1 , Searchable* searchable){
     string result="";
 
     for (list<State*>:: iterator it = list1.begin(); it!=(list1.end()); ++it){
@@ -74,9 +76,7 @@ string MatrixHandler:: convertListStateToString(list<State*> list1 , Searchable*
         result+="left";
         }
         result+=",";
-
     }
     result = result.substr(0,result.length()-2);
     return result;
-
     }

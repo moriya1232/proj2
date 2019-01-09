@@ -30,6 +30,7 @@ CMakeFiles/proj2.dir/CacheManager.cpp.o: ../MyPair.h
 CMakeFiles/proj2.dir/ClientHandler.cpp.o: ../CacheManager.h
 CMakeFiles/proj2.dir/ClientHandler.cpp.o: ../ClientHandler.cpp
 CMakeFiles/proj2.dir/ClientHandler.cpp.o: ../ClientHandler.h
+CMakeFiles/proj2.dir/ClientHandler.cpp.o: ../Matrix.h
 CMakeFiles/proj2.dir/ClientHandler.cpp.o: ../MyPair.h
 CMakeFiles/proj2.dir/ClientHandler.cpp.o: ../Point.h
 CMakeFiles/proj2.dir/ClientHandler.cpp.o: ../Searchable.h
@@ -59,11 +60,15 @@ CMakeFiles/proj2.dir/ExpressionSolver.cpp.o: ../Divide.h
 CMakeFiles/proj2.dir/ExpressionSolver.cpp.o: ../Expression.h
 CMakeFiles/proj2.dir/ExpressionSolver.cpp.o: ../ExpressionSolver.cpp
 CMakeFiles/proj2.dir/ExpressionSolver.cpp.o: ../ExpressionSolver.h
+CMakeFiles/proj2.dir/ExpressionSolver.cpp.o: ../Matrix.h
 CMakeFiles/proj2.dir/ExpressionSolver.cpp.o: ../Minus.h
 CMakeFiles/proj2.dir/ExpressionSolver.cpp.o: ../Multiplication.h
 CMakeFiles/proj2.dir/ExpressionSolver.cpp.o: ../Number.h
 CMakeFiles/proj2.dir/ExpressionSolver.cpp.o: ../Plus.h
+CMakeFiles/proj2.dir/ExpressionSolver.cpp.o: ../Point.h
+CMakeFiles/proj2.dir/ExpressionSolver.cpp.o: ../Searchable.h
 CMakeFiles/proj2.dir/ExpressionSolver.cpp.o: ../Solver.h
+CMakeFiles/proj2.dir/ExpressionSolver.cpp.o: ../State.h
 CMakeFiles/proj2.dir/ExpressionSolver.cpp.o: ../UnaryExpression.h
 CMakeFiles/proj2.dir/ExpressionSolver.cpp.o: ../UsefulFunctions.h
 
@@ -137,10 +142,14 @@ CMakeFiles/proj2.dir/MyServer.cpp.o: ../State.h
 
 CMakeFiles/proj2.dir/MyTestClientHandler.cpp.o: ../CacheManager.h
 CMakeFiles/proj2.dir/MyTestClientHandler.cpp.o: ../ClientHandler.h
+CMakeFiles/proj2.dir/MyTestClientHandler.cpp.o: ../Matrix.h
 CMakeFiles/proj2.dir/MyTestClientHandler.cpp.o: ../MyPair.h
 CMakeFiles/proj2.dir/MyTestClientHandler.cpp.o: ../MyTestClientHandler.cpp
 CMakeFiles/proj2.dir/MyTestClientHandler.cpp.o: ../MyTestClientHandler.h
+CMakeFiles/proj2.dir/MyTestClientHandler.cpp.o: ../Point.h
+CMakeFiles/proj2.dir/MyTestClientHandler.cpp.o: ../Searchable.h
 CMakeFiles/proj2.dir/MyTestClientHandler.cpp.o: ../Solver.h
+CMakeFiles/proj2.dir/MyTestClientHandler.cpp.o: ../State.h
 
 CMakeFiles/proj2.dir/Number.cpp.o: ../Expression.h
 CMakeFiles/proj2.dir/Number.cpp.o: ../Number.cpp
@@ -187,8 +196,12 @@ CMakeFiles/proj2.dir/State.cpp.o: ../State.h
 
 CMakeFiles/proj2.dir/StringReverser.cpp.o: ../CacheManager.h
 CMakeFiles/proj2.dir/StringReverser.cpp.o: ../ClientHandler.h
+CMakeFiles/proj2.dir/StringReverser.cpp.o: ../Matrix.h
 CMakeFiles/proj2.dir/StringReverser.cpp.o: ../MyPair.h
+CMakeFiles/proj2.dir/StringReverser.cpp.o: ../Point.h
+CMakeFiles/proj2.dir/StringReverser.cpp.o: ../Searchable.h
 CMakeFiles/proj2.dir/StringReverser.cpp.o: ../Solver.h
+CMakeFiles/proj2.dir/StringReverser.cpp.o: ../State.h
 CMakeFiles/proj2.dir/StringReverser.cpp.o: ../StringReverser.cpp
 CMakeFiles/proj2.dir/StringReverser.cpp.o: ../StringReverser.h
 

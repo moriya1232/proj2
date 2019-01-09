@@ -12,20 +12,20 @@ using namespace std;
 #include "Matrix.h"
 #include "MatrixSolver.h"
 
-
-class MatrixHandler : public ClientHandler<Matrix*,vector<State>> {
+template <class problem, class solution>
+class MatrixHandler {//: public ClientHandler<Matrix*,list<State*>> {
     CacheManager* cm;
-    MatrixSolver* solver;
-    Matrix* problem;
+    MatrixSolver<Matrix*, list<State*>>* solver;
+    Matrix* MyProblem;
 public:
-    MatrixHandler(MatrixSolver* , CacheManager*, Matrix* m);
-    MatrixSolver* getSolver() override;
-    void setSolver(MatrixSolver*) override;
-    CacheManager* getCacheManager() override;
-    void setCacheManager(CacheManager*) override;
-    Matrix* getProblem() override;
-    void setProblem(Matrix*) override;
-    string execute()override;
+    MatrixHandler(solution , CacheManager*, problem);
+    MatrixSolver<Matrix*, list<State*>>* getSolver();
+    void setSolver(Solver<problem, solution>*);
+    CacheManager* getCacheManager();
+    void setCacheManager(CacheManager*);
+    Matrix* getProblem();
+    void setProblem(Matrix*);
+    string execute();
     string convertListStateToString(list<State*>, Searchable*);
 
 

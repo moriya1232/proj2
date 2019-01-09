@@ -6,8 +6,8 @@
 #include "MatrixSolver.h"
 #include "BFS.h"
 
-
-list<State*> MatrixSolver:: solve(Matrix* m ){
+template  <class problem, class solution>
+list<State*> MatrixSolver<problem, solution>:: solve(Matrix* m){
     BFS* bfs = new BFS();
     return bfs->search(m);
 }

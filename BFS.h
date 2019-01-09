@@ -7,6 +7,7 @@
 
 #include "Searcher.h"
 #include "Searchable.h"
+#include <vector>
 
 using namespace std;
 

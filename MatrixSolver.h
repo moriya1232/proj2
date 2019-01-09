@@ -7,8 +7,8 @@
 
 #include "Matrix.h"
 #include "Solver.h"
-
-class MatrixSolver : public Solver<Matrix*,list<State*>> {
+template  <class problem, class solution>
+class MatrixSolver : public Solver<Matrix*,vector<State*>> {
 
 public:
      list<State*> solve(Matrix* m );
