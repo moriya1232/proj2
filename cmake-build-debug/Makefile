@@ -501,33 +501,6 @@ MyPriorityQueue.cpp.s:
 	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/MyPriorityQueue.cpp.s
 .PHONY : MyPriorityQueue.cpp.s
 
-MySerialServer.o: MySerialServer.cpp.o
-
-.PHONY : MySerialServer.o
-
-# target to build an object file
-MySerialServer.cpp.o:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/MySerialServer.cpp.o
-.PHONY : MySerialServer.cpp.o
-
-MySerialServer.i: MySerialServer.cpp.i
-
-.PHONY : MySerialServer.i
-
-# target to preprocess a source file
-MySerialServer.cpp.i:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/MySerialServer.cpp.i
-.PHONY : MySerialServer.cpp.i
-
-MySerialServer.s: MySerialServer.cpp.s
-
-.PHONY : MySerialServer.s
-
-# target to generate assembly for a file
-MySerialServer.cpp.s:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/MySerialServer.cpp.s
-.PHONY : MySerialServer.cpp.s
-
 MyServer.o: MyServer.cpp.o
 
 .PHONY : MyServer.o
@@ -930,9 +903,6 @@ help:
 	@echo "... MyPriorityQueue.o"
 	@echo "... MyPriorityQueue.i"
 	@echo "... MyPriorityQueue.s"
-	@echo "... MySerialServer.o"
-	@echo "... MySerialServer.i"
-	@echo "... MySerialServer.s"
 	@echo "... MyServer.o"
 	@echo "... MyServer.i"
 	@echo "... MyServer.s"

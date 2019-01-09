@@ -84,16 +84,9 @@ using namespace std;
                 perror("ERROR");
                 exit(1);
             }
-            solveClientsProblem(newsockfd, ch);
+            handleClient(newsockfd, ch);
         }
     }
-        bool MyServer::endReceived(char *buffer, int n) {
-            string str = "end";
-            if (str.compare(buffer)) {
-                return true;
-            }
-            return false;
-        }
 
         int MyServer::stop() {
             this->run = false;

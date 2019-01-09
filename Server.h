@@ -11,7 +11,7 @@ namespace  server_side {
     class Server{
     protected:
         virtual void start(ClientHandler) = 0;
-        virtual void solveClientsProblem(int, ClientHandler) = 0;
+        virtual void handleClient(int, ClientHandler) = 0;
     public:
         virtual void open(int, ClientHandler) = 0;
         virtual void stop() = 0;

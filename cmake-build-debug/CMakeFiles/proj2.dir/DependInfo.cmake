@@ -18,7 +18,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/omer/CLionProjects/proj2/Minus.cpp" "/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles/proj2.dir/Minus.cpp.o"
   "/home/omer/CLionProjects/proj2/Multiplication.cpp" "/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles/proj2.dir/Multiplication.cpp.o"
   "/home/omer/CLionProjects/proj2/MyPriorityQueue.cpp" "/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles/proj2.dir/MyPriorityQueue.cpp.o"
-  "/home/omer/CLionProjects/proj2/MySerialServer.cpp" "/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles/proj2.dir/MySerialServer.cpp.o"
   "/home/omer/CLionProjects/proj2/MyServer.cpp" "/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles/proj2.dir/MyServer.cpp.o"
   "/home/omer/CLionProjects/proj2/MyTestClientHandler.cpp" "/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles/proj2.dir/MyTestClientHandler.cpp.o"
   "/home/omer/CLionProjects/proj2/Number.cpp" "/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles/proj2.dir/Number.cpp.o"

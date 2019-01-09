@@ -174,12 +174,6 @@
 		<Unit filename="/home/omer/CLionProjects/proj2/MyPriorityQueue.h">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/omer/CLionProjects/proj2/MySerialServer.cpp">
-			<Option target="proj2"/>
-		</Unit>
-		<Unit filename="/home/omer/CLionProjects/proj2/MySerialServer.h">
-			<Option target="proj2"/>
-		</Unit>
 		<Unit filename="/home/omer/CLionProjects/proj2/MyServer.cpp">
 			<Option target="proj2"/>
 		</Unit>

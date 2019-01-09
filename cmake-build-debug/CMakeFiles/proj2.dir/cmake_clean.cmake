@@ -14,7 +14,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/proj2.dir/Minus.cpp.o"
   "CMakeFiles/proj2.dir/Multiplication.cpp.o"
   "CMakeFiles/proj2.dir/MyPriorityQueue.cpp.o"
-  "CMakeFiles/proj2.dir/MySerialServer.cpp.o"
   "CMakeFiles/proj2.dir/MyTestClientHandler.cpp.o"
   "CMakeFiles/proj2.dir/Number.cpp.o"
   "CMakeFiles/proj2.dir/ParallelServer.cpp.o"
