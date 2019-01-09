@@ -19,4 +19,3 @@ namespace  server_side {
 }
 
 #endif //PROJ2_SERVER_H
- 
