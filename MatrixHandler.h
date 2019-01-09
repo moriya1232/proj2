@@ -19,7 +19,7 @@ class MatrixHandler {//: public ClientHandler<Matrix*,list<State*>> {
     Matrix* MyProblem;
 public:
     MatrixHandler(solution , CacheManager*, problem);
-    MatrixSolver<Matrix*, list<State*>>* getSolver();
+    Solver<problem, solution>* getSolver();
     void setSolver(Solver<problem, solution>*);
     CacheManager* getCacheManager();
     void setCacheManager(CacheManager*);
