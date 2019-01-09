@@ -7,7 +7,7 @@
 #include "BFS.h"
 
 
-list<State<Point>> MatrixSolver:: solve(Matrix* m ){
-    BFS<Point>* bfs = new BFS<Point>();
+list<State> MatrixSolver:: solve(Matrix* m ){
+    BFS* bfs = new BFS();
     return bfs->search(m);
 }

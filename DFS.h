@@ -11,10 +11,10 @@
 using namespace std;
 
 
-template <class T>
-class DFS: public Searcher<T> {
 
-    list<State<T>> search(Searchable<T>* searchable);
+class DFS: public Searcher {
+
+    list<State> search(Searchable* searchable);
 };
 
 

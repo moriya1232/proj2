@@ -10,10 +10,9 @@
 
 using namespace std;
 
-template <class T>
-class BFS: public Searcher<T> {
+class BFS: public Searcher {
 
-public:  list<State<T>> search(Searchable<T>* searchable);
+public:  list<State> search(Searchable* searchable);
 };
 
 

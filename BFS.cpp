@@ -4,16 +4,16 @@
 #include "BFS.h"
 #include <iostream>
 
-template<typename T>
-list<State<T>> BFS<T>:: search(Searchable<T>* searchable) {
+
+list<State> BFS:: search(Searchable* searchable) {
     int counter = 0;
     bool *visited = new bool[searchable->getSize()];
     for (int i = 0; i < searchable->getSize(); i++) {
         visited[i] = false;
     }
-    State<T> current = searchable->getInitialState();
+    State current = searchable->getInitialState();
     // Create a queue for BFS
-    list<State<T>> queue;
+    list<State> queue;
     // Mark the current node as visited and enqueue it
     //current.setVisited(true);
     visited[0];
@@ -30,12 +30,12 @@ list<State<T>> BFS<T>:: search(Searchable<T>* searchable) {
         // vertex s. If a adjacent has not been visited,
         // then mark it visited and enqueue it
 
-        for (State<T> t : queue) {
+        for (State t : queue) {
             if (!visited[counter]) {
                 visited[counter] = true;
                 queue.push_back(t);
             }
-            cout << t << endl;
+            cout << "(" << t.getState()->getI() << "," << t.getState()->getJ() << ")"<< endl;
             ++counter;
         }
     }

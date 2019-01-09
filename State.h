@@ -10,22 +10,26 @@
 
 using namespace std;
 
-template <class T>
 class State{
-    T state;
+
+
+    Point* state;
     double cost;
     //State<T> cameFrom;
     /*double value;
     Point* point;
     //list<State> adj;*/
 public:
-    State(T, int);
-    T getState();
-    bool equal(State<T>);
-    //void setCameFrom(State<T>*);
-    //State<T> getCameFrom();
+    State(Point*, int);
+    Point* getState();
+    bool equal(State);
     double getCost();
     void setCost(double);
+
+
+    //void setCameFrom(State<T>*);
+    //State<T> getCameFrom();
+
     /*State(int, Point*);
     Point* getPoint();
     int getValue();

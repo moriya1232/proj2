@@ -7,8 +7,7 @@
 /**
  * this function is a constractor of searcher.
  */
-template<typename T>
-Searcher<T>:: Searcher(){
+Searcher:: Searcher(){
     //this->myPriorityQueue = new MyPriorityQueue();
     this->evaluatedNodes = 0;
 
@@ -18,8 +17,7 @@ Searcher<T>:: Searcher(){
  * this function returns the number of nodes that we get until here.
  * @return number of nodes we get until here.
  */
-template<typename T>
-int Searcher<T>:: getNumberOfNodesEvaluated() {
+int Searcher:: getNumberOfNodesEvaluated() {
 return this->evaluatedNodes;
 }
 

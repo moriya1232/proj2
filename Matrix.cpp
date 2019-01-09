@@ -22,7 +22,7 @@ Matrix:: Matrix(int** arr, size_t m ,size_t n) {
     for (int i=0; i<this->m ;++i) {
         for (int j=0; j<this->n; ++j) {
             Point* p = new Point(i,j);
-            State<Point>* s = new State<Point>(*p, arr[m][n]);
+            State* s = new State(p, arr[m][n]);
             this->arr[i][j] = *s;
         }
     }
@@ -33,7 +33,7 @@ Matrix:: Matrix(int** arr, size_t m ,size_t n) {
  * this is in (0,0)
  * @return
  */
-State<Point> Matrix:: getInitialState(){
+State Matrix:: getInitialState(){
     return this->arr[0][0];
 }
 
@@ -42,8 +42,8 @@ State<Point> Matrix:: getInitialState(){
  * this function return all the adj
  * @return the adj
  */
-list<State<Point>> Matrix:: getAllPossibleStates(State<Point>){
-    list<State<Point>> result;
+list<State> Matrix:: getAllPossibleStates(State){
+    list<State> result;
     int y, j = 0, i = 0;
     // get the neighbors
     int row_limit = n;
@@ -52,7 +52,7 @@ list<State<Point>> Matrix:: getAllPossibleStates(State<Point>){
         for(int x = max(0, i-1); x <= min(i+1, row_limit); x++){
             for(y = max(0, j-1); y <= min(j+1, column_limit); y++){
                 if(x != i || y != j && abs(x-i) == 0 && abs(y-1) == 0){
-                    State<Point> tempState(this->arr[x][y]);
+                    State tempState(this->arr[x][y]);
                     result.push_back(tempState);
                 }
             }
@@ -65,7 +65,7 @@ list<State<Point>> Matrix:: getAllPossibleStates(State<Point>){
  * this function return the goal of where we need to go.
  * @return he goal
  */
-State<Point> Matrix:: getGoalState(){
+State Matrix:: getGoalState(){
 return this->arr[m][n];
 }
 

@@ -3,16 +3,13 @@
 //
 
 #include "MatrixHandler.h"
-#include "CacheManager.h"
-#include "Solver.h"
-#include "MatrixSolver.h"
+#include "ClientHandler.h"
 
 using namespace std;
 
 
 MatrixHandler:: MatrixHandler
-(MatrixSolver* sol, CacheManager* cacheManager1, Matrix* m) : ClientHandler<Matrix*, list<State<Point>>>(sol,cacheManager1, m){}
-
+(MatrixSolver* sol, CacheManager* cacheManager1, Matrix* m) : ClientHandler<Matrix*,list<State>>(sol,cacheManager1, m){}
 
 /*Solver<Matrix*, list<State<Point>>> MatrixHandler:: getSolver(){
     return this->solver;
@@ -54,23 +51,23 @@ string MatrixHandler::execute(){
 
 
 
-string MatrixHandler:: convertListStateToString(list<State<Point>> list1 , Searchable<Point>* searchable){
+string MatrixHandler:: convertListStateToString(list<State> list1 , Searchable* searchable){
     string result="";
 
-    for (list<State<Point>>:: iterator it = list1.begin(); it!=(list1.end()); ++it){
+    for (list<State>:: iterator it = list1.begin(); it!=(list1.end()); ++it){
         if ( it == list1.end()) {
             return result;
         }
 
-        State<Point> after = (*(++it));
+        State after = (*(++it));
         it--;
-        if (after.getState().getI()> it->getState().getI()) {
+        if (after.getState()->getI()> it->getState()->getI()) {
             result+="down";
-        } else if (after.getState().getI() < it->getState().getI()) {
+        } else if (after.getState()->getI() < it->getState()->getI()) {
             result+="up";
-        } else if (after.getState().getJ()> it->getState().getJ()) {
+        } else if (after.getState()->getJ()> it->getState()->getJ()) {
             result+="right";
-        } else if (after.getState().getJ()< it->getState().getJ()) {
+        } else if (after.getState()->getJ()< it->getState()->getJ()) {
         result+="left";
         }
         result+=",";

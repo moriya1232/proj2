@@ -9,8 +9,7 @@
 //#include "MyPriorityQueue.h"
 #include "ISearcher.h"
 
-template<class T>
-class Searcher: public ISearcher<T> {
+class Searcher: public ISearcher{
     //MyPriorityQueue* myPriorityQueue;
     int evaluatedNodes;
 public:

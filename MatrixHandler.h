@@ -9,14 +9,11 @@ using namespace std;
 
 #include <list>
 #include "ClientHandler.h"
-#include "Point.h"
-#include "State.h"
-#include "Searchable.h"
 #include "Matrix.h"
 #include "MatrixSolver.h"
 
 
-class MatrixHandler : public ClientHandler<Matrix*,list<State<Point>>> {
+class MatrixHandler : public ClientHandler<Matrix*,list<State>> {
     //CacheManager* cm;
     //Solver<Matrix*,string>* solver;
     //Matrix* myProblem;
@@ -29,7 +26,7 @@ public:
     Matrix* getProblem();
     void setProblem(Matrix*);
     string execute();
-    string convertListStateToString(list<State<Point>>, Searchable<Point>*);
+    string convertListStateToString(list<State>, Searchable*);
 
 
 };

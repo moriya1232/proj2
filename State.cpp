@@ -8,8 +8,8 @@
  * @tparam T
  * @param t
  */
-template<typename T>
-State<T>:: State(T t, int c){
+
+State:: State(Point* t, int c){
 this->state = t;
 this->cost=c;
 //this->cameFrom = nullptr;
@@ -19,8 +19,7 @@ this->cost=c;
  * this function return the state
  * @return state
  */
-template<typename T>
-T State<T>:: getState(){
+Point* State:: getState(){
     return this->state;
 }
 
@@ -30,9 +29,8 @@ T State<T>:: getState(){
  * @param s
  * @return
  */
-template<typename T>
-bool State<T>:: equal(State<T> s){
-    if(this->state == s.getState()) {
+bool State:: equal(State s){
+    if(this->state->getI() == s.getState()->getI() &&this->state->getJ() == s.getState()->getJ() ) {
         return true;
     }
     return false;
@@ -44,7 +42,7 @@ bool State<T>:: equal(State<T> s){
  * @param cf - state in type of T
  */
 //template<typename T>
-//void State<T>:: setCameFrom(State<T>* cf){
+//void State:: setCameFrom(State* cf){
 //    this->cameFrom = cf;
 //}
 
@@ -54,7 +52,7 @@ bool State<T>:: equal(State<T> s){
  * @return State of T
  */
 //template<typename T>
-//State<T> State<T>:: getCameFrom(){
+//State State:: getCameFrom(){
 //    return this->cameFrom;
 //}
 
@@ -64,8 +62,7 @@ bool State<T>:: equal(State<T> s){
  * @return
  */
 
-template<typename T>
-double State<T>:: getCost(){
+double State:: getCost(){
     return this->cost;
 }
 
@@ -74,8 +71,7 @@ double State<T>:: getCost(){
  * @tparam T
  * @param d - cost
  */
-template<typename T>
-void State<T>:: setCost(double d){
+void State:: setCost(double d){
     this->cost = d;
 }
 
@@ -123,25 +119,25 @@ bool State:: Equals(Point* p) {
 }*/
 
 /*template<typename T>
-State<T>:: State(T t) {
+State:: State(T t) {
 this->state = t;
 }
 
 template<typename T>
-bool State<T>:: Equals(State<T> s) {
+bool State:: Equals(State s) {
     return (this->state == (s.state));
 }
 
 template<typename  T>
-T State<T>::getState() {
+T State::getState() {
     return this->state;
 }
 
-list<State<T>> State<T>:: getAdj() {
+list<State> State:: getAdj() {
     return this->adj;
 }
 
 template<typename  T>
-double State<T>:: getCost() {
+double State:: getCost() {
     return this->cost;
 }*/
