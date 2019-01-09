@@ -74,6 +74,7 @@ CMakeFiles/proj2.dir/Matrix.cpp.o
 CMakeFiles/proj2.dir/MatrixHandler.cpp.o
  /home/omer/CLionProjects/proj2/CacheManager.h
  /home/omer/CLionProjects/proj2/ClientHandler.h
+ /home/omer/CLionProjects/proj2/Matrix.h
  /home/omer/CLionProjects/proj2/MatrixHandler.cpp
  /home/omer/CLionProjects/proj2/MatrixHandler.h
  /home/omer/CLionProjects/proj2/Point.h
@@ -98,10 +99,15 @@ CMakeFiles/proj2.dir/MyPriorityQueue.cpp.o
 CMakeFiles/proj2.dir/MyServer.cpp.o
  /home/omer/CLionProjects/proj2/CacheManager.h
  /home/omer/CLionProjects/proj2/ClientHandler.h
+ /home/omer/CLionProjects/proj2/Matrix.h
+ /home/omer/CLionProjects/proj2/MatrixHandler.h
  /home/omer/CLionProjects/proj2/MyServer.cpp
  /home/omer/CLionProjects/proj2/MyServer.h
+ /home/omer/CLionProjects/proj2/Point.h
+ /home/omer/CLionProjects/proj2/Searchable.h
  /home/omer/CLionProjects/proj2/Server.h
  /home/omer/CLionProjects/proj2/Solver.h
+ /home/omer/CLionProjects/proj2/State.h
 CMakeFiles/proj2.dir/MyTestClientHandler.cpp.o
  /home/omer/CLionProjects/proj2/CacheManager.h
  /home/omer/CLionProjects/proj2/ClientHandler.h
@@ -116,11 +122,16 @@ CMakeFiles/proj2.dir/Number.cpp.o
 CMakeFiles/proj2.dir/ParallelServer.cpp.o
  /home/omer/CLionProjects/proj2/CacheManager.h
  /home/omer/CLionProjects/proj2/ClientHandler.h
+ /home/omer/CLionProjects/proj2/Matrix.h
+ /home/omer/CLionProjects/proj2/MatrixHandler.h
  /home/omer/CLionProjects/proj2/MyServer.h
  /home/omer/CLionProjects/proj2/ParallelServer.cpp
  /home/omer/CLionProjects/proj2/ParallelServer.h
+ /home/omer/CLionProjects/proj2/Point.h
+ /home/omer/CLionProjects/proj2/Searchable.h
  /home/omer/CLionProjects/proj2/Server.h
  /home/omer/CLionProjects/proj2/Solver.h
+ /home/omer/CLionProjects/proj2/State.h
 CMakeFiles/proj2.dir/Plus.cpp.o
  /home/omer/CLionProjects/proj2/BinaryExpression.h
  /home/omer/CLionProjects/proj2/Expression.h

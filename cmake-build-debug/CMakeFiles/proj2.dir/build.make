@@ -291,9 +291,22 @@ CMakeFiles/proj2.dir/MyPriorityQueue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proj2.dir/MyPriorityQueue.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omer/CLionProjects/proj2/MyPriorityQueue.cpp -o CMakeFiles/proj2.dir/MyPriorityQueue.cpp.s
 
+CMakeFiles/proj2.dir/MyServer.cpp.o: CMakeFiles/proj2.dir/flags.make
+CMakeFiles/proj2.dir/MyServer.cpp.o: ../MyServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/proj2.dir/MyServer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj2.dir/MyServer.cpp.o -c /home/omer/CLionProjects/proj2/MyServer.cpp
+
+CMakeFiles/proj2.dir/MyServer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proj2.dir/MyServer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omer/CLionProjects/proj2/MyServer.cpp > CMakeFiles/proj2.dir/MyServer.cpp.i
+
+CMakeFiles/proj2.dir/MyServer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proj2.dir/MyServer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omer/CLionProjects/proj2/MyServer.cpp -o CMakeFiles/proj2.dir/MyServer.cpp.s
+
 CMakeFiles/proj2.dir/MyTestClientHandler.cpp.o: CMakeFiles/proj2.dir/flags.make
 CMakeFiles/proj2.dir/MyTestClientHandler.cpp.o: ../MyTestClientHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/proj2.dir/MyTestClientHandler.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/proj2.dir/MyTestClientHandler.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj2.dir/MyTestClientHandler.cpp.o -c /home/omer/CLionProjects/proj2/MyTestClientHandler.cpp
 
 CMakeFiles/proj2.dir/MyTestClientHandler.cpp.i: cmake_force
@@ -306,7 +319,7 @@ CMakeFiles/proj2.dir/MyTestClientHandler.cpp.s: cmake_force
 
 CMakeFiles/proj2.dir/Number.cpp.o: CMakeFiles/proj2.dir/flags.make
 CMakeFiles/proj2.dir/Number.cpp.o: ../Number.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/proj2.dir/Number.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/proj2.dir/Number.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj2.dir/Number.cpp.o -c /home/omer/CLionProjects/proj2/Number.cpp
 
 CMakeFiles/proj2.dir/Number.cpp.i: cmake_force
@@ -319,7 +332,7 @@ CMakeFiles/proj2.dir/Number.cpp.s: cmake_force
 
 CMakeFiles/proj2.dir/ParallelServer.cpp.o: CMakeFiles/proj2.dir/flags.make
 CMakeFiles/proj2.dir/ParallelServer.cpp.o: ../ParallelServer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/proj2.dir/ParallelServer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/proj2.dir/ParallelServer.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj2.dir/ParallelServer.cpp.o -c /home/omer/CLionProjects/proj2/ParallelServer.cpp
 
 CMakeFiles/proj2.dir/ParallelServer.cpp.i: cmake_force
@@ -332,7 +345,7 @@ CMakeFiles/proj2.dir/ParallelServer.cpp.s: cmake_force
 
 CMakeFiles/proj2.dir/Plus.cpp.o: CMakeFiles/proj2.dir/flags.make
 CMakeFiles/proj2.dir/Plus.cpp.o: ../Plus.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/proj2.dir/Plus.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/proj2.dir/Plus.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj2.dir/Plus.cpp.o -c /home/omer/CLionProjects/proj2/Plus.cpp
 
 CMakeFiles/proj2.dir/Plus.cpp.i: cmake_force
@@ -345,7 +358,7 @@ CMakeFiles/proj2.dir/Plus.cpp.s: cmake_force
 
 CMakeFiles/proj2.dir/Point.cpp.o: CMakeFiles/proj2.dir/flags.make
 CMakeFiles/proj2.dir/Point.cpp.o: ../Point.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/proj2.dir/Point.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/proj2.dir/Point.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj2.dir/Point.cpp.o -c /home/omer/CLionProjects/proj2/Point.cpp
 
 CMakeFiles/proj2.dir/Point.cpp.i: cmake_force
@@ -358,7 +371,7 @@ CMakeFiles/proj2.dir/Point.cpp.s: cmake_force
 
 CMakeFiles/proj2.dir/Searchable.cpp.o: CMakeFiles/proj2.dir/flags.make
 CMakeFiles/proj2.dir/Searchable.cpp.o: ../Searchable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/proj2.dir/Searchable.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/proj2.dir/Searchable.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj2.dir/Searchable.cpp.o -c /home/omer/CLionProjects/proj2/Searchable.cpp
 
 CMakeFiles/proj2.dir/Searchable.cpp.i: cmake_force
@@ -371,7 +384,7 @@ CMakeFiles/proj2.dir/Searchable.cpp.s: cmake_force
 
 CMakeFiles/proj2.dir/Searcher.cpp.o: CMakeFiles/proj2.dir/flags.make
 CMakeFiles/proj2.dir/Searcher.cpp.o: ../Searcher.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/proj2.dir/Searcher.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/proj2.dir/Searcher.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj2.dir/Searcher.cpp.o -c /home/omer/CLionProjects/proj2/Searcher.cpp
 
 CMakeFiles/proj2.dir/Searcher.cpp.i: cmake_force
@@ -381,19 +394,6 @@ CMakeFiles/proj2.dir/Searcher.cpp.i: cmake_force
 CMakeFiles/proj2.dir/Searcher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proj2.dir/Searcher.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omer/CLionProjects/proj2/Searcher.cpp -o CMakeFiles/proj2.dir/Searcher.cpp.s
-
-CMakeFiles/proj2.dir/MyServer.cpp.o: CMakeFiles/proj2.dir/flags.make
-CMakeFiles/proj2.dir/MyServer.cpp.o: ../MyServer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/proj2.dir/MyServer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj2.dir/MyServer.cpp.o -c /home/omer/CLionProjects/proj2/MyServer.cpp
-
-CMakeFiles/proj2.dir/MyServer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proj2.dir/MyServer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omer/CLionProjects/proj2/MyServer.cpp > CMakeFiles/proj2.dir/MyServer.cpp.i
-
-CMakeFiles/proj2.dir/MyServer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proj2.dir/MyServer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omer/CLionProjects/proj2/MyServer.cpp -o CMakeFiles/proj2.dir/MyServer.cpp.s
 
 CMakeFiles/proj2.dir/Solver.cpp.o: CMakeFiles/proj2.dir/flags.make
 CMakeFiles/proj2.dir/Solver.cpp.o: ../Solver.cpp
@@ -467,6 +467,7 @@ proj2_OBJECTS = \
 "CMakeFiles/proj2.dir/Minus.cpp.o" \
 "CMakeFiles/proj2.dir/Multiplication.cpp.o" \
 "CMakeFiles/proj2.dir/MyPriorityQueue.cpp.o" \
+"CMakeFiles/proj2.dir/MyServer.cpp.o" \
 "CMakeFiles/proj2.dir/MyTestClientHandler.cpp.o" \
 "CMakeFiles/proj2.dir/Number.cpp.o" \
 "CMakeFiles/proj2.dir/ParallelServer.cpp.o" \
@@ -474,7 +475,6 @@ proj2_OBJECTS = \
 "CMakeFiles/proj2.dir/Point.cpp.o" \
 "CMakeFiles/proj2.dir/Searchable.cpp.o" \
 "CMakeFiles/proj2.dir/Searcher.cpp.o" \
-"CMakeFiles/proj2.dir/MyServer.cpp.o" \
 "CMakeFiles/proj2.dir/Solver.cpp.o" \
 "CMakeFiles/proj2.dir/State.cpp.o" \
 "CMakeFiles/proj2.dir/StringReverser.cpp.o" \
@@ -501,6 +501,7 @@ proj2: CMakeFiles/proj2.dir/MatrixHandler.cpp.o
 proj2: CMakeFiles/proj2.dir/Minus.cpp.o
 proj2: CMakeFiles/proj2.dir/Multiplication.cpp.o
 proj2: CMakeFiles/proj2.dir/MyPriorityQueue.cpp.o
+proj2: CMakeFiles/proj2.dir/MyServer.cpp.o
 proj2: CMakeFiles/proj2.dir/MyTestClientHandler.cpp.o
 proj2: CMakeFiles/proj2.dir/Number.cpp.o
 proj2: CMakeFiles/proj2.dir/ParallelServer.cpp.o
@@ -508,7 +509,6 @@ proj2: CMakeFiles/proj2.dir/Plus.cpp.o
 proj2: CMakeFiles/proj2.dir/Point.cpp.o
 proj2: CMakeFiles/proj2.dir/Searchable.cpp.o
 proj2: CMakeFiles/proj2.dir/Searcher.cpp.o
-proj2: CMakeFiles/proj2.dir/MyServer.cpp.o
 proj2: CMakeFiles/proj2.dir/Solver.cpp.o
 proj2: CMakeFiles/proj2.dir/State.cpp.o
 proj2: CMakeFiles/proj2.dir/StringReverser.cpp.o

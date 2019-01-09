@@ -5,6 +5,7 @@
 #ifndef UNTITLED6_SOLVER_H
 #define UNTITLED6_SOLVER_H
 template <class problem, class solution>
+
 class Solver {
 
 public:

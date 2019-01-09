@@ -73,6 +73,7 @@ CMakeFiles/proj2.dir/Matrix.cpp.o: ../State.h
 
 CMakeFiles/proj2.dir/MatrixHandler.cpp.o: ../CacheManager.h
 CMakeFiles/proj2.dir/MatrixHandler.cpp.o: ../ClientHandler.h
+CMakeFiles/proj2.dir/MatrixHandler.cpp.o: ../Matrix.h
 CMakeFiles/proj2.dir/MatrixHandler.cpp.o: ../MatrixHandler.cpp
 CMakeFiles/proj2.dir/MatrixHandler.cpp.o: ../MatrixHandler.h
 CMakeFiles/proj2.dir/MatrixHandler.cpp.o: ../Point.h
@@ -97,10 +98,15 @@ CMakeFiles/proj2.dir/MyPriorityQueue.cpp.o: ../State.h
 
 CMakeFiles/proj2.dir/MyServer.cpp.o: ../CacheManager.h
 CMakeFiles/proj2.dir/MyServer.cpp.o: ../ClientHandler.h
+CMakeFiles/proj2.dir/MyServer.cpp.o: ../Matrix.h
+CMakeFiles/proj2.dir/MyServer.cpp.o: ../MatrixHandler.h
 CMakeFiles/proj2.dir/MyServer.cpp.o: ../MyServer.cpp
 CMakeFiles/proj2.dir/MyServer.cpp.o: ../MyServer.h
+CMakeFiles/proj2.dir/MyServer.cpp.o: ../Point.h
+CMakeFiles/proj2.dir/MyServer.cpp.o: ../Searchable.h
 CMakeFiles/proj2.dir/MyServer.cpp.o: ../Server.h
 CMakeFiles/proj2.dir/MyServer.cpp.o: ../Solver.h
+CMakeFiles/proj2.dir/MyServer.cpp.o: ../State.h
 
 CMakeFiles/proj2.dir/MyTestClientHandler.cpp.o: ../CacheManager.h
 CMakeFiles/proj2.dir/MyTestClientHandler.cpp.o: ../ClientHandler.h
@@ -115,11 +121,16 @@ CMakeFiles/proj2.dir/Number.cpp.o: ../UnaryExpression.h
 
 CMakeFiles/proj2.dir/ParallelServer.cpp.o: ../CacheManager.h
 CMakeFiles/proj2.dir/ParallelServer.cpp.o: ../ClientHandler.h
+CMakeFiles/proj2.dir/ParallelServer.cpp.o: ../Matrix.h
+CMakeFiles/proj2.dir/ParallelServer.cpp.o: ../MatrixHandler.h
 CMakeFiles/proj2.dir/ParallelServer.cpp.o: ../MyServer.h
 CMakeFiles/proj2.dir/ParallelServer.cpp.o: ../ParallelServer.cpp
 CMakeFiles/proj2.dir/ParallelServer.cpp.o: ../ParallelServer.h
+CMakeFiles/proj2.dir/ParallelServer.cpp.o: ../Point.h
+CMakeFiles/proj2.dir/ParallelServer.cpp.o: ../Searchable.h
 CMakeFiles/proj2.dir/ParallelServer.cpp.o: ../Server.h
 CMakeFiles/proj2.dir/ParallelServer.cpp.o: ../Solver.h
+CMakeFiles/proj2.dir/ParallelServer.cpp.o: ../State.h
 
 CMakeFiles/proj2.dir/Plus.cpp.o: ../BinaryExpression.h
 CMakeFiles/proj2.dir/Plus.cpp.o: ../Expression.h

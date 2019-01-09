@@ -2,7 +2,6 @@ cmake_minimum_required(VERSION 3.13)
 project(proj2)
 
 set(CMAKE_CXX_STANDARD 14)
-set(CMAKE_CXX_FLAGS -pthread)
 
 include_directories(.)
 
@@ -42,6 +41,8 @@ add_executable(proj2
         Multiplication.h
         MyPriorityQueue.cpp
         MyPriorityQueue.h
+        MyServer.cpp
+        MyServer.h
         MyTestClientHandler.cpp
         MyTestClientHandler.h
         Number.cpp
@@ -56,8 +57,7 @@ add_executable(proj2
         Searchable.h
         Searcher.cpp
         Searcher.h
-        MyServer.cpp
-        MyServer.h
+        Server.h
         Solver.cpp
         Solver.h
         State.cpp
@@ -66,5 +66,4 @@ add_executable(proj2
         StringReverser.h
         UnaryExpression.cpp
         UnaryExpression.h
-        UsefulFunctions.h
-        Server.h)
+        UsefulFunctions.h)
