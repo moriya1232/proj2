@@ -20,7 +20,7 @@ protected:
 //ifstream in;
 //ofstream out;
 public:
-    ClientHandler(Solver<problem,solution>*,CacheManager*, problem p);
+    //ClientHandler(Solver<problem,solution>*,CacheManager*, problem p);
     virtual Solver<problem,solution>* getSolver() = 0;
     virtual void setSolver(Solver<problem,solution>*) = 0;
     virtual CacheManager* getCacheManager()=0;

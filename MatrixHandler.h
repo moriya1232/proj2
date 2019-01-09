@@ -13,19 +13,19 @@ using namespace std;
 #include "MatrixSolver.h"
 
 
-class MatrixHandler : public ClientHandler<Matrix*,list<State>> {
+class MatrixHandler : public ClientHandler<Matrix*,vector<State>> {
     CacheManager* cm;
     MatrixSolver* solver;
-    Matrix* myProblem;
+    Matrix* problem;
 public:
     MatrixHandler(MatrixSolver* , CacheManager*, Matrix* m);
-    MatrixSolver* getSolver();
-    void setSolver(MatrixSolver*);
-    CacheManager* getCacheManager();
-    void setCacheManager(CacheManager*);
-    Matrix* getProblem();
-    void setProblem(Matrix*);
-    string execute();
+    MatrixSolver* getSolver() override;
+    void setSolver(MatrixSolver*) override;
+    CacheManager* getCacheManager() override;
+    void setCacheManager(CacheManager*) override;
+    Matrix* getProblem() override;
+    void setProblem(Matrix*) override;
+    string execute()override;
     string convertListStateToString(list<State*>, Searchable*);
 
 

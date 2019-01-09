@@ -9,9 +9,12 @@ using namespace std;
 
 
 MatrixHandler:: MatrixHandler
-(MatrixSolver* sol, CacheManager* cacheManager1, Matrix* m) : ClientHandler<Matrix*,list<State*>>(sol,cacheManager1, m){}
-
-MatrixSolver* MatrixHandler:: getSolver(){
+(MatrixSolver* sol, CacheManager* cacheManager1, Matrix* m) {//: ClientHandler<Matrix*,vector<State*>>(sol,cacheManager1, m){}
+    this->solver= sol;
+    this->cm = cacheManager1;
+    this->problem = m;
+}
+Solver<class T1,class T2>* MatrixHandler:: getSolver(){
     return this->solver;
 }
 

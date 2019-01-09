@@ -91,8 +91,8 @@ int main() {
     CacheManager* cm = new(nothrow) CacheManager();
     int** arr = create_script::readMatrixFromScript("script.txt");
     Matrix* m = new (nothrow) Matrix(arr, 3, 3);
-    BFS* bfs = new(nothrow) BFS();
-    MatrixHandler* ch = new (nothrow) MatrixHandler(bfs,cm , m);
+    MatrixSolver* ms = new(nothrow) MatrixSolver();
+    MatrixHandler<Matrix*, MatrixSolver*>* ch = new (nothrow) MatrixHandler<Matrix*, MatrixSolver*>(ms,cm , m);
     //std::cout << "Hello, World!" << std::endl;
     create_script::clearFile("script.txt");
     return 0;
