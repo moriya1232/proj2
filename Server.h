@@ -5,12 +5,12 @@
 #ifndef PROJ2_SERVER_H
 #define PROJ2_SERVER_H
 
-#include "ClientHandler.h"
+#include "MatrixHandler.h"
 
 namespace  server_side {
     class Server{
     protected:
-        virtual void start(ClientHandler) = 0;
+        virtual void start(MatrixHandler) = 0;
         virtual void handleClient(int, ClientHandler) = 0;
     public:
         virtual void open(int, ClientHandler) = 0;

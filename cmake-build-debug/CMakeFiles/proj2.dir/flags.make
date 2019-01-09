@@ -6,5 +6,5 @@ CXX_FLAGS = -pthread -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/moriya/CLionProjects/untitled6/. 
+CXX_INCLUDES = -I/home/omer/CLionProjects/proj2/. 
 
