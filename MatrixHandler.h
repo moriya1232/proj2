@@ -15,7 +15,7 @@ using namespace std;
 
 class MatrixHandler : public ClientHandler<Matrix*,list<State>> {
     CacheManager* cm;
-    Solver<Matrix*,string>* solver;
+    MatrixSolver* solver;
     Matrix* myProblem;
 public:
     MatrixHandler(MatrixSolver* , CacheManager*, Matrix* m);
@@ -26,7 +26,7 @@ public:
     Matrix* getProblem();
     void setProblem(Matrix*);
     string execute();
-    string convertListStateToString(list<State>, Searchable*);
+    string convertListStateToString(list<State*>, Searchable*);
 
 
 };
