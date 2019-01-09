@@ -1,0 +1,109 @@
+<changelist name="Uncommitted_changes_before_Update_at_01_36_10_01_19_[Default_Changelist]" date="1547076994755" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_36_10_01_19_[Default_Changelist]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 01:36 10/01/19 [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/proj2.dir/FileCatchManager.cpp.o" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/proj2.dir/FileCatchManager.cpp.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_36_10_01_19_[Default_Changelist]/FileCatchManager.cpp.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/proj2.dir/BFS.cpp.o" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/proj2.dir/BFS.cpp.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_36_10_01_19_[Default_Changelist]/BFS.cpp.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/proj2.dir/Matrix.cpp.o" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/proj2.dir/Matrix.cpp.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_36_10_01_19_[Default_Changelist]/Matrix.cpp.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/proj2.dir/BestFirstSearch.cpp.o" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/proj2.dir/BestFirstSearch.cpp.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_36_10_01_19_[Default_Changelist]/BestFirstSearch.cpp.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/proj2.dir/MyPriorityQueue.cpp.o" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/proj2.dir/MyPriorityQueue.cpp.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_36_10_01_19_[Default_Changelist]/MyPriorityQueue.cpp.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/proj2.dir/MatrixSolver.cpp.o" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/proj2.dir/MatrixSolver.cpp.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_36_10_01_19_[Default_Changelist]/MatrixSolver.cpp.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/proj2.dir/BinaryExpression.cpp.o" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/proj2.dir/BinaryExpression.cpp.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_36_10_01_19_[Default_Changelist]/BinaryExpression.cpp.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/proj2.dir/Number.cpp.o" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/proj2.dir/Number.cpp.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_36_10_01_19_[Default_Changelist]/Number.cpp.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/proj2.dir/Expression.cpp.o" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/proj2.dir/Expression.cpp.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_36_10_01_19_[Default_Changelist]/Expression.cpp.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/proj2.dir/main.cpp.o" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/proj2.dir/main.cpp.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_36_10_01_19_[Default_Changelist]/main.cpp.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/proj2.dir/Astar.cpp.o" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/proj2.dir/Astar.cpp.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_36_10_01_19_[Default_Changelist]/Astar.cpp.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/proj2.dir/CacheManager.cpp.o" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/proj2.dir/CacheManager.cpp.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_36_10_01_19_[Default_Changelist]/CacheManager.cpp.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/proj2.dir/Minus.cpp.o" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/proj2.dir/Minus.cpp.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_36_10_01_19_[Default_Changelist]/Minus.cpp.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/proj2.dir/DFS.cpp.o" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/proj2.dir/DFS.cpp.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_36_10_01_19_[Default_Changelist]/DFS.cpp.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/proj2.dir/Multiplication.cpp.o" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/proj2.dir/Multiplication.cpp.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_36_10_01_19_[Default_Changelist]/Multiplication.cpp.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/proj2.dir/MatrixHandler.cpp.o" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/proj2.dir/MatrixHandler.cpp.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_36_10_01_19_[Default_Changelist]/MatrixHandler.cpp.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/proj2.dir/Divide.cpp.o" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/proj2.dir/Divide.cpp.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_36_10_01_19_[Default_Changelist]/Divide.cpp.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/proj2.dir/ExpressionSolver.cpp.o" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/proj2.dir/ExpressionSolver.cpp.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_36_10_01_19_[Default_Changelist]/ExpressionSolver.cpp.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/proj2.dir/MyTestClientHandler.cpp.o" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/proj2.dir/MyTestClientHandler.cpp.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_36_10_01_19_[Default_Changelist]/MyTestClientHandler.cpp.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/proj2.dir/ClientHandler.cpp.o" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/proj2.dir/ClientHandler.cpp.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_36_10_01_19_[Default_Changelist]/ClientHandler.cpp.o" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/proj2.dir/ISearcher.cpp.o" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/proj2.dir/ISearcher.cpp.o" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_36_10_01_19_[Default_Changelist]/ISearcher.cpp.o" />
+  </binary>
+</changelist>

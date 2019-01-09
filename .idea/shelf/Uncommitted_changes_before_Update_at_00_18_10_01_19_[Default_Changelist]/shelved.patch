@@ -1,0 +1,349 @@
+Index: cmake-build-debug/CMakeFiles/proj2.dir/CXX.includecache
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#IncludeRegexLine: ^[ \t]*[#%][ \t]*(include|import)[ \t]*[<\"]([^\">]+)([\">])\n\n#IncludeRegexScan: ^.*$\n\n#IncludeRegexComplain: ^$\n\n#IncludeRegexTransform: \n\n/home/omer/CLionProjects/proj2/Astar.cpp\nmap\n-\nAstar.h\n/home/omer/CLionProjects/proj2/Astar.h\n\n/home/omer/CLionProjects/proj2/Astar.h\nSearcher.h\n/home/omer/CLionProjects/proj2/Searcher.h\n\n/home/omer/CLionProjects/proj2/BFS.cpp\nBFS.h\n/home/omer/CLionProjects/proj2/BFS.h\niostream\n-\n\n/home/omer/CLionProjects/proj2/BFS.h\nSearcher.h\n/home/omer/CLionProjects/proj2/Searcher.h\nSearchable.h\n/home/omer/CLionProjects/proj2/Searchable.h\nvector\n-\n\n/home/omer/CLionProjects/proj2/BestFirstSearch.cpp\n\n/home/omer/CLionProjects/proj2/BinaryExpression.cpp\nBinaryExpression.h\n/home/omer/CLionProjects/proj2/BinaryExpression.h\n\n/home/omer/CLionProjects/proj2/BinaryExpression.h\nExpression.h\n/home/omer/CLionProjects/proj2/Expression.h\n\n/home/omer/CLionProjects/proj2/CacheManager.cpp\nCacheManager.h\n/home/omer/CLionProjects/proj2/CacheManager.h\n\n/home/omer/CLionProjects/proj2/CacheManager.h\nunordered_map\n-\nMyPair.h\n/home/omer/CLionProjects/proj2/MyPair.h\n\n/home/omer/CLionProjects/proj2/ClientHandler.cpp\nClientHandler.h\n/home/omer/CLionProjects/proj2/ClientHandler.h\nSearchable.h\n/home/omer/CLionProjects/proj2/Searchable.h\n\n/home/omer/CLionProjects/proj2/ClientHandler.h\niostream\n-\nfstream\n-\nSolver.h\n/home/omer/CLionProjects/proj2/Solver.h\nCacheManager.h\n/home/omer/CLionProjects/proj2/CacheManager.h\n\n/home/omer/CLionProjects/proj2/DFS.cpp\n\n/home/omer/CLionProjects/proj2/Divide.cpp\nDivide.h\n/home/omer/CLionProjects/proj2/Divide.h\n\n/home/omer/CLionProjects/proj2/Divide.h\nBinaryExpression.h\n/home/omer/CLionProjects/proj2/BinaryExpression.h\nExpression.h\n/home/omer/CLionProjects/proj2/Expression.h\n\n/home/omer/CLionProjects/proj2/Expression.cpp\nExpression.h\n/home/omer/CLionProjects/proj2/Expression.h\nUsefulFunctions.h\n/home/omer/CLionProjects/proj2/UsefulFunctions.h\n\n/home/omer/CLionProjects/proj2/Expression.h\nqueue\n-\nstack\n-\nlist\n-\niostream\n/home/omer/CLionProjects/proj2/iostream\nstring\n-\n\n/home/omer/CLionProjects/proj2/ExpressionSolver.cpp\nExpressionSolver.h\n/home/omer/CLionProjects/proj2/ExpressionSolver.h\nUsefulFunctions.h\n/home/omer/CLionProjects/proj2/UsefulFunctions.h\nExpression.h\n/home/omer/CLionProjects/proj2/Expression.h\n\n/home/omer/CLionProjects/proj2/ExpressionSolver.h\nlist\n-\nSolver.h\n/home/omer/CLionProjects/proj2/Solver.h\nExpression.h\n/home/omer/CLionProjects/proj2/Expression.h\n\n/home/omer/CLionProjects/proj2/FileCacheManager.h\nCacheManager.h\n/home/omer/CLionProjects/proj2/CacheManager.h\nfstream\n/home/omer/CLionProjects/proj2/fstream\niostream\n/home/omer/CLionProjects/proj2/iostream\n\n/home/omer/CLionProjects/proj2/FileCatchManager.cpp\nFileCacheManager.h\n/home/omer/CLionProjects/proj2/FileCacheManager.h\nvector\n/home/omer/CLionProjects/proj2/vector\nsstream\n/home/omer/CLionProjects/proj2/sstream\n\n/home/omer/CLionProjects/proj2/ISearcher.cpp\n\n/home/omer/CLionProjects/proj2/ISearcher.h\nSearchable.h\n/home/omer/CLionProjects/proj2/Searchable.h\nSearcher.h\n/home/omer/CLionProjects/proj2/Searcher.h\nstring\n/home/omer/CLionProjects/proj2/string\n\n/home/omer/CLionProjects/proj2/Matrix.cpp\nMatrix.h\n/home/omer/CLionProjects/proj2/Matrix.h\nstdio.h\n-\nstdlib.h\n-\ntime.h\n-\nState.h\n/home/omer/CLionProjects/proj2/State.h\n\n/home/omer/CLionProjects/proj2/Matrix.h\nState.h\n/home/omer/CLionProjects/proj2/State.h\nlist\n-\nstring\n-\nvector\n-\nSearchable.h\n/home/omer/CLionProjects/proj2/Searchable.h\n\n/home/omer/CLionProjects/proj2/MatrixHandler.cpp\nMatrixHandler.h\n/home/omer/CLionProjects/proj2/MatrixHandler.h\nClientHandler.h\n/home/omer/CLionProjects/proj2/ClientHandler.h\n\n/home/omer/CLionProjects/proj2/MatrixHandler.h\nlist\n-\nClientHandler.h\n/home/omer/CLionProjects/proj2/ClientHandler.h\nMatrix.h\n/home/omer/CLionProjects/proj2/Matrix.h\nMatrixSolver.h\n/home/omer/CLionProjects/proj2/MatrixSolver.h\n\n/home/omer/CLionProjects/proj2/MatrixSolver.cpp\nMatrixSolver.h\n/home/omer/CLionProjects/proj2/MatrixSolver.h\nBFS.h\n/home/omer/CLionProjects/proj2/BFS.h\n\n/home/omer/CLionProjects/proj2/MatrixSolver.h\nMatrix.h\n/home/omer/CLionProjects/proj2/Matrix.h\nSolver.h\n/home/omer/CLionProjects/proj2/Solver.h\n\n/home/omer/CLionProjects/proj2/Minus.cpp\nMinus.h\n/home/omer/CLionProjects/proj2/Minus.h\n\n/home/omer/CLionProjects/proj2/Minus.h\nBinaryExpression.h\n/home/omer/CLionProjects/proj2/BinaryExpression.h\nExpression.h\n/home/omer/CLionProjects/proj2/Expression.h\n\n/home/omer/CLionProjects/proj2/Multiplication.cpp\nMultiplication.h\n/home/omer/CLionProjects/proj2/Multiplication.h\n\n/home/omer/CLionProjects/proj2/Multiplication.h\nBinaryExpression.h\n/home/omer/CLionProjects/proj2/BinaryExpression.h\nExpression.h\n/home/omer/CLionProjects/proj2/Expression.h\n\n/home/omer/CLionProjects/proj2/MyPair.cpp\nMyPair.h\n/home/omer/CLionProjects/proj2/MyPair.h\n\n/home/omer/CLionProjects/proj2/MyPair.h\nstring\n-\n\n/home/omer/CLionProjects/proj2/MyPriorityQueue.cpp\nMyPriorityQueue.h\n/home/omer/CLionProjects/proj2/MyPriorityQueue.h\nState.h\n/home/omer/CLionProjects/proj2/State.h\n\n/home/omer/CLionProjects/proj2/MyPriorityQueue.h\nqueue\n/home/omer/CLionProjects/proj2/queue\nlist\n/home/omer/CLionProjects/proj2/list\nState.h\n/home/omer/CLionProjects/proj2/State.h\n\n/home/omer/CLionProjects/proj2/MyServer.cpp\nunistd.h\n-\nstdio.h\n-\nthread\n-\nnetinet/in.h\n-\nstring\n-\nstring.h\n-\nerrno.h\n-\nMyServer.h\n/home/omer/CLionProjects/proj2/MyServer.h\nlist\n-\nMatrixHandler.h\n/home/omer/CLionProjects/proj2/MatrixHandler.h\n\n/home/omer/CLionProjects/proj2/MyServer.h\nServer.h\n/home/omer/CLionProjects/proj2/Server.h\ntime.h\n-\n\n/home/omer/CLionProjects/proj2/MyTestClientHandler.cpp\nMyTestClientHandler.h\n/home/omer/CLionProjects/proj2/MyTestClientHandler.h\n\n/home/omer/CLionProjects/proj2/MyTestClientHandler.h\nClientHandler.h\n/home/omer/CLionProjects/proj2/ClientHandler.h\n\n/home/omer/CLionProjects/proj2/Number.cpp\nNumber.h\n/home/omer/CLionProjects/proj2/Number.h\n\n/home/omer/CLionProjects/proj2/Number.h\nUnaryExpression.h\n/home/omer/CLionProjects/proj2/UnaryExpression.h\n\n/home/omer/CLionProjects/proj2/ParallelServer.cpp\nthread\n-\nstrings.h\n-\nstring\n-\nParallelServer.h\n/home/omer/CLionProjects/proj2/ParallelServer.h\nunistd.h\n-\nvector\n-\nsstream\n-\n\n/home/omer/CLionProjects/proj2/ParallelServer.h\nMyServer.h\n/home/omer/CLionProjects/proj2/MyServer.h\n\n/home/omer/CLionProjects/proj2/Plus.cpp\nPlus.h\n/home/omer/CLionProjects/proj2/Plus.h\n\n/home/omer/CLionProjects/proj2/Plus.h\nBinaryExpression.h\n/home/omer/CLionProjects/proj2/BinaryExpression.h\nExpression.h\n/home/omer/CLionProjects/proj2/Expression.h\n\n/home/omer/CLionProjects/proj2/Point.cpp\nPoint.h\n/home/omer/CLionProjects/proj2/Point.h\n\n/home/omer/CLionProjects/proj2/Point.h\n\n/home/omer/CLionProjects/proj2/Searchable.cpp\n\n/home/omer/CLionProjects/proj2/Searchable.h\nlist\n/home/omer/CLionProjects/proj2/list\nState.h\n/home/omer/CLionProjects/proj2/State.h\n\n/home/omer/CLionProjects/proj2/Searcher.cpp\nSearcher.h\n/home/omer/CLionProjects/proj2/Searcher.h\n\n/home/omer/CLionProjects/proj2/Searcher.h\nSearchable.h\n/home/omer/CLionProjects/proj2/Searchable.h\nISearcher.h\n/home/omer/CLionProjects/proj2/ISearcher.h\n\n/home/omer/CLionProjects/proj2/Server.h\nMatrixHandler.h\n/home/omer/CLionProjects/proj2/MatrixHandler.h\n\n/home/omer/CLionProjects/proj2/Solver.cpp\n\n/home/omer/CLionProjects/proj2/Solver.h\nMatrix.h\n/home/omer/CLionProjects/proj2/Matrix.h\n\n/home/omer/CLionProjects/proj2/State.cpp\nState.h\n/home/omer/CLionProjects/proj2/State.h\n\n/home/omer/CLionProjects/proj2/State.h\nlist\n-\nPoint.h\n/home/omer/CLionProjects/proj2/Point.h\n\n/home/omer/CLionProjects/proj2/StringReverser.cpp\nStringReverser.h\n/home/omer/CLionProjects/proj2/StringReverser.h\n\n/home/omer/CLionProjects/proj2/StringReverser.h\nClientHandler.h\n/home/omer/CLionProjects/proj2/ClientHandler.h\nSolver.h\n/home/omer/CLionProjects/proj2/Solver.h\nCacheManager.h\n/home/omer/CLionProjects/proj2/CacheManager.h\n\n/home/omer/CLionProjects/proj2/UnaryExpression.cpp\nUnaryExpression.h\n/home/omer/CLionProjects/proj2/UnaryExpression.h\n\n/home/omer/CLionProjects/proj2/UnaryExpression.h\nExpression.h\n/home/omer/CLionProjects/proj2/Expression.h\nstring\n-\n\n/home/omer/CLionProjects/proj2/UsefulFunctions.h\nExpression.h\n/home/omer/CLionProjects/proj2/Expression.h\nNumber.h\n/home/omer/CLionProjects/proj2/Number.h\nDivide.h\n/home/omer/CLionProjects/proj2/Divide.h\nMultiplication.h\n/home/omer/CLionProjects/proj2/Multiplication.h\nMinus.h\n/home/omer/CLionProjects/proj2/Minus.h\nPlus.h\n/home/omer/CLionProjects/proj2/Plus.h\nregex\n-\n\n/home/omer/CLionProjects/proj2/main.cpp\niostream\n-\nBFS.h\n/home/omer/CLionProjects/proj2/BFS.h\nClientHandler.h\n/home/omer/CLionProjects/proj2/ClientHandler.h\nMatrix.h\n/home/omer/CLionProjects/proj2/Matrix.h\nvector\n-\nsstream\n-\nMatrixHandler.h\n/home/omer/CLionProjects/proj2/MatrixHandler.h\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- cmake-build-debug/CMakeFiles/proj2.dir/CXX.includecache	(date 1547072218000)
++++ cmake-build-debug/CMakeFiles/proj2.dir/CXX.includecache	(date 1547072269000)
+@@ -6,22 +6,6 @@
+ 
+ #IncludeRegexTransform: 
+ 
+-/home/omer/CLionProjects/proj2/Astar.cpp
+-map
+--
+-Astar.h
+-/home/omer/CLionProjects/proj2/Astar.h
+-
+-/home/omer/CLionProjects/proj2/Astar.h
+-Searcher.h
+-/home/omer/CLionProjects/proj2/Searcher.h
+-
+-/home/omer/CLionProjects/proj2/BFS.cpp
+-BFS.h
+-/home/omer/CLionProjects/proj2/BFS.h
+-iostream
+--
+-
+ /home/omer/CLionProjects/proj2/BFS.h
+ Searcher.h
+ /home/omer/CLionProjects/proj2/Searcher.h
+@@ -30,32 +14,12 @@
+ vector
+ -
+ 
+-/home/omer/CLionProjects/proj2/BestFirstSearch.cpp
+-
+-/home/omer/CLionProjects/proj2/BinaryExpression.cpp
+-BinaryExpression.h
+-/home/omer/CLionProjects/proj2/BinaryExpression.h
+-
+-/home/omer/CLionProjects/proj2/BinaryExpression.h
+-Expression.h
+-/home/omer/CLionProjects/proj2/Expression.h
+-
+-/home/omer/CLionProjects/proj2/CacheManager.cpp
+-CacheManager.h
+-/home/omer/CLionProjects/proj2/CacheManager.h
+-
+ /home/omer/CLionProjects/proj2/CacheManager.h
+ unordered_map
+ -
+ MyPair.h
+ /home/omer/CLionProjects/proj2/MyPair.h
+ 
+-/home/omer/CLionProjects/proj2/ClientHandler.cpp
+-ClientHandler.h
+-/home/omer/CLionProjects/proj2/ClientHandler.h
+-Searchable.h
+-/home/omer/CLionProjects/proj2/Searchable.h
+-
+ /home/omer/CLionProjects/proj2/ClientHandler.h
+ iostream
+ -
+@@ -66,70 +30,6 @@
+ CacheManager.h
+ /home/omer/CLionProjects/proj2/CacheManager.h
+ 
+-/home/omer/CLionProjects/proj2/DFS.cpp
+-
+-/home/omer/CLionProjects/proj2/Divide.cpp
+-Divide.h
+-/home/omer/CLionProjects/proj2/Divide.h
+-
+-/home/omer/CLionProjects/proj2/Divide.h
+-BinaryExpression.h
+-/home/omer/CLionProjects/proj2/BinaryExpression.h
+-Expression.h
+-/home/omer/CLionProjects/proj2/Expression.h
+-
+-/home/omer/CLionProjects/proj2/Expression.cpp
+-Expression.h
+-/home/omer/CLionProjects/proj2/Expression.h
+-UsefulFunctions.h
+-/home/omer/CLionProjects/proj2/UsefulFunctions.h
+-
+-/home/omer/CLionProjects/proj2/Expression.h
+-queue
+--
+-stack
+--
+-list
+--
+-iostream
+-/home/omer/CLionProjects/proj2/iostream
+-string
+--
+-
+-/home/omer/CLionProjects/proj2/ExpressionSolver.cpp
+-ExpressionSolver.h
+-/home/omer/CLionProjects/proj2/ExpressionSolver.h
+-UsefulFunctions.h
+-/home/omer/CLionProjects/proj2/UsefulFunctions.h
+-Expression.h
+-/home/omer/CLionProjects/proj2/Expression.h
+-
+-/home/omer/CLionProjects/proj2/ExpressionSolver.h
+-list
+--
+-Solver.h
+-/home/omer/CLionProjects/proj2/Solver.h
+-Expression.h
+-/home/omer/CLionProjects/proj2/Expression.h
+-
+-/home/omer/CLionProjects/proj2/FileCacheManager.h
+-CacheManager.h
+-/home/omer/CLionProjects/proj2/CacheManager.h
+-fstream
+-/home/omer/CLionProjects/proj2/fstream
+-iostream
+-/home/omer/CLionProjects/proj2/iostream
+-
+-/home/omer/CLionProjects/proj2/FileCatchManager.cpp
+-FileCacheManager.h
+-/home/omer/CLionProjects/proj2/FileCacheManager.h
+-vector
+-/home/omer/CLionProjects/proj2/vector
+-sstream
+-/home/omer/CLionProjects/proj2/sstream
+-
+-/home/omer/CLionProjects/proj2/ISearcher.cpp
+-
+ /home/omer/CLionProjects/proj2/ISearcher.h
+ Searchable.h
+ /home/omer/CLionProjects/proj2/Searchable.h
+@@ -138,18 +38,6 @@
+ string
+ /home/omer/CLionProjects/proj2/string
+ 
+-/home/omer/CLionProjects/proj2/Matrix.cpp
+-Matrix.h
+-/home/omer/CLionProjects/proj2/Matrix.h
+-stdio.h
+--
+-stdlib.h
+--
+-time.h
+--
+-State.h
+-/home/omer/CLionProjects/proj2/State.h
+-
+ /home/omer/CLionProjects/proj2/Matrix.h
+ State.h
+ /home/omer/CLionProjects/proj2/State.h
+@@ -162,12 +50,6 @@
+ Searchable.h
+ /home/omer/CLionProjects/proj2/Searchable.h
+ 
+-/home/omer/CLionProjects/proj2/MatrixHandler.cpp
+-MatrixHandler.h
+-/home/omer/CLionProjects/proj2/MatrixHandler.h
+-ClientHandler.h
+-/home/omer/CLionProjects/proj2/ClientHandler.h
+-
+ /home/omer/CLionProjects/proj2/MatrixHandler.h
+ list
+ -
+@@ -177,12 +59,6 @@
+ /home/omer/CLionProjects/proj2/Matrix.h
+ MatrixSolver.h
+ /home/omer/CLionProjects/proj2/MatrixSolver.h
+-
+-/home/omer/CLionProjects/proj2/MatrixSolver.cpp
+-MatrixSolver.h
+-/home/omer/CLionProjects/proj2/MatrixSolver.h
+-BFS.h
+-/home/omer/CLionProjects/proj2/BFS.h
+ 
+ /home/omer/CLionProjects/proj2/MatrixSolver.h
+ Matrix.h
+@@ -190,48 +66,10 @@
+ Solver.h
+ /home/omer/CLionProjects/proj2/Solver.h
+ 
+-/home/omer/CLionProjects/proj2/Minus.cpp
+-Minus.h
+-/home/omer/CLionProjects/proj2/Minus.h
+-
+-/home/omer/CLionProjects/proj2/Minus.h
+-BinaryExpression.h
+-/home/omer/CLionProjects/proj2/BinaryExpression.h
+-Expression.h
+-/home/omer/CLionProjects/proj2/Expression.h
+-
+-/home/omer/CLionProjects/proj2/Multiplication.cpp
+-Multiplication.h
+-/home/omer/CLionProjects/proj2/Multiplication.h
+-
+-/home/omer/CLionProjects/proj2/Multiplication.h
+-BinaryExpression.h
+-/home/omer/CLionProjects/proj2/BinaryExpression.h
+-Expression.h
+-/home/omer/CLionProjects/proj2/Expression.h
+-
+-/home/omer/CLionProjects/proj2/MyPair.cpp
+-MyPair.h
+-/home/omer/CLionProjects/proj2/MyPair.h
+-
+ /home/omer/CLionProjects/proj2/MyPair.h
+ string
+ -
+ 
+-/home/omer/CLionProjects/proj2/MyPriorityQueue.cpp
+-MyPriorityQueue.h
+-/home/omer/CLionProjects/proj2/MyPriorityQueue.h
+-State.h
+-/home/omer/CLionProjects/proj2/State.h
+-
+-/home/omer/CLionProjects/proj2/MyPriorityQueue.h
+-queue
+-/home/omer/CLionProjects/proj2/queue
+-list
+-/home/omer/CLionProjects/proj2/list
+-State.h
+-/home/omer/CLionProjects/proj2/State.h
+-
+ /home/omer/CLionProjects/proj2/MyServer.cpp
+ unistd.h
+ -
+@@ -260,22 +98,6 @@
+ time.h
+ -
+ 
+-/home/omer/CLionProjects/proj2/MyTestClientHandler.cpp
+-MyTestClientHandler.h
+-/home/omer/CLionProjects/proj2/MyTestClientHandler.h
+-
+-/home/omer/CLionProjects/proj2/MyTestClientHandler.h
+-ClientHandler.h
+-/home/omer/CLionProjects/proj2/ClientHandler.h
+-
+-/home/omer/CLionProjects/proj2/Number.cpp
+-Number.h
+-/home/omer/CLionProjects/proj2/Number.h
+-
+-/home/omer/CLionProjects/proj2/Number.h
+-UnaryExpression.h
+-/home/omer/CLionProjects/proj2/UnaryExpression.h
+-
+ /home/omer/CLionProjects/proj2/ParallelServer.cpp
+ thread
+ -
+@@ -296,34 +118,14 @@
+ MyServer.h
+ /home/omer/CLionProjects/proj2/MyServer.h
+ 
+-/home/omer/CLionProjects/proj2/Plus.cpp
+-Plus.h
+-/home/omer/CLionProjects/proj2/Plus.h
+-
+-/home/omer/CLionProjects/proj2/Plus.h
+-BinaryExpression.h
+-/home/omer/CLionProjects/proj2/BinaryExpression.h
+-Expression.h
+-/home/omer/CLionProjects/proj2/Expression.h
+-
+-/home/omer/CLionProjects/proj2/Point.cpp
+-Point.h
+-/home/omer/CLionProjects/proj2/Point.h
+-
+ /home/omer/CLionProjects/proj2/Point.h
+ 
+-/home/omer/CLionProjects/proj2/Searchable.cpp
+-
+ /home/omer/CLionProjects/proj2/Searchable.h
+ list
+ /home/omer/CLionProjects/proj2/list
+ State.h
+ /home/omer/CLionProjects/proj2/State.h
+ 
+-/home/omer/CLionProjects/proj2/Searcher.cpp
+-Searcher.h
+-/home/omer/CLionProjects/proj2/Searcher.h
+-
+ /home/omer/CLionProjects/proj2/Searcher.h
+ Searchable.h
+ /home/omer/CLionProjects/proj2/Searchable.h
+@@ -334,60 +136,16 @@
+ MatrixHandler.h
+ /home/omer/CLionProjects/proj2/MatrixHandler.h
+ 
+-/home/omer/CLionProjects/proj2/Solver.cpp
+-
+ /home/omer/CLionProjects/proj2/Solver.h
+ Matrix.h
+ /home/omer/CLionProjects/proj2/Matrix.h
+ 
+-/home/omer/CLionProjects/proj2/State.cpp
+-State.h
+-/home/omer/CLionProjects/proj2/State.h
+-
+ /home/omer/CLionProjects/proj2/State.h
+ list
+ -
+ Point.h
+ /home/omer/CLionProjects/proj2/Point.h
+ 
+-/home/omer/CLionProjects/proj2/StringReverser.cpp
+-StringReverser.h
+-/home/omer/CLionProjects/proj2/StringReverser.h
+-
+-/home/omer/CLionProjects/proj2/StringReverser.h
+-ClientHandler.h
+-/home/omer/CLionProjects/proj2/ClientHandler.h
+-Solver.h
+-/home/omer/CLionProjects/proj2/Solver.h
+-CacheManager.h
+-/home/omer/CLionProjects/proj2/CacheManager.h
+-
+-/home/omer/CLionProjects/proj2/UnaryExpression.cpp
+-UnaryExpression.h
+-/home/omer/CLionProjects/proj2/UnaryExpression.h
+-
+-/home/omer/CLionProjects/proj2/UnaryExpression.h
+-Expression.h
+-/home/omer/CLionProjects/proj2/Expression.h
+-string
+--
+-
+-/home/omer/CLionProjects/proj2/UsefulFunctions.h
+-Expression.h
+-/home/omer/CLionProjects/proj2/Expression.h
+-Number.h
+-/home/omer/CLionProjects/proj2/Number.h
+-Divide.h
+-/home/omer/CLionProjects/proj2/Divide.h
+-Multiplication.h
+-/home/omer/CLionProjects/proj2/Multiplication.h
+-Minus.h
+-/home/omer/CLionProjects/proj2/Minus.h
+-Plus.h
+-/home/omer/CLionProjects/proj2/Plus.h
+-regex
+--
+-
+ /home/omer/CLionProjects/proj2/main.cpp
+ iostream
+ -

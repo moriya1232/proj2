@@ -1,0 +1,369 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"CMakeRunConfigurationManager\" shouldGenerate=\"true\" shouldDeleteObsolete=\"true\">\n    <generated>\n      <config projectName=\"proj2\" targetName=\"proj2\" />\n    </generated>\n  </component>\n  <component name=\"CMakeSettings\" AUTO_RELOAD=\"true\">\n    <configurations>\n      <configuration PROFILE_NAME=\"Debug\" CONFIG_NAME=\"Debug\" />\n    </configurations>\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"1306f703-4d2c-4ab6-94c2-7efe32ca9330\" name=\"Default Changelist\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/main.cpp\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/main.cpp\" afterDir=\"false\" />\n    </list>\n    <ignored path=\"$PROJECT_DIR$/cmake-build-debug/\" />\n    <option name=\"EXCLUDED_CONVERTED_TO_IGNORED\" value=\"true\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"ExecutionTargetManager\" SELECTED_TARGET=\"CMakeBuildProfile:Debug\" />\n  <component name=\"FileEditorManager\">\n    <leaf>\n      <file pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/MatrixHandler.h\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"342\">\n              <caret line=\"21\" column=\"4\" selection-start-line=\"21\" selection-start-column=\"4\" selection-end-line=\"21\" selection-end-column=\"43\" />\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/ClientHandler.h\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"171\">\n              <caret line=\"12\" selection-start-line=\"12\" selection-end-line=\"12\" />\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/MatrixHandler.cpp\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"152\">\n              <caret line=\"9\" column=\"47\" selection-start-line=\"9\" selection-start-column=\"47\" selection-end-line=\"9\" selection-end-column=\"47\" />\n              <folding>\n                <element signature=\"e#128#165#0\" expanded=\"true\" />\n                <element signature=\"e#426#463#0\" expanded=\"true\" />\n                <element signature=\"e#578#609#0\" expanded=\"true\" />\n                <element signature=\"e#737#768#0\" expanded=\"true\" />\n                <element signature=\"e#866#895#0\" expanded=\"true\" />\n                <element signature=\"e#1010#1047#0\" expanded=\"true\" />\n                <element signature=\"e#1153#1181#0\" expanded=\"true\" />\n                <element signature=\"e#1402#1439#0\" expanded=\"true\" />\n                <element signature=\"e#1603#1640#0\" expanded=\"true\" />\n              </folding>\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/cmake-build-debug/Makefile\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"772\">\n              <caret line=\"84\" column=\"75\" selection-start-line=\"84\" selection-start-column=\"75\" selection-end-line=\"84\" selection-end-column=\"75\" />\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"75\">\n              <caret line=\"7\" selection-start-line=\"7\" selection-end-line=\"7\" />\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/cmake-build-debug/proj2.cbp\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"5395\">\n              <caret line=\"287\" column=\"54\" selection-start-line=\"287\" selection-start-column=\"54\" selection-end-line=\"287\" selection-end-column=\"54\" />\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/cmake-build-debug/script.txt\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\" />\n        </entry>\n      </file>\n      <file pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/cmake-build-debug/untitled6.cbp\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"133\">\n              <caret line=\"7\" column=\"48\" selection-start-line=\"7\" selection-start-column=\"48\" selection-end-line=\"7\" selection-end-column=\"48\" />\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"-532\">\n              <caret line=\"47\" lean-forward=\"true\" selection-start-line=\"47\" selection-end-line=\"47\" />\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file pinned=\"false\" current-in-tab=\"true\">\n        <entry file=\"file://$PROJECT_DIR$/main.cpp\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"474\">\n              <caret line=\"92\" column=\"48\" lean-forward=\"true\" selection-start-line=\"92\" selection-start-column=\"48\" selection-end-line=\"92\" selection-end-column=\"48\" />\n              <folding>\n                <element signature=\"e#0#19#0\" expanded=\"true\" />\n              </folding>\n            </state>\n          </provider>\n        </entry>\n      </file>\n    </leaf>\n  </component>\n  <component name=\"FindInProjectRecents\">\n    <findStrings>\n      <find>openser</find>\n      <find>open</find>\n      <find>open()</find>\n    </findStrings>\n    <replaceStrings>\n      <replace>$PROJECT_DIR$</replace>\n    </replaceStrings>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"UPDATE_CHANGES_POLICY\" value=\"SHELVE\" />\n    <option name=\"UPDATE_TYPE\" value=\"REBASE\" />\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"IdeDocumentHistory\">\n    <option name=\"CHANGED_PATHS\">\n      <list>\n        <option value=\"$PROJECT_DIR$/ClientHandler.h\" />\n        <option value=\"$PROJECT_DIR$/MyTestClientServer.h\" />\n        <option value=\"$PROJECT_DIR$/MySerialServer.h\" />\n        <option value=\"$PROJECT_DIR$/Solution.h\" />\n        <option value=\"$PROJECT_DIR$/Solver.h\" />\n        <option value=\"$PROJECT_DIR$/CacheManager.h\" />\n        <option value=\"$PROJECT_DIR$/Server.h\" />\n        <option value=\"$PROJECT_DIR$/Problem.cpp\" />\n        <option value=\"$PROJECT_DIR$/Problem.h\" />\n        <option value=\"$PROJECT_DIR$/Expression.h\" />\n        <option value=\"$PROJECT_DIR$/Expression.cpp\" />\n        <option value=\"$PROJECT_DIR$/BinaryExpression.cpp\" />\n        <option value=\"$PROJECT_DIR$/BinaryExpression.h\" />\n        <option value=\"$PROJECT_DIR$/Plus.cpp\" />\n        <option value=\"$PROJECT_DIR$/Plus.h\" />\n        <option value=\"$PROJECT_DIR$/Minus.cpp\" />\n        <option value=\"$PROJECT_DIR$/Minus.h\" />\n        <option value=\"$PROJECT_DIR$/Divide.h\" />\n        <option value=\"$PROJECT_DIR$/Divide.cpp\" />\n        <option value=\"$PROJECT_DIR$/Multiplication.cpp\" />\n        <option value=\"$PROJECT_DIR$/Multiplication.h\" />\n        <option value=\"$PROJECT_DIR$/Var.h\" />\n        <option value=\"$PROJECT_DIR$/Var.cpp\" />\n        <option value=\"$PROJECT_DIR$/Number.h\" />\n        <option value=\"$PROJECT_DIR$/Number.cpp\" />\n        <option value=\"$PROJECT_DIR$/ExpressionSolver.h\" />\n        <option value=\"$PROJECT_DIR$/UnaryExpression.h\" />\n        <option value=\"$PROJECT_DIR$/UnaryExpression.cpp\" />\n        <option value=\"$PROJECT_DIR$/UsefulFunctions.h\" />\n        <option value=\"$PROJECT_DIR$/ExpressionSolution.h\" />\n        <option value=\"$PROJECT_DIR$/ExpressionSolver.cpp\" />\n        <option value=\"$PROJECT_DIR$/Server.cpp\" />\n        <option value=\"$PROJECT_DIR$/MySerialServer.cpp\" />\n        <option value=\"$PROJECT_DIR$/ParallelServer.cpp\" />\n        <option value=\"$PROJECT_DIR$/BFS.h\" />\n        <option value=\"$PROJECT_DIR$/BFS.cpp\" />\n        <option value=\"$PROJECT_DIR$/State.h\" />\n        <option value=\"$PROJECT_DIR$/State.cpp\" />\n        <option value=\"$PROJECT_DIR$/Searchable.h\" />\n        <option value=\"$PROJECT_DIR$/CMakeLists.txt\" />\n        <option value=\"$PROJECT_DIR$/MyPriorityQueue.h\" />\n        <option value=\"$PROJECT_DIR$/MyPriorityQueue.cpp\" />\n        <option value=\"$PROJECT_DIR$/Searcher.cpp\" />\n        <option value=\"$PROJECT_DIR$/ISearcher.h\" />\n        <option value=\"$PROJECT_DIR$/Searcher.h\" />\n        <option value=\"$PROJECT_DIR$/main.cpp\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"OCFindUsagesOptions\" text=\"true\" ivars=\"false\" properties=\"true\" derivedClasses=\"false\" />\n  <component name=\"ProjectFrameBounds\" extendedState=\"6\">\n    <option name=\"x\" value=\"163\" />\n    <option name=\"y\" value=\"116\" />\n    <option name=\"width\" value=\"1123\" />\n    <option name=\"height\" value=\"664\" />\n  </component>\n  <component name=\"ProjectView\">\n    <navigator proportions=\"\" version=\"1\">\n      <foldersAlwaysOnTop value=\"true\" />\n    </navigator>\n    <panes>\n      <pane id=\"Scope\" />\n      <pane id=\"ProjectPane\">\n        <subPane>\n          <expand>\n            <path>\n              <item name=\"proj2\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"untitled6\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n            <path>\n              <item name=\"proj2\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"untitled6\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"cmake-build-debug\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n          </expand>\n          <select />\n        </subPane>\n      </pane>\n    </panes>\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"last_opened_file_path\" value=\"$USER_HOME$/Desktop/sunday/proj2\" />\n    <property name=\"nodejs_interpreter_path.stuck_in_default_project\" value=\"undefined stuck path\" />\n    <property name=\"nodejs_npm_path_reset_for_default_project\" value=\"true\" />\n  </component>\n  <component name=\"RunDashboard\">\n    <option name=\"ruleStates\">\n      <list>\n        <RuleState>\n          <option name=\"name\" value=\"ConfigurationTypeDashboardGroupingRule\" />\n        </RuleState>\n        <RuleState>\n          <option name=\"name\" value=\"StatusDashboardGroupingRule\" />\n        </RuleState>\n      </list>\n    </option>\n  </component>\n  <component name=\"RunManager\">\n    <configuration name=\"proj2\" type=\"CMakeRunConfiguration\" factoryName=\"Application\" PASS_PARENT_ENVS_2=\"true\" PROJECT_NAME=\"proj2\" TARGET_NAME=\"proj2\" CONFIG_NAME=\"Debug\" RUN_TARGET_PROJECT_NAME=\"proj2\" RUN_TARGET_NAME=\"proj2\">\n      <method v=\"2\">\n        <option name=\"com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask\" enabled=\"true\" />\n      </method>\n    </configuration>\n  </component>\n  <component name=\"SvnConfiguration\">\n    <configuration />\n  </component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"1306f703-4d2c-4ab6-94c2-7efe32ca9330\" name=\"Default Changelist\" comment=\"\" />\n      <created>1546357225629</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1546357225629</updated>\n      <workItem from=\"1546357231973\" duration=\"288000\" />\n      <workItem from=\"1546360518943\" duration=\"37000\" />\n      <workItem from=\"1546433825831\" duration=\"8022000\" />\n      <workItem from=\"1546512609101\" duration=\"4433000\" />\n      <workItem from=\"1546800332460\" duration=\"166000\" />\n    </task>\n    <servers />\n  </component>\n  <component name=\"TimeTrackingManager\">\n    <option name=\"totallyTimeSpent\" value=\"20674000\" />\n  </component>\n  <component name=\"ToolWindowManager\">\n    <frame x=\"0\" y=\"25\" width=\"1853\" height=\"900\" extended-state=\"6\" />\n    <layout>\n      <window_info active=\"true\" content_ui=\"combo\" id=\"Project\" order=\"0\" visible=\"true\" weight=\"0.24958494\" />\n      <window_info id=\"Structure\" order=\"1\" side_tool=\"true\" weight=\"0.25\" />\n      <window_info id=\"Favorites\" order=\"2\" side_tool=\"true\" />\n      <window_info anchor=\"bottom\" id=\"Message\" order=\"0\" />\n      <window_info anchor=\"bottom\" id=\"Find\" order=\"1\" />\n      <window_info anchor=\"bottom\" id=\"Run\" order=\"2\" weight=\"0.3294423\" />\n      <window_info anchor=\"bottom\" id=\"Debug\" order=\"3\" weight=\"0.4\" />\n      <window_info anchor=\"bottom\" id=\"Cvs\" order=\"4\" weight=\"0.25\" />\n      <window_info anchor=\"bottom\" id=\"Inspection\" order=\"5\" weight=\"0.4\" />\n      <window_info anchor=\"bottom\" id=\"TODO\" order=\"6\" />\n      <window_info anchor=\"bottom\" id=\"Database Changes\" order=\"7\" />\n      <window_info anchor=\"bottom\" id=\"Terminal\" order=\"8\" />\n      <window_info anchor=\"bottom\" id=\"Event Log\" order=\"9\" side_tool=\"true\" />\n      <window_info anchor=\"bottom\" id=\"Version Control\" order=\"10\" />\n      <window_info anchor=\"bottom\" id=\"CMake\" order=\"11\" weight=\"0.07788945\" />\n      <window_info anchor=\"right\" id=\"Commander\" internal_type=\"SLIDING\" order=\"0\" type=\"SLIDING\" weight=\"0.4\" />\n      <window_info anchor=\"right\" id=\"Ant Build\" order=\"1\" weight=\"0.25\" />\n      <window_info anchor=\"right\" content_ui=\"combo\" id=\"Hierarchy\" order=\"2\" weight=\"0.25\" />\n      <window_info anchor=\"right\" id=\"Database\" order=\"3\" />\n    </layout>\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"1\" />\n  </component>\n  <component name=\"XDebuggerManager\">\n    <breakpoint-manager>\n      <breakpoints>\n        <line-breakpoint enabled=\"true\" type=\"com.jetbrains.cidr.execution.debugger.OCBreakpointType\">\n          <url>file://$PROJECT_DIR$/ParallelServer.h</url>\n          <line>5</line>\n          <option name=\"timeStamp\" value=\"1\" />\n        </line-breakpoint>\n        <line-breakpoint enabled=\"true\" type=\"com.jetbrains.cidr.execution.debugger.OCBreakpointType\">\n          <url>file://$PROJECT_DIR$/main.cpp</url>\n          <line>89</line>\n          <option name=\"timeStamp\" value=\"4\" />\n        </line-breakpoint>\n        <line-breakpoint enabled=\"true\" type=\"com.jetbrains.cidr.execution.debugger.OCBreakpointType\">\n          <url>file://$PROJECT_DIR$/main.cpp</url>\n          <line>88</line>\n          <option name=\"timeStamp\" value=\"5\" />\n        </line-breakpoint>\n      </breakpoints>\n    </breakpoint-manager>\n  </component>\n  <component name=\"editorHistoryManager\">\n    <entry file=\"file://$PROJECT_DIR$/Solution.cpp\" />\n    <entry file=\"file://$PROJECT_DIR$/Solver.h\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"247\">\n          <caret line=\"13\" selection-start-line=\"13\" selection-end-line=\"13\" />\n          <folding>\n            <element signature=\"e#96#116#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/Problem.cpp\" />\n    <entry file=\"file://$PROJECT_DIR$/Problem.h\" />\n    <entry file=\"file://$PROJECT_DIR$/Expression.h\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"475\">\n          <caret line=\"25\" column=\"32\" selection-start-line=\"25\" selection-start-column=\"32\" selection-end-line=\"25\" selection-end-column=\"32\" />\n          <folding>\n            <element signature=\"e#107#123#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/Expression.cpp\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"209\">\n          <caret line=\"11\" column=\"23\" selection-start-line=\"11\" selection-start-column=\"23\" selection-end-line=\"11\" selection-end-column=\"23\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/Server.h\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"19\">\n          <caret line=\"1\" column=\"33\" selection-start-line=\"1\" selection-start-column=\"33\" selection-end-line=\"1\" selection-end-column=\"33\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/ExpressionSolution.cpp\" />\n    <entry file=\"file://$PROJECT_DIR$/BinaryExpression.cpp\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"646\">\n          <caret line=\"34\" column=\"3\" selection-start-line=\"34\" selection-start-column=\"3\" selection-end-line=\"34\" selection-end-column=\"3\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/BinaryExpression.h\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"437\">\n          <caret line=\"23\" column=\"37\" selection-start-line=\"23\" selection-start-column=\"37\" selection-end-line=\"23\" selection-end-column=\"37\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/Plus.cpp\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"570\">\n          <caret line=\"30\" column=\"44\" selection-start-line=\"30\" selection-start-column=\"44\" selection-end-line=\"30\" selection-end-column=\"44\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/Plus.h\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"418\">\n          <caret line=\"22\" column=\"25\" selection-start-line=\"22\" selection-start-column=\"25\" selection-end-line=\"22\" selection-end-column=\"25\" />\n          <folding>\n            <element signature=\"e#92#121#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/Minus.cpp\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"532\">\n          <caret line=\"28\" column=\"46\" selection-start-line=\"28\" selection-start-column=\"46\" selection-end-line=\"28\" selection-end-column=\"46\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/Minus.h\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"437\">\n          <caret line=\"23\" column=\"26\" selection-start-line=\"23\" selection-start-column=\"26\" selection-end-line=\"23\" selection-end-column=\"26\" />\n          <folding>\n            <element signature=\"e#94#123#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/Divide.cpp\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"589\">\n          <caret line=\"31\" column=\"1\" selection-start-line=\"31\" selection-start-column=\"1\" selection-end-line=\"31\" selection-end-column=\"1\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/Divide.h\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"437\">\n          <caret line=\"23\" column=\"27\" selection-start-line=\"23\" selection-start-column=\"27\" selection-end-line=\"23\" selection-end-column=\"27\" />\n          <folding>\n            <element signature=\"e#96#125#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/Multiplication.cpp\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"589\">\n          <caret line=\"31\" column=\"64\" selection-start-line=\"31\" selection-start-column=\"64\" selection-end-line=\"31\" selection-end-column=\"64\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/Multiplication.h\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"437\">\n          <caret line=\"23\" column=\"35\" selection-start-line=\"23\" selection-start-column=\"35\" selection-end-line=\"23\" selection-end-column=\"35\" />\n          <folding>\n            <element signature=\"e#112#141#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/Var.cpp\" />\n    <entry file=\"file://$PROJECT_DIR$/Var.h\" />\n    <entry file=\"file://$PROJECT_DIR$/Number.h\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"361\">\n          <caret line=\"19\" column=\"25\" selection-start-line=\"19\" selection-start-column=\"25\" selection-end-line=\"19\" selection-end-column=\"25\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/ExpressionSolver.h\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"380\">\n          <caret line=\"20\" column=\"18\" selection-start-line=\"20\" selection-start-column=\"18\" selection-end-line=\"20\" selection-end-column=\"18\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/Number.cpp\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"399\">\n          <caret line=\"21\" column=\"49\" selection-start-line=\"21\" selection-start-column=\"49\" selection-end-line=\"21\" selection-end-column=\"49\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/UnaryExpression.h\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"418\">\n          <caret line=\"22\" column=\"34\" selection-start-line=\"22\" selection-start-column=\"34\" selection-end-line=\"22\" selection-end-column=\"34\" />\n          <folding>\n            <element signature=\"e#108#131#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/UnaryExpression.cpp\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"209\">\n          <caret line=\"11\" column=\"24\" selection-start-line=\"11\" selection-start-column=\"24\" selection-end-line=\"11\" selection-end-column=\"24\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/UsefulFunctions.h\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"5548\">\n          <caret line=\"292\" column=\"34\" selection-start-line=\"292\" selection-start-column=\"34\" selection-end-line=\"292\" selection-end-column=\"34\" />\n          <folding>\n            <element signature=\"e#130#153#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/ExpressionSolution.h\" />\n    <entry file=\"file://$PROJECT_DIR$/ExpressionSolver.cpp\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\" />\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/ParallelServer.h\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"95\">\n          <caret line=\"5\" column=\"34\" selection-start-line=\"5\" selection-start-column=\"34\" selection-end-line=\"5\" selection-end-column=\"34\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/ClientHandler.h\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"171\">\n          <caret line=\"12\" selection-start-line=\"12\" selection-end-line=\"12\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/StringReverser.cpp\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\" />\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/ParallelServer.cpp\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"152\">\n          <caret line=\"8\" column=\"1\" selection-start-line=\"8\" selection-start-column=\"1\" selection-end-line=\"8\" selection-end-column=\"1\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/FileCatchManager.cpp\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\" />\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/FileCacheManager.h\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"228\">\n          <caret line=\"12\" selection-start-line=\"12\" selection-end-line=\"12\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/Server.cpp\" />\n    <entry file=\"file://$PROJECT_DIR$/BFS.h\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"228\">\n          <caret line=\"12\" column=\"20\" selection-start-line=\"12\" selection-start-column=\"20\" selection-end-line=\"12\" selection-end-column=\"20\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/BFS.cpp\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"171\">\n          <caret line=\"9\" selection-start-line=\"9\" selection-end-line=\"9\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/State.cpp\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"266\">\n          <caret line=\"14\" column=\"39\" selection-start-line=\"14\" selection-start-column=\"39\" selection-end-line=\"14\" selection-end-column=\"39\" />\n          <folding>\n            <element signature=\"e#69#78#0\" expanded=\"true\" />\n            <element signature=\"e#114#123#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/State.h\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"285\">\n          <caret line=\"15\" column=\"7\" selection-start-line=\"15\" selection-start-column=\"7\" selection-end-line=\"15\" selection-end-column=\"7\" />\n          <folding>\n            <element signature=\"e#96#105#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/CMakeLists.txt\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"361\">\n          <caret line=\"31\" column=\"25\" selection-start-line=\"31\" selection-start-column=\"25\" selection-end-line=\"31\" selection-end-column=\"25\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/MySerialServer.cpp\" />\n    <entry file=\"file://$PROJECT_DIR$/ISearcher.cpp\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\" />\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/Searchable.cpp\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\" />\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/Searchable.h\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"285\">\n          <caret line=\"15\" column=\"34\" selection-start-line=\"15\" selection-start-column=\"34\" selection-end-line=\"15\" selection-end-column=\"34\" />\n          <folding>\n            <element signature=\"e#100#115#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/MyPriorityQueue.h\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"342\">\n          <caret line=\"18\" column=\"13\" lean-forward=\"true\" selection-start-line=\"18\" selection-start-column=\"13\" selection-end-line=\"18\" selection-end-column=\"13\" />\n          <folding>\n            <element signature=\"e#106#122#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/MyPriorityQueue.cpp\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"285\">\n          <caret line=\"15\" column=\"6\" selection-start-line=\"15\" selection-start-column=\"6\" selection-end-line=\"15\" selection-end-column=\"6\" />\n          <folding>\n            <element signature=\"e#41#69#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/ISearcher.h\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"190\">\n          <caret line=\"10\" selection-start-line=\"10\" selection-end-line=\"10\" />\n          <folding>\n            <element signature=\"e#94#117#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/Searcher.cpp\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"380\">\n          <caret line=\"20\" column=\"28\" selection-start-line=\"20\" selection-start-column=\"28\" selection-end-line=\"20\" selection-end-column=\"28\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/Searcher.h\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"323\">\n          <caret line=\"17\" column=\"36\" selection-start-line=\"17\" selection-start-column=\"36\" selection-end-line=\"17\" selection-end-column=\"36\" />\n          <folding>\n            <element signature=\"e#92#115#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"-532\">\n          <caret line=\"47\" lean-forward=\"true\" selection-start-line=\"47\" selection-end-line=\"47\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/main.cpp\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"474\">\n          <caret line=\"92\" column=\"48\" lean-forward=\"true\" selection-start-line=\"92\" selection-start-column=\"48\" selection-end-line=\"92\" selection-end-column=\"48\" />\n          <folding>\n            <element signature=\"e#0#19#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(date 1547072218000)
++++ .idea/workspace.xml	(date 1547072297000)
+@@ -12,8 +12,49 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="1306f703-4d2c-4ab6-94c2-7efe32ca9330" name="Default Changelist" comment="">
++      <change afterPath="$PROJECT_DIR$/BFS.cpp" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ISearcher.cpp" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ISearcher.h" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/MyPriorityQueue.cpp" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/MyPriorityQueue.h" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Searcher.cpp" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Searcher.h" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/State.cpp" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/State.h" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/BFS.h" beforeDir="false" afterPath="$PROJECT_DIR$/BFS.h" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Searchable.h" beforeDir="false" afterPath="$PROJECT_DIR$/Searchable.h" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/2" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/4" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/DependInfo.cmake" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/build.make" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/cmake_clean.cmake" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/flags.make" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/link.txt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/progress.make" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled6.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled6.dir/CXX.includecache" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled6.dir/ClientHandler.cpp.o" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled6.dir/DependInfo.cmake" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled6.dir/build.make" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled6.dir/cmake_clean.cmake" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled6.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled6.dir/depend.internal" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled6.dir/depend.make" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled6.dir/flags.make" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled6.dir/link.txt" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled6.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled6.dir/main.cpp.o" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled6.dir/progress.make" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/cmake-build-debug/proj2.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/proj2.cbp" afterDir="false" />
+     </list>
+     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+@@ -26,101 +67,82 @@
+   <component name="FileEditorManager">
+     <leaf>
+       <file pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/MatrixHandler.h">
+-          <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="342">
+-              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="43" />
+-            </state>
+-          </provider>
++        <entry file="file://$PROJECT_DIR$/Searchable.cpp">
++          <provider selected="true" editor-type-id="text-editor" />
+         </entry>
+       </file>
+       <file pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/ClientHandler.h">
++        <entry file="file://$PROJECT_DIR$/Searchable.h">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="171">
+-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+-            </state>
+-          </provider>
+-        </entry>
+-      </file>
+-      <file pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/MatrixHandler.cpp">
+-          <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="152">
+-              <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
++            <state relative-caret-position="285">
++              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+               <folding>
+-                <element signature="e#128#165#0" expanded="true" />
+-                <element signature="e#426#463#0" expanded="true" />
+-                <element signature="e#578#609#0" expanded="true" />
+-                <element signature="e#737#768#0" expanded="true" />
+-                <element signature="e#866#895#0" expanded="true" />
+-                <element signature="e#1010#1047#0" expanded="true" />
+-                <element signature="e#1153#1181#0" expanded="true" />
+-                <element signature="e#1402#1439#0" expanded="true" />
+-                <element signature="e#1603#1640#0" expanded="true" />
++                <element signature="e#100#115#0" expanded="true" />
+               </folding>
+             </state>
+           </provider>
+         </entry>
+       </file>
+       <file pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/cmake-build-debug/Makefile">
++        <entry file="file://$PROJECT_DIR$/Searcher.cpp">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="772">
+-              <caret line="84" column="75" selection-start-line="84" selection-start-column="75" selection-end-line="84" selection-end-column="75" />
++            <state relative-caret-position="380">
++              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+             </state>
+           </provider>
+         </entry>
+       </file>
+-      <file pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake">
++      <file pinned="false" current-in-tab="true">
++        <entry file="file://$PROJECT_DIR$/Searcher.h">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="75">
+-              <caret line="7" selection-start-line="7" selection-end-line="7" />
++            <state relative-caret-position="323">
++              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
++              <folding>
++                <element signature="e#92#115#0" expanded="true" />
++              </folding>
+             </state>
+           </provider>
+         </entry>
+       </file>
+       <file pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/cmake-build-debug/proj2.cbp">
++        <entry file="file://$PROJECT_DIR$/MyPriorityQueue.h">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="5395">
+-              <caret line="287" column="54" selection-start-line="287" selection-start-column="54" selection-end-line="287" selection-end-column="54" />
++            <state relative-caret-position="342">
++              <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
++              <folding>
++                <element signature="e#106#122#0" expanded="true" />
++              </folding>
+             </state>
+           </provider>
+         </entry>
+       </file>
+       <file pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/cmake-build-debug/script.txt">
++        <entry file="file://$PROJECT_DIR$/MySerialServer.cpp">
+           <provider selected="true" editor-type-id="text-editor" />
+         </entry>
+       </file>
+       <file pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/cmake-build-debug/untitled6.cbp">
+-          <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="133">
+-              <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+-            </state>
+-          </provider>
++        <entry file="file://$PROJECT_DIR$/ISearcher.cpp">
++          <provider selected="true" editor-type-id="text-editor" />
+         </entry>
+       </file>
+       <file pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt">
++        <entry file="file://$PROJECT_DIR$/ISearcher.h">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="-532">
+-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
++            <state relative-caret-position="190">
++              <caret line="10" selection-start-line="10" selection-end-line="10" />
++              <folding>
++                <element signature="e#94#117#0" expanded="true" />
++              </folding>
+             </state>
+           </provider>
+         </entry>
+       </file>
+-      <file pinned="false" current-in-tab="true">
+-        <entry file="file://$PROJECT_DIR$/main.cpp">
++      <file pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="474">
+-              <caret line="92" column="48" lean-forward="true" selection-start-line="92" selection-start-column="48" selection-end-line="92" selection-end-column="48" />
+-              <folding>
+-                <element signature="e#0#19#0" expanded="true" />
+-              </folding>
++            <state relative-caret-position="361">
++              <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+             </state>
+           </provider>
+         </entry>
+@@ -133,12 +155,8 @@
+       <find>open</find>
+       <find>open()</find>
+     </findStrings>
+-    <replaceStrings>
+-      <replace>$PROJECT_DIR$</replace>
+-    </replaceStrings>
+   </component>
+   <component name="Git.Settings">
+-    <option name="UPDATE_CHANGES_POLICY" value="SHELVE" />
+     <option name="UPDATE_TYPE" value="REBASE" />
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+@@ -190,12 +208,11 @@
+         <option value="$PROJECT_DIR$/Searcher.cpp" />
+         <option value="$PROJECT_DIR$/ISearcher.h" />
+         <option value="$PROJECT_DIR$/Searcher.h" />
+-        <option value="$PROJECT_DIR$/main.cpp" />
+       </list>
+     </option>
+   </component>
+   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+-  <component name="ProjectFrameBounds" extendedState="6">
++  <component name="ProjectFrameBounds" extendedState="7">
+     <option name="x" value="163" />
+     <option name="y" value="116" />
+     <option name="width" value="1123" />
+@@ -206,7 +223,6 @@
+       <foldersAlwaysOnTop value="true" />
+     </navigator>
+     <panes>
+-      <pane id="Scope" />
+       <pane id="ProjectPane">
+         <subPane>
+           <expand>
+@@ -214,15 +230,11 @@
+               <item name="proj2" type="b2602c69:ProjectViewProjectNode" />
+               <item name="untitled6" type="462c0819:PsiDirectoryNode" />
+             </path>
+-            <path>
+-              <item name="proj2" type="b2602c69:ProjectViewProjectNode" />
+-              <item name="untitled6" type="462c0819:PsiDirectoryNode" />
+-              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
+-            </path>
+           </expand>
+           <select />
+         </subPane>
+       </pane>
++      <pane id="Scope" />
+     </panes>
+   </component>
+   <component name="PropertiesComponent">
+@@ -269,17 +281,18 @@
+     <servers />
+   </component>
+   <component name="TimeTrackingManager">
+-    <option name="totallyTimeSpent" value="20674000" />
++    <option name="totallyTimeSpent" value="20326000" />
+   </component>
+   <component name="ToolWindowManager">
+     <frame x="0" y="25" width="1853" height="900" extended-state="6" />
++    <editor active="true" />
+     <layout>
+       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24958494" />
+       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+       <window_info id="Favorites" order="2" side_tool="true" />
+       <window_info anchor="bottom" id="Message" order="0" />
+       <window_info anchor="bottom" id="Find" order="1" />
+-      <window_info anchor="bottom" id="Run" order="2" weight="0.3294423" />
++      <window_info anchor="bottom" id="Run" order="2" />
+       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+@@ -288,7 +301,7 @@
+       <window_info anchor="bottom" id="Terminal" order="8" />
+       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+       <window_info anchor="bottom" id="Version Control" order="10" />
+-      <window_info anchor="bottom" id="CMake" order="11" weight="0.07788945" />
++      <window_info anchor="bottom" id="CMake" order="11" visible="true" weight="0.07788945" />
+       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+@@ -306,20 +319,11 @@
+           <line>5</line>
+           <option name="timeStamp" value="1" />
+         </line-breakpoint>
+-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+-          <url>file://$PROJECT_DIR$/main.cpp</url>
+-          <line>89</line>
+-          <option name="timeStamp" value="4" />
+-        </line-breakpoint>
+-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+-          <url>file://$PROJECT_DIR$/main.cpp</url>
+-          <line>88</line>
+-          <option name="timeStamp" value="5" />
+-        </line-breakpoint>
+       </breakpoints>
+     </breakpoint-manager>
+   </component>
+   <component name="editorHistoryManager">
++    <entry file="file://$PROJECT_DIR$/Solution.h" />
+     <entry file="file://$PROJECT_DIR$/Solution.cpp" />
+     <entry file="file://$PROJECT_DIR$/Solver.h">
+       <provider selected="true" editor-type-id="text-editor">
+@@ -503,8 +507,8 @@
+     </entry>
+     <entry file="file://$PROJECT_DIR$/ClientHandler.h">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="171">
+-          <caret line="12" selection-start-line="12" selection-end-line="12" />
++        <state relative-caret-position="513">
++          <caret line="27" selection-start-line="27" selection-end-line="27" />
+         </state>
+       </provider>
+     </entry>
+@@ -528,7 +532,20 @@
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/Server.cpp" />
++    <entry file="file://$PROJECT_DIR$/main.cpp">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="95">
++          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/Server.cpp">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="-1070">
++          <caret line="22" selection-start-line="22" selection-end-line="22" />
++        </state>
++      </provider>
++    </entry>
+     <entry file="file://$PROJECT_DIR$/BFS.h">
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="228">
+@@ -571,7 +588,9 @@
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/MySerialServer.cpp" />
++    <entry file="file://$PROJECT_DIR$/MySerialServer.cpp">
++      <provider selected="true" editor-type-id="text-editor" />
++    </entry>
+     <entry file="file://$PROJECT_DIR$/ISearcher.cpp">
+       <provider selected="true" editor-type-id="text-editor" />
+     </entry>
+@@ -631,23 +650,6 @@
+           <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+           <folding>
+             <element signature="e#92#115#0" expanded="true" />
+-          </folding>
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="-532">
+-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/main.cpp">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="474">
+-          <caret line="92" column="48" lean-forward="true" selection-start-line="92" selection-start-column="48" selection-end-line="92" selection-end-column="48" />
+-          <folding>
+-            <element signature="e#0#19#0" expanded="true" />
+           </folding>
+         </state>
+       </provider>
