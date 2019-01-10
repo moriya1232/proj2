@@ -13,6 +13,7 @@ State:: State(Point* t, int c){
 this->state = t;
 this->cost=c;
 this->cameFrom = nullptr;
+this->costUntilHere = -1;
 }
 
 /**
@@ -82,4 +83,11 @@ bool State:: getVisited(){
 
 void State:: setVisited(bool b){
     this->visited=b;
+}
+
+void State:: setCostUntilHere(double d){
+    this->costUntilHere = d;
+}
+double State:: getCostUntilHere(){
+    return this->costUntilHere;
 }

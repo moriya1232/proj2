@@ -11,12 +11,11 @@
 using namespace std;
 
 class State{
-
-
     Point* state;
     double cost;
     bool visited;
     State* cameFrom;
+    double costUntilHere;
     /*double value;
     Point* point;
     //list<State> adj;*/
@@ -30,6 +29,8 @@ public:
     void setVisited(bool);
     void setCameFrom(State*);
     State* getCameFrom();
+    void setCostUntilHere(double);
+    double getCostUntilHere();
 
     /*State(int, Point*);
     Point* getPoint();

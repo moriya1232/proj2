@@ -29,6 +29,7 @@ list<State*> BFS:: search(Searchable* searchable) {
         current = queue.front();
         if(current==searchable->getGoalState()) {
             current->setCameFrom(before);
+            current->setCostUntilHere(current->getCost());
             break;
         }
         // Get all adjacent vertices of the dequeued
@@ -40,17 +41,15 @@ list<State*> BFS:: search(Searchable* searchable) {
             && t->getState()->getJ() == searchable->getInitialState()->getState()->getJ()) {
                 continue;
             }
-            if (t->getCameFrom() == nullptr) {t->setCameFrom(current);}
+            if (t->getCameFrom() == nullptr) {t->setCameFrom(current); t->setCostUntilHere(t->getCost()+current->getCost());}
             else {
-                if(t->getCameFrom()->getCost() > current->getCost()) {
+                if(t->getCameFrom()->getCostUntilHere() > current->getCostUntilHere() + t->getCost()) {
                     t->setCameFrom(current);
+                    t->setCostUntilHere(current->getCostUntilHere() + t->getCost());
                 }
             }
             if (!t->getVisited()) {
                 t->setVisited(true);
-                //if(current->getCost() < t->getCost()) {
-                    //t->setCameFrom(current);
-                //}
                 queue.push_back(t);
                 //cout << "(" << t->getState()->getI() << "," << t->getState()->getJ() << ")"<< endl;
             }
