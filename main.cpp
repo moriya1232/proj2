@@ -1,5 +1,6 @@
 #include <iostream>
 #include "BFS.h"
+#include "ClientHandler.h"
 #include "Matrix.h"
 #include <vector>
 #include <sstream>
@@ -126,17 +127,17 @@ namespace  create_script {
 
 int main() {
     // JUST A REPLACEMENT FOR THE REAL SCRIPT
+    int x = 5;
     create_script::writeScript();
     CacheManager* cm = new(nothrow) CacheManager();
     vector<vector<int>> arr = create_script::readMatrixFromScript("script.txt");
     Matrix* m = new (nothrow) Matrix(arr, 3, 3);
     //system("open");
-    MatrixSolver<Matrix*, list<State*>>* ms = new(nothrow) MatrixSolver<Matrix*, list<State*>>();
+    MatrixSolver* ms = new(nothrow) MatrixSolver();
     list<State*> result1 = ms->solve(m);
     string result2 = create_script::convertListStateToString(result1, m);
     create_script::printMatrix(arr, result2);
-    MatrixHandler<Matrix*, MatrixSolver<Matrix*, list<State*>>*>* ch = new (nothrow)
-            MatrixHandler<Matrix*, MatrixSolver<Matrix*, list<State*>>*>(ms , cm, m);
+    //MatrixHandler<Matrix*, MatrixSolver*>* ch = new (nothrow) MatrixHandler<Matrix*, MatrixSolver*>(ms,cm , m);
     //std::cout << "Hello, World!" << std::endl;
     create_script::clearFile("script.txt");
     return 0;

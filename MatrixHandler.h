@@ -14,8 +14,11 @@ using namespace std;
 
 template <class problem, class solution>
 class MatrixHandler {//: public ClientHandler<Matrix*,list<State*>> {
+    CacheManager* cm;
+    MatrixSolver* solver;
+    Matrix* MyProblem;
 public:
-    MatrixHandler(MatrixSolver<problem,solution>* , CacheManager*, Matrix*);
+    MatrixHandler(solution , CacheManager*, problem);
     Solver<problem, solution>* getSolver();
     void setSolver(Solver<problem, solution>*);
     CacheManager* getCacheManager();
@@ -24,6 +27,8 @@ public:
     void setProblem(Matrix*);
     string execute();
     string convertListStateToString(list<State*>, Searchable*);
+
+
 };
 
 

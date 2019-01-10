@@ -3,14 +3,16 @@
 //
 
 #include "MatrixHandler.h"
-
+#include "ClientHandler.h"
 
 using namespace std;
 
-
 template  <typename problem, typename solution>
-MatrixHandler<problem, solution>:: MatrixHandler(MatrixSolver<problem,solution>* sol, CacheManager* cacheManager1, Matrix* m)
-: ClientHandler<problem,solution>(sol,cacheManager1,m) {
+MatrixHandler<problem, solution>:: MatrixHandler
+        (solution sol, CacheManager* cacheManager1, problem m) {//: ClientHandler<Matrix*,vector<State*>>(sol,cacheManager1, m){}
+    this->solver= sol;
+    this->cm = cacheManager1;
+    this->problem = m;
 }
 
 template <typename problem, typename solution>
@@ -24,7 +26,7 @@ void MatrixHandler<problem, solution>:: setSolver(Solver<problem, solution>* sol
 
 template  <typename problem, typename solution>
 CacheManager* MatrixHandler<problem, solution>::getCacheManager(){
-return this->cm;
+    return this->cm;
 }
 
 template  <typename problem, typename solution>
@@ -34,7 +36,7 @@ void MatrixHandler<problem, solution>::setCacheManager(CacheManager* cache){
 
 template  <typename problem, typename solution>
 void MatrixHandler<problem, solution>:: setProblem(Matrix* problem1){
-this->myProblem = problem1;
+    this->myProblem = problem1;
 }
 
 template  <typename problem,typename solution>
@@ -71,10 +73,10 @@ string MatrixHandler<problem, solution>:: convertListStateToString(list<State*> 
         } else if (after.getState()->getJ()> (*it)->getState()->getJ()) {
             result+="right";
         } else if (after.getState()->getJ()< (*it)->getState()->getJ()) {
-        result+="left";
+            result+="left";
         }
         result+=",";
     }
     result = result.substr(0,result.length()-2);
     return result;
-    }
+}
