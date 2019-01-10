@@ -8,8 +8,9 @@
 
 using namespace std;
 
-Expression* ExpressionSolver::solve(string problem) {
+string ExpressionSolver::solve(string problem) {
     Expression* e = Expression::makeExpression(problem);
-    return e;
+    string solution = to_string(e->calculate());
+    return solution;
 }
 

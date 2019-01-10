@@ -3,16 +3,16 @@
 //
 #include "BFS.h"
 #include <iostream>
-/*
-template <class T>
-list<State<T>*> BFS<T>:: search(Searchable<T>* searchable) {
-    list<State<T>*> myList = searchable->getAllStates();
-    for (auto it = myList.begin(); it !=myList.end();++it) {
+
+
+list<State*> BFS:: search(Searchable* searchable) {
+    list<State*> myList = searchable->getAllStates();
+    for (list<State*>:: iterator it = myList.begin(); it !=myList.end();++it) {
         (*it)->setVisited(false);
     }
-    State<T>* current = searchable->getInitialState();
+    State* current = searchable->getInitialState();
     // Create a queue for BFS
-    list<State<T>*> queue;
+    list<State*> queue;
     // Mark the current node as visited and enqueue it
     current->setVisited(true);
     current->setCameFrom(nullptr);
@@ -22,7 +22,7 @@ list<State<T>*> BFS<T>:: search(Searchable<T>* searchable) {
         return queue;
     }
 
-    State<T>* before;
+    State* before;
     // 'i' will be used to get all adjacent
     // vertices of a vertex
     while (!queue.empty()) {
@@ -36,10 +36,10 @@ list<State<T>*> BFS<T>:: search(Searchable<T>* searchable) {
         // Get all adjacent vertices of the dequeued
         // vertex s. If a adjacent has not been visited,
         // then mark it visited and enqueue it
-        list<State<T>*> adj = searchable->getAllPossibleStates(*current);
-        for (State<T>* t : adj) {
+        list<State*> adj = searchable->getAllPossibleStates(*current);
+        for (State* t : adj) {
             if(t->getState()->getI() == searchable->getInitialState()->getState()->getI()
-            && t->getState()->getJ() == searchable->getInitialState()->getState()->getJ()) {
+               && t->getState()->getJ() == searchable->getInitialState()->getState()->getJ()) {
                 continue;
             }
             if (t->getCameFrom() == nullptr) {t->setCameFrom(current); t->setCostUntilHere(t->getCost()+current->getCostUntilHere());}
@@ -59,13 +59,13 @@ list<State<T>*> BFS<T>:: search(Searchable<T>* searchable) {
         queue.pop_front();
     }
     queue.clear();
-    State<T>* back = searchable->getGoalState();
+    State* back = searchable->getGoalState();
     while (back->getState()->getI()!=searchable->getInitialState()->getState()->getI()
-    || back->getState()->getJ()!=searchable->getInitialState()->getState()->getJ()) {
+           || back->getState()->getJ()!=searchable->getInitialState()->getState()->getJ()) {
         queue.push_front(back);
         back = back->getCameFrom();
     }
     queue.push_front(back);
     return queue;
 
-}*/
+}

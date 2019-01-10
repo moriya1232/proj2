@@ -48,10 +48,10 @@ RM = /snap/clion/58/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/moriya/CLionProjects/untitled6
+CMAKE_SOURCE_DIR = /home/omer/CLionProjects/proj2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/moriya/CLionProjects/untitled6/cmake-build-debug
+CMAKE_BINARY_DIR = /home/omer/CLionProjects/proj2/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles /home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles /home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -230,33 +230,6 @@ BinaryExpression.s: BinaryExpression.cpp.s
 BinaryExpression.cpp.s:
 	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/BinaryExpression.cpp.s
 .PHONY : BinaryExpression.cpp.s
-
-CacheManager.o: CacheManager.cpp.o
-
-.PHONY : CacheManager.o
-
-# target to build an object file
-CacheManager.cpp.o:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/CacheManager.cpp.o
-.PHONY : CacheManager.cpp.o
-
-CacheManager.i: CacheManager.cpp.i
-
-.PHONY : CacheManager.i
-
-# target to preprocess a source file
-CacheManager.cpp.i:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/CacheManager.cpp.i
-.PHONY : CacheManager.cpp.i
-
-CacheManager.s: CacheManager.cpp.s
-
-.PHONY : CacheManager.s
-
-# target to generate assembly for a file
-CacheManager.cpp.s:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/CacheManager.cpp.s
-.PHONY : CacheManager.cpp.s
 
 ClientHandler.o: ClientHandler.cpp.o
 
@@ -1008,9 +981,6 @@ help:
 	@echo "... BinaryExpression.o"
 	@echo "... BinaryExpression.i"
 	@echo "... BinaryExpression.s"
-	@echo "... CacheManager.o"
-	@echo "... CacheManager.i"
-	@echo "... CacheManager.s"
 	@echo "... ClientHandler.o"
 	@echo "... ClientHandler.i"
 	@echo "... ClientHandler.s"

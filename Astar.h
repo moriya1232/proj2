@@ -7,10 +7,9 @@
 
 #include "Searcher.h"
 
-template <class T>
-class Astar: public Searcher<T> {
+class Astar: public Searcher {
 
-public:  list<State<T>*> search(Searchable<T>* searchable);
+public:  list<State*> search(Searchable* searchable);
 };
 
 

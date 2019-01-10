@@ -10,7 +10,7 @@ Point:: Point(int x, int y){
 }
 
 int Point:: getI(){
-return this->i;
+    return this->i;
 }
 
 int Point:: getJ(){

@@ -2,17 +2,17 @@
 // Created by omer on 1/6/19.
 //
 
-
+/*
 
 #include "FileCacheManager.h"
 #include "vector"
 #include "sstream"
 
 using namespace std;
-/*
-//FileCacheManager:: FileCacheManager(unordered_map<pair<string,string>,string> ma) : CacheManager(ma){
-//}
-void FileCacheManager:: write(string nameFile){
+template <>
+FileCacheManager<string, string>:: FileCacheManager() {}
+template <>
+void FileCacheManager<string, string>:: write(string nameFile){
     /*ofstream out (nameFile, ios::trunc);
     for(auto it = this->cm.begin();it != this->cm.end(); ++it) {
         string input = (it)->first.first;
@@ -32,8 +32,22 @@ static vector<string> split(vector<string> v, const std::string& s, char delimit
     }
     return v;
 }
+template <>
+bool FileCacheManager<string, string>::alreadySolved(string s) {
+return false;
+}
+template <>
+string FileCacheManager<string, string>::getSolution(string problem) {
+    return "";
+}
 
-void FileCacheManager:: load(string nameFile) {
+template <>
+void FileCacheManager<string, string>::save(string, string) {
+    ;
+}
+
+template<>
+void FileCacheManager<string, string>:: load(string nameFile) {
     ifstream in(nameFile);
     string line;
     if (in.is_open()) {
@@ -51,10 +65,11 @@ void FileCacheManager:: load(string nameFile) {
     }
 
 }*/
-
-/*void FileCacheManager:: insertToMap(string s1 , string s2, string s3){
-    pair<string,string> pair1 = make_pair(s1,s2);
-    pair<pair<string,string>,string> pair2 = make_pair(pair1,s3);
-    this->cm.insert(pair2);
+/*
+template <>
+void FileCacheManager<string, string>::insertToMap(string s1 , string s2, string s3){
+   pair<string,string> pair1 = make_pair(s1,s2);
+    pair<pair<string,string>,string> pair2 = pair<pair<string, string>, string>(pair1,s3);
+    //this->m.insert(pair2);
 
 }*/

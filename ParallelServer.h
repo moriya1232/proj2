@@ -6,12 +6,10 @@
 #define UNTITLED6_PARALLELSERVER_H
 
 #include "MyServer.h"
-
-template<class problem, class solution>
-class ParallelServer : public MyServer<problem,solution> {
+class ParallelServer : public MyServer {
 protected:
     //void handleClient(int, MatrixHandler<Matrix*, list<State*>>*);
-    void handleClient(int, Solver<problem,solution>*);
+    void handleClient(MatrixHandler<Matrix*, MatrixSolver*>*, int) override;
 };
 
 #endif //UNTITLED6_PARALLELSERVER_H

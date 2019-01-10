@@ -15,7 +15,6 @@ add_executable(proj2
         BFS.h
         BinaryExpression.cpp
         BinaryExpression.h
-        CacheManager.cpp
         CacheManager.h
         ClientHandler.cpp
         ClientHandler.h

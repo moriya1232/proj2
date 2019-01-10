@@ -8,10 +8,10 @@
 #include "Matrix.h"
 #include "Solver.h"
 
-class MatrixSolver : public Solver<Matrix*,list<State<Point*>*>> {
-
+class MatrixSolver : public Solver<Matrix*,list<State*>> {
+    string convertListStateToString(list<State*> list1 , Searchable* searchable);
 public:
-    list<State<Point*>*> solve(Matrix* m);
+    string solve(string);
 
 };
 

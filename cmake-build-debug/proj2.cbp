@@ -8,33 +8,33 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/moriya/CLionProjects/untitled6/cmake-build-debug"/>
+				<Option working_dir="/home/omer/CLionProjects/proj2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/moriya/CLionProjects/untitled6/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/moriya/CLionProjects/untitled6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/moriya/CLionProjects/untitled6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/moriya/CLionProjects/untitled6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/omer/CLionProjects/proj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/omer/CLionProjects/proj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/omer/CLionProjects/proj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/omer/CLionProjects/proj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/moriya/CLionProjects/untitled6/cmake-build-debug"/>
+				<Option working_dir="/home/omer/CLionProjects/proj2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/moriya/CLionProjects/untitled6/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/moriya/CLionProjects/untitled6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/moriya/CLionProjects/untitled6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/moriya/CLionProjects/untitled6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/omer/CLionProjects/proj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/omer/CLionProjects/proj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/omer/CLionProjects/proj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/omer/CLionProjects/proj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="proj2">
-				<Option output="/home/moriya/CLionProjects/untitled6/cmake-build-debug/proj2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/moriya/CLionProjects/untitled6/cmake-build-debug"/>
+				<Option output="/home/omer/CLionProjects/proj2/cmake-build-debug/proj2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/omer/CLionProjects/proj2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/moriya/CLionProjects/untitled6/."/>
+					<Add directory="/home/omer/CLionProjects/proj2/."/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -47,20 +47,20 @@
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/moriya/CLionProjects/untitled6/cmake-build-debug/Makefile&quot;  VERBOSE=1 proj2"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/moriya/CLionProjects/untitled6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/moriya/CLionProjects/untitled6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/moriya/CLionProjects/untitled6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/omer/CLionProjects/proj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 proj2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/omer/CLionProjects/proj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/omer/CLionProjects/proj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/omer/CLionProjects/proj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="proj2/fast">
-				<Option output="/home/moriya/CLionProjects/untitled6/cmake-build-debug/proj2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/moriya/CLionProjects/untitled6/cmake-build-debug"/>
+				<Option output="/home/omer/CLionProjects/proj2/cmake-build-debug/proj2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/omer/CLionProjects/proj2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/moriya/CLionProjects/untitled6/."/>
+					<Add directory="/home/omer/CLionProjects/proj2/."/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -73,219 +73,216 @@
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/moriya/CLionProjects/untitled6/cmake-build-debug/Makefile&quot;  VERBOSE=1 proj2/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/moriya/CLionProjects/untitled6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/moriya/CLionProjects/untitled6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/moriya/CLionProjects/untitled6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/omer/CLionProjects/proj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 proj2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/omer/CLionProjects/proj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/omer/CLionProjects/proj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/omer/CLionProjects/proj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/moriya/CLionProjects/untitled6/cmake-build-debug"/>
+				<Option working_dir="/home/omer/CLionProjects/proj2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/moriya/CLionProjects/untitled6/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/moriya/CLionProjects/untitled6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/moriya/CLionProjects/untitled6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/moriya/CLionProjects/untitled6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/omer/CLionProjects/proj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/omer/CLionProjects/proj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/omer/CLionProjects/proj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/omer/CLionProjects/proj2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/Astar.cpp">
+		<Unit filename="/home/omer/CLionProjects/proj2/Astar.cpp">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/Astar.h">
+		<Unit filename="/home/omer/CLionProjects/proj2/Astar.h">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/BFS.cpp">
+		<Unit filename="/home/omer/CLionProjects/proj2/BFS.cpp">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/BFS.h">
+		<Unit filename="/home/omer/CLionProjects/proj2/BFS.h">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/BestFirstSearch.cpp">
+		<Unit filename="/home/omer/CLionProjects/proj2/BestFirstSearch.cpp">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/BestFirstSearch.h">
+		<Unit filename="/home/omer/CLionProjects/proj2/BestFirstSearch.h">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/BinaryExpression.cpp">
+		<Unit filename="/home/omer/CLionProjects/proj2/BinaryExpression.cpp">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/BinaryExpression.h">
+		<Unit filename="/home/omer/CLionProjects/proj2/BinaryExpression.h">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/CacheManager.cpp">
+		<Unit filename="/home/omer/CLionProjects/proj2/CacheManager.h">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/CacheManager.h">
+		<Unit filename="/home/omer/CLionProjects/proj2/ClientHandler.cpp">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/ClientHandler.cpp">
+		<Unit filename="/home/omer/CLionProjects/proj2/ClientHandler.h">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/ClientHandler.h">
+		<Unit filename="/home/omer/CLionProjects/proj2/DFS.cpp">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/DFS.cpp">
+		<Unit filename="/home/omer/CLionProjects/proj2/DFS.h">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/DFS.h">
+		<Unit filename="/home/omer/CLionProjects/proj2/Divide.cpp">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/Divide.cpp">
+		<Unit filename="/home/omer/CLionProjects/proj2/Divide.h">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/Divide.h">
+		<Unit filename="/home/omer/CLionProjects/proj2/Expression.cpp">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/Expression.cpp">
+		<Unit filename="/home/omer/CLionProjects/proj2/Expression.h">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/Expression.h">
+		<Unit filename="/home/omer/CLionProjects/proj2/ExpressionSolver.cpp">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/ExpressionSolver.cpp">
+		<Unit filename="/home/omer/CLionProjects/proj2/ExpressionSolver.h">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/ExpressionSolver.h">
+		<Unit filename="/home/omer/CLionProjects/proj2/FileCacheManager.h">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/FileCacheManager.h">
+		<Unit filename="/home/omer/CLionProjects/proj2/FileCatchManager.cpp">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/FileCatchManager.cpp">
+		<Unit filename="/home/omer/CLionProjects/proj2/ISearcher.cpp">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/ISearcher.cpp">
+		<Unit filename="/home/omer/CLionProjects/proj2/ISearcher.h">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/ISearcher.h">
+		<Unit filename="/home/omer/CLionProjects/proj2/Matrix.cpp">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/Matrix.cpp">
+		<Unit filename="/home/omer/CLionProjects/proj2/Matrix.h">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/Matrix.h">
+		<Unit filename="/home/omer/CLionProjects/proj2/MatrixHandler.cpp">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/MatrixHandler.cpp">
+		<Unit filename="/home/omer/CLionProjects/proj2/MatrixHandler.h">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/MatrixHandler.h">
+		<Unit filename="/home/omer/CLionProjects/proj2/MatrixSolver.cpp">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/MatrixSolver.cpp">
+		<Unit filename="/home/omer/CLionProjects/proj2/MatrixSolver.h">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/MatrixSolver.h">
+		<Unit filename="/home/omer/CLionProjects/proj2/Minus.cpp">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/Minus.cpp">
+		<Unit filename="/home/omer/CLionProjects/proj2/Minus.h">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/Minus.h">
+		<Unit filename="/home/omer/CLionProjects/proj2/Multiplication.cpp">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/Multiplication.cpp">
+		<Unit filename="/home/omer/CLionProjects/proj2/Multiplication.h">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/Multiplication.h">
+		<Unit filename="/home/omer/CLionProjects/proj2/MyPair.cpp">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/MyPair.cpp">
+		<Unit filename="/home/omer/CLionProjects/proj2/MyPair.h">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/MyPair.h">
+		<Unit filename="/home/omer/CLionProjects/proj2/MyPriorityQueue.cpp">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/MyPriorityQueue.cpp">
+		<Unit filename="/home/omer/CLionProjects/proj2/MyPriorityQueue.h">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/MyPriorityQueue.h">
+		<Unit filename="/home/omer/CLionProjects/proj2/MyServer.cpp">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/MyServer.cpp">
+		<Unit filename="/home/omer/CLionProjects/proj2/MyServer.h">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/MyServer.h">
+		<Unit filename="/home/omer/CLionProjects/proj2/MyTestClientHandler.cpp">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/MyTestClientHandler.cpp">
+		<Unit filename="/home/omer/CLionProjects/proj2/MyTestClientHandler.h">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/MyTestClientHandler.h">
+		<Unit filename="/home/omer/CLionProjects/proj2/Number.cpp">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/Number.cpp">
+		<Unit filename="/home/omer/CLionProjects/proj2/Number.h">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/Number.h">
+		<Unit filename="/home/omer/CLionProjects/proj2/ParallelServer.cpp">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/ParallelServer.cpp">
+		<Unit filename="/home/omer/CLionProjects/proj2/ParallelServer.h">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/ParallelServer.h">
+		<Unit filename="/home/omer/CLionProjects/proj2/Plus.cpp">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/Plus.cpp">
+		<Unit filename="/home/omer/CLionProjects/proj2/Plus.h">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/Plus.h">
+		<Unit filename="/home/omer/CLionProjects/proj2/Point.cpp">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/Point.cpp">
+		<Unit filename="/home/omer/CLionProjects/proj2/Point.h">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/Point.h">
+		<Unit filename="/home/omer/CLionProjects/proj2/Searchable.cpp">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/Searchable.cpp">
+		<Unit filename="/home/omer/CLionProjects/proj2/Searchable.h">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/Searchable.h">
+		<Unit filename="/home/omer/CLionProjects/proj2/Searcher.cpp">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/Searcher.cpp">
+		<Unit filename="/home/omer/CLionProjects/proj2/Searcher.h">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/Searcher.h">
+		<Unit filename="/home/omer/CLionProjects/proj2/Server.h">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/Server.h">
+		<Unit filename="/home/omer/CLionProjects/proj2/Solver.cpp">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/Solver.cpp">
+		<Unit filename="/home/omer/CLionProjects/proj2/Solver.h">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/Solver.h">
+		<Unit filename="/home/omer/CLionProjects/proj2/State.cpp">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/State.cpp">
+		<Unit filename="/home/omer/CLionProjects/proj2/State.h">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/State.h">
+		<Unit filename="/home/omer/CLionProjects/proj2/StringReverser.cpp">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/StringReverser.cpp">
+		<Unit filename="/home/omer/CLionProjects/proj2/StringReverser.h">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/StringReverser.h">
+		<Unit filename="/home/omer/CLionProjects/proj2/UnaryExpression.cpp">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/UnaryExpression.cpp">
+		<Unit filename="/home/omer/CLionProjects/proj2/UnaryExpression.h">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/UnaryExpression.h">
+		<Unit filename="/home/omer/CLionProjects/proj2/UsefulFunctions.h">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/UsefulFunctions.h">
+		<Unit filename="/home/omer/CLionProjects/proj2/main.cpp">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/main.cpp">
-			<Option target="proj2"/>
-		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/CMakeLists.txt">
+		<Unit filename="/home/omer/CLionProjects/proj2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

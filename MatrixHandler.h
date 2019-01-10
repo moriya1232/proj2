@@ -13,19 +13,23 @@ using namespace std;
 #include "MatrixSolver.h"
 
 template <class problem, class solution>
-class MatrixHandler {//: public ClientHandler<Matrix*,list<State*>> {
-    CacheManager* cm;
+class MatrixHandler : public ClientHandler {
+    //CacheManager<string, string>* cm;
     MatrixSolver* solver;
     Matrix* MyProblem;
 public:
-    MatrixHandler(solution , CacheManager*, problem);
+    void handleClient(int);
+    MatrixHandler(solution);
     Solver<problem, solution>* getSolver();
     void setSolver(Solver<problem, solution>*);
-    CacheManager* getCacheManager();
-    void setCacheManager(CacheManager*);
+   // CacheManager<string, string>* getCacheManager();
+    //void setCacheManager(CacheManager<string, string>*);
     Matrix* getProblem();
     void setProblem(Matrix*);
     string execute();
+    string convertListStateToString(list<State*>, Searchable*);
+
+
 };
 
 

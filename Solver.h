@@ -10,7 +10,7 @@ template <class problem, class solution>
 class Solver {
 
 public:
-    virtual solution solve(problem)=0;
+    virtual string solve(string)=0;
 
 };
 #endif //UNTITLED6_SOLVER_H

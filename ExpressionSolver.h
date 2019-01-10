@@ -12,7 +12,7 @@ using  namespace std;
 
 class ExpressionSolver : public Solver<string,Expression*> {
 public:
-    Expression* solve(string);
+    string solve(string);
 };
 
 #endif //UNTITLED6_EXPRESSIONSOLVER_H

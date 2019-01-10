@@ -11,18 +11,19 @@
 /**
  * the missiom of the server is to care of getting values from the client
  */
- template<class problem,class solution>
 class MyServer : public server_side::Server {
-    ClientHandler<problem,solution>* clientHandler;
+protected:
+    MatrixHandler<Matrix*, MatrixSolver*>* clientHandler;
     int sockfd;
     bool run;
+    virtual void handleClient(MatrixHandler<Matrix*, MatrixSolver*>*, int) = 0;
 public:
     MyServer();
     void stop() override;
     //void open(int, MatrixHandler<Matrix*, list<State*>>*) override;
-    void open(int, Solver<problem,solution>*) override;
-    //void start(MatrixHandler<Matrix*, list<State*>>* ch);
-    void start(Solver<problem,solution>*);
+    void open(int, MatrixHandler<Matrix*, MatrixSolver*>*) override;
+    void start(MatrixHandler<Matrix*, MatrixSolver*>* ch) override;
+    //void start(MatrixSolver*);
 };
 
 #endif //UNTITLED6_SERVER_H

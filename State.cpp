@@ -3,25 +3,35 @@
 //
 #include "State.h"
 
+/**
+ * this function is a constractor for state.
+ * @tparam T
+ * @param t
+ */
+
+State:: State(Point* t, int c){
+    this->state = t;
+    this->cost=c;
+    this->cameFrom = nullptr;
+    this->costUntilHere = -1;
+}
 
 /**
  * this function return the state
  * @return state
  */
-//template <typename T>
-//T State<T>:: getState(){
-//    return this->state;
-//}
+Point* State:: getState(){
+    return this->state;
+}
 
 /**
  * this function check whether
  * @tparam T - state in type of
  * @param s
  * @return
- *//*
-template <typename T>
-bool State<T>:: equal(State<T> s){
-    if(this->state == s.getState()) {
+ */
+bool State:: equal(State s){
+    if(this->state->getI() == s.getState()->getI() &&this->state->getJ() == s.getState()->getJ() ) {
         return true;
     }
     return false;
@@ -31,19 +41,19 @@ bool State<T>:: equal(State<T> s){
  * this function set the came from
  * @tparam T
  * @param cf - state in type of T
- *//*
-template<typename T>
-void State<T>:: setCameFrom(State<T>* cf){
-  this->cameFrom = cf;
+ */
+//template<typename T>
+void State:: setCameFrom(State* cf){
+    this->cameFrom = cf;
 }
 
 /**
  * this function returns came from
  * @tparam T
  * @return State of T
- *//*
-template<typename T>
-State<T>* State<T>:: getCameFrom(){
+ */
+//template<typename T>
+State* State:: getCameFrom(){
     return this->cameFrom;
 }
 
@@ -51,9 +61,9 @@ State<T>* State<T>:: getCameFrom(){
  * return the cost
  * @tparam T
  * @return
- *//*
-template <typename T>
-double State<T>:: getCost(){
+ */
+
+double State:: getCost(){
     return this->cost;
 }
 
@@ -61,26 +71,23 @@ double State<T>:: getCost(){
  * this function set the cost
  * @tparam T
  * @param d - cost
- *//*
-template <typename T>
-void State<T>:: setCost(double d){
+ */
+void State:: setCost(double d){
     this->cost = d;
 }
 
-template <typename T>
-bool State<T>:: getVisited(){
+
+bool State:: getVisited(){
     return this->visited;
 }
-template <typename T>
-void State<T>:: setVisited(bool b){
+
+void State:: setVisited(bool b){
     this->visited=b;
 }
-template <typename T>
-void State<T>:: setCostUntilHere(double d){
+
+void State:: setCostUntilHere(double d){
     this->costUntilHere = d;
 }
-
-template <typename T>
-double State<T>:: getCostUntilHere(){
+double State:: getCostUntilHere(){
     return this->costUntilHere;
-}*/
+}

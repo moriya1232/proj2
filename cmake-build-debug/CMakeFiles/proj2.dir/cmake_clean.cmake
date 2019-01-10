@@ -3,7 +3,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/proj2.dir/BestFirstSearch.cpp.o"
   "CMakeFiles/proj2.dir/BFS.cpp.o"
   "CMakeFiles/proj2.dir/BinaryExpression.cpp.o"
-  "CMakeFiles/proj2.dir/CacheManager.cpp.o"
   "CMakeFiles/proj2.dir/ClientHandler.cpp.o"
   "CMakeFiles/proj2.dir/DFS.cpp.o"
   "CMakeFiles/proj2.dir/Divide.cpp.o"

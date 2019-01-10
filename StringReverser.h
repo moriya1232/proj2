@@ -12,7 +12,7 @@
 
 class StringReverser : public Solver<string,string> {
 public:
-   string solve(string);
+    string solve(string);
 };
 
 

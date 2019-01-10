@@ -8,15 +8,12 @@
 #include "MatrixHandler.h"
 
 namespace  server_side {
-    class Server {
+    class Server{
     protected:
-        //virtual void start(MatrixHandler<Matrix*, list<State*>>*) = 0;
-        virtual void start(MatrixSolver*) = 0;
-        //virtual void handleClient(int, MatrixHandler<Matrix*, list<State*>>*) = 0;
-        virtual void handleClient(int, MatrixSolver*) = 0;
+        virtual void start(MatrixHandler<Matrix*, MatrixSolver*>*) = 0;
+        //virtual void handleClient(int, MatrixSolver*) = 0;
     public:
-        //virtual void open(int, MatrixHandler<Matrix*, list<State*>>*) = 0;
-        virtual void open(int, MatrixSolver*) = 0;
+        virtual void open(int, MatrixHandler<Matrix*, MatrixSolver*>*) = 0;
         virtual void stop() = 0;
     };
 }
