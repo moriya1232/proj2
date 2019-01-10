@@ -7,10 +7,11 @@
 
 #include "MyServer.h"
 
-class ParallelServer : public MyServer {
+template<class problem, class solution>
+class ParallelServer : public MyServer<problem,solution> {
 protected:
     //void handleClient(int, MatrixHandler<Matrix*, list<State*>>*);
-    void handleClient(int, MatrixSolver*);
+    void handleClient(int, Solver<problem,solution>*);
 };
 
 #endif //UNTITLED6_PARALLELSERVER_H

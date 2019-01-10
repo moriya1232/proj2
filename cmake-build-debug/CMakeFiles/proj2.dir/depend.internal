@@ -189,7 +189,12 @@ CMakeFiles/proj2.dir/Searcher.cpp.o
  /home/moriya/CLionProjects/untitled6/Searcher.h
  /home/moriya/CLionProjects/untitled6/State.h
 CMakeFiles/proj2.dir/Solver.cpp.o
+ /home/moriya/CLionProjects/untitled6/Matrix.h
+ /home/moriya/CLionProjects/untitled6/Point.h
+ /home/moriya/CLionProjects/untitled6/Searchable.h
  /home/moriya/CLionProjects/untitled6/Solver.cpp
+ /home/moriya/CLionProjects/untitled6/Solver.h
+ /home/moriya/CLionProjects/untitled6/State.h
 CMakeFiles/proj2.dir/State.cpp.o
  /home/moriya/CLionProjects/untitled6/Point.h
  /home/moriya/CLionProjects/untitled6/State.cpp

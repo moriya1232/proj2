@@ -188,7 +188,12 @@ CMakeFiles/proj2.dir/Searcher.cpp.o: ../Searcher.cpp
 CMakeFiles/proj2.dir/Searcher.cpp.o: ../Searcher.h
 CMakeFiles/proj2.dir/Searcher.cpp.o: ../State.h
 
+CMakeFiles/proj2.dir/Solver.cpp.o: ../Matrix.h
+CMakeFiles/proj2.dir/Solver.cpp.o: ../Point.h
+CMakeFiles/proj2.dir/Solver.cpp.o: ../Searchable.h
 CMakeFiles/proj2.dir/Solver.cpp.o: ../Solver.cpp
+CMakeFiles/proj2.dir/Solver.cpp.o: ../Solver.h
+CMakeFiles/proj2.dir/Solver.cpp.o: ../State.h
 
 CMakeFiles/proj2.dir/State.cpp.o: ../Point.h
 CMakeFiles/proj2.dir/State.cpp.o: ../State.cpp

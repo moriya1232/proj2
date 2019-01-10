@@ -14,15 +14,16 @@
 #include "MatrixHandler.h"
 
 using namespace std;
-
-    MyServer::MyServer() {
+    template<typename problem,typename solution>
+    MyServer<problem,solution>::MyServer() {
         // put a default value
         this->sockfd = 0;
         this->run = true;
     }
 
     //void MyServer::open(int port, MatrixHandler<Matrix*, list<State*>>* ch) {
-    void MyServer::open(int port, MatrixSolver* ch) {
+    template<typename problem,typename solution>
+    void MyServer<problem,solution>::open(int port, Solver<problem,solution>* ch) {
         int sockfd, clilen;
         char buffer[100];
         struct sockaddr_in serv_addr, cli_addr;
@@ -75,8 +76,9 @@ using namespace std;
         } while(elapsed < 10);  /* run for ten seconds */
     }
 
+template<typename problem,typename solution>
     //void MyServer::start(MatrixHandler<Matrix*, list<State*>>* ch) {
-    void MyServer::start(MatrixSolver* ch) {
+    void MyServer<problem,solution>::start(Solver<problem,solution>* ch) {
         struct sockaddr_in cli_addr;
         int newsockfd, clilen = sizeof(cli_addr);
         while (run) {
@@ -101,7 +103,7 @@ using namespace std;
             handleClient(newsockfd, ch);
         }
     }
-
-        void MyServer::stop() {
+template<typename problem,typename solution>
+        void MyServer<problem,solution>::stop() {
             this->run = false;
         }

@@ -10,7 +10,7 @@ template <class problem, class solution>
 class Solver {
 
 public:
-    virtual list<State*> solve(Matrix*)=0;
+    virtual solution solve(problem)=0;
 
 };
 #endif //UNTITLED6_SOLVER_H

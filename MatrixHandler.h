@@ -26,9 +26,6 @@ public:
     Matrix* getProblem();
     void setProblem(Matrix*);
     string execute();
-    string convertListStateToString(list<State*>, Searchable*);
-
-
 };
 
 
