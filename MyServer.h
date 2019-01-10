@@ -16,7 +16,7 @@ protected:
     MatrixHandler<Matrix*, MatrixSolver*>* clientHandler;
     int sockfd;
     bool run;
-    virtual void handleClient(MatrixHandler<Matrix*, MatrixSolver*>*, int) = 0;
+    virtual void handleClient(ClientHandler*, int) = 0;
 public:
     MyServer();
     void stop() override;

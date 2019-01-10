@@ -5,23 +5,20 @@
 #ifndef UNTITLED6_CLIENDHANDLER_H
 #define UNTITLED6_CLIENDHANDLER_H
 
-using namespace std;
 #include <iostream>
 #include <fstream>
 #include "Solver.h"
 #include "CacheManager.h"
+#include "Server.h"
+
+using namespace server_side;
 
 class ClientHandler {
+protected:
+    Solver<problem, solution> *solver;
+    CacheManager <problem,solution>* cachemanager;
 public:
-    virtual void handleClient(int) = 0;
-    /*
-    virtual Solver<problem,solution>* getSolver() = 0;
-    virtual void setSolver(Solver<problem,solution>*) = 0;
-    virtual CacheManager* getCacheManager()=0;
-    virtual void setCacheManager(CacheManager*)=0;
-    virtual string execute() =0;
-    virtual void setProblem(problem)=0;
-    virtual problem getProblem()=0;*/
+    virtual void handleClient(std::istream,std::ostream) = 0;
 
 };
 #endif //UNTITLED6_CLIENDHANDLER_H

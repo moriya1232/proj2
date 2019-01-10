@@ -15,6 +15,7 @@ public:
     int getJ();
     void setI(int i);
     void setJ(int j);
+    bool operator==(Point& point);
 
 
 

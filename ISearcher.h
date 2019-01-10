@@ -9,11 +9,14 @@
 #include "Searcher.h"
 #include "string"
 
-
+template<class T,class solution>
 class ISearcher{
-
 public:
-    virtual list<State*> search(Searchable*)=0;
+    /**
+     * search by ant searcher.
+     * @return the solution.
+     */
+    virtual solution search(Searchable<T>*)=0;
 };
 
 #endif //PROJ2_ISEARCHER_H

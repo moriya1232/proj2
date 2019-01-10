@@ -48,10 +48,10 @@ RM = /snap/clion/58/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/omer/CLionProjects/proj2
+CMAKE_SOURCE_DIR = /home/moriya/CLionProjects/untitled6
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/omer/CLionProjects/proj2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/moriya/CLionProjects/untitled6/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles /home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles /home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,87 +123,6 @@ proj2/fast:
 	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/build
 .PHONY : proj2/fast
 
-Astar.o: Astar.cpp.o
-
-.PHONY : Astar.o
-
-# target to build an object file
-Astar.cpp.o:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Astar.cpp.o
-.PHONY : Astar.cpp.o
-
-Astar.i: Astar.cpp.i
-
-.PHONY : Astar.i
-
-# target to preprocess a source file
-Astar.cpp.i:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Astar.cpp.i
-.PHONY : Astar.cpp.i
-
-Astar.s: Astar.cpp.s
-
-.PHONY : Astar.s
-
-# target to generate assembly for a file
-Astar.cpp.s:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Astar.cpp.s
-.PHONY : Astar.cpp.s
-
-BFS.o: BFS.cpp.o
-
-.PHONY : BFS.o
-
-# target to build an object file
-BFS.cpp.o:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/BFS.cpp.o
-.PHONY : BFS.cpp.o
-
-BFS.i: BFS.cpp.i
-
-.PHONY : BFS.i
-
-# target to preprocess a source file
-BFS.cpp.i:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/BFS.cpp.i
-.PHONY : BFS.cpp.i
-
-BFS.s: BFS.cpp.s
-
-.PHONY : BFS.s
-
-# target to generate assembly for a file
-BFS.cpp.s:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/BFS.cpp.s
-.PHONY : BFS.cpp.s
-
-BestFirstSearch.o: BestFirstSearch.cpp.o
-
-.PHONY : BestFirstSearch.o
-
-# target to build an object file
-BestFirstSearch.cpp.o:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/BestFirstSearch.cpp.o
-.PHONY : BestFirstSearch.cpp.o
-
-BestFirstSearch.i: BestFirstSearch.cpp.i
-
-.PHONY : BestFirstSearch.i
-
-# target to preprocess a source file
-BestFirstSearch.cpp.i:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/BestFirstSearch.cpp.i
-.PHONY : BestFirstSearch.cpp.i
-
-BestFirstSearch.s: BestFirstSearch.cpp.s
-
-.PHONY : BestFirstSearch.s
-
-# target to generate assembly for a file
-BestFirstSearch.cpp.s:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/BestFirstSearch.cpp.s
-.PHONY : BestFirstSearch.cpp.s
-
 BinaryExpression.o: BinaryExpression.cpp.o
 
 .PHONY : BinaryExpression.o
@@ -230,33 +149,6 @@ BinaryExpression.s: BinaryExpression.cpp.s
 BinaryExpression.cpp.s:
 	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/BinaryExpression.cpp.s
 .PHONY : BinaryExpression.cpp.s
-
-ClientHandler.o: ClientHandler.cpp.o
-
-.PHONY : ClientHandler.o
-
-# target to build an object file
-ClientHandler.cpp.o:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/ClientHandler.cpp.o
-.PHONY : ClientHandler.cpp.o
-
-ClientHandler.i: ClientHandler.cpp.i
-
-.PHONY : ClientHandler.i
-
-# target to preprocess a source file
-ClientHandler.cpp.i:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/ClientHandler.cpp.i
-.PHONY : ClientHandler.cpp.i
-
-ClientHandler.s: ClientHandler.cpp.s
-
-.PHONY : ClientHandler.s
-
-# target to generate assembly for a file
-ClientHandler.cpp.s:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/ClientHandler.cpp.s
-.PHONY : ClientHandler.cpp.s
 
 DFS.o: DFS.cpp.o
 
@@ -393,33 +285,6 @@ FileCatchManager.cpp.s:
 	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/FileCatchManager.cpp.s
 .PHONY : FileCatchManager.cpp.s
 
-ISearcher.o: ISearcher.cpp.o
-
-.PHONY : ISearcher.o
-
-# target to build an object file
-ISearcher.cpp.o:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/ISearcher.cpp.o
-.PHONY : ISearcher.cpp.o
-
-ISearcher.i: ISearcher.cpp.i
-
-.PHONY : ISearcher.i
-
-# target to preprocess a source file
-ISearcher.cpp.i:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/ISearcher.cpp.i
-.PHONY : ISearcher.cpp.i
-
-ISearcher.s: ISearcher.cpp.s
-
-.PHONY : ISearcher.s
-
-# target to generate assembly for a file
-ISearcher.cpp.s:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/ISearcher.cpp.s
-.PHONY : ISearcher.cpp.s
-
 Matrix.o: Matrix.cpp.o
 
 .PHONY : Matrix.o
@@ -446,60 +311,6 @@ Matrix.s: Matrix.cpp.s
 Matrix.cpp.s:
 	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Matrix.cpp.s
 .PHONY : Matrix.cpp.s
-
-MatrixHandler.o: MatrixHandler.cpp.o
-
-.PHONY : MatrixHandler.o
-
-# target to build an object file
-MatrixHandler.cpp.o:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/MatrixHandler.cpp.o
-.PHONY : MatrixHandler.cpp.o
-
-MatrixHandler.i: MatrixHandler.cpp.i
-
-.PHONY : MatrixHandler.i
-
-# target to preprocess a source file
-MatrixHandler.cpp.i:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/MatrixHandler.cpp.i
-.PHONY : MatrixHandler.cpp.i
-
-MatrixHandler.s: MatrixHandler.cpp.s
-
-.PHONY : MatrixHandler.s
-
-# target to generate assembly for a file
-MatrixHandler.cpp.s:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/MatrixHandler.cpp.s
-.PHONY : MatrixHandler.cpp.s
-
-MatrixSolver.o: MatrixSolver.cpp.o
-
-.PHONY : MatrixSolver.o
-
-# target to build an object file
-MatrixSolver.cpp.o:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/MatrixSolver.cpp.o
-.PHONY : MatrixSolver.cpp.o
-
-MatrixSolver.i: MatrixSolver.cpp.i
-
-.PHONY : MatrixSolver.i
-
-# target to preprocess a source file
-MatrixSolver.cpp.i:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/MatrixSolver.cpp.i
-.PHONY : MatrixSolver.cpp.i
-
-MatrixSolver.s: MatrixSolver.cpp.s
-
-.PHONY : MatrixSolver.s
-
-# target to generate assembly for a file
-MatrixSolver.cpp.s:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/MatrixSolver.cpp.s
-.PHONY : MatrixSolver.cpp.s
 
 Minus.o: Minus.cpp.o
 
@@ -555,60 +366,6 @@ Multiplication.cpp.s:
 	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Multiplication.cpp.s
 .PHONY : Multiplication.cpp.s
 
-MyPair.o: MyPair.cpp.o
-
-.PHONY : MyPair.o
-
-# target to build an object file
-MyPair.cpp.o:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/MyPair.cpp.o
-.PHONY : MyPair.cpp.o
-
-MyPair.i: MyPair.cpp.i
-
-.PHONY : MyPair.i
-
-# target to preprocess a source file
-MyPair.cpp.i:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/MyPair.cpp.i
-.PHONY : MyPair.cpp.i
-
-MyPair.s: MyPair.cpp.s
-
-.PHONY : MyPair.s
-
-# target to generate assembly for a file
-MyPair.cpp.s:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/MyPair.cpp.s
-.PHONY : MyPair.cpp.s
-
-MyPriorityQueue.o: MyPriorityQueue.cpp.o
-
-.PHONY : MyPriorityQueue.o
-
-# target to build an object file
-MyPriorityQueue.cpp.o:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/MyPriorityQueue.cpp.o
-.PHONY : MyPriorityQueue.cpp.o
-
-MyPriorityQueue.i: MyPriorityQueue.cpp.i
-
-.PHONY : MyPriorityQueue.i
-
-# target to preprocess a source file
-MyPriorityQueue.cpp.i:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/MyPriorityQueue.cpp.i
-.PHONY : MyPriorityQueue.cpp.i
-
-MyPriorityQueue.s: MyPriorityQueue.cpp.s
-
-.PHONY : MyPriorityQueue.s
-
-# target to generate assembly for a file
-MyPriorityQueue.cpp.s:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/MyPriorityQueue.cpp.s
-.PHONY : MyPriorityQueue.cpp.s
-
 MyServer.o: MyServer.cpp.o
 
 .PHONY : MyServer.o
@@ -635,33 +392,6 @@ MyServer.s: MyServer.cpp.s
 MyServer.cpp.s:
 	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/MyServer.cpp.s
 .PHONY : MyServer.cpp.s
-
-MyTestClientHandler.o: MyTestClientHandler.cpp.o
-
-.PHONY : MyTestClientHandler.o
-
-# target to build an object file
-MyTestClientHandler.cpp.o:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/MyTestClientHandler.cpp.o
-.PHONY : MyTestClientHandler.cpp.o
-
-MyTestClientHandler.i: MyTestClientHandler.cpp.i
-
-.PHONY : MyTestClientHandler.i
-
-# target to preprocess a source file
-MyTestClientHandler.cpp.i:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/MyTestClientHandler.cpp.i
-.PHONY : MyTestClientHandler.cpp.i
-
-MyTestClientHandler.s: MyTestClientHandler.cpp.s
-
-.PHONY : MyTestClientHandler.s
-
-# target to generate assembly for a file
-MyTestClientHandler.cpp.s:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/MyTestClientHandler.cpp.s
-.PHONY : MyTestClientHandler.cpp.s
 
 Number.o: Number.cpp.o
 
@@ -771,141 +501,6 @@ Point.cpp.s:
 	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Point.cpp.s
 .PHONY : Point.cpp.s
 
-Searchable.o: Searchable.cpp.o
-
-.PHONY : Searchable.o
-
-# target to build an object file
-Searchable.cpp.o:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Searchable.cpp.o
-.PHONY : Searchable.cpp.o
-
-Searchable.i: Searchable.cpp.i
-
-.PHONY : Searchable.i
-
-# target to preprocess a source file
-Searchable.cpp.i:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Searchable.cpp.i
-.PHONY : Searchable.cpp.i
-
-Searchable.s: Searchable.cpp.s
-
-.PHONY : Searchable.s
-
-# target to generate assembly for a file
-Searchable.cpp.s:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Searchable.cpp.s
-.PHONY : Searchable.cpp.s
-
-Searcher.o: Searcher.cpp.o
-
-.PHONY : Searcher.o
-
-# target to build an object file
-Searcher.cpp.o:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Searcher.cpp.o
-.PHONY : Searcher.cpp.o
-
-Searcher.i: Searcher.cpp.i
-
-.PHONY : Searcher.i
-
-# target to preprocess a source file
-Searcher.cpp.i:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Searcher.cpp.i
-.PHONY : Searcher.cpp.i
-
-Searcher.s: Searcher.cpp.s
-
-.PHONY : Searcher.s
-
-# target to generate assembly for a file
-Searcher.cpp.s:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Searcher.cpp.s
-.PHONY : Searcher.cpp.s
-
-Solver.o: Solver.cpp.o
-
-.PHONY : Solver.o
-
-# target to build an object file
-Solver.cpp.o:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Solver.cpp.o
-.PHONY : Solver.cpp.o
-
-Solver.i: Solver.cpp.i
-
-.PHONY : Solver.i
-
-# target to preprocess a source file
-Solver.cpp.i:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Solver.cpp.i
-.PHONY : Solver.cpp.i
-
-Solver.s: Solver.cpp.s
-
-.PHONY : Solver.s
-
-# target to generate assembly for a file
-Solver.cpp.s:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Solver.cpp.s
-.PHONY : Solver.cpp.s
-
-State.o: State.cpp.o
-
-.PHONY : State.o
-
-# target to build an object file
-State.cpp.o:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/State.cpp.o
-.PHONY : State.cpp.o
-
-State.i: State.cpp.i
-
-.PHONY : State.i
-
-# target to preprocess a source file
-State.cpp.i:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/State.cpp.i
-.PHONY : State.cpp.i
-
-State.s: State.cpp.s
-
-.PHONY : State.s
-
-# target to generate assembly for a file
-State.cpp.s:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/State.cpp.s
-.PHONY : State.cpp.s
-
-StringReverser.o: StringReverser.cpp.o
-
-.PHONY : StringReverser.o
-
-# target to build an object file
-StringReverser.cpp.o:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/StringReverser.cpp.o
-.PHONY : StringReverser.cpp.o
-
-StringReverser.i: StringReverser.cpp.i
-
-.PHONY : StringReverser.i
-
-# target to preprocess a source file
-StringReverser.cpp.i:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/StringReverser.cpp.i
-.PHONY : StringReverser.cpp.i
-
-StringReverser.s: StringReverser.cpp.s
-
-.PHONY : StringReverser.s
-
-# target to generate assembly for a file
-StringReverser.cpp.s:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/StringReverser.cpp.s
-.PHONY : StringReverser.cpp.s
-
 UnaryExpression.o: UnaryExpression.cpp.o
 
 .PHONY : UnaryExpression.o
@@ -969,21 +564,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... proj2"
 	@echo "... edit_cache"
-	@echo "... Astar.o"
-	@echo "... Astar.i"
-	@echo "... Astar.s"
-	@echo "... BFS.o"
-	@echo "... BFS.i"
-	@echo "... BFS.s"
-	@echo "... BestFirstSearch.o"
-	@echo "... BestFirstSearch.i"
-	@echo "... BestFirstSearch.s"
 	@echo "... BinaryExpression.o"
 	@echo "... BinaryExpression.i"
 	@echo "... BinaryExpression.s"
-	@echo "... ClientHandler.o"
-	@echo "... ClientHandler.i"
-	@echo "... ClientHandler.s"
 	@echo "... DFS.o"
 	@echo "... DFS.i"
 	@echo "... DFS.s"
@@ -999,36 +582,18 @@ help:
 	@echo "... FileCatchManager.o"
 	@echo "... FileCatchManager.i"
 	@echo "... FileCatchManager.s"
-	@echo "... ISearcher.o"
-	@echo "... ISearcher.i"
-	@echo "... ISearcher.s"
 	@echo "... Matrix.o"
 	@echo "... Matrix.i"
 	@echo "... Matrix.s"
-	@echo "... MatrixHandler.o"
-	@echo "... MatrixHandler.i"
-	@echo "... MatrixHandler.s"
-	@echo "... MatrixSolver.o"
-	@echo "... MatrixSolver.i"
-	@echo "... MatrixSolver.s"
 	@echo "... Minus.o"
 	@echo "... Minus.i"
 	@echo "... Minus.s"
 	@echo "... Multiplication.o"
 	@echo "... Multiplication.i"
 	@echo "... Multiplication.s"
-	@echo "... MyPair.o"
-	@echo "... MyPair.i"
-	@echo "... MyPair.s"
-	@echo "... MyPriorityQueue.o"
-	@echo "... MyPriorityQueue.i"
-	@echo "... MyPriorityQueue.s"
 	@echo "... MyServer.o"
 	@echo "... MyServer.i"
 	@echo "... MyServer.s"
-	@echo "... MyTestClientHandler.o"
-	@echo "... MyTestClientHandler.i"
-	@echo "... MyTestClientHandler.s"
 	@echo "... Number.o"
 	@echo "... Number.i"
 	@echo "... Number.s"
@@ -1041,21 +606,6 @@ help:
 	@echo "... Point.o"
 	@echo "... Point.i"
 	@echo "... Point.s"
-	@echo "... Searchable.o"
-	@echo "... Searchable.i"
-	@echo "... Searchable.s"
-	@echo "... Searcher.o"
-	@echo "... Searcher.i"
-	@echo "... Searcher.s"
-	@echo "... Solver.o"
-	@echo "... Solver.i"
-	@echo "... Solver.s"
-	@echo "... State.o"
-	@echo "... State.i"
-	@echo "... State.s"
-	@echo "... StringReverser.o"
-	@echo "... StringReverser.i"
-	@echo "... StringReverser.s"
 	@echo "... UnaryExpression.o"
 	@echo "... UnaryExpression.i"
 	@echo "... UnaryExpression.s"

@@ -24,3 +24,9 @@ void Point:: setI(int i){
 void Point:: setJ(int j){
     this->j=j;
 }
+
+bool Point:: operator==(Point& point){
+    if (point.getI() == this->getI() && point.getJ() == this->getJ()) {return true;}
+    return false;
+
+}

@@ -290,4 +290,6 @@ static string extractSign(string line) {
     return sign;
 }
 
+
+
 #endif //PROJECT_USEFULLFUNCTION_H

@@ -5,12 +5,20 @@
 #ifndef UNTITLED6_SOLVER_H
 #define UNTITLED6_SOLVER_H
 
-#include "Matrix.h"
-template <class problem, class solution>
-class Solver {
+#include "string"
 
-public:
-    virtual string solve(string)=0;
 
-};
+namespace server_side {
+
+
+    template<class problem, class solution>
+    class Solver {
+    public:
+
+        /*
+         * by this function we solve the problem.
+         */
+        virtual solution solve(problem) = 0;
+    };
+}
 #endif //UNTITLED6_SOLVER_H

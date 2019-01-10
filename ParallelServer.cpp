@@ -43,11 +43,11 @@ static void printMatrix(vector<vector<int>> arr, string str) {
     cout << "And the best path for you is: " << str << endl;
 }
 
-static void solveClientsProblem(ClientHandler<Matrix*, MatrixSolver*>* ch, int newsockfd) {
+static void solveClientsProblem(ClientHandler* ch, int newsockfd) {
     ch->handleClient(newsockfd);
 }
 
-void ParallelServer::handleClient(ClientHandler<Matrix*, MatrixSolver*>* ch, int newsockfd) {
+void ParallelServer::handleClient(ClientHandler* ch, int newsockfd) {
     //openServer(newsockfd, ms);
     thread t(solveClientsProblem, ch, newsockfd);
     t.detach();

@@ -1,0 +1,76 @@
+Index: cmake-build-debug/CMakeFiles/proj2.dir/CXX.includecache
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#IncludeRegexLine: ^[ \t]*[#%][ \t]*(include|import)[ \t]*[<\"]([^\">]+)([\">])\n\n#IncludeRegexScan: ^.*$\n\n#IncludeRegexComplain: ^$\n\n#IncludeRegexTransform: \n\n/home/moriya/CLionProjects/untitled6/Point.h\n\n/home/moriya/CLionProjects/untitled6/State.cpp\nState.h\n/home/moriya/CLionProjects/untitled6/State.h\n\n/home/moriya/CLionProjects/untitled6/State.h\nlist\n-\nPoint.h\n/home/moriya/CLionProjects/untitled6/Point.h\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- cmake-build-debug/CMakeFiles/proj2.dir/CXX.includecache	(revision 3d6a58bea6093b0a0d4b3b8cd43c72ad82342bef)
++++ cmake-build-debug/CMakeFiles/proj2.dir/CXX.includecache	(date 1547150299000)
+@@ -6,15 +6,65 @@
+ 
+ #IncludeRegexTransform: 
+ 
++/home/moriya/CLionProjects/untitled6/CacheManager.h
++unordered_map
++-
++MyPair.h
++/home/moriya/CLionProjects/untitled6/MyPair.h
++
++/home/moriya/CLionProjects/untitled6/ClientHandler.h
++iostream
++-
++fstream
++-
++Solver.h
++/home/moriya/CLionProjects/untitled6/Solver.h
++CacheManager.h
++/home/moriya/CLionProjects/untitled6/CacheManager.h
++
++/home/moriya/CLionProjects/untitled6/Matrix.h
++State.h
++/home/moriya/CLionProjects/untitled6/State.h
++list
++-
++string
++-
++vector
++-
++Searchable.h
++/home/moriya/CLionProjects/untitled6/Searchable.h
++
++/home/moriya/CLionProjects/untitled6/MyPair.h
++string
++-
++
+ /home/moriya/CLionProjects/untitled6/Point.h
+ 
+-/home/moriya/CLionProjects/untitled6/State.cpp
++/home/moriya/CLionProjects/untitled6/Searchable.h
++list
++/home/moriya/CLionProjects/untitled6/list
+ State.h
+ /home/moriya/CLionProjects/untitled6/State.h
+ 
++/home/moriya/CLionProjects/untitled6/Solver.h
++Matrix.h
++/home/moriya/CLionProjects/untitled6/Matrix.h
++
+ /home/moriya/CLionProjects/untitled6/State.h
+ list
+ -
+ Point.h
+ /home/moriya/CLionProjects/untitled6/Point.h
+ 
++/home/moriya/CLionProjects/untitled6/StringReverser.cpp
++StringReverser.h
++/home/moriya/CLionProjects/untitled6/StringReverser.h
++
++/home/moriya/CLionProjects/untitled6/StringReverser.h
++ClientHandler.h
++/home/moriya/CLionProjects/untitled6/ClientHandler.h
++Solver.h
++/home/moriya/CLionProjects/untitled6/Solver.h
++CacheManager.h
++/home/moriya/CLionProjects/untitled6/CacheManager.h
++

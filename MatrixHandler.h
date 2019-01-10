@@ -11,24 +11,33 @@ using namespace std;
 #include "ClientHandler.h"
 #include "Matrix.h"
 #include "MatrixSolver.h"
+#include <string.h>
+#include <unistd.h>
+#include <sstream>
 
-template <class problem, class solution>
 class MatrixHandler : public ClientHandler {
-    //CacheManager<string, string>* cm;
-    MatrixSolver* solver;
-    Matrix* MyProblem;
-public:
-    void handleClient(int);
-    MatrixHandler(solution);
-    Solver<problem, solution>* getSolver();
-    void setSolver(Solver<problem, solution>*);
-   // CacheManager<string, string>* getCacheManager();
-    //void setCacheManager(CacheManager<string, string>*);
-    Matrix* getProblem();
-    void setProblem(Matrix*);
-    string execute();
-    string convertListStateToString(list<State*>, Searchable*);
 
+public:
+    MatrixHandler() {
+        this->solver= new MatrixSolver();
+        this->cachemanager = new CacheManager();
+    }
+
+
+    //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!11
+    void handleClient(istream &inputStream, ostream &outputStream) {
+        std::string line, answer;
+        getline(inputStream, line);
+        std::string sent(line);
+        while (sent != "end" || !sent.empty()) {
+            if (this->cachemanager->containsSolution(&sent))
+                this->cachemanager->getSolution(&sent);
+            else
+                answer = this->solver->solve(sent);
+            this->cachemanager->saveSolution(&sent, &answer);
+            getline(cin, sent);
+        }
+    }
 
 };
 

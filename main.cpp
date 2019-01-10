@@ -146,15 +146,22 @@ static vector<vector<int>> theProblematicMatrix() {
     return result;
 }
 
-int main() {
-    // JUST A REPLACEMENT FOR THE REAL SCRIPT
-    int x = 5;
-    MatrixSolver* ms = new MatrixSolver();
+namespace boot {
+    class Main {
+        static int main() {
+            ClientHandler* clientHandler = new MatrixHandler();
+            clientHandler->handleClient()
+
+        }
+    };
+}
+
+/* MatrixSolver* ms = new MatrixSolver();
     //CacheManager<string, string>* cm = new FileCacheManager<string, string>();
     MatrixHandler<Matrix*, MatrixSolver*>* cs = new(nothrow) MatrixHandler<Matrix*, MatrixSolver*>(ms);
     ParallelServer* tempServer = new ParallelServer();
     tempServer->open(5402, cs);
-    /*create_script::writeScript();
+    create_script::writeScript();
     CacheManager* cm = new(nothrow) CacheManager();
     MatrixSolver* ms = new(nothrow) MatrixSolver();
     vector<vector<int>> arr = create_script::readMatrixFromScript("script.txt");
@@ -165,7 +172,6 @@ int main() {
     string result2 = create_script::convertListStateToString(result1, m);
     create_script::printMatrix(arr, result2);
     //MatrixHandler<Matrix*, MatrixSolver*>* ch = new (nothrow) MatrixHandler<Matrix*, MatrixSolver*>(ms,cm , m);
-    //std::cout << "Hello, World!" << std::endl;*/
-    create_script::clearFile("script.txt");
-    return 0;
-}
+    //std::cout << "Hello, World!" << std::endl;
+create_script::clearFile("script.txt");
+return 0;*/
