@@ -54,8 +54,6 @@ list<State*> BFS:: search(Searchable* searchable) {
                 queue.push_back(t);
                 //cout << "(" << t->getState()->getI() << "," << t->getState()->getJ() << ")"<< endl;
             }
-
-
         }
         before = queue.front();
         queue.pop_front();

@@ -217,9 +217,12 @@ CMakeFiles/proj2.dir/main.cpp.o: ../Matrix.h
 CMakeFiles/proj2.dir/main.cpp.o: ../MatrixHandler.h
 CMakeFiles/proj2.dir/main.cpp.o: ../MatrixSolver.h
 CMakeFiles/proj2.dir/main.cpp.o: ../MyPair.h
+CMakeFiles/proj2.dir/main.cpp.o: ../MyServer.h
+CMakeFiles/proj2.dir/main.cpp.o: ../ParallelServer.h
 CMakeFiles/proj2.dir/main.cpp.o: ../Point.h
 CMakeFiles/proj2.dir/main.cpp.o: ../Searchable.h
 CMakeFiles/proj2.dir/main.cpp.o: ../Searcher.h
+CMakeFiles/proj2.dir/main.cpp.o: ../Server.h
 CMakeFiles/proj2.dir/main.cpp.o: ../Solver.h
 CMakeFiles/proj2.dir/main.cpp.o: ../State.h
 CMakeFiles/proj2.dir/main.cpp.o: ../main.cpp

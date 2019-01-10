@@ -18,8 +18,10 @@ class MyServer : public server_side::Server {
 public:
     MyServer();
     void stop() override;
-    void open(int, MatrixHandler<Matrix*, list<State*>>*) override;
-    void start(MatrixHandler<Matrix*, list<State*>>* ch);
+    //void open(int, MatrixHandler<Matrix*, list<State*>>*) override;
+    void open(int, MatrixSolver*) override;
+    //void start(MatrixHandler<Matrix*, list<State*>>* ch);
+    void start(MatrixSolver*);
 };
 
 #endif //UNTITLED6_SERVER_H

@@ -5,13 +5,14 @@
 #include <vector>
 #include <sstream>
 #include "MatrixHandler.h"
+#include "ParallelServer.h"
 
 namespace  create_script {
     static void writeScript() {
         ofstream script("script.txt", ios::app);
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                script << rand() % 100;
+                script << rand() % 21;
                 script << ' ';
             }
             script << '\n';
@@ -107,7 +108,6 @@ namespace  create_script {
                 result+="left";
             }
             result+=",";
-
         }
         result = result.substr(0,result.length()-1);
         return result;
@@ -125,15 +125,39 @@ namespace  create_script {
     }
 }
 
+static vector<vector<int>> theProblematicMatrix() {
+    vector<vector<int>> result;
+    vector<int> temp;
+    temp.push_back(11);
+    temp.push_back(5);
+    temp.push_back(67);
+    result.push_back(temp);
+    temp.clear();
+    temp.push_back(26);
+    temp.push_back(14);
+    temp.push_back(32);
+    result.push_back(temp);
+    temp.clear();
+    temp.push_back(12);
+    temp.push_back(4);
+    temp.push_back(1);
+    result.push_back(temp);
+    return result;
+}
+
 int main() {
     // JUST A REPLACEMENT FOR THE REAL SCRIPT
-    int x = 5;
+    /*int x = 5;
+    MatrixSolver* ms = new(nothrow) MatrixSolver();
+    ParallelServer* tempServer = new ParallelServer();
+    tempServer->open(5402, ms);*/
     create_script::writeScript();
     CacheManager* cm = new(nothrow) CacheManager();
-    vector<vector<int>> arr = create_script::readMatrixFromScript("script.txt");
+    MatrixSolver* ms = new(nothrow) MatrixSolver();
+    //vector<vector<int>> arr = create_script::readMatrixFromScript("script.txt");
+    vector<vector<int>> arr = theProblematicMatrix();
     Matrix* m = new (nothrow) Matrix(arr, 3, 3);
     //system("open");
-    MatrixSolver* ms = new(nothrow) MatrixSolver();
     list<State*> result1 = ms->solve(m);
     string result2 = create_script::convertListStateToString(result1, m);
     create_script::printMatrix(arr, result2);

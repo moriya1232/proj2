@@ -18,9 +18,11 @@ using namespace std;
     MyServer::MyServer() {
         // put a default value
         this->sockfd = 0;
+        this->run = true;
     }
 
-    void MyServer::open(int port, MatrixHandler<Matrix*, list<State*>>* ch) {
+    //void MyServer::open(int port, MatrixHandler<Matrix*, list<State*>>* ch) {
+    void MyServer::open(int port, MatrixSolver* ch) {
         int sockfd, clilen;
         char buffer[100];
         struct sockaddr_in serv_addr, cli_addr;
@@ -73,17 +75,20 @@ using namespace std;
         } while(elapsed < 10);  /* run for ten seconds */
     }
 
-    void MyServer::start(MatrixHandler<Matrix*, list<State*>>* ch) {
+    //void MyServer::start(MatrixHandler<Matrix*, list<State*>>* ch) {
+    void MyServer::start(MatrixSolver* ch) {
         struct sockaddr_in cli_addr;
         int newsockfd, clilen = sizeof(cli_addr);
         while (run) {
-            timeval timeout;
-            timeout.tv_sec = 10;
-            timeout.tv_usec = 0;
+            //timeval timeout;
+            //timeout.tv_sec = 10;
+            ///timeout.tv_usec = 0;
 
-            setsockopt(sockfd, SOL_SOCKET, SO_RCVTIMEO, (char *)&timeout, sizeof(timeout));
+            //setsockopt(sockfd, SOL_SOCKET, SO_RCVTIMEO, (char *)&timeout, sizeof(timeout));
             /* Accept actual connection from the client */
+            cout << "waiting for a connection..." << endl;
             newsockfd = accept(sockfd, (struct sockaddr *) &cli_addr, (socklen_t *) &clilen);
+            cout << "connection went successfully" << endl;
             if (newsockfd < 0) {
                 if (errno == EWOULDBLOCK) {
                     cout << "Timeout bro!\n";

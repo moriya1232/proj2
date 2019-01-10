@@ -9,7 +9,8 @@
 
 class ParallelServer : public MyServer {
 protected:
-    void handleClient(int, MatrixHandler<Matrix*, list<State*>>*);
+    //void handleClient(int, MatrixHandler<Matrix*, list<State*>>*);
+    void handleClient(int, MatrixSolver*);
 };
 
 #endif //UNTITLED6_PARALLELSERVER_H
