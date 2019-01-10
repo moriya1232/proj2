@@ -3,16 +3,14 @@
 //
 
 #include "MatrixHandler.h"
-#include "ClientHandler.h"
+
 
 using namespace std;
 
+
 template  <typename problem, typename solution>
-MatrixHandler<problem, solution>:: MatrixHandler
-(solution sol, CacheManager* cacheManager1, problem m) {//: ClientHandler<Matrix*,vector<State*>>(sol,cacheManager1, m){}
-    this->solver= sol;
-    this->cm = cacheManager1;
-    this->problem = m;
+MatrixHandler<problem, solution>:: MatrixHandler(MatrixSolver<problem,solution>* sol, CacheManager* cacheManager1, Matrix* m)
+: ClientHandler<problem,solution>(sol,cacheManager1,m) {
 }
 
 template <typename problem, typename solution>
