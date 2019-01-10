@@ -11,13 +11,14 @@ using namespace std;
 
 
 class Searchable {
-    unsigned int size;
+    size_t size;
 
 public:
     virtual  State* getInitialState()=0;
     virtual list<State*> getAllPossibleStates(State)=0;
     virtual State* getGoalState()=0;
     virtual size_t getSize()=0;
+    virtual list<State*> getAllStates()=0;
 };
 
 #endif //UNTITLED6_SEARCHABLE_H

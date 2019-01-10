@@ -15,7 +15,8 @@ class State{
 
     Point* state;
     double cost;
-    //State<T> cameFrom;
+    bool visited;
+    State* cameFrom;
     /*double value;
     Point* point;
     //list<State> adj;*/
@@ -25,10 +26,10 @@ public:
     bool equal(State);
     double getCost();
     void setCost(double);
-
-
-    //void setCameFrom(State<T>*);
-    //State<T> getCameFrom();
+    bool getVisited();
+    void setVisited(bool);
+    void setCameFrom(State*);
+    State* getCameFrom();
 
     /*State(int, Point*);
     Point* getPoint();

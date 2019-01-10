@@ -90,12 +90,11 @@ namespace  create_script {
 
     static string convertListStateToString(list<State*> list1 , Searchable* searchable){
         string result="";
-
-        for (list<State*>:: iterator it = list1.begin(); it!=(list1.end()); ++it){
-            if ( it == list1.end()) {
-                return result;
+        for (list<State*>:: iterator it = list1.begin(); it!=(list1.end());++it){
+            if ( ++it == list1.end()) {
+                break;
             }
-
+            --it;
             State after = (**(++it));
             it--;
             if (after.getState()->getI()> (*it)->getState()->getI()) {
@@ -108,8 +107,9 @@ namespace  create_script {
                 result+="left";
             }
             result+=",";
+
         }
-        result = result.substr(0,result.length()-2);
+        result = result.substr(0,result.length()-1);
         return result;
     }
 

@@ -12,7 +12,7 @@
 State:: State(Point* t, int c){
 this->state = t;
 this->cost=c;
-//this->cameFrom = nullptr;
+this->cameFrom = nullptr;
 }
 
 /**
@@ -42,9 +42,9 @@ bool State:: equal(State s){
  * @param cf - state in type of T
  */
 //template<typename T>
-//void State:: setCameFrom(State* cf){
-//    this->cameFrom = cf;
-//}
+void State:: setCameFrom(State* cf){
+  this->cameFrom = cf;
+}
 
 /**
  * this function returns came from
@@ -52,9 +52,9 @@ bool State:: equal(State s){
  * @return State of T
  */
 //template<typename T>
-//State State:: getCameFrom(){
-//    return this->cameFrom;
-//}
+State* State:: getCameFrom(){
+    return this->cameFrom;
+}
 
 /**
  * return the cost
@@ -76,68 +76,10 @@ void State:: setCost(double d){
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*State:: State(int v , Point* p) {
-    this->value = v;
-    this->point = p;
+bool State:: getVisited(){
+    return this->visited;
 }
 
-int State:: getValue() {
-    return this->value;
+void State:: setVisited(bool b){
+    this->visited=b;
 }
-
-Point* State:: getPoint(){
-    return this->point;
-}
-bool State:: Equals(Point* p) {
-    if (p->getI() == this->point->getI() && p->getJ() == this->point->getJ()) {
-        return true;
-    }
-    return false;
-}*/
-
-/*template<typename T>
-State:: State(T t) {
-this->state = t;
-}
-
-template<typename T>
-bool State:: Equals(State s) {
-    return (this->state == (s.state));
-}
-
-template<typename  T>
-T State::getState() {
-    return this->state;
-}
-
-list<State> State:: getAdj() {
-    return this->adj;
-}
-
-template<typename  T>
-double State:: getCost() {
-    return this->cost;
-}*/

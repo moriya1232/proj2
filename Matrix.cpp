@@ -49,16 +49,16 @@ State* Matrix:: getInitialState(){
  * this function return all the adj
  * @return the adj
  */
-list<State*> Matrix:: getAllPossibleStates(State){
+list<State*> Matrix:: getAllPossibleStates(State t){
     list<State*> result;
-    int y, j = 0, i = 0;
+    int y, j = t.getState()->getJ(), i = t.getState()->getI();
     // get the neighbors
-    int row_limit = n;
+    int row_limit = n-1;
     if(row_limit > 0){
-        int column_limit = m;
+        int column_limit = m-1;
         for(int x = max(0, i-1); x <= min(i+1, row_limit); x++){
             for(y = max(0, j-1); y <= min(j+1, column_limit); y++){
-                if(x != i || y != j && abs(x-i) == 0 && abs(y-1) == 0){
+                if((x != i && y == j) || (j!=y && x==i)) {
                     State* tempState(this->states[x][y]);
                     result.push_back(tempState);
                 }
@@ -73,7 +73,7 @@ list<State*> Matrix:: getAllPossibleStates(State){
  * @return he goal
  */
 State* Matrix:: getGoalState(){
-return this->states[m][n];
+return this->states[m-1][n-1];
 }
 
 
@@ -85,6 +85,15 @@ size_t Matrix:: getSize(){
     return this->m * this->n;
 }
 
+list<State*> Matrix:: getAllStates(){
+    list<State*> li;
+    for(vector<vector<State*>>::iterator it = this->states.begin(); it!=this->states.end();++it) {
+        for(vector<State*>:: iterator it2 = (*it).begin(); it2!=(*it).end();++it2) {
+            li.push_back(*it2);
+        }
+    }
+    return li;
+}
 
 
 

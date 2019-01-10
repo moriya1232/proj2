@@ -22,5 +22,6 @@ public:
     list<State*> getAllPossibleStates(State);
     State* getGoalState();
     size_t getSize();
+    list<State*> getAllStates();
 };
 #endif //PROJ2_MATRIX_H

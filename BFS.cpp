@@ -6,39 +6,68 @@
 
 
 list<State*> BFS:: search(Searchable* searchable) {
-    int counter = 0;
-    bool *visited = new bool[searchable->getSize()];
-    for (int i = 0; i < searchable->getSize(); i++) {
-        visited[i] = false;
+    list<State*> myList = searchable->getAllStates();
+    for (list<State*>:: iterator it = myList.begin(); it !=myList.end();++it) {
+        (*it)->setVisited(false);
     }
     State* current = searchable->getInitialState();
     // Create a queue for BFS
     list<State*> queue;
     // Mark the current node as visited and enqueue it
-    //current.setVisited(true);
-    visited[0];
+    current->setVisited(true);
+    current->setCameFrom(nullptr);
     queue.push_back(current);
+    if (current == searchable->getGoalState()) {
+        return queue;
+    }
 
+    State* before;
     // 'i' will be used to get all adjacent
     // vertices of a vertex
     while (!queue.empty()) {
         // Dequeue a vertex from queue and print it
         current = queue.front();
-        queue.pop_front();
-
+        if(current==searchable->getGoalState()) {
+            current->setCameFrom(before);
+            break;
+        }
         // Get all adjacent vertices of the dequeued
         // vertex s. If a adjacent has not been visited,
         // then mark it visited and enqueue it
-
-        for (State* t : queue) {
-            if (!visited[counter]) {
-                visited[counter] = true;
-                queue.push_back(t);
+        list<State*> adj = searchable->getAllPossibleStates(*current);
+        for (State* t : adj) {
+            if(t->getState()->getI() == searchable->getInitialState()->getState()->getI()
+            && t->getState()->getJ() == searchable->getInitialState()->getState()->getJ()) {
+                continue;
             }
-            cout << "(" << t->getState()->getI() << "," << t->getState()->getJ() << ")"<< endl;
-            ++counter;
+            if (t->getCameFrom() == nullptr) {t->setCameFrom(current);}
+            else {
+                if(t->getCameFrom()->getCost() > current->getCost()) {
+                    t->setCameFrom(current);
+                }
+            }
+            if (!t->getVisited()) {
+                t->setVisited(true);
+                //if(current->getCost() < t->getCost()) {
+                    //t->setCameFrom(current);
+                //}
+                queue.push_back(t);
+                //cout << "(" << t->getState()->getI() << "," << t->getState()->getJ() << ")"<< endl;
+            }
+
+
         }
+        before = queue.front();
+        queue.pop_front();
     }
+    queue.clear();
+    State* back = searchable->getGoalState();
+    while (back->getState()->getI()!=searchable->getInitialState()->getState()->getI()
+    || back->getState()->getJ()!=searchable->getInitialState()->getState()->getJ()) {
+        queue.push_front(back);
+        back = back->getCameFrom();
+    }
+    queue.push_front(back);
     return queue;
 
 }
