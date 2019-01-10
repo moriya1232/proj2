@@ -20,12 +20,10 @@ namespace  create_script {
         script.close();
     }
 
-    static vector<string> split(vector<string> v, const std::string& s, char delimiter)
-    {
+    static vector<string> split(vector<string> v, const std::string &s, char delimiter) {
         string token;
         istringstream tokenStream(s);
-        while (getline(tokenStream, token, delimiter))
-        {
+        while (getline(tokenStream, token, delimiter)) {
             v.push_back(token);
         }
         return v;
@@ -89,6 +87,7 @@ namespace  create_script {
         return vec;
     }
 
+/*
     static string convertListStateToString(list<State*> list1 , Searchable* searchable){
         string result="";
         for (list<State*>:: iterator it = list1.begin(); it!=(list1.end());++it){
@@ -124,45 +123,46 @@ namespace  create_script {
         cout << "And the best path for you is: " << str << endl;
     }
 }
+*/
+    static vector<vector<int>> theProblematicMatrix() {
+        vector<vector<int>> result;
+        vector<int> temp;
+        temp.push_back(1);
+        temp.push_back(1);
+        temp.push_back(1);
+        result.push_back(temp);
+        temp.clear();
+        temp.push_back(1);
+        temp.push_back(2);
+        temp.push_back(1);
+        result.push_back(temp);
+        temp.clear();
+        temp.push_back(1);
+        temp.push_back(1);
+        temp.push_back(1);
+        result.push_back(temp);
+        return result;
+    }
 
-static vector<vector<int>> theProblematicMatrix() {
-    vector<vector<int>> result;
-    vector<int> temp;
-    temp.push_back(1);
-    temp.push_back(1);
-    temp.push_back(1);
-    result.push_back(temp);
-    temp.clear();
-    temp.push_back(1);
-    temp.push_back(2);
-    temp.push_back(1);
-    result.push_back(temp);
-    temp.clear();
-    temp.push_back(1);
-    temp.push_back(1);
-    temp.push_back(1);
-    result.push_back(temp);
-    return result;
-}
-
-int main() {
-    // JUST A REPLACEMENT FOR THE REAL SCRIPT
-    /*int x = 5;
-    MatrixSolver* ms = new(nothrow) MatrixSolver();
-    ParallelServer* tempServer = new ParallelServer();
-    tempServer->open(5402, ms);*/
-    create_script::writeScript();
-    CacheManager* cm = new(nothrow) CacheManager();
-    MatrixSolver* ms = new(nothrow) MatrixSolver();
-    vector<vector<int>> arr = create_script::readMatrixFromScript("script.txt");
-    //vector<vector<int>> arr = theProblematicMatrix();
-    Matrix* m = new (nothrow) Matrix(arr, 3, 3);
-    //system("open");
-    list<State*> result1 = ms->solve(m);
-    string result2 = create_script::convertListStateToString(result1, m);
-    create_script::printMatrix(arr, result2);
-    //MatrixHandler<Matrix*, MatrixSolver*>* ch = new (nothrow) MatrixHandler<Matrix*, MatrixSolver*>(ms,cm , m);
-    //std::cout << "Hello, World!" << std::endl;
-    create_script::clearFile("script.txt");
-    return 0;
+    int main() {
+        // JUST A REPLACEMENT FOR THE REAL SCRIPT
+        /*int x = 5;
+        MatrixSolver* ms = new(nothrow) MatrixSolver();
+        ParallelServer* tempServer = new ParallelServer();
+        tempServer->open(5402, ms);*/
+        create_script::writeScript();
+        CacheManager *cm = new(nothrow) CacheManager();
+        MatrixSolver *ms = new(nothrow) MatrixSolver();
+        vector<vector<int>> arr = create_script::readMatrixFromScript("script.txt");
+        //vector<vector<int>> arr = theProblematicMatrix();
+        Matrix *m = new(nothrow) Matrix(arr, 3, 3);
+        //system("open");
+        list<State<Point *> *> result1 = ms->solve(m);
+        //string result2 = create_script::convertListStateToString(result1, m);
+        //create_script::printMatrix(arr, result2);
+        //MatrixHandler<Matrix*, MatrixSolver*>* ch = new (nothrow) MatrixHandler<Matrix*, MatrixSolver*>(ms,cm , m);
+        //std::cout << "Hello, World!" << std::endl;
+        create_script::clearFile("script.txt");
+        return 0;
+    }
 }

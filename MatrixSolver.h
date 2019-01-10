@@ -8,10 +8,10 @@
 #include "Matrix.h"
 #include "Solver.h"
 
-class MatrixSolver : public Solver<Matrix*,list<State*>> {
+class MatrixSolver : public Solver<Matrix*,list<State<Point*>*>> {
 
 public:
-    list<State*> solve(Matrix* m);
+    list<State<Point*>*> solve(Matrix* m);
 
 };
 

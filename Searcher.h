@@ -9,12 +9,14 @@
 //#include "MyPriorityQueue.h"
 #include "ISearcher.h"
 
-class Searcher: public ISearcher{
+template <class T>
+class Searcher: public ISearcher<T>{
     //MyPriorityQueue* myPriorityQueue;
     int evaluatedNodes;
 public:
-    Searcher();
+    Searcher(){this->evaluatedNodes = 0;}
     int getNumberOfNodesEvaluated();
+    string convertListStateToString(list<State<Point*>*> list1 , Searchable<T>* searchable);
 
 };
 #endif //PROJ2_SEARCHER_H

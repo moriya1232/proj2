@@ -12,16 +12,18 @@ using namespace std;
 #include <vector>
 #include "Searchable.h"
 
-class Matrix : public Searchable {
-    vector<vector<State*>> states;
+class Matrix : public Searchable<Point*> {
+    vector<vector<State<Point*>*>> states;
 public:
     size_t n;
     size_t m;
     Matrix(vector<vector<int>>, size_t m, size_t n);
-    State* getInitialState();
-    list<State*> getAllPossibleStates(State);
-    State* getGoalState();
+    State<Point*>* getInitialState();
+    list<State<Point*>*> getAllPossibleStates(State<Point*>);
+    State<Point*>* getGoalState();
     size_t getSize();
-    list<State*> getAllStates();
+    list<State<Point*>*> getAllStates();
 };
 #endif //PROJ2_MATRIX_H
+
+

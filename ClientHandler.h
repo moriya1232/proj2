@@ -17,8 +17,6 @@ protected:
     CacheManager* cm;
     Solver<problem,solution>* solver;
     problem myProblem;
-//ifstream in;
-//ofstream out;
 public:
     ClientHandler(Solver<problem,solution>* ,CacheManager* , problem p);
     virtual Solver<problem,solution>* getSolver() = 0;

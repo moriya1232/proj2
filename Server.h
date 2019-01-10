@@ -8,7 +8,7 @@
 #include "MatrixHandler.h"
 
 namespace  server_side {
-    class Server{
+    class Server {
     protected:
         //virtual void start(MatrixHandler<Matrix*, list<State*>>*) = 0;
         virtual void start(MatrixSolver*) = 0;

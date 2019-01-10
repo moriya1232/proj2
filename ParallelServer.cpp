@@ -9,30 +9,6 @@
 #include <vector>
 #include <sstream>
 
-static string convertListStateToString(list<State*> list1 , Searchable* searchable){
-    string result="";
-    for (list<State*>:: iterator it = list1.begin(); it!=(list1.end());++it){
-        if ( ++it == list1.end()) {
-            break;
-        }
-        --it;
-        State after = (**(++it));
-        it--;
-        if (after.getState()->getI()> (*it)->getState()->getI()) {
-            result+="down";
-        } else if (after.getState()->getI() < (*it)->getState()->getI()) {
-            result+="up";
-        } else if (after.getState()->getJ()> (*it)->getState()->getJ()) {
-            result+="right";
-        } else if (after.getState()->getJ()< (*it)->getState()->getJ()) {
-            result+="left";
-        }
-        result+=",";
-
-    }
-    result = result.substr(0,result.length()-1);
-    return result;
-}
 
 static bool endReceived(char *buffer, int n) {
     string str = "end";
@@ -72,9 +48,9 @@ static void printMatrix(vector<vector<int>> arr, string str) {
     cout << "" << endl;
     cout << "And the best path for you is: " << str << endl;
 }
-
+template<typename problem,typename solution>
 //static void openServer(int newsockfd, MatrixHandler<Matrix*, list<State*>>* ch) {
-static void openServer(int newsockfd, MatrixSolver* ch) {
+static void openServer(int newsockfd, Solver<problem,solution>* ch) {
     char buffer[100];
     bool end = false;
     vector<vector<int>> matrixHolder;
@@ -101,15 +77,17 @@ static void openServer(int newsockfd, MatrixSolver* ch) {
         // here i should execute the ch with the proper matrix
         } else {
             Matrix* m = new Matrix(matrixHolder, 3, 3);
-            string solution = convertListStateToString(ch->solve(m), m);
-            printMatrix(matrixHolder, solution);
+            string solution1 = convertListStateToString(ch->solve(m), m);
+            printMatrix(matrixHolder, solution1);
         }
     }
 }
 
-//void ParallelServer::handleClient(int newsockfd, MatrixHandler<Matrix*, list<State*>>* ch) {
-void ParallelServer::handleClient(int newsockfd, MatrixSolver* ms) {
+template <typename problem,typename solution>
+void ParallelServer<problem,solution>::handleClient(int newsockfd, Solver<problem,solution>* c) {
+//void ParallelServer<problem,solution>::handleClient(int newsockfd, MatrixSolver* ms) {
     //openServer(newsockfd, ms);
-    thread t(openServer, newsockfd, ms);
+    thread t(openServer, newsockfd, c);
     t.detach();
 }
+

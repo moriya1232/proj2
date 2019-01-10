@@ -9,11 +9,11 @@
 #include "Searcher.h"
 #include "string"
 
-
+template <class T>
 class ISearcher{
 
 public:
-    virtual list<State*> search(Searchable*)=0;
+    virtual list<State<T>*> search(Searchable<T>*)=0;
 };
 
 #endif //PROJ2_ISEARCHER_H
