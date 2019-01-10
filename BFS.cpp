@@ -16,6 +16,7 @@ list<State*> BFS:: search(Searchable* searchable) {
     // Mark the current node as visited and enqueue it
     current->setVisited(true);
     current->setCameFrom(nullptr);
+    current->setCostUntilHere(current->getCost());
     queue.push_back(current);
     if (current == searchable->getGoalState()) {
         return queue;
@@ -41,9 +42,9 @@ list<State*> BFS:: search(Searchable* searchable) {
             && t->getState()->getJ() == searchable->getInitialState()->getState()->getJ()) {
                 continue;
             }
-            if (t->getCameFrom() == nullptr) {t->setCameFrom(current); t->setCostUntilHere(t->getCost()+current->getCost());}
+            if (t->getCameFrom() == nullptr) {t->setCameFrom(current); t->setCostUntilHere(t->getCost()+current->getCostUntilHere());}
             else {
-                if(t->getCameFrom()->getCostUntilHere() > current->getCostUntilHere() + t->getCost()) {
+                if(t->getCostUntilHere() > current->getCostUntilHere() + t->getCost()) {
                     t->setCameFrom(current);
                     t->setCostUntilHere(current->getCostUntilHere() + t->getCost());
                 }

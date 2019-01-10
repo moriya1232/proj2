@@ -128,18 +128,18 @@ namespace  create_script {
 static vector<vector<int>> theProblematicMatrix() {
     vector<vector<int>> result;
     vector<int> temp;
-    temp.push_back(11);
-    temp.push_back(5);
-    temp.push_back(67);
+    temp.push_back(1);
+    temp.push_back(1);
+    temp.push_back(1);
     result.push_back(temp);
     temp.clear();
-    temp.push_back(26);
-    temp.push_back(14);
-    temp.push_back(32);
+    temp.push_back(1);
+    temp.push_back(2);
+    temp.push_back(1);
     result.push_back(temp);
     temp.clear();
-    temp.push_back(12);
-    temp.push_back(4);
+    temp.push_back(1);
+    temp.push_back(1);
     temp.push_back(1);
     result.push_back(temp);
     return result;
@@ -154,8 +154,8 @@ int main() {
     create_script::writeScript();
     CacheManager* cm = new(nothrow) CacheManager();
     MatrixSolver* ms = new(nothrow) MatrixSolver();
-    //vector<vector<int>> arr = create_script::readMatrixFromScript("script.txt");
-    vector<vector<int>> arr = theProblematicMatrix();
+    vector<vector<int>> arr = create_script::readMatrixFromScript("script.txt");
+    //vector<vector<int>> arr = theProblematicMatrix();
     Matrix* m = new (nothrow) Matrix(arr, 3, 3);
     //system("open");
     list<State*> result1 = ms->solve(m);
