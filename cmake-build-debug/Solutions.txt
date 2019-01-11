@@ -1,1 +1,2 @@
 1 down,down,right,right
+1 left,down,right

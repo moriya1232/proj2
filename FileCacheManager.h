@@ -7,6 +7,7 @@
 #include "CacheManager.h"
 
 class FileCacheManager : public CacheManager {
+    int indx;
 public:
     FileCacheManager() {
         ifstream file("Problems.txt");
@@ -43,6 +44,7 @@ public:
                     file.close();
                     return temp;
                 }
+                getline(file, line);
             }
         } else {
             return "";
@@ -55,7 +57,7 @@ public:
             string line = "";
             getline(inFile, line);
             while (line != ""){
-                string temp = getIndex(problem, "Problems.txt");
+                string temp = getNumber(line);
                 line = line.substr(temp.length() + 1);
                 if (problem.compare(line) == 0) {
                     inFile.close();
@@ -94,10 +96,27 @@ public:
         return getSolutionByIndex(indx);
     }
 
+    static int getLastID(string filename) {
+        ifstream file("Problems.txt");
+        if (file.is_open()) {
+            string line = "";
+            getline(file, line);
+            while (line != "") {
+                string temp = line;
+                getline(file, line);
+                if (line == ""){
+                    return stoi(getNumber(temp)) + 1;
+                }
+            }
+        }
+        return 1;
+    }
+
     // Assuming we call save method only when we see a new problem
     void save(string problem, string solution) override{
         // something that gives me IDs
-        int id = 1;
+        int id = getLastID("Problems.txt");
+        cout << "The id is: " << to_string(id) << endl;
         ofstream file1("Problems.txt", ios::app);
         file1 << to_string(id) + " " + problem << endl;
         ofstream file2("Solutions.txt", ios::app);

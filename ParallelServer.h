@@ -8,7 +8,7 @@
 #include "MyServer.h"
 class ParallelServer : public MyServer {
 protected:
-    bool handleClient(ClientHandler*, int) override;
+    void handleClient(ClientHandler*, int) override;
 };
 
 #endif //UNTITLED6_PARALLELSERVER_H

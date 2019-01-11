@@ -22,9 +22,8 @@ static void solveClientsProblem(ClientHandler* ch, int newsockfd) {
     ch->handleClient(newsockfd);
 }
 
-bool ParallelServer::handleClient(ClientHandler* ch, int newsockfd) {
+void ParallelServer::handleClient(ClientHandler* ch, int newsockfd) {
     //openServer(newsockfd, ms);
     thread t(solveClientsProblem, ch, newsockfd);
     t.detach();
-    return true;
 }
