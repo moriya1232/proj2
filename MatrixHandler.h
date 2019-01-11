@@ -49,8 +49,7 @@ public:
             // if buffer doesnt have "end" in it
             if (!end) {
                 // here the reading action went succesfully
-                string tempString(buffer);
-                result = addLine(result, tempString);
+                result += string(buffer);
                 result += ';';
                 // here i should execute the ch with the proper matrix
             } else {

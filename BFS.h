@@ -17,7 +17,7 @@ class BFS: public Searcher<T> {
 
 public:
 
-    static string convertListStateToString(vector<State<T>*> list1 , Searchable<T>* searchable) {
+    static string convertVectorStateToString(vector<State<T>*> list1 , Searchable<T>* searchable) {
         string result="";
         for (auto it = list1.begin(); it!=(list1.end());++it){
             if ( ++it == list1.end()) {
@@ -42,31 +42,29 @@ public:
         return result;
     }
 
-    string search(Searchable<T>* searchable){
+    string search(Searchable<T>* searchable) {
         vector<State<T>*> myList = searchable->getAllStates();
-        for (auto it = myList.begin(); it !=myList.end();++it) {
-            State<T>* curr = *it;
-            curr->setVisited(false);
+        for (State<T>* adj : myList) {
+            adj->setVisited(false);
         }
         State<T>* current = searchable->getInitialState();
         // Create a queue for BFS
-        vector<State<T>*> q;
+        vector<State<T>*> queue;
         // Mark the current node as visited and enqueue it
         current->setVisited(true);
         current->setCameFrom(nullptr);
         current->setCostUntilHere(current->getCost());
-        q.push_back(current);
+        queue.push_back(current);
         if (current == searchable->getGoalState()) {
-            string solution = convertListStateToString(q, searchable);
-            return solution;
+            return this->convertListStateToString(queue, searchable);
         }
 
         State<T>* before;
         // 'i' will be used to get all adjacent
         // vertices of a vertex
-        while (!q.empty()) {
+        while (!queue.empty()) {
             // Dequeue a vertex from queue and print it
-            current = q.front();
+            current = queue.front();
             if(current==searchable->getGoalState()) {
                 current->setCameFrom(before);
                 current->setCostUntilHere(current->getCost());
@@ -90,23 +88,26 @@ public:
                 }
                 if (!t->getVisited()) {
                     t->setVisited(true);
-                    q.push_back(t);
+                    queue.push_back(t);
                     //cout << "(" << t->getState()->getI() << "," << t->getState()->getJ() << ")"<< endl;
                 }
             }
-            before = q.front();
-            q.erase(q.begin());
+            before = queue.front();
+            queue.erase(queue.begin());
         }
-        q.clear();
+        queue.clear();
         State<T>* back = searchable->getGoalState();
         while (back->getI()!=searchable->getInitialState()->getI()
                || back->getJ()!=searchable->getInitialState()->getJ()) {
-            q.push_back(back);
+            queue.push_back(back);
             back = back->getCameFrom();
         }
-        q.push_back(back);
-        return convertListStateToString(q, searchable);
-
+        queue.push_back(back);
+        vector<State<T>*> tempVector;
+        for (int i = queue.size() - 1; i >= 0; --i) {
+            tempVector.push_back(queue[i]);
+        }
+        return this->convertListStateToString(tempVector, searchable);
 
     }
 };

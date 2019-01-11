@@ -15,7 +15,7 @@ using namespace std;
 template <class T>
 class Matrix : public Searchable<Point> {
     using StateOfPoint = State<Point>;
-    vector<vector<State<T> *>> states;
+    vector<vector<State<Point>*>> states;
 public:
     size_t n;
     size_t m;
@@ -29,7 +29,8 @@ public:
     }
 
     Matrix(vector<vector<int>> arr, size_t m ,size_t n) {
-        //State<Point>** states;
+        this->n = n;
+        this->m = m;
         vector<vector<State<Point>*>> vec;
         vector<State<Point>*> v;
         //State** temp = *this->states;
@@ -39,6 +40,8 @@ public:
                 int bla = arr[i][j];
                 State<Point>* s = new StateOfPoint(Point(i,j));
                 s->setCost(bla);
+                s->setI(i);
+                s->setJ(j);
                 v.push_back(s);
             }
             vec.push_back(v);
@@ -73,7 +76,7 @@ public:
     }
 
     State<Point>* getGoalState(){
-        return this->states[m-1][n-1];
+        return this->states[n-1][m-1];
     }
 
     size_t getSize(){

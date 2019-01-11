@@ -37,13 +37,14 @@ public:
             --it;
             State<T>* after = (*(++it));
             it--;
-            if (after->getI()> (*it)->getI()) {
+            State<T>* curr = *it;
+            if (after->getI()> curr->getI()) {
                 result+="down";
-            } else if (after->getI() < (*it)->getI()) {
+            } else if (after->getI() < curr->getI()) {
                 result+="up";
-            } else if (after->getJ()> (*it)->getJ()) {
+            } else if (after->getJ()> curr->getJ()) {
                 result+="right";
-            } else if (after->getJ()< (*it)->getJ()) {
+            } else if (after->getJ()< curr->getJ()) {
                 result+="left";
             }
             result+=",";

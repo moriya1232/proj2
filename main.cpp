@@ -8,129 +8,31 @@
 #include "MatrixHandler.h"
 #include "FileCacheManager.h"
 #include "ParallelServer.h"
-/*
-namespace  create_script {
-    static void writeScript() {
-        ofstream script("script.txt", ios::app);
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 3; j++) {
-                script << rand() % 21;
-                script << ' ';
-            }
-            script << '\n';
-        }
-        script.close();
-    }
-*/
-    static vector<string> split(vector<string> v, const std::string& s, char delimiter)
-    {
-        string token;
-        istringstream tokenStream(s);
-        while (getline(tokenStream, token, delimiter))
-        {
-            v.push_back(token);
-        }
-        return v;
-    }
 
-    static void clearFile(string filename) {
-        ofstream inFile;
-        inFile.open(filename, ofstream::out | ofstream::trunc);
-        inFile.close();
-    }
 
-    static int getNumberOfLines(string filename) {
-        ifstream inFile(filename);
-        int count = 0;
-        string line = "";
-        if (inFile.is_open()) {
-            getline(inFile, line);
-            while (line != "") {
-                getline(inFile, line);
-                count++;
-            }
-        }
-        return count;
-    }
-
-    static int getNumberOfColumns(string filename) {
-        ifstream inFile(filename);
-        string line = "";
-        vector<string> vec;
-        if (inFile.is_open()) {
-            getline(inFile, line);
-            vec = split(vec, line, ' ');
-            return vec.size();
-        }
-    }
-
-    static vector<vector<int>> readMatrixFromScript(string filename) {
-        ifstream inFile(filename);
-        int i = 0, n = getNumberOfLines(filename);
-        vector<vector<int>> vec;
-        string line = "";
+static Matrix<Point>* getMatrix(string problem) {
+    vector<vector<int>> matrixHolder;
+    vector<string> tempVector;
+    vector<string> parts;
+    parts = omer::split(parts,problem, ';');
+    for (int i = 0; i < parts.size(); i++) {
         vector<string> v;
-        vector<int> tempVector;
-        // open the file
-        if (inFile.is_open()) {
-            getline(inFile, line);
-            while (i < n) {
-                v = split(v, line, ' ');
-                for (vector<string>::iterator it = v.begin(); it != v.end(); it++) {
-                    string tempString = *it;
-                    int bla = stoi(tempString);
-                    tempVector.push_back(bla);
-                }
-                vec.push_back(tempVector);
-                tempVector.clear();
-                v.clear();
-                getline(inFile, line);
-                i++;
-            }
-        }
-        return vec;
+        v = omer::split(v, parts[i], ' ');
+        vector<int> currLine = omer::convertStringToLine(v);
+        matrixHolder.push_back(currLine);
     }
-
-    /*template <class T>
-    static string convertListStateToString(list<State<T>*> list1 , Searchable<T>* searchable){
-        string result="";
-        for (auto it = list1.begin(); it!=(list1.end());++it){
-            if ( ++it == list1.end()) {
-                break;
-            }
-            --it;
-            State<T>* after = (**(++it));
-            it--;
-            if (after->getState()->getI()> (*it)->getState()->getI()) {
-                result+="down";
-            } else if (after->getState()->getI() < (*it)->getState()->getI()) {
-                result+="up";
-            } else if (after->getState()->getJ()> (*it)->getState()->getJ()) {
-                result+="right";
-            } else if (after->getState()->getJ()< (*it)->getState()->getJ()) {
-                result+="left";
-            }
-            result+=",";
-        }
-        result = result.substr(0,result.length()-1);
-        return result;
-    }*/
-
-    static void printMatrix(vector<vector<int>> arr, string str) {
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 3; j++) {
-                cout << arr[i][j] << " ";
-            }
-            cout << "" << endl;
-        }
-        cout << "" << endl;
-        cout << "And the best path for you is: " << str << endl;
-    }
-
+    int n = matrixHolder.size();
+    Matrix<Point>* m = new Matrix<Point>(matrixHolder, n, n);
+    return m;
+}
 
 int main() {
-    ParallelServer* ps = new ParallelServer();
+    /*ParallelServer* ps = new ParallelServer();
     ClientHandler* ch = new (nothrow) MatrixHandler();
-    ps->open(5402, ch);
+    ps->open(5402, ch);*/
+    Matrix<Point>* m = getMatrix("83 86 77;15 93 35;86 92 49;");
+    BFS<Point>* bfs = new BFS<Point>();
+    string solution = bfs->search(m);
+    cout << solution << endl;
     return 0;
 }

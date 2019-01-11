@@ -16,9 +16,11 @@ public:
     static Matrix<Point>* getMatrix(string problem) {
         vector<vector<int>> matrixHolder;
         vector<string> tempVector;
-        vector<string> parts = omer::split(parts,problem, ';');
+        vector<string> parts;
+        parts = omer::split(parts,problem, ';');
         for (int i = 0; i < parts.size(); i++) {
-            vector<string> v = omer::split(v, parts[i], ' ');
+            vector<string> v;
+            v = omer::split(v, parts[i], ' ');
             vector<int> currLine = omer::convertStringToLine(v);
             matrixHolder.push_back(currLine);
         }
