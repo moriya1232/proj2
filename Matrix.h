@@ -10,19 +10,7 @@ using namespace std;
 #include <string>
 #include <vector>
 #include "Searchable.h"
-
-class Point {
-    unsigned int i;
-    unsigned int j;
-    inline Point() { i = 0; j = 0;}
-public :inline Point(int i, int j) { this->i = i; this->j = j; }
-    inline bool operator==(const Point &other) const { return this->i == other.i && this->j == other.j; }
-    inline bool operator<(const Point &other) const { return !(*this == other); }
-
-    inline unsigned int getI() { return i; }
-
-    inline unsigned int getJ() { return j; }
-};
+#include "Point.h"
 
 template <class T>
 class Matrix : public Searchable<Point> {
@@ -31,6 +19,14 @@ class Matrix : public Searchable<Point> {
 public:
     size_t n;
     size_t m;
+
+    State<Point>* getInitialState() {
+        return states[0][0];
+    }
+
+    bool isGoalState(State<Point> state) {
+        return state == StateOfPoint(Point(n - 1, m - 1));
+    }
 
     Matrix(vector<vector<int>> arr, size_t m ,size_t n) {
         //State<Point>** states;
@@ -51,9 +47,9 @@ public:
         this->states = vec;
     }
 
-    State<Point>*getInitialState(){
+  /*  State<Point>*getInitialState(){
         return this->states[0][0];
-    }
+    }*/
 
     vector<State<Point>*> getAllPossibleStates(State<Point> t){
         vector<State<Point>*> result;

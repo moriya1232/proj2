@@ -198,6 +198,9 @@
 		<Unit filename="/home/omer/CLionProjects/proj2/Plus.h">
 			<Option target="proj2"/>
 		</Unit>
+		<Unit filename="/home/omer/CLionProjects/proj2/Point.h">
+			<Option target="proj2"/>
+		</Unit>
 		<Unit filename="/home/omer/CLionProjects/proj2/Searchable.h">
 			<Option target="proj2"/>
 		</Unit>

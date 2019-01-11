@@ -6,6 +6,7 @@
 #define PROJ2_STATE_H
 
 #include <list>
+#include "Point.h"
 #include <string>
 
 using namespace std;

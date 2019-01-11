@@ -61,6 +61,7 @@ CMakeFiles/proj2.dir/MyServer.cpp.o
  /home/omer/CLionProjects/proj2/MatrixSolver.h
  /home/omer/CLionProjects/proj2/MyServer.cpp
  /home/omer/CLionProjects/proj2/MyServer.h
+ /home/omer/CLionProjects/proj2/Point.h
  /home/omer/CLionProjects/proj2/Searchable.h
  /home/omer/CLionProjects/proj2/Searcher.h
  /home/omer/CLionProjects/proj2/Server.h
@@ -83,6 +84,7 @@ CMakeFiles/proj2.dir/ParallelServer.cpp.o
  /home/omer/CLionProjects/proj2/MyServer.h
  /home/omer/CLionProjects/proj2/ParallelServer.cpp
  /home/omer/CLionProjects/proj2/ParallelServer.h
+ /home/omer/CLionProjects/proj2/Point.h
  /home/omer/CLionProjects/proj2/Searchable.h
  /home/omer/CLionProjects/proj2/Searcher.h
  /home/omer/CLionProjects/proj2/Server.h
@@ -109,6 +111,7 @@ CMakeFiles/proj2.dir/main.cpp.o
  /home/omer/CLionProjects/proj2/MatrixSolver.h
  /home/omer/CLionProjects/proj2/MyServer.h
  /home/omer/CLionProjects/proj2/ParallelServer.h
+ /home/omer/CLionProjects/proj2/Point.h
  /home/omer/CLionProjects/proj2/Searchable.h
  /home/omer/CLionProjects/proj2/Searcher.h
  /home/omer/CLionProjects/proj2/Server.h

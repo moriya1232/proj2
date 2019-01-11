@@ -60,6 +60,7 @@ CMakeFiles/proj2.dir/MyServer.cpp.o: ../MatrixHandler.h
 CMakeFiles/proj2.dir/MyServer.cpp.o: ../MatrixSolver.h
 CMakeFiles/proj2.dir/MyServer.cpp.o: ../MyServer.cpp
 CMakeFiles/proj2.dir/MyServer.cpp.o: ../MyServer.h
+CMakeFiles/proj2.dir/MyServer.cpp.o: ../Point.h
 CMakeFiles/proj2.dir/MyServer.cpp.o: ../Searchable.h
 CMakeFiles/proj2.dir/MyServer.cpp.o: ../Searcher.h
 CMakeFiles/proj2.dir/MyServer.cpp.o: ../Server.h
@@ -82,6 +83,7 @@ CMakeFiles/proj2.dir/ParallelServer.cpp.o: ../MatrixSolver.h
 CMakeFiles/proj2.dir/ParallelServer.cpp.o: ../MyServer.h
 CMakeFiles/proj2.dir/ParallelServer.cpp.o: ../ParallelServer.cpp
 CMakeFiles/proj2.dir/ParallelServer.cpp.o: ../ParallelServer.h
+CMakeFiles/proj2.dir/ParallelServer.cpp.o: ../Point.h
 CMakeFiles/proj2.dir/ParallelServer.cpp.o: ../Searchable.h
 CMakeFiles/proj2.dir/ParallelServer.cpp.o: ../Searcher.h
 CMakeFiles/proj2.dir/ParallelServer.cpp.o: ../Server.h
@@ -108,6 +110,7 @@ CMakeFiles/proj2.dir/main.cpp.o: ../MatrixHandler.h
 CMakeFiles/proj2.dir/main.cpp.o: ../MatrixSolver.h
 CMakeFiles/proj2.dir/main.cpp.o: ../MyServer.h
 CMakeFiles/proj2.dir/main.cpp.o: ../ParallelServer.h
+CMakeFiles/proj2.dir/main.cpp.o: ../Point.h
 CMakeFiles/proj2.dir/main.cpp.o: ../Searchable.h
 CMakeFiles/proj2.dir/main.cpp.o: ../Searcher.h
 CMakeFiles/proj2.dir/main.cpp.o: ../Server.h

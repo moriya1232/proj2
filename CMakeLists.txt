@@ -27,6 +27,7 @@ add_executable(proj2
         ISearcher.h
         main.cpp
         MatrixSolver.h
+        Point.h
         Matrix.h
         MatrixHandler.h
         Minus.cpp

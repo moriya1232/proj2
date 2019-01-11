@@ -59,6 +59,8 @@ vector
 -
 Searchable.h
 /home/omer/CLionProjects/proj2/Searchable.h
+Point.h
+/home/omer/CLionProjects/proj2/Point.h
 
 /home/omer/CLionProjects/proj2/MatrixHandler.h
 list
@@ -138,6 +140,8 @@ vector
 MyServer.h
 /home/omer/CLionProjects/proj2/MyServer.h
 
+/home/omer/CLionProjects/proj2/Point.h
+
 /home/omer/CLionProjects/proj2/Searchable.h
 vector
 /home/omer/CLionProjects/proj2/vector
@@ -159,6 +163,8 @@ MatrixHandler.h
 /home/omer/CLionProjects/proj2/State.h
 list
 -
+Point.h
+/home/omer/CLionProjects/proj2/Point.h
 string
 -
 

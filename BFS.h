@@ -26,13 +26,14 @@ public:
             --it;
             State<T>* after = (*(++it));
             it--;
-            if (after->getI()> (*it)->getI()) {
+            State<T>* curr = *it;
+            if (after->getI()> curr->getI()) {
                 result+="down";
-            } else if (after->getI() < (*it)->getI()) {
+            } else if (after->getI() < curr->getI()) {
                 result+="up";
-            } else if (after->getJ()> (*it)->getJ()) {
+            } else if (after->getJ()> curr->getJ()) {
                 result+="right";
-            } else if (after->getJ()< (*it)->getJ()) {
+            } else if (after->getJ()< curr->getJ()) {
                 result+="left";
             }
             result+=",";
@@ -44,7 +45,8 @@ public:
     string search(Searchable<T>* searchable){
         vector<State<T>*> myList = searchable->getAllStates();
         for (auto it = myList.begin(); it !=myList.end();++it) {
-            (*it)->setVisited(false);
+            State<T>* curr = *it;
+            curr->setVisited(false);
         }
         State<T>* current = searchable->getInitialState();
         // Create a queue for BFS
