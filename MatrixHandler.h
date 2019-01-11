@@ -20,7 +20,7 @@ using namespace std;
 class MatrixHandler : public omer::AbstractClientHandler<string, string> {
 
 public:
-    MatrixHandler() {}
+    MatrixHandler(CacheManager* cm) : AbstractClientHandler(cm) {}
 
     static string addLine(string origin, string addition) {
         vector<string> v = omer::split(v,addition, ' ');
@@ -59,9 +59,9 @@ public:
     }
 
     void handleClient(int newsockfd) {
-        t::Solver<string, string>* ms = new (nothrow) MatrixSolver();
+        t::Solver<string, string>* ms = new (nothrow) MatrixSolver<string, string>(this->cm);
         string matrix = getStringMatrixFromServer(newsockfd);
-        string solution = ms->solve(matrix);
+        string sol = ms->solve(matrix);
     }
 
 };

@@ -6,15 +6,14 @@
 #define UNTITLED6_CACHEMANAGER_H
 
 #include <unordered_map>
+#include <string>
+using namespace::std;
 
-
-template<class problem, class solution>
 class CacheManager {
-protected:
-    std::unordered_map <problem, solution> problemsAndSolutions;
-    virtual bool alreadySolved(problem *) = 0;
-    virtual solution *getSolution(problem *) = 0;
-    virtual void save(problem *, solution *) = 0;
+public:
+    virtual bool alreadySolved(string) = 0;
+    virtual string getSolution(string) = 0;
+    virtual void save(string, string) = 0;
 };
 
 

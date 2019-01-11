@@ -29,6 +29,8 @@ queue
 /home/omer/CLionProjects/proj2/CacheManager.h
 unordered_map
 -
+string
+-
 
 /home/omer/CLionProjects/proj2/ClientHandler.h
 CacheManager.h
@@ -37,10 +39,6 @@ CacheManager.h
 /home/omer/CLionProjects/proj2/FileCacheManager.h
 CacheManager.h
 /home/omer/CLionProjects/proj2/CacheManager.h
-fstream
-/home/omer/CLionProjects/proj2/fstream
-iostream
-/home/omer/CLionProjects/proj2/iostream
 
 /home/omer/CLionProjects/proj2/ISearcher.h
 Searchable.h
@@ -87,32 +85,12 @@ Matrix.h
 /home/omer/CLionProjects/proj2/Matrix.h
 Solver.h
 /home/omer/CLionProjects/proj2/Solver.h
+iostream
+-
 BFS.h
 /home/omer/CLionProjects/proj2/BFS.h
 AbstractClientHandler.h
 /home/omer/CLionProjects/proj2/AbstractClientHandler.h
-
-/home/omer/CLionProjects/proj2/MyServer.cpp
-unistd.h
--
-stdio.h
--
-thread
--
-netinet/in.h
--
-string
--
-string.h
--
-errno.h
--
-MyServer.h
-/home/omer/CLionProjects/proj2/MyServer.h
-list
--
-MatrixHandler.h
-/home/omer/CLionProjects/proj2/MatrixHandler.h
 
 /home/omer/CLionProjects/proj2/MyServer.h
 Server.h
@@ -122,18 +100,6 @@ iostream
 ClientHandler.h
 /home/omer/CLionProjects/proj2/ClientHandler.h
 time.h
--
-
-/home/omer/CLionProjects/proj2/ParallelServer.cpp
-thread
--
-strings.h
--
-string
--
-ParallelServer.h
-/home/omer/CLionProjects/proj2/ParallelServer.h
-vector
 -
 
 /home/omer/CLionProjects/proj2/ParallelServer.h
@@ -159,6 +125,8 @@ MatrixHandler.h
 /home/omer/CLionProjects/proj2/MatrixHandler.h
 
 /home/omer/CLionProjects/proj2/Solver.h
+CacheManager.h
+/home/omer/CLionProjects/proj2/CacheManager.h
 
 /home/omer/CLionProjects/proj2/State.h
 list

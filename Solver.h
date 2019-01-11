@@ -10,11 +10,14 @@
 /**
  * Solver Interface
  */
+#include "CacheManager.h"
+
 namespace t {
     template <class problem, class solution>
     class Solver {
+    protected: CacheManager* cm;
     public:
-        Solver() {}
+        Solver(CacheManager* cm) { this->cm = cm;}
         virtual solution solve(problem) = 0;
 
     };

@@ -9,7 +9,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/omer/CLionProjects/proj2/Divide.cpp" "/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles/proj2.dir/Divide.cpp.o"
   "/home/omer/CLionProjects/proj2/Expression.cpp" "/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles/proj2.dir/Expression.cpp.o"
   "/home/omer/CLionProjects/proj2/ExpressionSolver.cpp" "/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles/proj2.dir/ExpressionSolver.cpp.o"
-  "/home/omer/CLionProjects/proj2/FileCatchManager.cpp" "/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles/proj2.dir/FileCatchManager.cpp.o"
   "/home/omer/CLionProjects/proj2/Minus.cpp" "/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles/proj2.dir/Minus.cpp.o"
   "/home/omer/CLionProjects/proj2/Multiplication.cpp" "/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles/proj2.dir/Multiplication.cpp.o"
   "/home/omer/CLionProjects/proj2/MyServer.cpp" "/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles/proj2.dir/MyServer.cpp.o"

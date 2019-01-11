@@ -17,31 +17,6 @@ class BFS: public Searcher<T> {
 
 public:
 
-    static string convertVectorStateToString(vector<State<T>*> list1 , Searchable<T>* searchable) {
-        string result="";
-        for (auto it = list1.begin(); it!=(list1.end());++it){
-            if ( ++it == list1.end()) {
-                break;
-            }
-            --it;
-            State<T>* after = (*(++it));
-            it--;
-            State<T>* curr = *it;
-            if (after->getI()> curr->getI()) {
-                result+="down";
-            } else if (after->getI() < curr->getI()) {
-                result+="up";
-            } else if (after->getJ()> curr->getJ()) {
-                result+="right";
-            } else if (after->getJ()< curr->getJ()) {
-                result+="left";
-            }
-            result+=",";
-        }
-        result = result.substr(0,result.length()-1);
-        return result;
-    }
-
     string search(Searchable<T>* searchable) {
         vector<State<T>*> myList = searchable->getAllStates();
         for (State<T>* adj : myList) {

@@ -24,6 +24,7 @@ CMakeFiles/proj2.dir/Expression.cpp.o: ../UnaryExpression.h
 CMakeFiles/proj2.dir/Expression.cpp.o: ../UsefulFunctions.h
 
 CMakeFiles/proj2.dir/ExpressionSolver.cpp.o: ../BinaryExpression.h
+CMakeFiles/proj2.dir/ExpressionSolver.cpp.o: ../CacheManager.h
 CMakeFiles/proj2.dir/ExpressionSolver.cpp.o: ../Divide.h
 CMakeFiles/proj2.dir/ExpressionSolver.cpp.o: ../Expression.h
 CMakeFiles/proj2.dir/ExpressionSolver.cpp.o: ../ExpressionSolver.cpp
@@ -35,10 +36,6 @@ CMakeFiles/proj2.dir/ExpressionSolver.cpp.o: ../Plus.h
 CMakeFiles/proj2.dir/ExpressionSolver.cpp.o: ../Solver.h
 CMakeFiles/proj2.dir/ExpressionSolver.cpp.o: ../UnaryExpression.h
 CMakeFiles/proj2.dir/ExpressionSolver.cpp.o: ../UsefulFunctions.h
-
-CMakeFiles/proj2.dir/FileCatchManager.cpp.o: ../CacheManager.h
-CMakeFiles/proj2.dir/FileCatchManager.cpp.o: ../FileCacheManager.h
-CMakeFiles/proj2.dir/FileCatchManager.cpp.o: ../FileCatchManager.cpp
 
 CMakeFiles/proj2.dir/Minus.cpp.o: ../BinaryExpression.h
 CMakeFiles/proj2.dir/Minus.cpp.o: ../Expression.h

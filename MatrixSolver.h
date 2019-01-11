@@ -8,16 +8,20 @@
 #include <sstream>
 #include "Matrix.h"
 #include "Solver.h"
+#include <iostream>
 #include "BFS.h"
 #include "AbstractClientHandler.h"
 
+template <class problem, class solution>
 class MatrixSolver : public t::Solver<string, string> {
 public:
-    static Matrix<Point>* getMatrix(string problem) {
+    MatrixSolver(CacheManager* cm) : Solver(cm) {}
+
+    static Matrix<Point>* getMatrix(string pro) {
         vector<vector<int>> matrixHolder;
         vector<string> tempVector;
         vector<string> parts;
-        parts = omer::split(parts,problem, ';');
+        parts = omer::split(parts,pro, ';');
         for (int i = 0; i < parts.size(); i++) {
             vector<string> v;
             v = omer::split(v, parts[i], ' ');
@@ -29,12 +33,18 @@ public:
         return m;
     }
 
-
-    string solve(string problem) override{
-        Matrix<Point>* m = getMatrix(problem);
+    string solve(string pro) override{
+        // if we already solve this problem
+        if (this->cm->alreadySolved(pro)) {
+            cout << "We took the solution from the files." << endl;
+            return this->cm->getSolution(pro);
+        }
+        // if its a new problem
+        Matrix<Point>* m = getMatrix(pro);
         BFS<Point>* bfs = new BFS<Point>();
-        string solution = bfs->search(m);
-        return solution;
+        string sol = bfs->search(m);
+        this->cm->save(pro, sol);
+        return sol;
     }
 //public: MatrixSolver() = default;
 };

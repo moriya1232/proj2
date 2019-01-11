@@ -16,7 +16,8 @@ namespace  omer {
     class AbstractClientHandler : public ClientHandler {
     protected:
         t::Solver<problem, solution> *solver;
-        CacheManager<problem, solution> *cm;
+        CacheManager* cm;
+        AbstractClientHandler(CacheManager* cm) { this->cm = cm; }
     };
 
     static bool endReceived(char *buffer, int n) {

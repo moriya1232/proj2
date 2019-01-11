@@ -4,7 +4,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/proj2.dir/Divide.cpp.o"
   "CMakeFiles/proj2.dir/Expression.cpp.o"
   "CMakeFiles/proj2.dir/ExpressionSolver.cpp.o"
-  "CMakeFiles/proj2.dir/FileCatchManager.cpp.o"
   "CMakeFiles/proj2.dir/main.cpp.o"
   "CMakeFiles/proj2.dir/Minus.cpp.o"
   "CMakeFiles/proj2.dir/Multiplication.cpp.o"

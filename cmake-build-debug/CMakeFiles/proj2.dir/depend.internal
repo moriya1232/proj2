@@ -25,6 +25,7 @@ CMakeFiles/proj2.dir/Expression.cpp.o
  /home/omer/CLionProjects/proj2/UsefulFunctions.h
 CMakeFiles/proj2.dir/ExpressionSolver.cpp.o
  /home/omer/CLionProjects/proj2/BinaryExpression.h
+ /home/omer/CLionProjects/proj2/CacheManager.h
  /home/omer/CLionProjects/proj2/Divide.h
  /home/omer/CLionProjects/proj2/Expression.h
  /home/omer/CLionProjects/proj2/ExpressionSolver.cpp
@@ -36,10 +37,6 @@ CMakeFiles/proj2.dir/ExpressionSolver.cpp.o
  /home/omer/CLionProjects/proj2/Solver.h
  /home/omer/CLionProjects/proj2/UnaryExpression.h
  /home/omer/CLionProjects/proj2/UsefulFunctions.h
-CMakeFiles/proj2.dir/FileCatchManager.cpp.o
- /home/omer/CLionProjects/proj2/CacheManager.h
- /home/omer/CLionProjects/proj2/FileCacheManager.h
- /home/omer/CLionProjects/proj2/FileCatchManager.cpp
 CMakeFiles/proj2.dir/Minus.cpp.o
  /home/omer/CLionProjects/proj2/BinaryExpression.h
  /home/omer/CLionProjects/proj2/Expression.h

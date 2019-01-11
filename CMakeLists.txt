@@ -23,7 +23,6 @@ add_executable(proj2
         ExpressionSolver.cpp
         ExpressionSolver.h
         FileCacheManager.h
-        FileCatchManager.cpp
         ISearcher.h
         main.cpp
         MatrixSolver.h

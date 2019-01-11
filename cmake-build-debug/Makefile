@@ -258,33 +258,6 @@ ExpressionSolver.cpp.s:
 	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/ExpressionSolver.cpp.s
 .PHONY : ExpressionSolver.cpp.s
 
-FileCatchManager.o: FileCatchManager.cpp.o
-
-.PHONY : FileCatchManager.o
-
-# target to build an object file
-FileCatchManager.cpp.o:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/FileCatchManager.cpp.o
-.PHONY : FileCatchManager.cpp.o
-
-FileCatchManager.i: FileCatchManager.cpp.i
-
-.PHONY : FileCatchManager.i
-
-# target to preprocess a source file
-FileCatchManager.cpp.i:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/FileCatchManager.cpp.i
-.PHONY : FileCatchManager.cpp.i
-
-FileCatchManager.s: FileCatchManager.cpp.s
-
-.PHONY : FileCatchManager.s
-
-# target to generate assembly for a file
-FileCatchManager.cpp.s:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/FileCatchManager.cpp.s
-.PHONY : FileCatchManager.cpp.s
-
 Minus.o: Minus.cpp.o
 
 .PHONY : Minus.o
@@ -525,9 +498,6 @@ help:
 	@echo "... ExpressionSolver.o"
 	@echo "... ExpressionSolver.i"
 	@echo "... ExpressionSolver.s"
-	@echo "... FileCatchManager.o"
-	@echo "... FileCatchManager.i"
-	@echo "... FileCatchManager.s"
 	@echo "... Minus.o"
 	@echo "... Minus.i"
 	@echo "... Minus.s"
