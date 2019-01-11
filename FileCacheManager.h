@@ -14,9 +14,7 @@ public:
             return;
         }
         ofstream file1("Problems.txt", ios::app);
-        file1 << "Problems" << endl;
         ofstream file2("Solutions.txt", ios::app);
-        file2 << "Solutions" << endl;
         file1.close();
         file2.close();
     }
@@ -32,22 +30,18 @@ public:
         return result;
     }
 
-    static string getIndex(string s, int i) {
-        ifstream file;
-        if (i == 1) {
-            ifstream file("Problems.txt");
-        } else {
-            ifstream file("Solutions.txt");
-        }
+    static string getIndex(string s, string filename) {
+        ifstream file(filename);
         if (file.is_open()) {
-            string s = "";
+            string temp = "";
             string line = "";
             getline(file, line);
             while (line != "") {
-                s = getNumber(line);
+                temp = getNumber(line);
+                line = line.substr(temp.length() + 1);
                 if (line.compare(s) == 0) {
                     file.close();
-                    return s;
+                    return temp;
                 }
             }
         } else {
@@ -61,8 +55,8 @@ public:
             string line = "";
             getline(inFile, line);
             while (line != ""){
-                string temp = getIndex(problem, 1);
-                line = line.substr(temp.length());
+                string temp = getIndex(problem, "Problems.txt");
+                line = line.substr(temp.length() + 1);
                 if (problem.compare(line) == 0) {
                     inFile.close();
                     return true;
@@ -84,10 +78,10 @@ public:
             string line = "";
             getline(file, line);
             while (line != "") {
-                string temp = getIndex(line, 0);
+                string temp = getNumber(line);
                 if (temp.compare(indx) == 0) {
                     file.close();
-                    return line.substr(temp.length());
+                    return line.substr(temp.length() + 1);
                 }
             }
         }
@@ -96,7 +90,7 @@ public:
     // Assuming we already checked that the problem was solved
     string getSolution(string problem) override {
         if (!alreadySolved(problem)) { return ""; }
-        string indx = getIndex(problem, 1);
+        string indx = getIndex(problem, "Problems.txt");
         return getSolutionByIndex(indx);
     }
 
@@ -105,9 +99,9 @@ public:
         // something that gives me IDs
         int id = 1;
         ofstream file1("Problems.txt", ios::app);
-        file1 << to_string(id) + " The problem: " + problem << endl;
+        file1 << to_string(id) + " " + problem << endl;
         ofstream file2("Solutions.txt", ios::app);
-        file2 << to_string(id) + " The solution: " + solution << endl;
+        file2 << to_string(id) + " " + solution << endl;
         cout << "Item saved." << endl;
         file1.close();
         file2.close();

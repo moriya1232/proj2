@@ -60,8 +60,13 @@ public:
 
     void handleClient(int newsockfd) {
         t::Solver<string, string>* ms = new (nothrow) MatrixSolver<string, string>(this->cm);
+        string sol = "";
         string matrix = getStringMatrixFromServer(newsockfd);
-        string sol = ms->solve(matrix);
+        if (this->cm->alreadySolved(matrix)) {
+            sol = this->cm->getSolution(matrix);
+        } else {
+            sol = ms->solve(matrix);
+        }
     }
 
 };

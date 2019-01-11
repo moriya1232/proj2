@@ -19,13 +19,15 @@ class Matrix : public Searchable<Point> {
 public:
     size_t n;
     size_t m;
+    State<Point>* start;
+    State<Point>* goal;
 
     State<Point>* getInitialState() {
-        return states[0][0];
+        return start;
     }
 
-    bool isGoalState(State<Point> state) {
-        return state == StateOfPoint(Point(n - 1, m - 1));
+    bool isGoalState(State<Point>* state) {
+        return state == this->goal;
     }
 
     Matrix(vector<vector<int>> arr, size_t m ,size_t n) {
@@ -50,9 +52,9 @@ public:
         this->states = vec;
     }
 
-  /*  State<Point>*getInitialState(){
-        return this->states[0][0];
-    }*/
+    vector<vector<State<Point>*>> getAllTheStates() {
+        return  this->states;
+    }
 
     vector<State<Point>*> getAllPossibleStates(State<Point> t){
         vector<State<Point>*> result;
@@ -76,11 +78,19 @@ public:
     }
 
     State<Point>* getGoalState(){
-        return this->states[n-1][m-1];
+        return this->goal;
     }
 
     size_t getSize(){
         return this->m * this->n;
+    }
+
+    void setInitialState(State<Point>* p) {
+        this->start = p;
+    }
+
+    void setGoalState(State<Point>* p) {
+        this->goal = p;
     }
 
     vector<State<Point>*> getAllStates(){
