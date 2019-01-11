@@ -8,7 +8,6 @@
 #include "MyServer.h"
 class ParallelServer : public MyServer {
 protected:
-    //void handleClient(int, MatrixHandler<Matrix*, list<State*>>*);
     void handleClient(ClientHandler*, int) override;
 };
 

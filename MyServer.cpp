@@ -21,7 +21,7 @@ MyServer::MyServer() {
     this->run = true;
 }
 
-void MyServer::open(int port, MatrixHandler<Matrix*, MatrixSolver*>* ch) {
+void MyServer::open(int port, ClientHandler* ch) {
     int sockfd, clilen;
     char buffer[100];
     struct sockaddr_in serv_addr, cli_addr;
@@ -55,6 +55,8 @@ void MyServer::open(int port, MatrixHandler<Matrix*, MatrixSolver*>* ch) {
     this->sockfd = sockfd;
     start(ch);
 }
+
+
 // basically runs for 10 seconds and somehow should stop the operation after 10 sec
 static void isTimeOut() {
     time_t start, end;
@@ -74,7 +76,7 @@ static void isTimeOut() {
     } while(elapsed < 10);  /* run for ten seconds */
 }
 
-void MyServer::start(MatrixHandler<Matrix*, MatrixSolver*>* ch) {
+void MyServer::start(ClientHandler* ch) {
     struct sockaddr_in cli_addr;
     int newsockfd, clilen = sizeof(cli_addr);
     while (run) {

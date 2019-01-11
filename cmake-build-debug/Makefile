@@ -48,10 +48,10 @@ RM = /snap/clion/58/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/moriya/CLionProjects/untitled6
+CMAKE_SOURCE_DIR = /home/omer/CLionProjects/proj2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/moriya/CLionProjects/untitled6/cmake-build-debug
+CMAKE_BINARY_DIR = /home/omer/CLionProjects/proj2/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles /home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles /home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -285,33 +285,6 @@ FileCatchManager.cpp.s:
 	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/FileCatchManager.cpp.s
 .PHONY : FileCatchManager.cpp.s
 
-Matrix.o: Matrix.cpp.o
-
-.PHONY : Matrix.o
-
-# target to build an object file
-Matrix.cpp.o:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Matrix.cpp.o
-.PHONY : Matrix.cpp.o
-
-Matrix.i: Matrix.cpp.i
-
-.PHONY : Matrix.i
-
-# target to preprocess a source file
-Matrix.cpp.i:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Matrix.cpp.i
-.PHONY : Matrix.cpp.i
-
-Matrix.s: Matrix.cpp.s
-
-.PHONY : Matrix.s
-
-# target to generate assembly for a file
-Matrix.cpp.s:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Matrix.cpp.s
-.PHONY : Matrix.cpp.s
-
 Minus.o: Minus.cpp.o
 
 .PHONY : Minus.o
@@ -474,33 +447,6 @@ Plus.cpp.s:
 	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Plus.cpp.s
 .PHONY : Plus.cpp.s
 
-Point.o: Point.cpp.o
-
-.PHONY : Point.o
-
-# target to build an object file
-Point.cpp.o:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Point.cpp.o
-.PHONY : Point.cpp.o
-
-Point.i: Point.cpp.i
-
-.PHONY : Point.i
-
-# target to preprocess a source file
-Point.cpp.i:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Point.cpp.i
-.PHONY : Point.cpp.i
-
-Point.s: Point.cpp.s
-
-.PHONY : Point.s
-
-# target to generate assembly for a file
-Point.cpp.s:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Point.cpp.s
-.PHONY : Point.cpp.s
-
 UnaryExpression.o: UnaryExpression.cpp.o
 
 .PHONY : UnaryExpression.o
@@ -582,9 +528,6 @@ help:
 	@echo "... FileCatchManager.o"
 	@echo "... FileCatchManager.i"
 	@echo "... FileCatchManager.s"
-	@echo "... Matrix.o"
-	@echo "... Matrix.i"
-	@echo "... Matrix.s"
 	@echo "... Minus.o"
 	@echo "... Minus.i"
 	@echo "... Minus.s"
@@ -603,9 +546,6 @@ help:
 	@echo "... Plus.o"
 	@echo "... Plus.i"
 	@echo "... Plus.s"
-	@echo "... Point.o"
-	@echo "... Point.i"
-	@echo "... Point.s"
 	@echo "... UnaryExpression.o"
 	@echo "... UnaryExpression.i"
 	@echo "... UnaryExpression.s"

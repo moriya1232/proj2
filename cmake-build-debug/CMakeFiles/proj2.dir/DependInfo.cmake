@@ -4,22 +4,20 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/moriya/CLionProjects/untitled6/BinaryExpression.cpp" "/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/proj2.dir/BinaryExpression.cpp.o"
-  "/home/moriya/CLionProjects/untitled6/DFS.cpp" "/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/proj2.dir/DFS.cpp.o"
-  "/home/moriya/CLionProjects/untitled6/Divide.cpp" "/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/proj2.dir/Divide.cpp.o"
-  "/home/moriya/CLionProjects/untitled6/Expression.cpp" "/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/proj2.dir/Expression.cpp.o"
-  "/home/moriya/CLionProjects/untitled6/ExpressionSolver.cpp" "/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/proj2.dir/ExpressionSolver.cpp.o"
-  "/home/moriya/CLionProjects/untitled6/FileCatchManager.cpp" "/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/proj2.dir/FileCatchManager.cpp.o"
-  "/home/moriya/CLionProjects/untitled6/Matrix.cpp" "/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/proj2.dir/Matrix.cpp.o"
-  "/home/moriya/CLionProjects/untitled6/Minus.cpp" "/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/proj2.dir/Minus.cpp.o"
-  "/home/moriya/CLionProjects/untitled6/Multiplication.cpp" "/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/proj2.dir/Multiplication.cpp.o"
-  "/home/moriya/CLionProjects/untitled6/MyServer.cpp" "/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/proj2.dir/MyServer.cpp.o"
-  "/home/moriya/CLionProjects/untitled6/Number.cpp" "/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/proj2.dir/Number.cpp.o"
-  "/home/moriya/CLionProjects/untitled6/ParallelServer.cpp" "/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/proj2.dir/ParallelServer.cpp.o"
-  "/home/moriya/CLionProjects/untitled6/Plus.cpp" "/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/proj2.dir/Plus.cpp.o"
-  "/home/moriya/CLionProjects/untitled6/Point.cpp" "/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/proj2.dir/Point.cpp.o"
-  "/home/moriya/CLionProjects/untitled6/UnaryExpression.cpp" "/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/proj2.dir/UnaryExpression.cpp.o"
-  "/home/moriya/CLionProjects/untitled6/main.cpp" "/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/proj2.dir/main.cpp.o"
+  "/home/omer/CLionProjects/proj2/BinaryExpression.cpp" "/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles/proj2.dir/BinaryExpression.cpp.o"
+  "/home/omer/CLionProjects/proj2/DFS.cpp" "/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles/proj2.dir/DFS.cpp.o"
+  "/home/omer/CLionProjects/proj2/Divide.cpp" "/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles/proj2.dir/Divide.cpp.o"
+  "/home/omer/CLionProjects/proj2/Expression.cpp" "/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles/proj2.dir/Expression.cpp.o"
+  "/home/omer/CLionProjects/proj2/ExpressionSolver.cpp" "/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles/proj2.dir/ExpressionSolver.cpp.o"
+  "/home/omer/CLionProjects/proj2/FileCatchManager.cpp" "/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles/proj2.dir/FileCatchManager.cpp.o"
+  "/home/omer/CLionProjects/proj2/Minus.cpp" "/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles/proj2.dir/Minus.cpp.o"
+  "/home/omer/CLionProjects/proj2/Multiplication.cpp" "/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles/proj2.dir/Multiplication.cpp.o"
+  "/home/omer/CLionProjects/proj2/MyServer.cpp" "/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles/proj2.dir/MyServer.cpp.o"
+  "/home/omer/CLionProjects/proj2/Number.cpp" "/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles/proj2.dir/Number.cpp.o"
+  "/home/omer/CLionProjects/proj2/ParallelServer.cpp" "/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles/proj2.dir/ParallelServer.cpp.o"
+  "/home/omer/CLionProjects/proj2/Plus.cpp" "/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles/proj2.dir/Plus.cpp.o"
+  "/home/omer/CLionProjects/proj2/UnaryExpression.cpp" "/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles/proj2.dir/UnaryExpression.cpp.o"
+  "/home/omer/CLionProjects/proj2/main.cpp" "/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles/proj2.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -3,11 +3,12 @@
 #include "ClientHandler.h"
 #include "Matrix.h"
 #include <vector>
+#include <fstream>
 #include <sstream>
 #include "MatrixHandler.h"
 #include "FileCacheManager.h"
 #include "ParallelServer.h"
-
+/*
 namespace  create_script {
     static void writeScript() {
         ofstream script("script.txt", ios::app);
@@ -20,7 +21,7 @@ namespace  create_script {
         }
         script.close();
     }
-
+*/
     static vector<string> split(vector<string> v, const std::string& s, char delimiter)
     {
         string token;
@@ -90,33 +91,34 @@ namespace  create_script {
         return vec;
     }
 
-    static string convertListStateToString(list<State*> list1 , Searchable* searchable){
+    /*template <class T>
+    static string convertListStateToString(list<State<T>*> list1 , Searchable<T>* searchable){
         string result="";
-        for (list<State*>:: iterator it = list1.begin(); it!=(list1.end());++it){
+        for (auto it = list1.begin(); it!=(list1.end());++it){
             if ( ++it == list1.end()) {
                 break;
             }
             --it;
-            State after = (**(++it));
+            State<T>* after = (**(++it));
             it--;
-            if (after.getState()->getI()> (*it)->getState()->getI()) {
+            if (after->getState()->getI()> (*it)->getState()->getI()) {
                 result+="down";
-            } else if (after.getState()->getI() < (*it)->getState()->getI()) {
+            } else if (after->getState()->getI() < (*it)->getState()->getI()) {
                 result+="up";
-            } else if (after.getState()->getJ()> (*it)->getState()->getJ()) {
+            } else if (after->getState()->getJ()> (*it)->getState()->getJ()) {
                 result+="right";
-            } else if (after.getState()->getJ()< (*it)->getState()->getJ()) {
+            } else if (after->getState()->getJ()< (*it)->getState()->getJ()) {
                 result+="left";
             }
             result+=",";
         }
         result = result.substr(0,result.length()-1);
         return result;
-    }
+    }*/
 
     static void printMatrix(vector<vector<int>> arr, string str) {
-        for (int i = 0;i < 3; i++) {
-            for (int j=0; j< 3; j++) {
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
                 cout << arr[i][j] << " ";
             }
             cout << "" << endl;
@@ -124,54 +126,11 @@ namespace  create_script {
         cout << "" << endl;
         cout << "And the best path for you is: " << str << endl;
     }
+
+
+int main() {
+    ParallelServer* ps = new ParallelServer();
+    ClientHandler* ch = new (nothrow) MatrixHandler();
+    ps->open(5402, ch);
+    return 0;
 }
-
-static vector<vector<int>> theProblematicMatrix() {
-    vector<vector<int>> result;
-    vector<int> temp;
-    temp.push_back(1);
-    temp.push_back(1);
-    temp.push_back(1);
-    result.push_back(temp);
-    temp.clear();
-    temp.push_back(1);
-    temp.push_back(2);
-    temp.push_back(1);
-    result.push_back(temp);
-    temp.clear();
-    temp.push_back(1);
-    temp.push_back(1);
-    temp.push_back(1);
-    result.push_back(temp);
-    return result;
-}
-
-namespace boot {
-    class Main {
-        static int main() {
-            ClientHandler* clientHandler = new MatrixHandler();
-            clientHandler->handleClient()
-
-        }
-    };
-}
-
-/* MatrixSolver* ms = new MatrixSolver();
-    //CacheManager<string, string>* cm = new FileCacheManager<string, string>();
-    MatrixHandler<Matrix*, MatrixSolver*>* cs = new(nothrow) MatrixHandler<Matrix*, MatrixSolver*>(ms);
-    ParallelServer* tempServer = new ParallelServer();
-    tempServer->open(5402, cs);
-    create_script::writeScript();
-    CacheManager* cm = new(nothrow) CacheManager();
-    MatrixSolver* ms = new(nothrow) MatrixSolver();
-    vector<vector<int>> arr = create_script::readMatrixFromScript("script.txt");
-    //vector<vector<int>> arr = theProblematicMatrix();
-    Matrix* m = new (nothrow) Matrix(arr, 3, 3);
-    //system("open");
-    list<State*> result1 = ms->solve(m);
-    string result2 = create_script::convertListStateToString(result1, m);
-    create_script::printMatrix(arr, result2);
-    //MatrixHandler<Matrix*, MatrixSolver*>* ch = new (nothrow) MatrixHandler<Matrix*, MatrixSolver*>(ms,cm , m);
-    //std::cout << "Hello, World!" << std::endl;
-create_script::clearFile("script.txt");
-return 0;*/

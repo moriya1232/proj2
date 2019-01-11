@@ -6,12 +6,12 @@
 #define PROJ2_ASTAR_H
 
 #include "Searcher.h"
-
-class Astar: public Searcher {
+/*
+class Astar: public Searcher<T, soletion> {
 
 public:  list<State*> search(Searchable* searchable);
 };
 
-
+*/
 
 #endif //PROJ2_ASTAR_H

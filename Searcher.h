@@ -9,8 +9,8 @@
 #include "ISearcher.h"
 
 
-template <class T,class solution>
-class Searcher: public ISearcher<T,solution>{
+template <class T>
+class Searcher: public ISearcher<T>{
 
 protected:
     int evaluatedNodes;
@@ -19,7 +19,8 @@ public:
     /**
     * this function is a constractor of searcher.
     */
-    Searcher(this->evaluatedNodes=0;);
+    Searcher() {}
+    //Searcher(evaluatedNodes)=0);
     /**
      * this function returns the number of nodes that we get until here.
      * @return number of nodes we get until here.
@@ -34,15 +35,15 @@ public:
                 break;
             }
             --it;
-            State< after = (**(++it));
+            State<T>* after = (*(++it));
             it--;
-            if (after.getState()->getI()> (*it)->getState()->getI()) {
+            if (after->getI()> (*it)->getI()) {
                 result+="down";
-            } else if (after.getState()->getI() < (*it)->getState()->getI()) {
+            } else if (after->getI() < (*it)->getI()) {
                 result+="up";
-            } else if (after.getState()->getJ()> (*it)->getState()->getJ()) {
+            } else if (after->getJ()> (*it)->getJ()) {
                 result+="right";
-            } else if (after.getState()->getJ()< (*it)->getState()->getJ()) {
+            } else if (after->getJ()< (*it)->getJ()) {
                 result+="left";
             }
             result+=",";

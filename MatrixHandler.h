@@ -8,35 +8,61 @@
 using namespace std;
 
 #include <list>
-#include "ClientHandler.h"
+
 #include "Matrix.h"
 #include "MatrixSolver.h"
+#include "AbstractClientHandler.h"
 #include <string.h>
+#include "Solver.h"
 #include <unistd.h>
 #include <sstream>
 
-class MatrixHandler : public ClientHandler {
+class MatrixHandler : public omer::AbstractClientHandler<string, string> {
 
 public:
-    MatrixHandler() {
-        this->solver= new MatrixSolver();
-        this->cachemanager = new CacheManager();
+    MatrixHandler() {}
+
+    static string addLine(string origin, string addition) {
+        vector<string> v = omer::split(v,addition, ' ');
+        for (int i = 0; i < v.size(); i++) {
+            origin += v[i];
+        }
+        return origin;
     }
 
-
-    //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!11
-    void handleClient(istream &inputStream, ostream &outputStream) {
-        std::string line, answer;
-        getline(inputStream, line);
-        std::string sent(line);
-        while (sent != "end" || !sent.empty()) {
-            if (this->cachemanager->containsSolution(&sent))
-                this->cachemanager->getSolution(&sent);
-            else
-                answer = this->solver->solve(sent);
-            this->cachemanager->saveSolution(&sent, &answer);
-            getline(cin, sent);
+    string getStringMatrixFromServer(int newsockfd) {
+        char buffer[100];
+        bool end = false;
+        string result = "";
+        while (!end) {
+            /* If connection is established then start communicating */
+            bzero(buffer, 100);
+            int n = read(newsockfd, buffer, 99);
+            if (n < 0) {
+                perror("ERROR reading from socket");
+                exit(1);
+            }
+            // check if the input has the end word
+            if (omer::endReceived(buffer, n)) {
+                end = true;
+            }
+            // if buffer doesnt have "end" in it
+            if (!end) {
+                // here the reading action went succesfully
+                string tempString(buffer);
+                result = addLine(result, tempString);
+                result += ';';
+                // here i should execute the ch with the proper matrix
+            } else {
+                return result;
+            }
         }
+    }
+
+    void handleClient(int newsockfd) {
+        t::Solver<string, string>* ms = new (nothrow) MatrixSolver();
+        string matrix = getStringMatrixFromServer(newsockfd);
+        string solution = ms->solve(matrix);
     }
 
 };

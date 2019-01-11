@@ -1,24 +1,23 @@
 //
-// Created by moriya on 02/01/19.
+// Created by aviv on 12/31/18.
 //
 
-#ifndef UNTITLED6_SOLVER_H
-#define UNTITLED6_SOLVER_H
-
-#include "string"
+#ifndef SECONDYEARPROJECT_BIU_SOLVER_H
+#define SECONDYEARPROJECT_BIU_SOLVER_H
 
 
-namespace server_side {
 
-
-    template<class problem, class solution>
+/**
+ * Solver Interface
+ */
+namespace t {
+    template <class problem, class solution>
     class Solver {
     public:
-
-        /*
-         * by this function we solve the problem.
-         */
+        Solver() {}
         virtual solution solve(problem) = 0;
+
     };
+
 }
-#endif //UNTITLED6_SOLVER_H
+#endif //SECONDYEARPROJECT_BIU_SOLVER_H

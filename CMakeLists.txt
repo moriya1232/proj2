@@ -27,7 +27,6 @@ add_executable(proj2
         ISearcher.h
         main.cpp
         MatrixSolver.h
-        Matrix.cpp
         Matrix.h
         MatrixHandler.h
         Minus.cpp
@@ -42,8 +41,6 @@ add_executable(proj2
         ParallelServer.h
         Plus.cpp
         Plus.h
-        Point.cpp
-        Point.h
         Searchable.h
         Searcher.h
         Server.h
@@ -53,4 +50,6 @@ add_executable(proj2
         UnaryExpression.cpp
         UnaryExpression.h
         UsefulFunctions.h
-        MyPair.h)
+        MyPair.h
+        AbstractClientHandler.h
+        Main.h)

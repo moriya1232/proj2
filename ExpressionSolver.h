@@ -10,9 +10,9 @@
 #include "Expression.h"
 using  namespace std;
 
-class ExpressionSolver : public Solver<string,Expression*> {
+class ExpressionSolver : public t::Solver<string,string> {
 public:
-    string solve(string);
+    string solve(string) override;
 };
 
 #endif //UNTITLED6_EXPRESSIONSOLVER_H
