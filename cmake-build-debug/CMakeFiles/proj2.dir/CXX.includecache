@@ -73,6 +73,8 @@ string.h
 -
 Solver.h
 /home/omer/CLionProjects/proj2/Solver.h
+fstream
+-
 unistd.h
 -
 sstream
@@ -92,6 +94,28 @@ BFS.h
 AbstractClientHandler.h
 /home/omer/CLionProjects/proj2/AbstractClientHandler.h
 
+/home/omer/CLionProjects/proj2/MyServer.cpp
+unistd.h
+-
+stdio.h
+-
+thread
+-
+netinet/in.h
+-
+string
+-
+string.h
+-
+errno.h
+-
+MyServer.h
+/home/omer/CLionProjects/proj2/MyServer.h
+list
+-
+MatrixHandler.h
+/home/omer/CLionProjects/proj2/MatrixHandler.h
+
 /home/omer/CLionProjects/proj2/MyServer.h
 Server.h
 /home/omer/CLionProjects/proj2/Server.h
@@ -100,6 +124,18 @@ iostream
 ClientHandler.h
 /home/omer/CLionProjects/proj2/ClientHandler.h
 time.h
+-
+
+/home/omer/CLionProjects/proj2/ParallelServer.cpp
+thread
+-
+strings.h
+-
+string
+-
+ParallelServer.h
+/home/omer/CLionProjects/proj2/ParallelServer.h
+vector
 -
 
 /home/omer/CLionProjects/proj2/ParallelServer.h

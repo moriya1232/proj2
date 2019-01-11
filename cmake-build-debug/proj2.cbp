@@ -204,6 +204,9 @@
 		<Unit filename="/home/omer/CLionProjects/proj2/Searcher.h">
 			<Option target="proj2"/>
 		</Unit>
+		<Unit filename="/home/omer/CLionProjects/proj2/SerialServer.h">
+			<Option target="proj2"/>
+		</Unit>
 		<Unit filename="/home/omer/CLionProjects/proj2/Server.h">
 			<Option target="proj2"/>
 		</Unit>

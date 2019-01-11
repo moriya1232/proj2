@@ -18,7 +18,7 @@ protected:
     ClientHandler* clientHandler;
     int sockfd;
     bool run;
-    virtual void handleClient(ClientHandler*, int) = 0;
+    virtual bool handleClient(ClientHandler*, int) = 0;
 public:
     MyServer();
     void stop() override;

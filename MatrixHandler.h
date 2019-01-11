@@ -14,6 +14,7 @@ using namespace std;
 #include "AbstractClientHandler.h"
 #include <string.h>
 #include "Solver.h"
+#include <fstream>
 #include <unistd.h>
 #include <sstream>
 
@@ -58,6 +59,18 @@ public:
         }
     }
 
+    static void addToSolution(string sol) {
+        std::ifstream file("solution.txt");
+        if (file.is_open()) {
+            file.close();
+            return;
+        }
+        std::ofstream file1("solution.txt", ios::app);
+        file1.close();
+        // we need to wirte down the cost (if its exsist) and the name of the algorithm
+        // like they say in the instruction
+    }
+
     void handleClient(int newsockfd) {
         t::Solver<string, string>* ms = new (nothrow) MatrixSolver<string, string>(this->cm);
         string sol = "";
@@ -67,6 +80,7 @@ public:
         } else {
             sol = ms->solve(matrix);
         }
+        //addToSolution(sol);
     }
 
 };

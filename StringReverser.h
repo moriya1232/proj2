@@ -9,7 +9,7 @@
 #include "Solver.h"
 #include "CacheManager.h"
 
-class StringReverser : public Solver<string,string> {
+class StringReverser : public t::Solver<string,string> {
 public:
     string solve(string line) {
         string result = "";
