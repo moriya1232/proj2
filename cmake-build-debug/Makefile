@@ -48,10 +48,10 @@ RM = /snap/clion/58/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/omer/CLionProjects/proj2
+CMAKE_SOURCE_DIR = /home/moriya/CLionProjects/untitled6
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/omer/CLionProjects/proj2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/moriya/CLionProjects/untitled6/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles /home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles /home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -366,33 +366,6 @@ Number.cpp.s:
 	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/Number.cpp.s
 .PHONY : Number.cpp.s
 
-ParallelServer.o: ParallelServer.cpp.o
-
-.PHONY : ParallelServer.o
-
-# target to build an object file
-ParallelServer.cpp.o:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/ParallelServer.cpp.o
-.PHONY : ParallelServer.cpp.o
-
-ParallelServer.i: ParallelServer.cpp.i
-
-.PHONY : ParallelServer.i
-
-# target to preprocess a source file
-ParallelServer.cpp.i:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/ParallelServer.cpp.i
-.PHONY : ParallelServer.cpp.i
-
-ParallelServer.s: ParallelServer.cpp.s
-
-.PHONY : ParallelServer.s
-
-# target to generate assembly for a file
-ParallelServer.cpp.s:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/ParallelServer.cpp.s
-.PHONY : ParallelServer.cpp.s
-
 Plus.o: Plus.cpp.o
 
 .PHONY : Plus.o
@@ -510,9 +483,6 @@ help:
 	@echo "... Number.o"
 	@echo "... Number.i"
 	@echo "... Number.s"
-	@echo "... ParallelServer.o"
-	@echo "... ParallelServer.i"
-	@echo "... ParallelServer.s"
 	@echo "... Plus.o"
 	@echo "... Plus.i"
 	@echo "... Plus.s"

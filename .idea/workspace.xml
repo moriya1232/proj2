@@ -13,19 +13,57 @@
   <component name="ChangeListManager">
     <list default="true" id="1306f703-4d2c-4ab6-94c2-7efe32ca9330" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractClientHandler.h" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractClientHandler.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestFirstSearch.h" beforeDir="false" afterPath="$PROJECT_DIR$/BestFirstSearch.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CacheManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/CacheManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExpressionSolver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ExpressionSolver.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExpressionSolver.h" beforeDir="false" afterPath="$PROJECT_DIR$/ExpressionSolver.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FileCacheManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/FileCacheManager.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MatrixHandler.h" beforeDir="false" afterPath="$PROJECT_DIR$/MatrixHandler.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyServer.h" beforeDir="false" afterPath="$PROJECT_DIR$/MyServer.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ParallelServer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ParallelServer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.h" beforeDir="false" afterPath="$PROJECT_DIR$/Main.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matrix.h" beforeDir="false" afterPath="$PROJECT_DIR$/Matrix.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MatrixSolver.h" beforeDir="false" afterPath="$PROJECT_DIR$/MatrixSolver.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyPair.h" beforeDir="false" afterPath="$PROJECT_DIR$/MyPair.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ParallelServer.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ParallelServer.h" beforeDir="false" afterPath="$PROJECT_DIR$/ParallelServer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Point.h" beforeDir="false" afterPath="$PROJECT_DIR$/Point.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Searchable.h" beforeDir="false" afterPath="$PROJECT_DIR$/Searchable.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Searcher.h" beforeDir="false" afterPath="$PROJECT_DIR$/Searcher.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SerialServer.h" beforeDir="false" afterPath="$PROJECT_DIR$/SerialServer.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Server.h" beforeDir="false" afterPath="$PROJECT_DIR$/Server.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solver.h" beforeDir="false" afterPath="$PROJECT_DIR$/Solver.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/BinaryExpression.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/BinaryExpression.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/DFS.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/DFS.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/Divide.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/Divide.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/Expression.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/Expression.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/ExpressionSolver.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/ExpressionSolver.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/Minus.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/Minus.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/Multiplication.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/Multiplication.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/MyServer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/MyServer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/Number.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/Number.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/ParallelServer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/ParallelServer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/Plus.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/Plus.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/UnaryExpression.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/UnaryExpression.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Problems.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Problems.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Solutions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Solutions.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proj2.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/proj2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/proj2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/proj2.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/proj2.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -40,82 +78,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FileCacheManager.h">
+        <entry file="file://$PROJECT_DIR$/ClientHandler.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="120" selection-start-line="120" selection-end-line="120" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cmake-build-debug/Solutions.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyServer.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="88" selection-start-line="88" selection-end-line="88" />
-              <folding>
-                <element signature="e#41#60#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MatrixSolver.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="97" selection-start-line="97" selection-end-line="97" />
-              <folding>
-                <element signature="e#100#118#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cmake-build-debug/Problems.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BFS.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="86" selection-start-line="86" selection-end-line="86" />
-              <folding>
-                <element signature="e#86#107#0" expanded="true" />
-                <element signature="e#198#207#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AbstractClientHandler.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
-              <folding>
-                <element signature="e#115#141#0" expanded="true" />
-                <element signature="e#231#262#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="266">
+              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -123,118 +89,178 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CacheManager.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+            <state relative-caret-position="342">
+              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BFS.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="91" column="24" selection-start-line="91" selection-start-column="24" selection-end-line="91" selection-end-column="24" />
               <folding>
-                <element signature="e#108#132#0" expanded="true" />
+                <element signature="e#86#107#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ExpressionSolver.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#37#66#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Expression.h">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DFS.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DFS.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BestFirstSearch.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AbstractClientHandler.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="63" column="38" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>std::std</find>
-      <find>this-&gt;cost =</find>
-      <find>setco</find>
-      <find>goal</find>
-      <find>sets</find>
-      <find>setvis</find>
-      <find>matrix(ve</find>
-      <find>&lt;State*&gt;</find>
-      <find>const</find>
-      <find>convertlis</find>
-      <find>getiniti</find>
-      <find>state</find>
-      <find>solver</find>
-      <find>set</find>
-      <find>geti</find>
-      <find>abs</find>
-      <find>getIndex</find>
-      <find>getsol</find>
-      <find>split</find>
-      <find>getgo</find>
-      <find>return this-&gt;state</find>
-      <find>waiti</find>
-      <find>, 0</find>
-      <find>gets</find>
-      <find>solutions,</find>
-      <find>alreadysol</find>
-      <find>getsolution</find>
-      <find>Solutions</find>
+      <find>openser</find>
+      <find>open</find>
+      <find>open()</find>
+      <find>omer</find>
+      <find>moriya/CLionProjects/untitled6</find>
+      <find>getca</find>
+      <find>setca</find>
+      <find>home/omer/CLionProjects/proj2</find>
+      <find>$PROJECT_DIR$</find>
+      <find>prob</find>
+      <find>getstate</find>
+      <find>getst</find>
+      <find>Scrt</find>
+      <find>gcc</find>
+      <find>main.o</find>
       <find>start</find>
-      <find>getnumber</find>
+      <find>endre</find>
+      <find>split</find>
+      <find>merge</find>
+      <find>MyPair</find>
+      <find>handleclien</find>
+      <find>solu</find>
+      <find>MyPair&lt;T1, T2&gt;::</find>
+      <find>solve</find>
+      <find>gr</find>
     </findStrings>
     <replaceStrings>
       <replace>omer/CLionProjects/proj2</replace>
       <replace>home/moriya/CLionProjects/untitled6</replace>
       <replace>$PROJECT_DIR$</replace>
       <replace>pair</replace>
-      <replace>std</replace>
-      <replace>&lt;State&lt;T&gt;*</replace>
-      <replace>solution</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_CHANGES_POLICY" value="SHELVE" />
     <option name="UPDATE_TYPE" value="REBASE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MyPriorityQueue.cpp" />
-        <option value="$PROJECT_DIR$/cmake-build-debug/proj2.cbp" />
         <option value="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
         <option value="$PROJECT_DIR$/cmake-build-debug/untitled6.cbp" />
         <option value="$PROJECT_DIR$/Solver.cpp" />
         <option value="$PROJECT_DIR$/cmake-build-debug/Makefile" />
         <option value="$PROJECT_DIR$/Astar.cpp" />
-        <option value="$PROJECT_DIR$/BFS.cpp" />
-        <option value="$PROJECT_DIR$/ClientHandler.cpp" />
-        <option value="$PROJECT_DIR$/DFS.cpp" />
-        <option value="$PROJECT_DIR$/DFS.h" />
-        <option value="$PROJECT_DIR$/MyPair.cpp" />
-        <option value="$PROJECT_DIR$/MyPair.h" />
-        <option value="$PROJECT_DIR$/Point.cpp" />
-        <option value="$PROJECT_DIR$/State.cpp" />
-        <option value="$PROJECT_DIR$/StringReverser.cpp" />
-        <option value="$PROJECT_DIR$/Searcher.cpp" />
-        <option value="$PROJECT_DIR$/CacheManager.cpp" />
-        <option value="$PROJECT_DIR$/MatrixSolver.cpp" />
-        <option value="$PROJECT_DIR$/ExpressionSolver.cpp" />
-        <option value="$PROJECT_DIR$/FileCatchManager.cpp" />
-        <option value="$PROJECT_DIR$/MatrixHandler.cpp" />
-        <option value="$PROJECT_DIR$/MyTestClientHandler.h" />
-        <option value="$PROJECT_DIR$/MyTestClientHandler.cpp" />
-        <option value="$PROJECT_DIR$/Main.h" />
-        <option value="$PROJECT_DIR$/ClientHandler.h" />
-        <option value="$PROJECT_DIR$/ExpressionSolver.h" />
         <option value="$PROJECT_DIR$/Astar.h" />
+        <option value="$PROJECT_DIR$/ClientHandler.cpp" />
         <option value="$PROJECT_DIR$/Matrix.cpp" />
-        <option value="$PROJECT_DIR$/ISearcher.h" />
+        <option value="$PROJECT_DIR$/MyPair.cpp" />
+        <option value="$PROJECT_DIR$/StringReverser.cpp" />
+        <option value="$PROJECT_DIR$/CacheManager.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/MatrixSolver.cpp" />
+        <option value="$PROJECT_DIR$/FileCatchManager.cpp" />
+        <option value="$PROJECT_DIR$/MyServer.cpp" />
+        <option value="$PROJECT_DIR$/MyTestClientHandler.cpp" />
+        <option value="$PROJECT_DIR$/MyTestClientHandler.h" />
+        <option value="$PROJECT_DIR$/ParallelServer.cpp" />
+        <option value="$PROJECT_DIR$/MyServer.h" />
+        <option value="$PROJECT_DIR$/BFS.cpp" />
+        <option value="$PROJECT_DIR$/Searcher.cpp" />
+        <option value="$PROJECT_DIR$/State.cpp" />
+        <option value="$PROJECT_DIR$/Point.cpp" />
+        <option value="$PROJECT_DIR$/MatrixHandler.cpp" />
+        <option value="$PROJECT_DIR$/UsefulFunctions.h" />
+        <option value="$PROJECT_DIR$/StringReverser.h" />
         <option value="$PROJECT_DIR$/State.h" />
-        <option value="$PROJECT_DIR$/Point.h" />
-        <option value="$PROJECT_DIR$/Searchable.h" />
-        <option value="$PROJECT_DIR$/Searcher.h" />
-        <option value="$PROJECT_DIR$/BFS.h" />
         <option value="$PROJECT_DIR$/Solver.h" />
-        <option value="$PROJECT_DIR$/CacheManager.h" />
-        <option value="$PROJECT_DIR$/AbstractClientHandler.h" />
+        <option value="$PROJECT_DIR$/Server.h" />
+        <option value="$PROJECT_DIR$/SerialServer.h" />
+        <option value="$PROJECT_DIR$/Searcher.h" />
+        <option value="$PROJECT_DIR$/Searchable.h" />
+        <option value="$PROJECT_DIR$/Point.h" />
+        <option value="$PROJECT_DIR$/ParallelServer.h" />
+        <option value="$PROJECT_DIR$/MyPair.h" />
         <option value="$PROJECT_DIR$/MatrixSolver.h" />
         <option value="$PROJECT_DIR$/Matrix.h" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/StringReverser.h" />
-        <option value="$PROJECT_DIR$/SerialServer.h" />
-        <option value="$PROJECT_DIR$/Server.h" />
-        <option value="$PROJECT_DIR$/MyServer.cpp" />
-        <option value="$PROJECT_DIR$/MyServer.h" />
-        <option value="$PROJECT_DIR$/ParallelServer.cpp" />
-        <option value="$PROJECT_DIR$/ParallelServer.h" />
+        <option value="$PROJECT_DIR$/Main.h" />
         <option value="$PROJECT_DIR$/MatrixHandler.h" />
-        <option value="$PROJECT_DIR$/FileCacheManager.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/ISearcher.h" />
+        <option value="$PROJECT_DIR$/FileCacheManager.h" />
+        <option value="$PROJECT_DIR$/ExpressionSolver.h" />
+        <option value="$PROJECT_DIR$/ExpressionSolver.cpp" />
+        <option value="$PROJECT_DIR$/DFS.h" />
+        <option value="$PROJECT_DIR$/DFS.cpp" />
+        <option value="$PROJECT_DIR$/ClientHandler.h" />
+        <option value="$PROJECT_DIR$/CacheManager.h" />
+        <option value="$PROJECT_DIR$/BFS.h" />
+        <option value="$PROJECT_DIR$/BestFirstSearch.h" />
+        <option value="$PROJECT_DIR$/AbstractClientHandler.h" />
       </list>
     </option>
   </component>
@@ -242,7 +268,7 @@
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="163" />
     <option name="y" value="116" />
-    <option name="width" value="1113" />
+    <option name="width" value="1123" />
     <option name="height" value="664" />
   </component>
   <component name="ProjectView">
@@ -255,11 +281,11 @@
           <expand>
             <path>
               <item name="proj2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proj2" type="462c0819:PsiDirectoryNode" />
+              <item name="untitled6" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="proj2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proj2" type="462c0819:PsiDirectoryNode" />
+              <item name="untitled6" type="462c0819:PsiDirectoryNode" />
               <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -311,49 +337,25 @@
       <workItem from="1546800332460" duration="166000" />
       <workItem from="1547122011900" duration="1418000" />
       <workItem from="1547126214118" duration="12289000" />
-      <workItem from="1547159571588" duration="1732000" />
-      <workItem from="1547161341608" duration="9429000" />
-      <workItem from="1547199633210" duration="5509000" />
-      <workItem from="1547205189849" duration="3870000" />
-      <workItem from="1547213259211" duration="461000" />
-      <workItem from="1547213748340" duration="415000" />
-      <workItem from="1547214189301" duration="206000" />
-      <workItem from="1547214423905" duration="38000" />
-      <workItem from="1547214488307" duration="9932000" />
-      <workItem from="1547225150659" duration="154000" />
-      <workItem from="1547225328017" duration="948000" />
-      <workItem from="1547229309121" duration="1660000" />
-      <workItem from="1547231002213" duration="4069000" />
-      <workItem from="1547237450943" duration="264000" />
-      <workItem from="1547237749037" duration="1043000" />
-      <workItem from="1547238820554" duration="326000" />
-      <workItem from="1547239171239" duration="213000" />
-      <workItem from="1547239413815" duration="173000" />
-      <workItem from="1547239628800" duration="650000" />
-      <workItem from="1547240373165" duration="1630000" />
-      <workItem from="1547242032965" duration="1351000" />
-      <workItem from="1547243432726" duration="1849000" />
-      <workItem from="1547245320218" duration="3794000" />
-      <workItem from="1547249157513" duration="574000" />
-      <workItem from="1547249762400" duration="1029000" />
+      <workItem from="1547326953746" duration="1866000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110632000" />
+    <option name="totallyTimeSpent" value="67482000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="925" extended-state="6" />
+    <frame x="0" y="25" width="1853" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21527393" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26674044" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32788944" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32814527" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.34045225" />
-      <window_info anchor="bottom" id="Debug" order="4" visible="true" weight="0.33668342" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.33981842" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.3372244" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -375,44 +377,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/MatrixHandler.h</url>
-          <line>34</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/MatrixHandler.h</url>
-          <line>39</line>
-          <option name="timeStamp" value="26" />
+          <url>file://$PROJECT_DIR$/ParallelServer.h</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/MyServer.cpp</url>
-          <line>88</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>22</line>
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/FileCacheManager.h</url>
-          <line>117</line>
-          <option name="timeStamp" value="65" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>16</line>
-          <option name="timeStamp" value="67" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/MatrixSolver.h</url>
-          <line>97</line>
-          <option name="timeStamp" value="71" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/MatrixSolver.h</url>
-          <line>89</line>
-          <option name="timeStamp" value="72" />
+          <line>14</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -423,328 +395,294 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/include/c++/7/type_traits">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="142" column="11" selection-start-line="142" selection-start-column="11" selection-end-line="142" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MatrixHandler.cpp" />
-    <entry file="file://$PROJECT_DIR$/MyTestClientHandler.h" />
-    <entry file="file://$PROJECT_DIR$/MyTestClientHandler.cpp" />
-    <entry file="file://$PROJECT_DIR$/Main.cpp" />
-    <entry file="file://$PROJECT_DIR$/BestFirstSearch.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExpressionSolver.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExpressionSolver.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding>
-            <element signature="e#37#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Point.cpp" />
-    <entry file="file://$PROJECT_DIR$/Matrix.cpp" />
-    <entry file="file://$PROJECT_DIR$/Divide.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DFS.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ISearcher.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding>
-            <element signature="e#94#117#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Astar.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Number.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Number.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Point.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/7/thread">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2223">
-          <caret line="117" selection-start-line="117" selection-end-line="117" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Searchable.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Searcher.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-          <folding>
-            <element signature="e#150#159#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FileCatchManager.cpp" />
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/ProblemAndSolutions.txt" />
-    <entry file="file:///usr/include/c++/7/iostream">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClientHandler.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/7/bits/stl_vector.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="343" column="6" selection-start-line="343" selection-start-column="6" selection-end-line="343" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/7/ext/new_allocator.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="135" selection-start-line="135" selection-end-line="135" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/State.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1596">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
-          <folding>
-            <element signature="e#86#101#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Matrix.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="88" column="21" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
-          <folding>
-            <element signature="e#109#127#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/7/iosfwd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="164" column="36" selection-start-line="164" selection-start-column="36" selection-end-line="164" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StringReverser.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ParallelServer.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/7/bits/invoke.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="96" selection-start-line="96" selection-end-line="96" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Solver.cpp" />
     <entry file="file://$PROJECT_DIR$/MyServer.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="16" />
+        <state relative-caret-position="171">
+          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
           <folding>
             <element signature="e#97#116#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Server.h">
+    <entry file="file://$PROJECT_DIR$/ClientHandler.cpp" />
+    <entry file="file://$PROJECT_DIR$/BFS.cpp" />
+    <entry file="file://$PROJECT_DIR$/StringReverser.cpp" />
+    <entry file="file://$PROJECT_DIR$/MyPair.cpp" />
+    <entry file="file://$PROJECT_DIR$/MatrixSolver.cpp" />
+    <entry file="file://$PROJECT_DIR$/Searcher.cpp" />
+    <entry file="file://$PROJECT_DIR$/Searchable.cpp" />
+    <entry file="file://$PROJECT_DIR$/ISearcher.cpp" />
+    <entry file="file:///usr/include/c++/7/iosfwd">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        <state relative-caret-position="162">
+          <caret line="149" column="40" selection-start-line="149" selection-start-column="40" selection-end-line="149" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SerialServer.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ParallelServer.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#36#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/MatrixHandler.cpp" />
+    <entry file="file://$PROJECT_DIR$/MyTestClientHandler.cpp" />
+    <entry file="file://$PROJECT_DIR$/MyTestClientHandler.h" />
+    <entry file="file://$PROJECT_DIR$/State.cpp" />
+    <entry file="file://$PROJECT_DIR$/Point.cpp" />
     <entry file="file://$PROJECT_DIR$/MyServer.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        <state relative-caret-position="1077">
+          <caret line="76" column="18" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
           <folding>
             <element signature="e#41#60#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BinaryExpression.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinaryExpression.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Astar.cpp" />
+    <entry file="file://$PROJECT_DIR$/BestFirstSearch.cpp" />
+    <entry file="file://$PROJECT_DIR$/UsefulFunctions.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="294" column="34" selection-start-line="294" selection-start-column="34" selection-end-line="294" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StringReverser.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/State.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="96" column="22" selection-start-line="96" selection-start-column="22" selection-end-line="96" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Solver.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SerialServer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1862">
+          <caret line="98" column="29" selection-start-line="98" selection-start-column="29" selection-end-line="98" selection-end-column="29" />
+          <folding>
+            <element signature="e#97#118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Searcher.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="50" column="9" selection-end-line="56" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Searchable.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding>
+            <element signature="e#121#138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Point.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ParallelServer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="15" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+          <folding>
+            <element signature="e#36#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ParallelServer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="92" column="35" selection-start-line="92" selection-start-column="35" selection-end-line="92" selection-end-column="35" />
+          <folding>
+            <element signature="e#108#127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyPair.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+          <folding>
+            <element signature="e#130#150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MatrixSolver.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="155" column="29" selection-start-line="155" selection-start-column="29" selection-end-line="155" selection-end-column="29" />
+          <folding>
+            <element signature="e#100#118#0" expanded="true" />
+            <element signature="e#260#291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Matrix.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2299">
+          <caret line="121" column="23" selection-start-line="121" selection-start-column="23" selection-end-line="121" selection-end-column="23" />
+          <folding>
+            <element signature="e#109#127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MatrixHandler.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+        <state relative-caret-position="1615">
+          <caret line="85" column="30" selection-start-line="85" selection-start-column="30" selection-end-line="85" selection-end-column="30" />
           <folding>
             <element signature="e#124#139#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CacheManager.h">
+    <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        <state relative-caret-position="340">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
           <folding>
-            <element signature="e#108#132#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/include/c++/7/ext/string_conversions.h">
+    <entry file="file://$PROJECT_DIR$/Main.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        <state relative-caret-position="342">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AbstractClientHandler.h">
+    <entry file="file://$PROJECT_DIR$/ISearcher.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="399">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
           <folding>
-            <element signature="e#115#141#0" expanded="true" />
-            <element signature="e#231#262#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BFS.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
-          <folding>
-            <element signature="e#86#107#0" expanded="true" />
-            <element signature="e#198#207#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Solver.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Problems.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MatrixSolver.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="97" selection-start-line="97" selection-end-line="97" />
-          <folding>
-            <element signature="e#100#118#0" expanded="true" />
+            <element signature="e#94#117#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FileCacheManager.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="120" selection-start-line="120" selection-end-line="120" />
+        <state relative-caret-position="416">
+          <caret line="130" column="33" selection-start-line="130" selection-start-column="33" selection-end-line="130" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Solutions.txt">
+    <entry file="file://$PROJECT_DIR$/ExpressionSolver.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <folding>
+            <element signature="e#112#127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpressionSolver.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#37#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expression.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/DFS.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        <state relative-caret-position="380">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DFS.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientHandler.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CacheManager.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BFS.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="91" column="24" selection-start-line="91" selection-start-column="24" selection-end-line="91" selection-end-column="24" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#86#107#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BestFirstSearch.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractClientHandler.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="63" column="38" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="38" />
         </state>
       </provider>
     </entry>

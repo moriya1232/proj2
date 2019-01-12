@@ -85,6 +85,7 @@ public:
                     file.close();
                     return line.substr(temp.length() + 1);
                 }
+                getline(file, line);
             }
         }
     }

@@ -26,19 +26,32 @@ public:
         return start;
     }
 
+    size_t getNOrder() {
+        return this->n;
+    }
+
+    size_t getMOrder() {
+        return this->m;
+    }
+
+    string getStateAsString(State<Point>* s) {
+        string result ="";
+        result += to_string(s->getI()) + ", " + to_string(s->getJ());
+        return result;
+    }
+
     bool isGoalState(State<Point>* state) {
         return state == this->goal;
     }
 
-    Matrix(vector<vector<int>> arr, size_t m ,size_t n) {
+    Matrix(vector<vector<int>> arr, size_t n ,size_t m) {
         this->n = n;
         this->m = m;
         vector<vector<State<Point>*>> vec;
         vector<State<Point>*> v;
         //State** temp = *this->states;
-        for (int i=0; i< m ;++i) {
-            for (int j=0; j< n; ++j) {
-                string str = to_string(i) + " " + to_string(j);
+        for (int i=0; i< n ;++i) {
+            for (int j=0; j< m; ++j) {
                 int bla = arr[i][j];
                 State<Point>* s = new StateOfPoint(Point(i,j));
                 s->setCost(bla);
@@ -53,7 +66,7 @@ public:
     }
 
     vector<vector<State<Point>*>> getAllTheStates() {
-        return  this->states;
+        return this->states;
     }
 
     vector<State<Point>*> getAllPossibleStates(State<Point> t){

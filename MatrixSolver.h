@@ -9,6 +9,7 @@
 #include "Matrix.h"
 #include "Solver.h"
 #include <iostream>
+#include <fstream>
 #include "BFS.h"
 #include "AbstractClientHandler.h"
 
@@ -22,7 +23,7 @@ public:
         string result = "";
         char c = line[i];
         while (i < line.length()) {
-            if (c - '0' >= 0 && c - '0' <= 9) {
+            if (isDigit(c)) {
                 result += c;
                 c = line[++i];
             } else if (c == ';') {
@@ -31,7 +32,7 @@ public:
             } else {
                 result += ' ';
                 // skeep anything until you reach a digit again or the line is over
-                while (i < line.length() && c - '0' < 0 || c - '0' > 9) {
+                while (i < line.length() && !isDigit(c)) {
                     c = line[++i];
                 }
             }
@@ -75,30 +76,80 @@ public:
             matrixHolder.push_back(currLine);
         }
         int n = matrixParts.size();
-        Matrix<Point>* m = new Matrix<Point>(matrixHolder, n, n);
+        int m = matrixHolder[0].size();
+        Matrix<Point>* matrix = new Matrix<Point>(matrixHolder, n, m);
         // now set the initial state and the goal state
-        vector<State<Point>*> specialStates = getSpecialStates(parts, m->getAllTheStates());
+        vector<State<Point>*> specialStates = getSpecialStates(parts, matrix->getAllTheStates());
         State<Point>* start = specialStates[0];
         State<Point>* goal = specialStates[1];
-        m->setInitialState(start);
-        m->setGoalState(goal);
-        return m;
+        matrix->setInitialState(start);
+        matrix->setGoalState(goal);
+        return matrix;
     }
 
-    string solve(string pro) override{
+    static bool isDigit(char c) {
+        return (c - '0' >= 0 && c - '0' <= 9);
+    }
+
+    static void writeMatrixToFile(int num, int n, int m, string start, string end, Matrix<Point>* matrix) {
+        ofstream file("graphs.txt", ios::app);
+        file << to_string(num) << endl;
+        file << to_string(n) + ", " + to_string(m) << endl;
+        file << start << endl;
+        file << end << endl;
+        vector<vector<State<Point>*>> states = matrix->getAllTheStates();
+        string temp = "";
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                temp += to_string((int) states[i][j]->getCost());
+                if (j + 1 < n) {
+                    temp += ", ";
+                }
+            }
+            file << temp << endl;
+            temp = "";
+        }
+        file.close();
+    }
+
+    void updateGraph(string s) override {
+        Matrix<Point>* matrix = getMatrix(s);
+        // 1- number of matrix - we need to count it somehow WE SHOULD WRITE IT WITH A COUNTER
+        int numberOfMatrix = 1;
+        // get the line number
+        int n = matrix->getNOrder();
+        // get the columns numbers
+        int m = matrix->getMOrder();
+        // get the string representation of the initial state
+        string start = matrix->getStateAsString(matrix->getInitialState());
+        // get the string representation of the goal state
+        string end = matrix->getStateAsString(matrix->getGoalState());
+        // write down the matrix
+        writeMatrixToFile(numberOfMatrix, n, m, start, end, matrix);
+        // 2- all the graphs in this way:
+        //          -
+    }
+
+
+    string solve(string pro) override {
+        bool save = true;
+        string sol = "";
         // if we already solve this problem
         if (this->cm->alreadySolved(pro)) {
             cout << "We took the solution from the files." << endl;
-            return this->cm->getSolution(pro);
+            sol = this->cm->getSolution(pro);
+            save = false;
         }
         // if its a new problem
         Matrix<Point>* m = getMatrix(pro);
         BFS<Point>* bfs = new BFS<Point>();
-        string sol = bfs->search(m);
-        this->cm->save(pro, sol);
+        sol = bfs->search(m);
+        if (save) {
+            this->cm->save(pro, sol);
+        }
+        this->updateGraph(pro);
         return sol;
     }
-//public: MatrixSolver() = default;
 };
 
 

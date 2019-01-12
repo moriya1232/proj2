@@ -13,4 +13,3 @@ string ExpressionSolver::solve(string problem) {
     string solution = to_string(e->calculate());
     return solution;
 }
-

@@ -39,17 +39,17 @@ public:
             it--;
             State<T>* curr = *it;
             if (after->getI()> curr->getI()) {
-                result+="down";
+                result+="Down";
             } else if (after->getI() < curr->getI()) {
-                result+="up";
+                result+="Up";
             } else if (after->getJ()> curr->getJ()) {
-                result+="right";
+                result+="Right";
             } else if (after->getJ()< curr->getJ()) {
-                result+="left";
+                result+="Left";
             }
-            result+=",";
+            result+=", ";
         }
-        result = result.substr(0,result.length()-1);
+        result = result.substr(0,result.length()-2);
         return result;
     }
 

@@ -43,10 +43,10 @@ RM = /snap/clion/58/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/omer/CLionProjects/proj2
+CMAKE_SOURCE_DIR = /home/moriya/CLionProjects/untitled6
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/omer/CLionProjects/proj2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/moriya/CLionProjects/untitled6/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/proj2.dir/depend.make
@@ -59,172 +59,159 @@ include CMakeFiles/proj2.dir/flags.make
 
 CMakeFiles/proj2.dir/BinaryExpression.cpp.o: CMakeFiles/proj2.dir/flags.make
 CMakeFiles/proj2.dir/BinaryExpression.cpp.o: ../BinaryExpression.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/proj2.dir/BinaryExpression.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj2.dir/BinaryExpression.cpp.o -c /home/omer/CLionProjects/proj2/BinaryExpression.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/proj2.dir/BinaryExpression.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj2.dir/BinaryExpression.cpp.o -c /home/moriya/CLionProjects/untitled6/BinaryExpression.cpp
 
 CMakeFiles/proj2.dir/BinaryExpression.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proj2.dir/BinaryExpression.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omer/CLionProjects/proj2/BinaryExpression.cpp > CMakeFiles/proj2.dir/BinaryExpression.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moriya/CLionProjects/untitled6/BinaryExpression.cpp > CMakeFiles/proj2.dir/BinaryExpression.cpp.i
 
 CMakeFiles/proj2.dir/BinaryExpression.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proj2.dir/BinaryExpression.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omer/CLionProjects/proj2/BinaryExpression.cpp -o CMakeFiles/proj2.dir/BinaryExpression.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moriya/CLionProjects/untitled6/BinaryExpression.cpp -o CMakeFiles/proj2.dir/BinaryExpression.cpp.s
 
 CMakeFiles/proj2.dir/DFS.cpp.o: CMakeFiles/proj2.dir/flags.make
 CMakeFiles/proj2.dir/DFS.cpp.o: ../DFS.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/proj2.dir/DFS.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj2.dir/DFS.cpp.o -c /home/omer/CLionProjects/proj2/DFS.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/proj2.dir/DFS.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj2.dir/DFS.cpp.o -c /home/moriya/CLionProjects/untitled6/DFS.cpp
 
 CMakeFiles/proj2.dir/DFS.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proj2.dir/DFS.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omer/CLionProjects/proj2/DFS.cpp > CMakeFiles/proj2.dir/DFS.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moriya/CLionProjects/untitled6/DFS.cpp > CMakeFiles/proj2.dir/DFS.cpp.i
 
 CMakeFiles/proj2.dir/DFS.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proj2.dir/DFS.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omer/CLionProjects/proj2/DFS.cpp -o CMakeFiles/proj2.dir/DFS.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moriya/CLionProjects/untitled6/DFS.cpp -o CMakeFiles/proj2.dir/DFS.cpp.s
 
 CMakeFiles/proj2.dir/Divide.cpp.o: CMakeFiles/proj2.dir/flags.make
 CMakeFiles/proj2.dir/Divide.cpp.o: ../Divide.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/proj2.dir/Divide.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj2.dir/Divide.cpp.o -c /home/omer/CLionProjects/proj2/Divide.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/proj2.dir/Divide.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj2.dir/Divide.cpp.o -c /home/moriya/CLionProjects/untitled6/Divide.cpp
 
 CMakeFiles/proj2.dir/Divide.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proj2.dir/Divide.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omer/CLionProjects/proj2/Divide.cpp > CMakeFiles/proj2.dir/Divide.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moriya/CLionProjects/untitled6/Divide.cpp > CMakeFiles/proj2.dir/Divide.cpp.i
 
 CMakeFiles/proj2.dir/Divide.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proj2.dir/Divide.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omer/CLionProjects/proj2/Divide.cpp -o CMakeFiles/proj2.dir/Divide.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moriya/CLionProjects/untitled6/Divide.cpp -o CMakeFiles/proj2.dir/Divide.cpp.s
 
 CMakeFiles/proj2.dir/Expression.cpp.o: CMakeFiles/proj2.dir/flags.make
 CMakeFiles/proj2.dir/Expression.cpp.o: ../Expression.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/proj2.dir/Expression.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj2.dir/Expression.cpp.o -c /home/omer/CLionProjects/proj2/Expression.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/proj2.dir/Expression.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj2.dir/Expression.cpp.o -c /home/moriya/CLionProjects/untitled6/Expression.cpp
 
 CMakeFiles/proj2.dir/Expression.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proj2.dir/Expression.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omer/CLionProjects/proj2/Expression.cpp > CMakeFiles/proj2.dir/Expression.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moriya/CLionProjects/untitled6/Expression.cpp > CMakeFiles/proj2.dir/Expression.cpp.i
 
 CMakeFiles/proj2.dir/Expression.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proj2.dir/Expression.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omer/CLionProjects/proj2/Expression.cpp -o CMakeFiles/proj2.dir/Expression.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moriya/CLionProjects/untitled6/Expression.cpp -o CMakeFiles/proj2.dir/Expression.cpp.s
 
 CMakeFiles/proj2.dir/ExpressionSolver.cpp.o: CMakeFiles/proj2.dir/flags.make
 CMakeFiles/proj2.dir/ExpressionSolver.cpp.o: ../ExpressionSolver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/proj2.dir/ExpressionSolver.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj2.dir/ExpressionSolver.cpp.o -c /home/omer/CLionProjects/proj2/ExpressionSolver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/proj2.dir/ExpressionSolver.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj2.dir/ExpressionSolver.cpp.o -c /home/moriya/CLionProjects/untitled6/ExpressionSolver.cpp
 
 CMakeFiles/proj2.dir/ExpressionSolver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proj2.dir/ExpressionSolver.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omer/CLionProjects/proj2/ExpressionSolver.cpp > CMakeFiles/proj2.dir/ExpressionSolver.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moriya/CLionProjects/untitled6/ExpressionSolver.cpp > CMakeFiles/proj2.dir/ExpressionSolver.cpp.i
 
 CMakeFiles/proj2.dir/ExpressionSolver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proj2.dir/ExpressionSolver.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omer/CLionProjects/proj2/ExpressionSolver.cpp -o CMakeFiles/proj2.dir/ExpressionSolver.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moriya/CLionProjects/untitled6/ExpressionSolver.cpp -o CMakeFiles/proj2.dir/ExpressionSolver.cpp.s
 
 CMakeFiles/proj2.dir/main.cpp.o: CMakeFiles/proj2.dir/flags.make
 CMakeFiles/proj2.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/proj2.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj2.dir/main.cpp.o -c /home/omer/CLionProjects/proj2/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/proj2.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj2.dir/main.cpp.o -c /home/moriya/CLionProjects/untitled6/main.cpp
 
 CMakeFiles/proj2.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proj2.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omer/CLionProjects/proj2/main.cpp > CMakeFiles/proj2.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moriya/CLionProjects/untitled6/main.cpp > CMakeFiles/proj2.dir/main.cpp.i
 
 CMakeFiles/proj2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proj2.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omer/CLionProjects/proj2/main.cpp -o CMakeFiles/proj2.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moriya/CLionProjects/untitled6/main.cpp -o CMakeFiles/proj2.dir/main.cpp.s
 
 CMakeFiles/proj2.dir/Minus.cpp.o: CMakeFiles/proj2.dir/flags.make
 CMakeFiles/proj2.dir/Minus.cpp.o: ../Minus.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/proj2.dir/Minus.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj2.dir/Minus.cpp.o -c /home/omer/CLionProjects/proj2/Minus.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/proj2.dir/Minus.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj2.dir/Minus.cpp.o -c /home/moriya/CLionProjects/untitled6/Minus.cpp
 
 CMakeFiles/proj2.dir/Minus.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proj2.dir/Minus.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omer/CLionProjects/proj2/Minus.cpp > CMakeFiles/proj2.dir/Minus.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moriya/CLionProjects/untitled6/Minus.cpp > CMakeFiles/proj2.dir/Minus.cpp.i
 
 CMakeFiles/proj2.dir/Minus.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proj2.dir/Minus.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omer/CLionProjects/proj2/Minus.cpp -o CMakeFiles/proj2.dir/Minus.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moriya/CLionProjects/untitled6/Minus.cpp -o CMakeFiles/proj2.dir/Minus.cpp.s
 
 CMakeFiles/proj2.dir/Multiplication.cpp.o: CMakeFiles/proj2.dir/flags.make
 CMakeFiles/proj2.dir/Multiplication.cpp.o: ../Multiplication.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/proj2.dir/Multiplication.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj2.dir/Multiplication.cpp.o -c /home/omer/CLionProjects/proj2/Multiplication.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/proj2.dir/Multiplication.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj2.dir/Multiplication.cpp.o -c /home/moriya/CLionProjects/untitled6/Multiplication.cpp
 
 CMakeFiles/proj2.dir/Multiplication.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proj2.dir/Multiplication.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omer/CLionProjects/proj2/Multiplication.cpp > CMakeFiles/proj2.dir/Multiplication.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moriya/CLionProjects/untitled6/Multiplication.cpp > CMakeFiles/proj2.dir/Multiplication.cpp.i
 
 CMakeFiles/proj2.dir/Multiplication.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proj2.dir/Multiplication.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omer/CLionProjects/proj2/Multiplication.cpp -o CMakeFiles/proj2.dir/Multiplication.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moriya/CLionProjects/untitled6/Multiplication.cpp -o CMakeFiles/proj2.dir/Multiplication.cpp.s
 
 CMakeFiles/proj2.dir/MyServer.cpp.o: CMakeFiles/proj2.dir/flags.make
 CMakeFiles/proj2.dir/MyServer.cpp.o: ../MyServer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/proj2.dir/MyServer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj2.dir/MyServer.cpp.o -c /home/omer/CLionProjects/proj2/MyServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/proj2.dir/MyServer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj2.dir/MyServer.cpp.o -c /home/moriya/CLionProjects/untitled6/MyServer.cpp
 
 CMakeFiles/proj2.dir/MyServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proj2.dir/MyServer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omer/CLionProjects/proj2/MyServer.cpp > CMakeFiles/proj2.dir/MyServer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moriya/CLionProjects/untitled6/MyServer.cpp > CMakeFiles/proj2.dir/MyServer.cpp.i
 
 CMakeFiles/proj2.dir/MyServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proj2.dir/MyServer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omer/CLionProjects/proj2/MyServer.cpp -o CMakeFiles/proj2.dir/MyServer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moriya/CLionProjects/untitled6/MyServer.cpp -o CMakeFiles/proj2.dir/MyServer.cpp.s
 
 CMakeFiles/proj2.dir/Number.cpp.o: CMakeFiles/proj2.dir/flags.make
 CMakeFiles/proj2.dir/Number.cpp.o: ../Number.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/proj2.dir/Number.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj2.dir/Number.cpp.o -c /home/omer/CLionProjects/proj2/Number.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/proj2.dir/Number.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj2.dir/Number.cpp.o -c /home/moriya/CLionProjects/untitled6/Number.cpp
 
 CMakeFiles/proj2.dir/Number.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proj2.dir/Number.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omer/CLionProjects/proj2/Number.cpp > CMakeFiles/proj2.dir/Number.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moriya/CLionProjects/untitled6/Number.cpp > CMakeFiles/proj2.dir/Number.cpp.i
 
 CMakeFiles/proj2.dir/Number.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proj2.dir/Number.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omer/CLionProjects/proj2/Number.cpp -o CMakeFiles/proj2.dir/Number.cpp.s
-
-CMakeFiles/proj2.dir/ParallelServer.cpp.o: CMakeFiles/proj2.dir/flags.make
-CMakeFiles/proj2.dir/ParallelServer.cpp.o: ../ParallelServer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/proj2.dir/ParallelServer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj2.dir/ParallelServer.cpp.o -c /home/omer/CLionProjects/proj2/ParallelServer.cpp
-
-CMakeFiles/proj2.dir/ParallelServer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proj2.dir/ParallelServer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omer/CLionProjects/proj2/ParallelServer.cpp > CMakeFiles/proj2.dir/ParallelServer.cpp.i
-
-CMakeFiles/proj2.dir/ParallelServer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proj2.dir/ParallelServer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omer/CLionProjects/proj2/ParallelServer.cpp -o CMakeFiles/proj2.dir/ParallelServer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moriya/CLionProjects/untitled6/Number.cpp -o CMakeFiles/proj2.dir/Number.cpp.s
 
 CMakeFiles/proj2.dir/Plus.cpp.o: CMakeFiles/proj2.dir/flags.make
 CMakeFiles/proj2.dir/Plus.cpp.o: ../Plus.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/proj2.dir/Plus.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj2.dir/Plus.cpp.o -c /home/omer/CLionProjects/proj2/Plus.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/proj2.dir/Plus.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj2.dir/Plus.cpp.o -c /home/moriya/CLionProjects/untitled6/Plus.cpp
 
 CMakeFiles/proj2.dir/Plus.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proj2.dir/Plus.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omer/CLionProjects/proj2/Plus.cpp > CMakeFiles/proj2.dir/Plus.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moriya/CLionProjects/untitled6/Plus.cpp > CMakeFiles/proj2.dir/Plus.cpp.i
 
 CMakeFiles/proj2.dir/Plus.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proj2.dir/Plus.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omer/CLionProjects/proj2/Plus.cpp -o CMakeFiles/proj2.dir/Plus.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moriya/CLionProjects/untitled6/Plus.cpp -o CMakeFiles/proj2.dir/Plus.cpp.s
 
 CMakeFiles/proj2.dir/UnaryExpression.cpp.o: CMakeFiles/proj2.dir/flags.make
 CMakeFiles/proj2.dir/UnaryExpression.cpp.o: ../UnaryExpression.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/proj2.dir/UnaryExpression.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj2.dir/UnaryExpression.cpp.o -c /home/omer/CLionProjects/proj2/UnaryExpression.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/proj2.dir/UnaryExpression.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj2.dir/UnaryExpression.cpp.o -c /home/moriya/CLionProjects/untitled6/UnaryExpression.cpp
 
 CMakeFiles/proj2.dir/UnaryExpression.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proj2.dir/UnaryExpression.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omer/CLionProjects/proj2/UnaryExpression.cpp > CMakeFiles/proj2.dir/UnaryExpression.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moriya/CLionProjects/untitled6/UnaryExpression.cpp > CMakeFiles/proj2.dir/UnaryExpression.cpp.i
 
 CMakeFiles/proj2.dir/UnaryExpression.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proj2.dir/UnaryExpression.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omer/CLionProjects/proj2/UnaryExpression.cpp -o CMakeFiles/proj2.dir/UnaryExpression.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moriya/CLionProjects/untitled6/UnaryExpression.cpp -o CMakeFiles/proj2.dir/UnaryExpression.cpp.s
 
 # Object files for target proj2
 proj2_OBJECTS = \
@@ -238,7 +225,6 @@ proj2_OBJECTS = \
 "CMakeFiles/proj2.dir/Multiplication.cpp.o" \
 "CMakeFiles/proj2.dir/MyServer.cpp.o" \
 "CMakeFiles/proj2.dir/Number.cpp.o" \
-"CMakeFiles/proj2.dir/ParallelServer.cpp.o" \
 "CMakeFiles/proj2.dir/Plus.cpp.o" \
 "CMakeFiles/proj2.dir/UnaryExpression.cpp.o"
 
@@ -255,12 +241,11 @@ proj2: CMakeFiles/proj2.dir/Minus.cpp.o
 proj2: CMakeFiles/proj2.dir/Multiplication.cpp.o
 proj2: CMakeFiles/proj2.dir/MyServer.cpp.o
 proj2: CMakeFiles/proj2.dir/Number.cpp.o
-proj2: CMakeFiles/proj2.dir/ParallelServer.cpp.o
 proj2: CMakeFiles/proj2.dir/Plus.cpp.o
 proj2: CMakeFiles/proj2.dir/UnaryExpression.cpp.o
 proj2: CMakeFiles/proj2.dir/build.make
 proj2: CMakeFiles/proj2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable proj2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable proj2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/proj2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -273,6 +258,6 @@ CMakeFiles/proj2.dir/clean:
 .PHONY : CMakeFiles/proj2.dir/clean
 
 CMakeFiles/proj2.dir/depend:
-	cd /home/omer/CLionProjects/proj2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/omer/CLionProjects/proj2 /home/omer/CLionProjects/proj2 /home/omer/CLionProjects/proj2/cmake-build-debug /home/omer/CLionProjects/proj2/cmake-build-debug /home/omer/CLionProjects/proj2/cmake-build-debug/CMakeFiles/proj2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/moriya/CLionProjects/untitled6/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/moriya/CLionProjects/untitled6 /home/moriya/CLionProjects/untitled6 /home/moriya/CLionProjects/untitled6/cmake-build-debug /home/moriya/CLionProjects/untitled6/cmake-build-debug /home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/proj2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/proj2.dir/depend
 

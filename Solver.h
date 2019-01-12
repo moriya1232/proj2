@@ -19,6 +19,7 @@ namespace t {
     public:
         Solver(CacheManager* cm) { this->cm = cm;}
         virtual solution solve(problem) = 0;
+        virtual void updateGraph(problem) = 0;
 
     };
 

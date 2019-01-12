@@ -9,7 +9,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/proj2.dir/Multiplication.cpp.o"
   "CMakeFiles/proj2.dir/MyServer.cpp.o"
   "CMakeFiles/proj2.dir/Number.cpp.o"
-  "CMakeFiles/proj2.dir/ParallelServer.cpp.o"
   "CMakeFiles/proj2.dir/Plus.cpp.o"
   "CMakeFiles/proj2.dir/UnaryExpression.cpp.o"
   "proj2.pdb"

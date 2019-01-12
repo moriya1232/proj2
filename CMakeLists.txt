@@ -38,7 +38,6 @@ add_executable(proj2
         MyServer.h
         Number.cpp
         Number.h
-        ParallelServer.cpp
         ParallelServer.h
         Plus.cpp
         Plus.h

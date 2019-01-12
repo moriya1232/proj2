@@ -20,19 +20,19 @@ public:
         this->left = s1;
         this->right = s2;
     }
-    
+
     T1 getLeft() {
         return this->left;
     }
-    
+
     T2 getRight() {
         return this->right;
     }
-    
+
     void setLeft(T1 s) {
         this->left = s;
     }
-    
+
     void setRight(T2 s) {
         this->right = s;
     }
