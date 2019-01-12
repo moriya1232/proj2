@@ -41,7 +41,6 @@ public:
             // Dequeue a vertex from queue and print it
             current = queue.front();
             if(current==searchable->getGoalState()) {
-                current->setCameFrom(before);
                 current->setCostUntilHere(current->getCost());
                 break;
             }
@@ -50,8 +49,7 @@ public:
             // then mark it visited and enqueue it
             vector<State<T>*> adj = searchable->getAllPossibleStates(*current);
             for (State<T>* t : adj) {
-                if(t->getI() == searchable->getInitialState()->getI()
-                   && t->getJ() == searchable->getInitialState()->getJ()) {
+                if(t == searchable->getInitialState()) {
                     continue;
                 }
                 if (t->getCameFrom() == nullptr) {t->setCameFrom(current); t->setCostUntilHere(t->getCost()+current->getCostUntilHere());}
@@ -64,20 +62,12 @@ public:
                 if (!t->getVisited()) {
                     t->setVisited(true);
                     queue.push_back(t);
-                    //cout << "(" << t->getState()->getI() << "," << t->getState()->getJ() << ")"<< endl;
                 }
             }
-            before = queue.front();
             queue.erase(queue.begin());
         }
         queue.clear();
-        State<T>* back = searchable->getGoalState();
-        while (back->getI()!=searchable->getInitialState()->getI()
-               || back->getJ()!=searchable->getInitialState()->getJ()) {
-            queue.push_back(back);
-            back = back->getCameFrom();
-        }
-        queue.push_back(back);
+        queue = this->goBack(searchable);
         vector<State<T>*> tempVector;
         for (int i = queue.size() - 1; i >= 0; --i) {
             tempVector.push_back(queue[i]);

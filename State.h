@@ -23,16 +23,17 @@ class State{
 
 public:
     bool operator==(const State &other) const {
-        if (this == nullptr || &other == nullptr) return false;
-        return this->state == other.state;
-    }
-
-    bool  equal(State s){
-        if(this->state == s.getState()) {
-            return true;
-        }
+        if (this == nullptr || *other == nullptr) return false;
+        if (this->i == other.getI() && this->j == other.getJ()) {return true;};
         return false;
     }
+
+    bool operator!=(const State &other) const {
+        if (this == nullptr || *other == nullptr) return false;
+        if (this->i == other.getI() && this->j == other.getJ()) {false;};
+        return true;
+    }
+
 
     void  setCameFrom(State* cf){
         this->cameFrom = cf;

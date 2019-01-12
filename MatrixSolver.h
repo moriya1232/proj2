@@ -100,7 +100,7 @@ public:
         vector<vector<State<Point>*>> states = matrix->getAllTheStates();
         string temp = "";
         for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
+            for (int j = 0; j < m; j++) {
                 temp += to_string((int) states[i][j]->getCost());
                 if (j + 1 < n) {
                     temp += ", ";

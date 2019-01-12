@@ -11,7 +11,7 @@ int main() {
     server_side::ParallelServer* ps = new server_side::ParallelServer();
     ClientHandler* ch = new (nothrow) MatrixHandler(cm);
     t::Solver<string, string>* ms = new MatrixSolver<string, string>(cm);
-    ms->solve("83 86 77;15 93 35;1,0;1,2;");
+    ms->solve("3 4 5;1 0 6;0 7 1;7 3 1;3,1;0,2");
     //ps->open(5402, ch);
     //Matrix<Point>* m = getMatrix("83 86 77;15 93 35;86 92 49;");
     //BFS<Point>* bfs = new BFS<Point>();

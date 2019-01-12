@@ -53,5 +53,16 @@ public:
         return result;
     }
 
+    static vector<State<T>*> goBack(Searchable<T>* searchable) {
+        vector<State<T>*> queue;
+        State<T>* back = searchable->getGoalState();
+        while (back!=searchable->getInitialState()) {
+            queue.push_back(back);
+            back = back->getCameFrom();
+        }
+        queue.push_back(back);
+        return queue;
+    }
+
 };
 #endif //PROJ2_SEARCHER_H

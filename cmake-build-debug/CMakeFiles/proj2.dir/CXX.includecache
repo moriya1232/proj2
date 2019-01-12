@@ -26,10 +26,6 @@ vector
 queue
 -
 
-/home/moriya/CLionProjects/untitled6/BinaryExpression.h
-Expression.h
-/home/moriya/CLionProjects/untitled6/Expression.h
-
 /home/moriya/CLionProjects/untitled6/CacheManager.h
 unordered_map
 -
@@ -39,40 +35,6 @@ string
 /home/moriya/CLionProjects/untitled6/ClientHandler.h
 CacheManager.h
 /home/moriya/CLionProjects/untitled6/CacheManager.h
-
-/home/moriya/CLionProjects/untitled6/Divide.h
-BinaryExpression.h
-/home/moriya/CLionProjects/untitled6/BinaryExpression.h
-Expression.h
-/home/moriya/CLionProjects/untitled6/Expression.h
-
-/home/moriya/CLionProjects/untitled6/Expression.h
-queue
--
-stack
--
-list
--
-iostream
-/home/moriya/CLionProjects/untitled6/iostream
-string
--
-
-/home/moriya/CLionProjects/untitled6/ExpressionSolver.cpp
-ExpressionSolver.h
-/home/moriya/CLionProjects/untitled6/ExpressionSolver.h
-UsefulFunctions.h
-/home/moriya/CLionProjects/untitled6/UsefulFunctions.h
-Expression.h
-/home/moriya/CLionProjects/untitled6/Expression.h
-
-/home/moriya/CLionProjects/untitled6/ExpressionSolver.h
-list
--
-Solver.h
-/home/moriya/CLionProjects/untitled6/Solver.h
-Expression.h
-/home/moriya/CLionProjects/untitled6/Expression.h
 
 /home/moriya/CLionProjects/untitled6/FileCacheManager.h
 CacheManager.h
@@ -134,18 +96,6 @@ BFS.h
 AbstractClientHandler.h
 /home/moriya/CLionProjects/untitled6/AbstractClientHandler.h
 
-/home/moriya/CLionProjects/untitled6/Minus.h
-BinaryExpression.h
-/home/moriya/CLionProjects/untitled6/BinaryExpression.h
-Expression.h
-/home/moriya/CLionProjects/untitled6/Expression.h
-
-/home/moriya/CLionProjects/untitled6/Multiplication.h
-BinaryExpression.h
-/home/moriya/CLionProjects/untitled6/BinaryExpression.h
-Expression.h
-/home/moriya/CLionProjects/untitled6/Expression.h
-
 /home/moriya/CLionProjects/untitled6/MyServer.cpp
 unistd.h
 -
@@ -178,10 +128,6 @@ ClientHandler.h
 time.h
 -
 
-/home/moriya/CLionProjects/untitled6/Number.h
-UnaryExpression.h
-/home/moriya/CLionProjects/untitled6/UnaryExpression.h
-
 /home/moriya/CLionProjects/untitled6/ParallelServer.h
 unistd.h
 -
@@ -203,12 +149,6 @@ list
 -
 MatrixHandler.h
 /home/moriya/CLionProjects/untitled6/MatrixHandler.h
-
-/home/moriya/CLionProjects/untitled6/Plus.h
-BinaryExpression.h
-/home/moriya/CLionProjects/untitled6/BinaryExpression.h
-Expression.h
-/home/moriya/CLionProjects/untitled6/Expression.h
 
 /home/moriya/CLionProjects/untitled6/Point.h
 
@@ -238,28 +178,6 @@ list
 Point.h
 /home/moriya/CLionProjects/untitled6/Point.h
 string
--
-
-/home/moriya/CLionProjects/untitled6/UnaryExpression.h
-Expression.h
-/home/moriya/CLionProjects/untitled6/Expression.h
-string
--
-
-/home/moriya/CLionProjects/untitled6/UsefulFunctions.h
-Expression.h
-/home/moriya/CLionProjects/untitled6/Expression.h
-Number.h
-/home/moriya/CLionProjects/untitled6/Number.h
-Divide.h
-/home/moriya/CLionProjects/untitled6/Divide.h
-Multiplication.h
-/home/moriya/CLionProjects/untitled6/Multiplication.h
-Minus.h
-/home/moriya/CLionProjects/untitled6/Minus.h
-Plus.h
-/home/moriya/CLionProjects/untitled6/Plus.h
-regex
 -
 
 /home/moriya/CLionProjects/untitled6/main.cpp
