@@ -11,6 +11,7 @@
 #include <iostream>
 #include <fstream>
 #include "BFS.h"
+#include "DFS.h"
 #include "AbstractClientHandler.h"
 
 template <class problem, class solution>
@@ -142,8 +143,8 @@ public:
         }
         // if its a new problem
         Matrix<Point>* m = getMatrix(pro);
-        BFS<Point>* bfs = new BFS<Point>();
-        sol = bfs->search(m);
+        DFS<Point>* dfs = new DFS<Point>();
+        sol = dfs->search(m);
         if (save) {
             this->cm->save(pro, sol);
         }

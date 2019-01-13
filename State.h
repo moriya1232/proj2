@@ -23,13 +23,13 @@ class State{
 
 public:
     bool operator==(const State &other) const {
-        if (this == nullptr || *other == nullptr) return false;
+        //if (this == nullptr || other == nullptr) return false;
         if (this->i == other.getI() && this->j == other.getJ()) {return true;};
         return false;
     }
 
     bool operator!=(const State &other) const {
-        if (this == nullptr || *other == nullptr) return false;
+        //if (this == nullptr || other == nullptr) return false;
         if (this->i == other.getI() && this->j == other.getJ()) {false;};
         return true;
     }

@@ -36,6 +36,14 @@ string
 CacheManager.h
 /home/moriya/CLionProjects/untitled6/CacheManager.h
 
+/home/moriya/CLionProjects/untitled6/DFS.h
+Searcher.h
+/home/moriya/CLionProjects/untitled6/Searcher.h
+Searchable.h
+/home/moriya/CLionProjects/untitled6/Searchable.h
+stack
+/home/moriya/CLionProjects/untitled6/stack
+
 /home/moriya/CLionProjects/untitled6/FileCacheManager.h
 CacheManager.h
 /home/moriya/CLionProjects/untitled6/CacheManager.h
@@ -93,6 +101,8 @@ fstream
 -
 BFS.h
 /home/moriya/CLionProjects/untitled6/BFS.h
+DFS.h
+/home/moriya/CLionProjects/untitled6/DFS.h
 AbstractClientHandler.h
 /home/moriya/CLionProjects/untitled6/AbstractClientHandler.h
 

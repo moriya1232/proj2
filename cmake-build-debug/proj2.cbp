@@ -114,9 +114,6 @@
 		<Unit filename="/home/moriya/CLionProjects/untitled6/ClientHandler.h">
 			<Option target="proj2"/>
 		</Unit>
-		<Unit filename="/home/moriya/CLionProjects/untitled6/DFS.cpp">
-			<Option target="proj2"/>
-		</Unit>
 		<Unit filename="/home/moriya/CLionProjects/untitled6/DFS.h">
 			<Option target="proj2"/>
 		</Unit>

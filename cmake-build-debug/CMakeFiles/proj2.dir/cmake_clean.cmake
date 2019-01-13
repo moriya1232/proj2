@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/proj2.dir/BinaryExpression.cpp.o"
-  "CMakeFiles/proj2.dir/DFS.cpp.o"
   "CMakeFiles/proj2.dir/Divide.cpp.o"
   "CMakeFiles/proj2.dir/Expression.cpp.o"
   "CMakeFiles/proj2.dir/ExpressionSolver.cpp.o"

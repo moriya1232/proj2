@@ -5,8 +5,6 @@ CMakeFiles/proj2.dir/BinaryExpression.cpp.o: ../BinaryExpression.cpp
 CMakeFiles/proj2.dir/BinaryExpression.cpp.o: ../BinaryExpression.h
 CMakeFiles/proj2.dir/BinaryExpression.cpp.o: ../Expression.h
 
-CMakeFiles/proj2.dir/DFS.cpp.o: ../DFS.cpp
-
 CMakeFiles/proj2.dir/Divide.cpp.o: ../BinaryExpression.h
 CMakeFiles/proj2.dir/Divide.cpp.o: ../Divide.cpp
 CMakeFiles/proj2.dir/Divide.cpp.o: ../Divide.h
@@ -51,6 +49,7 @@ CMakeFiles/proj2.dir/MyServer.cpp.o: ../AbstractClientHandler.h
 CMakeFiles/proj2.dir/MyServer.cpp.o: ../BFS.h
 CMakeFiles/proj2.dir/MyServer.cpp.o: ../CacheManager.h
 CMakeFiles/proj2.dir/MyServer.cpp.o: ../ClientHandler.h
+CMakeFiles/proj2.dir/MyServer.cpp.o: ../DFS.h
 CMakeFiles/proj2.dir/MyServer.cpp.o: ../ISearcher.h
 CMakeFiles/proj2.dir/MyServer.cpp.o: ../Matrix.h
 CMakeFiles/proj2.dir/MyServer.cpp.o: ../MatrixHandler.h
@@ -82,6 +81,7 @@ CMakeFiles/proj2.dir/main.cpp.o: ../AbstractClientHandler.h
 CMakeFiles/proj2.dir/main.cpp.o: ../BFS.h
 CMakeFiles/proj2.dir/main.cpp.o: ../CacheManager.h
 CMakeFiles/proj2.dir/main.cpp.o: ../ClientHandler.h
+CMakeFiles/proj2.dir/main.cpp.o: ../DFS.h
 CMakeFiles/proj2.dir/main.cpp.o: ../FileCacheManager.h
 CMakeFiles/proj2.dir/main.cpp.o: ../ISearcher.h
 CMakeFiles/proj2.dir/main.cpp.o: ../Matrix.h

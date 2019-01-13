@@ -48,10 +48,15 @@ namespace server_side {
             /* Now start listening for the clients, here process will
                * go in sleep mode and will wait for the incoming connection
             */
-            listen(sockfd, 1);
+            vector<thread> threads;
+            listen(sockfd, SOMAXCONN);
             this->sockfd = sockfd;
-            thread t(&ParallelServer::start, this, ch);
-            t.join();
+            while (this->busy) {
+                thread t(&ParallelServer::start, this, ch);
+                threads.push_back(std::thread(&ParallelServer::start, this, ch));
+                t.detach();
+
+            }
         }
 
         void stop() {

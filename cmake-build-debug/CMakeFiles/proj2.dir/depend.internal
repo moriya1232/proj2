@@ -5,8 +5,6 @@ CMakeFiles/proj2.dir/BinaryExpression.cpp.o
  /home/moriya/CLionProjects/untitled6/BinaryExpression.cpp
  /home/moriya/CLionProjects/untitled6/BinaryExpression.h
  /home/moriya/CLionProjects/untitled6/Expression.h
-CMakeFiles/proj2.dir/DFS.cpp.o
- /home/moriya/CLionProjects/untitled6/DFS.cpp
 CMakeFiles/proj2.dir/Divide.cpp.o
  /home/moriya/CLionProjects/untitled6/BinaryExpression.h
  /home/moriya/CLionProjects/untitled6/Divide.cpp
@@ -52,6 +50,7 @@ CMakeFiles/proj2.dir/MyServer.cpp.o
  /home/moriya/CLionProjects/untitled6/BFS.h
  /home/moriya/CLionProjects/untitled6/CacheManager.h
  /home/moriya/CLionProjects/untitled6/ClientHandler.h
+ /home/moriya/CLionProjects/untitled6/DFS.h
  /home/moriya/CLionProjects/untitled6/ISearcher.h
  /home/moriya/CLionProjects/untitled6/Matrix.h
  /home/moriya/CLionProjects/untitled6/MatrixHandler.h
@@ -83,6 +82,7 @@ CMakeFiles/proj2.dir/main.cpp.o
  /home/moriya/CLionProjects/untitled6/BFS.h
  /home/moriya/CLionProjects/untitled6/CacheManager.h
  /home/moriya/CLionProjects/untitled6/ClientHandler.h
+ /home/moriya/CLionProjects/untitled6/DFS.h
  /home/moriya/CLionProjects/untitled6/FileCacheManager.h
  /home/moriya/CLionProjects/untitled6/ISearcher.h
  /home/moriya/CLionProjects/untitled6/Matrix.h

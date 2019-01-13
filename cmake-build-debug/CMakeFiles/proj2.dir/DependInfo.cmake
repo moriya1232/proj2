@@ -5,7 +5,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/moriya/CLionProjects/untitled6/BinaryExpression.cpp" "/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/proj2.dir/BinaryExpression.cpp.o"
-  "/home/moriya/CLionProjects/untitled6/DFS.cpp" "/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/proj2.dir/DFS.cpp.o"
   "/home/moriya/CLionProjects/untitled6/Divide.cpp" "/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/proj2.dir/Divide.cpp.o"
   "/home/moriya/CLionProjects/untitled6/Expression.cpp" "/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/proj2.dir/Expression.cpp.o"
   "/home/moriya/CLionProjects/untitled6/ExpressionSolver.cpp" "/home/moriya/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/proj2.dir/ExpressionSolver.cpp.o"

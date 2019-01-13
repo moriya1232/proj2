@@ -150,33 +150,6 @@ BinaryExpression.cpp.s:
 	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/BinaryExpression.cpp.s
 .PHONY : BinaryExpression.cpp.s
 
-DFS.o: DFS.cpp.o
-
-.PHONY : DFS.o
-
-# target to build an object file
-DFS.cpp.o:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/DFS.cpp.o
-.PHONY : DFS.cpp.o
-
-DFS.i: DFS.cpp.i
-
-.PHONY : DFS.i
-
-# target to preprocess a source file
-DFS.cpp.i:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/DFS.cpp.i
-.PHONY : DFS.cpp.i
-
-DFS.s: DFS.cpp.s
-
-.PHONY : DFS.s
-
-# target to generate assembly for a file
-DFS.cpp.s:
-	$(MAKE) -f CMakeFiles/proj2.dir/build.make CMakeFiles/proj2.dir/DFS.cpp.s
-.PHONY : DFS.cpp.s
-
 Divide.o: Divide.cpp.o
 
 .PHONY : Divide.o
@@ -459,9 +432,6 @@ help:
 	@echo "... BinaryExpression.o"
 	@echo "... BinaryExpression.i"
 	@echo "... BinaryExpression.s"
-	@echo "... DFS.o"
-	@echo "... DFS.i"
-	@echo "... DFS.s"
 	@echo "... Divide.o"
 	@echo "... Divide.i"
 	@echo "... Divide.s"
