@@ -22,13 +22,13 @@ class State{
     bool visited;
 
 public:
-    bool operator==(const State &other) const {
-        //if (this == nullptr || other == nullptr) return false;
+    bool operator==(const State<T> other) const {
+        //if (this == nullptr || other == nullptr || this == NULL || other == NULL) return false;
         if (this->i == other.getI() && this->j == other.getJ()) {return true;};
         return false;
     }
 
-    bool operator!=(const State &other) const {
+    bool operator!=(const State<T> other) const {
         //if (this == nullptr || other == nullptr) return false;
         if (this->i == other.getI() && this->j == other.getJ()) {false;};
         return true;
@@ -58,7 +58,7 @@ public:
     void  setCost(double d){
         this->cost = d;
     }
-    int getI() {
+    int getI() const {
         return this->i;
     }
 
@@ -70,7 +70,7 @@ public:
         this->j = j;
     }
 
-    int getJ() {
+    int getJ() const {
         return this->j;
     }
     double  getCost(){

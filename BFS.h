@@ -41,15 +41,24 @@ public:
             // Dequeue a vertex from queue and print it
             current = queue.front();
             if(current==searchable->getGoalState()) {
-                current->setCostUntilHere(current->getCost());
+                current->setCostUntilHere(current->getCost() + before->getCostUntilHere());
                 break;
             }
             // Get all adjacent vertices of the dequeued
             // vertex s. If a adjacent has not been visited,
             // then mark it visited and enqueue it
             vector<State<T>*> adj = searchable->getAllPossibleStates(*current);
+            /*for (State<T>* t : adj) {
+                if (this->checkIfCanPass(t)){
+                    break;
+                }
+
+            }*/
             for (State<T>* t : adj) {
                 if(t == searchable->getInitialState()) {
+                    continue;
+                }
+                if (!this->checkIfCanPass(t)) {
                     continue;
                 }
                 if (t->getCameFrom() == nullptr) {t->setCameFrom(current); t->setCostUntilHere(t->getCost()+current->getCostUntilHere());}
@@ -64,7 +73,12 @@ public:
                     queue.push_back(t);
                 }
             }
+            before = current;
             queue.erase(queue.begin());
+        }
+        if(searchable->getGoalState()->getCameFrom() == nullptr) {
+            cout << "this problem doesn't has a solution!" <<endl;
+            return "-1";
         }
         queue.clear();
         queue = this->goBack(searchable);
@@ -72,7 +86,9 @@ public:
         for (int i = queue.size() - 1; i >= 0; --i) {
             tempVector.push_back(queue[i]);
         }
-        return this->convertListStateToString(tempVector, searchable);
+        int totalCost = searchable->getGoalState()->getCostUntilHere();
+        int numNodes = queue.size();
+        return this->convertListStateToString(tempVector, searchable) + " " + to_string(totalCost) + "," + to_string(numNodes);
 
     }
 };

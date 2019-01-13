@@ -54,14 +54,22 @@ public:
     }
 
     static vector<State<T>*> goBack(Searchable<T>* searchable) {
-        vector<State<T>*> queue;
-        State<T>* back = searchable->getGoalState();
-        while (back!=searchable->getInitialState()) {
+        vector<State<T> *> queue;
+        State<T> *back = searchable->getGoalState();
+        while (back != searchable->getInitialState()) {
             queue.push_back(back);
             back = back->getCameFrom();
         }
         queue.push_back(back);
         return queue;
+    }
+
+    static bool checkIfCanPass(State<T>* state) {
+        if (state->getCost() == -1) {
+            return false;
+        }
+        return true;
+
     }
 
 };

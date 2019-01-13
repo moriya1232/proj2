@@ -24,7 +24,7 @@ public:
         string result = "";
         char c = line[i];
         while (i < line.length()) {
-            if (isDigit(c)) {
+            if (isDigit(c) || c=='-') {
                 result += c;
                 c = line[++i];
             } else if (c == ';') {
@@ -33,7 +33,7 @@ public:
             } else {
                 result += ' ';
                 // skeep anything until you reach a digit again or the line is over
-                while (i < line.length() && !isDigit(c)) {
+                while (i < line.length() && (!isDigit(c) && c!='-')) {
                     c = line[++i];
                 }
             }
@@ -143,7 +143,7 @@ public:
         }
         // if its a new problem
         Matrix<Point>* m = getMatrix(pro);
-        DFS<Point>* dfs = new DFS<Point>();
+        BFS<Point>* dfs = new BFS<Point>();
         sol = dfs->search(m);
         if (save) {
             this->cm->save(pro, sol);
